@@ -1,0 +1,27 @@
+# Core app framework
+streamlit>=1.30.0
+
+# LangChain ecosystem
+langchain>=0.1.0
+langchain-community>=0.0.30
+
+# Embeddings
+sentence-transformers>=2.2.2
+torch>=2.0.0
+
+# Vector database
+faiss-cpu>=1.7.4
+
+# Utilities (commonly needed with LangChain)
+numpy>=1.23.0
+scipy>=1.10.0
+tqdm>=4.65.0
+pydantic>=2.0.0
+
+# Optional but useful
+python-dotenv>=1.0.0
+
+#for reading files
+pypdf
+unstructured
+pandas
