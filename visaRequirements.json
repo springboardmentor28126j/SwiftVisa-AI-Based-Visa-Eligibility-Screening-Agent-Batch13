@@ -1,0 +1,214 @@
+{
+  "countries": [
+    {
+      "country_name": "United Kingdom",
+      "visa_categories": [
+        {
+          "visa_id": "Standard Visitor",
+          "visa_name": "Visitor Visa",
+          "official_source": "https://www.gov.uk/standard-visitor",
+          "eligibility_fields": [
+            "Valid passport",
+            "Purpose of visit",
+            "Financial proof",
+            "Intention to leave UK"
+          ],
+          "documents_required": [
+            "Passport",
+            "Proof of Funds",
+            "Travel Details"
+          ]
+        }
+      ]
+    },
+    {
+      "country_name": "Canada",
+      "visa_categories": [
+        {
+          "visa_id": "Study Permit",
+          "visa_name": "Student Visa",
+          "official_source": "https://www.canada.ca",
+          "eligibility_fields": [
+            "DLI admission",
+            "Financial proof",
+            "Medical exam",
+            "No criminal record"
+          ],
+          "documents_required": [
+            "Passport",
+            "Admission Letter",
+            "Financial Proof"
+          ]
+        }
+      ]
+    },
+    {
+      "country_name": "United States",
+      "visa_categories": [
+        {
+          "visa_id": "B1/B2",
+          "visa_name": "Visitor Visa",
+          "official_source": "https://travel.state.gov",
+          "eligibility_fields": [
+            "Valid passport",
+            "Purpose of travel",
+            "Financial support",
+            "Intent to return"
+          ],
+          "documents_required": [
+            "Passport",
+            "DS-160 Form",
+            "Financial Proof"
+          ]
+        }
+      ]
+    },
+    {
+      "country_name": "India",
+      "visa_categories": [
+        {
+          "visa_id": "eVisa",
+          "visa_name": "Tourist Visa",
+          "official_source": "https://indianvisaonline.gov.in",
+          "eligibility_fields": [
+            "Valid passport",
+            "Return ticket",
+            "Sufficient funds",
+            "Travel purpose"
+          ],
+          "documents_required": [
+            "Passport Copy",
+            "Travel Details",
+            "Photo"
+          ]
+        }
+      ]
+    },
+    {
+      "country_name": "Australia",
+      "visa_categories": [
+        {
+          "visa_id": "Subclass 600",
+          "visa_name": "Visitor Visa",
+          "official_source": "https://immi.homeaffairs.gov.au",
+          "eligibility_fields": [
+            "Valid passport",
+            "Financial support",
+            "Health requirement",
+            "Genuine visitor intent"
+          ],
+          "documents_required": [
+            "Passport",
+            "Bank Statement",
+            "Travel Plan"
+          ]
+        }
+      ]
+    },
+    {
+      "country_name": "Germany",
+      "visa_categories": [
+        {
+          "visa_id": "Job Seeker",
+          "visa_name": "Job Seeker Visa",
+          "official_source": "https://www.make-it-in-germany.com",
+          "eligibility_fields": [
+            "Recognized degree",
+            "Financial proof",
+            "Health insurance",
+            "Work experience"
+          ],
+          "documents_required": [
+            "Passport",
+            "Degree Certificate",
+            "Financial Proof"
+          ]
+        }
+      ]
+    },
+    {
+      "country_name": "France",
+      "visa_categories": [
+        {
+          "visa_id": "Schengen Short Stay",
+          "visa_name": "Short Stay Visa",
+          "official_source": "https://france-visas.gouv.fr",
+          "eligibility_fields": [
+            "Valid passport",
+            "Purpose of travel",
+            "Financial proof",
+            "Travel insurance"
+          ],
+          "documents_required": [
+            "Passport",
+            "Travel Insurance",
+            "Accommodation Proof"
+          ]
+        }
+      ]
+    },
+    {
+      "country_name": "Japan",
+      "visa_categories": [
+        {
+          "visa_id": "Temporary Visitor",
+          "visa_name": "Tourist Visa",
+          "official_source": "https://www.mofa.go.jp",
+          "eligibility_fields": [
+            "Valid passport",
+            "Travel itinerary",
+            "Financial proof",
+            "Return ticket"
+          ],
+          "documents_required": [
+            "Passport",
+            "Travel Plan",
+            "Financial Proof"
+          ]
+        }
+      ]
+    },
+    {
+      "country_name": "Singapore",
+      "visa_categories": [
+        {
+          "visa_id": "Short Term Visit",
+          "visa_name": "Visit Pass",
+          "official_source": "https://www.ica.gov.sg",
+          "eligibility_fields": [
+            "Valid passport",
+            "Purpose of visit",
+            "Financial support",
+            "Return ticket"
+          ],
+          "documents_required": [
+            "Passport",
+            "Travel Itinerary",
+            "Financial Proof"
+          ]
+        }
+      ]
+    },
+    {
+      "country_name": "South Korea",
+      "visa_categories": [
+        {
+          "visa_id": "C-3",
+          "visa_name": "Tourist Visa",
+          "official_source": "https://www.visa.go.kr",
+          "eligibility_fields": [
+            "Valid passport",
+            "Travel purpose",
+            "Financial proof",
+            "Return intention"
+          ],
+          "documents_required": [
+            "Passport",
+            "Travel Plan",
+            "Bank Statement"
+          ]
+        }
+      ]
+    }
+  ]
+}
