@@ -1,11 +1,17 @@
+#file 
+jq
+
+
 # Core app framework
 streamlit>=1.30.0
 
 # LangChain ecosystem
 langchain>=0.1.0
 langchain-community>=0.0.30
+langchain_openai
 
 # Embeddings
+langchain-huggingface
 sentence-transformers>=2.2.2
 torch>=2.0.0
 

@@ -5,7 +5,7 @@ __pycache__/
 
 swift
 Data
-
+.env
 # C extensions
 *.so
 
