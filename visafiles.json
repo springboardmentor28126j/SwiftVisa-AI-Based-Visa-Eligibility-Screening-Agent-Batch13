@@ -1,0 +1,950 @@
+{
+  "countries": [
+    {
+      "country_name": "Netherlands",
+      "official_immigration_website": "https://ind.nl",
+      "visa_categories": [
+        {
+          "visa_type": "Student Visa",
+          "official_name": "MVV and Residence Permit for Study",
+          "official_source": "https://ind.nl/en/residence-permits/study",
+          "eligibility_requirements": [
+            "Admission to a recognized educational institution",
+            "Proof of sufficient financial means",
+            "Valid health insurance",
+            "Meet academic entry requirements"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Letter of admission",
+            "Proof of financial support",
+            "Health insurance confirmation",
+            "Completed application form"
+          ]
+        },
+        {
+          "visa_type": "Work Visa",
+          "official_name": "Highly Skilled Migrant Permit",
+          "official_source": "https://ind.nl/en/work",
+          "eligibility_requirements": [
+            "Employment contract with recognized sponsor",
+            "Meet qualification requirements",
+            "Salary meeting legal threshold"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Employment contract",
+            "Proof of qualifications",
+            "Sponsor documentation"
+          ]
+        },
+        {
+          "visa_type": "Family Visa",
+          "official_name": "Family Reunification Permit",
+          "official_source": "https://ind.nl/en/family",
+          "eligibility_requirements": [
+            "Sponsor legally residing in the Netherlands",
+            "Proof of relationship",
+            "Sponsor meets income conditions"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Marriage or birth certificate",
+            "Sponsor residence permit copy",
+            "Proof of income"
+          ]
+        },
+        {
+          "visa_type": "Tourist Visa",
+          "official_name": "Schengen Short Stay Visa",
+          "official_source": "https://www.netherlandsworldwide.nl/visa",
+          "eligibility_requirements": [
+            "Purpose of visit",
+            "Financial stability",
+            "Travel medical insurance",
+            "Intent to return before visa expiry"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Visa application form",
+            "Travel itinerary",
+            "Proof of accommodation",
+            "Travel insurance"
+          ]
+        }
+      ]
+    },    {
+      "country_name": "Germany",
+      "official_immigration_website": "https://www.make-it-in-germany.com",
+      "visa_categories": [
+        {
+          "visa_type": "Student Visa",
+          "official_name": "National Visa for Study",
+          "official_source": "https://www.auswaertiges-amt.de",
+          "eligibility_requirements": [
+            "Admission to a recognized German university",
+            "Proof of financial resources",
+            "Valid health insurance",
+            "Proof of language proficiency"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "University admission letter",
+            "Proof of financial means",
+            "Health insurance confirmation",
+            "Academic certificates"
+          ]
+        },
+        {
+          "visa_type": "Work Visa",
+          "official_name": "Skilled Worker Visa",
+          "official_source": "https://www.make-it-in-germany.com",
+          "eligibility_requirements": [
+            "Job offer from a German employer",
+            "Recognized professional qualification",
+            "Employment aligned with qualifications"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Employment contract",
+            "Proof of recognized qualification",
+            "Health insurance proof"
+          ]
+        },
+        {
+          "visa_type": "Family Visa",
+          "official_name": "Family Reunification Visa",
+          "official_source": "https://www.auswaertiges-amt.de",
+          "eligibility_requirements": [
+            "Sponsor legally residing in Germany",
+            "Proof of family relationship",
+            "Adequate accommodation",
+            "Sufficient financial means"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Marriage or birth certificate",
+            "Sponsor residence permit",
+            "Accommodation proof"
+          ]
+        },
+        {
+          "visa_type": "Tourist Visa",
+          "official_name": "Schengen Visa",
+          "official_source": "https://www.auswaertiges-amt.de",
+          "eligibility_requirements": [
+            "Purpose of stay",
+            "Financial stability",
+            "Travel medical insurance",
+            "Intent to return before visa expiry"
+          ],
+          "documents_required": [
+            "Completed application form",
+            "Valid passport",
+            "Travel itinerary",
+            "Proof of accommodation",
+            "Insurance policy"
+          ]
+        }
+      ]
+    },
+    
+    {
+      "country_name": "Spain",
+      "official_immigration_website": "https://www.inclusion.gob.es",
+      "visa_categories": [
+        {
+          "visa_type": "Student Visa",
+          "official_name": "National Visa for Studies",
+          "official_source": "https://www.exteriores.gob.es",
+          "eligibility_requirements": [
+            "Admission to a recognized educational institution in Spain",
+            "Proof of sufficient financial resources",
+            "Valid health insurance",
+            "Clean criminal record"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Admission letter",
+            "Proof of financial means",
+            "Health insurance certificate",
+            "Police clearance certificate"
+          ]
+        },
+        {
+          "visa_type": "Work Visa",
+          "official_name": "Work and Residence Visa",
+          "official_source": "https://www.inclusion.gob.es",
+          "eligibility_requirements": [
+            "Job offer from a Spanish employer",
+            "Work authorization approval",
+            "Relevant professional qualifications"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Employment contract",
+            "Work authorization approval",
+            "Qualification certificates"
+          ]
+        },
+        {
+          "visa_type": "Family Visa",
+          "official_name": "Family Reunification Visa",
+          "official_source": "https://www.inclusion.gob.es",
+          "eligibility_requirements": [
+            "Sponsor legally residing in Spain",
+            "Proof of family relationship",
+            "Adequate housing"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Marriage or birth certificate",
+            "Sponsor residence permit copy",
+            "Accommodation proof"
+          ]
+        },
+        {
+          "visa_type": "Tourist Visa",
+          "official_name": "Schengen Short Stay Visa",
+          "official_source": "https://www.exteriores.gob.es",
+          "eligibility_requirements": [
+            "Purpose of visit",
+            "Sufficient financial means",
+            "Travel medical insurance",
+            "Intent to return"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Visa application form",
+            "Travel itinerary",
+            "Proof of accommodation",
+            "Insurance policy"
+          ]
+        }
+      ]
+    },    {
+      "country_name": "Italy",
+      "official_immigration_website": "https://www.interno.gov.it",
+      "visa_categories": [
+        {
+          "visa_type": "Student Visa",
+          "official_name": "National Visa for Study (Type D)",
+          "official_source": "https://vistoperitalia.esteri.it",
+          "eligibility_requirements": [
+            "Admission to a recognized Italian educational institution",
+            "Proof of sufficient financial resources",
+            "Valid health insurance",
+            "Proof of accommodation in Italy"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Admission letter",
+            "Proof of financial means",
+            "Health insurance certificate",
+            "Accommodation proof"
+          ]
+        },
+        {
+          "visa_type": "Work Visa",
+          "official_name": "Work Visa (Nulla Osta Required)",
+          "official_source": "https://www.interno.gov.it",
+          "eligibility_requirements": [
+            "Job offer from an Italian employer",
+            "Work authorization (Nulla Osta)",
+            "Professional qualifications"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Employment contract",
+            "Nulla Osta approval",
+            "Qualification certificates"
+          ]
+        },
+        {
+          "visa_type": "Family Visa",
+          "official_name": "Family Reunification Visa",
+          "official_source": "https://www.interno.gov.it",
+          "eligibility_requirements": [
+            "Sponsor legally residing in Italy",
+            "Proof of family relationship",
+            "Adequate housing and income"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Marriage or birth certificate",
+            "Sponsor residence permit",
+            "Accommodation proof"
+          ]
+        },
+        {
+          "visa_type": "Tourist Visa",
+          "official_name": "Schengen Short Stay Visa",
+          "official_source": "https://vistoperitalia.esteri.it",
+          "eligibility_requirements": [
+            "Purpose of tourism",
+            "Sufficient financial means",
+            "Travel medical insurance",
+            "Intent to return before visa expiry"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Visa application form",
+            "Travel itinerary",
+            "Proof of accommodation",
+            "Insurance policy"
+          ]
+        }
+      ]
+    },
+    {
+      "country_name": "United Kingdom",
+      "official_immigration_website": "https://www.gov.uk/browse/visas-immigration",
+      "visa_categories": [
+        {
+          "visa_type": "Student Visa",
+          "official_name": "Student Visa",
+          "official_source": "https://www.gov.uk/student-visa",
+          "eligibility_requirements": [
+            "Confirmation of Acceptance for Studies (CAS) from a licensed sponsor",
+            "Proof of sufficient financial support",
+            "English language proficiency",
+            "Valid passport"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "CAS reference number",
+            "Proof of financial means",
+            "English language test results",
+            "Tuberculosis test results if required"
+          ]
+        },
+        {
+          "visa_type": "Work Visa",
+          "official_name": "Skilled Worker Visa",
+          "official_source": "https://www.gov.uk/skilled-worker-visa",
+          "eligibility_requirements": [
+            "Job offer from a UK licensed sponsor",
+            "Certificate of Sponsorship (CoS)",
+            "English language proficiency",
+            "Role meeting skill requirements"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Certificate of Sponsorship reference number",
+            "Proof of English proficiency",
+            "Employment details"
+          ]
+        },
+        {
+          "visa_type": "Family Visa",
+          "official_name": "Family Visa",
+          "official_source": "https://www.gov.uk/uk-family-visa",
+          "eligibility_requirements": [
+            "Relationship with a UK citizen or settled person",
+            "Proof of genuine relationship",
+            "Sponsor meeting financial requirements"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Marriage or partnership certificate",
+            "Proof of relationship",
+            "Sponsor immigration status documents"
+          ]
+        },
+        {
+          "visa_type": "Tourist Visa",
+          "official_name": "Standard Visitor Visa",
+          "official_source": "https://www.gov.uk/standard-visitor",
+          "eligibility_requirements": [
+            "Purpose of visit",
+            "Sufficient financial means",
+            "Intent to leave the UK after visit"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Visa application form",
+            "Travel plans",
+            "Proof of accommodation",
+            "Financial evidence"
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "country_name": "India",
+      "official_immigration_website": "https://indianvisaonline.gov.in",
+      "visa_categories": [
+        {
+          "visa_type": "Student Visa",
+          "official_name": "Student Visa (S Visa)",
+          "official_source": "https://indianvisaonline.gov.in",
+          "eligibility_requirements": [
+            "Admission to a recognized educational institution in India",
+            "Proof of financial support",
+            "Clear academic background",
+            "Valid passport"
+          ],
+          "documents_required": [
+            "Passport",
+            "Admission letter",
+            "Proof of financial means",
+            "Academic certificates",
+            "Visa application form"
+          ]
+        },
+        {
+          "visa_type": "Work Visa",
+          "official_name": "Employment Visa (E Visa)",
+          "official_source": "https://indianvisaonline.gov.in",
+          "eligibility_requirements": [
+            "Employment contract with Indian company",
+            "Relevant professional qualifications",
+            "Position requiring skilled expertise"
+          ],
+          "documents_required": [
+            "Passport",
+            "Employment contract",
+            "Qualification certificates",
+            "Company registration documents"
+          ]
+        },
+        {
+          "visa_type": "Family Visa",
+          "official_name": "Entry Visa (X Visa)",
+          "official_source": "https://indianvisaonline.gov.in",
+          "eligibility_requirements": [
+            "Proof of relationship with Indian resident or citizen",
+            "Valid sponsor status"
+          ],
+          "documents_required": [
+            "Passport",
+            "Marriage or birth certificate",
+            "Sponsor documents"
+          ]
+        },
+        {
+          "visa_type": "Tourist Visa",
+          "official_name": "Tourist Visa",
+          "official_source": "https://indianvisaonline.gov.in",
+          "eligibility_requirements": [
+            "Purpose of tourism",
+            "Sufficient financial means",
+            "Return intent"
+          ],
+          "documents_required": [
+            "Passport",
+            "Travel itinerary",
+            "Accommodation proof",
+            "Application form"
+          ]
+        }
+      ]
+    },
+
+    {
+      "country_name": "France",
+      "official_immigration_website": "https://france-visas.gouv.fr",
+      "visa_categories": [
+        {
+          "visa_type": "Student Visa",
+          "official_name": "Long-Stay Student Visa (VLS-TS)",
+          "official_source": "https://france-visas.gouv.fr",
+          "eligibility_requirements": [
+            "Admission to recognized French institution",
+            "Proof of financial resources",
+            "Health insurance",
+            "Accommodation arrangement"
+          ],
+          "documents_required": [
+            "Passport",
+            "Admission letter",
+            "Proof of funds",
+            "Insurance",
+            "Accommodation proof"
+          ]
+        },
+        {
+          "visa_type": "Work Visa",
+          "official_name": "Talent Passport / Work Permit",
+          "official_source": "https://france-visas.gouv.fr",
+          "eligibility_requirements": [
+            "Employment contract",
+            "Professional qualifications",
+            "Employer authorization"
+          ],
+          "documents_required": [
+            "Passport",
+            "Employment contract",
+            "Qualification proof",
+            "Employer authorization"
+          ]
+        },
+        {
+          "visa_type": "Family Visa",
+          "official_name": "Family Reunification Visa",
+          "official_source": "https://france-visas.gouv.fr",
+          "eligibility_requirements": [
+            "Sponsor legally residing in France",
+            "Proof of family relationship",
+            "Adequate accommodation"
+          ],
+          "documents_required": [
+            "Passport",
+            "Marriage/birth certificate",
+            "Sponsor residence permit"
+          ]
+        },
+        {
+          "visa_type": "Tourist Visa",
+          "official_name": "Schengen Short Stay Visa",
+          "official_source": "https://france-visas.gouv.fr",
+          "eligibility_requirements": [
+            "Purpose of visit",
+            "Financial means",
+            "Travel insurance"
+          ],
+          "documents_required": [
+            "Passport",
+            "Travel bookings",
+            "Accommodation proof",
+            "Insurance"
+          ]
+        }
+      ]
+    },
+
+    {
+      "country_name": "China",
+      "official_immigration_website": "https://www.visaforchina.cn",
+      "visa_categories": [
+        {
+          "visa_type": "Student Visa",
+          "official_name": "X Visa",
+          "official_source": "https://www.visaforchina.cn",
+          "eligibility_requirements": [
+            "Admission to Chinese institution",
+            "JW201/JW202 form",
+            "Medical examination"
+          ],
+          "documents_required": [
+            "Passport",
+            "Admission notice",
+            "JW form",
+            "Medical certificate"
+          ]
+        },
+        {
+          "visa_type": "Work Visa",
+          "official_name": "Z Visa",
+          "official_source": "https://www.visaforchina.cn",
+          "eligibility_requirements": [
+            "Work permit notification",
+            "Employment contract",
+            "Professional qualifications"
+          ],
+          "documents_required": [
+            "Passport",
+            "Work permit notice",
+            "Employment contract",
+            "Medical exam"
+          ]
+        },
+        {
+          "visa_type": "Family Visa",
+          "official_name": "Q Visa",
+          "official_source": "https://www.visaforchina.cn",
+          "eligibility_requirements": [
+            "Proof of family relationship",
+            "Invitation letter from Chinese resident"
+          ],
+          "documents_required": [
+            "Passport",
+            "Invitation letter",
+            "Relationship proof"
+          ]
+        },
+        {
+          "visa_type": "Tourist Visa",
+          "official_name": "L Visa",
+          "official_source": "https://www.visaforchina.cn",
+          "eligibility_requirements": [
+            "Purpose of tourism",
+            "Return intent"
+          ],
+          "documents_required": [
+            "Passport",
+            "Travel itinerary",
+            "Accommodation proof"
+          ]
+        }
+      ]
+    },{
+  "country_name": "Australia",
+  "official_immigration_website": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing",
+  "visa_categories": [
+    {
+      "visa_type": "Student Visa",
+      "official_name": "Student Visa (Subclass 500)",
+      "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+      "eligibility_requirements": [
+        "Apply online in or outside Australia",
+        "Confirmation of Enrolment (CoE) for a registered course in Australia",
+        "Meet health and character requirements",
+        "Demonstrate sufficient funds and English language proficiency where required"
+      ],
+      "documents_required": [
+        "Valid passport",
+        "Confirmation of Enrolment (CoE)",
+        "Proof of financial capacity",
+        "Health insurance (Overseas Student Health Cover)",
+        "English language test results (if required)"
+      ]
+    },
+    {
+      "visa_type": "Work Visa",
+      "official_name": "Temporary Skill Shortage Visa (Subclass 482) / Skilled visas",
+      "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing",
+      "eligibility_requirements": [
+        "Job offer from an Australian employer (sponsor) for some work visas",
+        "Skills assessment for some skilled streams",
+        "Meet English language requirements",
+        "Meet health and character requirements"
+      ],
+      "documents_required": [
+        "Valid passport",
+        "Certificate of Sponsorship or nomination details",
+        "Skills assessment results",
+        "Proof of English proficiency",
+        "Employment contract or job offer letter"
+      ]
+    },
+    {
+      "visa_type": "Family / Partner Visa",
+      "official_name": "Partner/Family Visas",
+      "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing",
+      "eligibility_requirements": [
+        "Genuine relationship with an Australian citizen, permanent resident or eligible NZ citizen",
+        "Meet health and character requirements",
+        "Sponsor meets financial and other requirements (if required)"
+      ],
+      "documents_required": [
+        "Valid passport",
+        "Marriage or relationship evidence (photos, joint accounts, statements)",
+        "Proof of sponsor’s status",
+        "Proof of mutual commitment and shared life"
+      ]
+    },
+    {
+      "visa_type": "Tourist / Visitor Visa",
+      "official_name": "Visitor Visas (Subclass 600, 601, 651)",
+      "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing",
+      "eligibility_requirements": [
+        "Purpose of visit (tourism, visiting family or short business)",
+        "Sufficient funds to support stay and return",
+        "Intent to leave Australia after visit",
+        "Meet health and character requirements"
+      ],
+      "documents_required": [
+        "Valid passport",
+        "Visa application form",
+        "Travel itinerary",
+        "Proof of accommodation",
+        "Financial evidence (bank statements)"
+      ]
+    }
+  ]
+},
+    {
+      "country_name": "Canada",
+      "official_immigration_website": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "visa_categories": [
+        {
+          "visa_type": "Student Visa",
+          "official_name": "Study Permit",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+          "eligibility_requirements": [
+            "Acceptance letter from a Designated Learning Institution",
+            "Proof of sufficient financial support",
+            "No criminal record",
+            "Medical exam if required"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Letter of acceptance",
+            "Proof of financial means",
+            "Medical examination results if required",
+            "Police clearance certificate if required"
+          ]
+        },
+        {
+          "visa_type": "Work Visa",
+          "official_name": "Work Permit",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+          "eligibility_requirements": [
+            "Job offer from a Canadian employer",
+            "Labour Market Impact Assessment if required",
+            "Meet eligibility requirements for work category"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Job offer letter",
+            "LMIA approval if applicable",
+            "Proof of qualifications"
+          ]
+        },
+        {
+          "visa_type": "Family Visa",
+          "official_name": "Family Sponsorship",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html",
+          "eligibility_requirements": [
+            "Sponsor must be a Canadian citizen or permanent resident",
+            "Proof of genuine relationship",
+            "Sponsor meets financial obligations"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Marriage or birth certificate",
+            "Sponsor status documents",
+            "Proof of relationship"
+          ]
+        },
+        {
+          "visa_type": "Tourist Visa",
+          "official_name": "Temporary Resident Visa",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+          "eligibility_requirements": [
+            "Purpose of visit",
+            "Sufficient financial means",
+            "Intent to leave Canada at end of stay"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Visa application form",
+            "Travel itinerary",
+            "Proof of financial support"
+          ]
+        }
+      ]
+    },
+    {
+      "country_name": "United States",
+      "official_immigration_website": "https://www.uscis.gov",
+      "visa_categories": [
+        {
+          "visa_type": "Student Visa",
+          "official_name": "F-1 Student Visa",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/study.html",
+          "eligibility_requirements": [
+            "Acceptance by a SEVP-approved institution",
+            "Form I-20 issued by institution",
+            "Proof of financial ability",
+            "Intent to return after studies"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Form I-20",
+            "SEVIS fee payment receipt",
+            "Visa application confirmation page",
+            "Financial documents"
+          ]
+        },
+        {
+          "visa_type": "Work Visa",
+          "official_name": "H-1B Specialty Occupation Visa",
+          "official_source": "https://www.uscis.gov/working-in-the-united-states",
+          "eligibility_requirements": [
+            "Job offer from a U.S. employer",
+            "Specialty occupation requiring specific qualifications",
+            "Approved petition by employer"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Form I-797 approval notice",
+            "Employment offer letter",
+            "Qualification certificates"
+          ]
+        },
+        {
+          "visa_type": "Family Visa",
+          "official_name": "Family-Based Immigrant Visa",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/immigrate/family-immigration.html",
+          "eligibility_requirements": [
+            "Petition filed by U.S. citizen or lawful permanent resident",
+            "Proof of family relationship",
+            "Affidavit of support from sponsor"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Approved petition notice",
+            "Marriage or birth certificate",
+            "Affidavit of support"
+          ]
+        },
+        {
+          "visa_type": "Tourist Visa",
+          "official_name": "B-2 Visitor Visa",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+          "eligibility_requirements": [
+            "Purpose of tourism or medical treatment",
+            "Sufficient financial means",
+            "Intent to return to home country"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "DS-160 confirmation page",
+            "Visa appointment confirmation",
+            "Financial documents"
+          ]
+        }
+      ]
+    },
+        {
+      "country_name": "Argentina",
+      "official_immigration_website": "https://www.argentina.gob.ar/interior/migraciones",
+      "visa_categories": [
+        {
+          "visa_type": "Student Visa",
+          "official_name": "Student Residence Visa",
+          "official_source": "https://www.argentina.gob.ar/interior/migraciones",
+          "eligibility_requirements": [
+            "Admission to a recognized educational institution in Argentina",
+            "Proof of sufficient financial means",
+            "No criminal record",
+            "Valid passport"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Admission letter from institution",
+            "Proof of financial support",
+            "Police clearance certificate",
+            "Visa application form"
+          ]
+        },
+        {
+          "visa_type": "Work Visa",
+          "official_name": "Temporary Residence for Employment",
+          "official_source": "https://www.argentina.gob.ar/interior/migraciones",
+          "eligibility_requirements": [
+            "Job offer from an Argentine employer",
+            "Employment contract registered in Argentina",
+            "No criminal record"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Employment contract",
+            "Police clearance certificate",
+            "Sponsor employer documentation"
+          ]
+        },
+        {
+          "visa_type": "Family Visa",
+          "official_name": "Family Reunification Residence",
+          "official_source": "https://www.argentina.gob.ar/interior/migraciones",
+          "eligibility_requirements": [
+            "Proof of relationship with Argentine citizen or resident",
+            "Sponsor legally residing in Argentina"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Marriage or birth certificate",
+            "Sponsor identification documents"
+          ]
+        },
+        {
+          "visa_type": "Tourist Visa",
+          "official_name": "Tourist Visa",
+          "official_source": "https://www.argentina.gob.ar/interior/migraciones",
+          "eligibility_requirements": [
+            "Purpose of tourism",
+            "Sufficient financial means",
+            "Intent to leave Argentina after stay"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Travel itinerary",
+            "Proof of accommodation",
+            "Return ticket"
+          ]
+        }
+      ]
+    },
+        {
+      "country_name": "Thailand",
+      "official_immigration_website": "https://www.immigration.go.th",
+      "visa_categories": [
+        {
+          "visa_type": "Student Visa",
+          "official_name": "Non-Immigrant ED Visa",
+          "official_source": "https://www.immigration.go.th",
+          "eligibility_requirements": [
+            "Acceptance from a recognized educational institution in Thailand",
+            "Proof of financial support",
+            "Valid passport"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Letter of acceptance",
+            "Proof of financial means",
+            "Visa application form"
+          ]
+        },
+        {
+          "visa_type": "Work Visa",
+          "official_name": "Non-Immigrant B Visa",
+          "official_source": "https://www.immigration.go.th",
+          "eligibility_requirements": [
+            "Job offer from a Thai employer",
+            "Work permit approval",
+            "Relevant qualifications"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Employment contract",
+            "Work permit approval",
+            "Company registration documents"
+          ]
+        },
+        {
+          "visa_type": "Family Visa",
+          "official_name": "Non-Immigrant O Visa",
+          "official_source": "https://www.immigration.go.th",
+          "eligibility_requirements": [
+            "Proof of relationship with Thai citizen or resident",
+            "Sponsor legally residing in Thailand"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Marriage or birth certificate",
+            "Sponsor identification documents"
+          ]
+        },
+        {
+          "visa_type": "Tourist Visa",
+          "official_name": "Tourist Visa (TR)",
+          "official_source": "https://www.immigration.go.th",
+          "eligibility_requirements": [
+            "Purpose of tourism",
+            "Sufficient financial means",
+            "Intent to leave Thailand after stay"
+          ],
+          "documents_required": [
+            "Valid passport",
+            "Visa application form",
+            "Travel itinerary",
+            "Proof of accommodation",
+            "Return ticket"
+          ]
+        }
+      ]
+    }
+
+
+
+
+
+  ]
+}
+
+
