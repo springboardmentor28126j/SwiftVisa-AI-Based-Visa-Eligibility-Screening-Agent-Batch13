@@ -6,18 +6,47 @@
         {
           "visa_id": "Standard Visitor",
           "visa_name": "Visitor Visa",
-          "official_source": "https://www.gov.uk/standard-visitor",
+          "official_source": "https://www.gov.uk/browse/visas-immigration/visit",
           "eligibility_fields": [
             "Valid passport",
             "Purpose of visit",
             "Financial proof",
-            "Intention to leave UK"
+            "Return intention"
           ],
-          "documents_required": [
-            "Passport",
-            "Proof of Funds",
-            "Travel Details"
-          ]
+          "documents_required": ["Passport", "Proof of Funds", "Travel Plan"]
+        },
+        {
+          "visa_id": "Student Visa",
+          "visa_name": "Student Visa",
+          "official_source": "https://www.gov.uk/student-visa",
+          "eligibility_fields": [
+            "Offer from licensed sponsor",
+            "Financial proof",
+            "English requirement"
+          ],
+          "documents_required": ["Passport", "CAS letter", "Financial Proof"]
+        },
+        {
+          "visa_id": "Work Visas",
+          "visa_name": "Work Visa (Skilled & Temporary)",
+          "official_source": "https://www.gov.uk/browse/visas-immigration/work-visas",
+          "eligibility_fields": [
+            "Job offer from approved sponsor",
+            "Minimum salary requirement",
+            "English proficiency"
+          ],
+          "documents_required": ["Passport", "Job offer", "Sponsor letter"]
+        },
+        {
+          "visa_id": "Family Visa",
+          "visa_name": "Family / Partner Visa",
+          "official_source": "https://www.gov.uk/uk-family-visa",
+          "eligibility_fields": [
+            "Relationship with UK resident",
+            "Financial requirement",
+            "Accommodation proof"
+          ],
+          "documents_required": ["Passport", "Relationship documents", "Financial Proof"]
         }
       ]
     },
@@ -25,20 +54,32 @@
       "country_name": "Canada",
       "visa_categories": [
         {
+          "visa_id": "Visitor",
+          "visa_name": "Visitor Visa",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+          "eligibility_fields": ["Valid passport", "Purpose of visit", "Proof of funds"],
+          "documents_required": ["Passport", "Proof of Funds", "Travel Plan"]
+        },
+        {
           "visa_id": "Study Permit",
           "visa_name": "Student Visa",
           "official_source": "https://www.canada.ca",
-          "eligibility_fields": [
-            "DLI admission",
-            "Financial proof",
-            "Medical exam",
-            "No criminal record"
-          ],
-          "documents_required": [
-            "Passport",
-            "Admission Letter",
-            "Financial Proof"
-          ]
+          "eligibility_fields": ["Admission from DLI", "Proof of funds", "No criminal record"],
+          "documents_required": ["Passport", "Admission Letter", "Financial Proof"]
+        },
+        {
+          "visa_id": "Work Permit",
+          "visa_name": "Work Visa",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+          "eligibility_fields": ["Job offer", "Labour approval if required", "Valid passport"],
+          "documents_required": ["Passport", "Job Offer", "Work Permit"]
+        },
+        {
+          "visa_id": "Super Visa",
+          "visa_name": "Parent / Grandparent Visa",
+          "official_source": "https://www.canada.ca",
+          "eligibility_fields": ["Children/grandchildren support", "Medical insurance", "Proof of funds"],
+          "documents_required": ["Passport", "Support Letter", "Insurance Proof"]
         }
       ]
     },
@@ -47,19 +88,31 @@
       "visa_categories": [
         {
           "visa_id": "B1/B2",
-          "visa_name": "Visitor Visa",
-          "official_source": "https://travel.state.gov",
-          "eligibility_fields": [
-            "Valid passport",
-            "Purpose of travel",
-            "Financial support",
-            "Intent to return"
-          ],
-          "documents_required": [
-            "Passport",
-            "DS-160 Form",
-            "Financial Proof"
-          ]
+          "visa_name": "Visitor / Business Visa",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/tourism-visitor.html",
+          "eligibility_fields": ["Valid passport", "Purpose of visit", "Financial support"],
+          "documents_required": ["Passport", "DS-160", "Financial Proof"]
+        },
+        {
+          "visa_id": "F1",
+          "visa_name": "Student Visa",
+          "official_source": "https://www.uscis.gov",
+          "eligibility_fields": ["Enrollment in SEVP school", "I-20 form", "Proof of funds"],
+          "documents_required": ["Passport", "I-20", "Financial Proof"]
+        },
+        {
+          "visa_id": "H1B",
+          "visa_name": "Work Visa (Specialty)",
+          "official_source": "https://www.uscis.gov",
+          "eligibility_fields": ["Job offer in specialty occupation", "Degree requirement", "Employer sponsorship"],
+          "documents_required": ["Passport", "Degree Certificates", "Job Offer"]
+        },
+        {
+          "visa_id": "L1",
+          "visa_name": "Intra-Company Transfer Visa",
+          "official_source": "https://www.uscis.gov",
+          "eligibility_fields": ["One year abroad employment", "Transfer to US office", "Valid passport"],
+          "documents_required": ["Passport", "Employment Proof", "Company Letter"]
         }
       ]
     },
@@ -67,20 +120,32 @@
       "country_name": "India",
       "visa_categories": [
         {
-          "visa_id": "eVisa",
+          "visa_id": "Tourist",
           "visa_name": "Tourist Visa",
-          "official_source": "https://indianvisaonline.gov.in",
-          "eligibility_fields": [
-            "Valid passport",
-            "Return ticket",
-            "Sufficient funds",
-            "Travel purpose"
-          ],
-          "documents_required": [
-            "Passport Copy",
-            "Travel Details",
-            "Photo"
-          ]
+          "official_source": "https://indianvisaonline.gov.in/visa/visa-category.html",
+          "eligibility_fields": ["Valid passport", "Purpose of visit", "Sufficient funds"],
+          "documents_required": ["Passport", "Travel Itinerary", "Photo"]
+        },
+        {
+          "visa_id": "Business",
+          "visa_name": "Business Visa",
+          "official_source": "https://indianvisaonline.gov.in/visa/visa-category.html",
+          "eligibility_fields": ["Business purpose", "Valid passport", "Company letter"],
+          "documents_required": ["Passport", "Business Invitation", "Financial Proof"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://indianvisaonline.gov.in/visa/visa-category.html",
+          "eligibility_fields": ["Admission letter", "Valid passport", "Proof of funds"],
+          "documents_required": ["Passport", "Admission Letter", "Financial Proof"]
+        },
+        {
+          "visa_id": "Medical",
+          "visa_name": "Medical Visa",
+          "official_source": "https://indianvisaonline.gov.in/visa/visa-category.html",
+          "eligibility_fields": ["Treatment purpose", "Valid passport", "Medical report"],
+          "documents_required": ["Passport", "Medical Referral", "Financial Proof"]
         }
       ]
     },
@@ -90,18 +155,23 @@
         {
           "visa_id": "Subclass 600",
           "visa_name": "Visitor Visa",
-          "official_source": "https://immi.homeaffairs.gov.au",
-          "eligibility_fields": [
-            "Valid passport",
-            "Financial support",
-            "Health requirement",
-            "Genuine visitor intent"
-          ],
-          "documents_required": [
-            "Passport",
-            "Bank Statement",
-            "Travel Plan"
-          ]
+          "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+          "eligibility_fields": ["Valid passport", "Financial support", "Visitor intent"],
+          "documents_required": ["Passport", "Proof of Funds", "Travel Plan"]
+        },
+        {
+          "visa_id": "Subclass 500",
+          "visa_name": "Student Visa",
+          "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+          "eligibility_fields": ["Course admission", "Financial support", "Genuine intent"],
+          "documents_required": ["Passport", "Admission Letter", "Financial Proof"]
+        },
+        {
+          "visa_id": "Subclass 482",
+          "visa_name": "Temporary Work Visa (TSS)",
+          "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+          "eligibility_fields": ["Job sponsorship", "Skill requirements", "Valid passport"],
+          "documents_required": ["Passport", "Job Offer", "Sponsorship Letter"]
         }
       ]
     },
@@ -109,20 +179,25 @@
       "country_name": "Germany",
       "visa_categories": [
         {
+          "visa_id": "Schengen Tourist",
+          "visa_name": "Tourist Visa",
+          "official_source": "https://visa.diplo.de/en",
+          "eligibility_fields": ["Valid passport", "Purpose of visit", "Proof of funds"],
+          "documents_required": ["Passport", "Travel Itinerary", "Proof of Funds"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://visa.diplo.de/en",
+          "eligibility_fields": ["University admission", "Financial resources", "Health insurance"],
+          "documents_required": ["Passport", "Admission Letter", "Financial Proof"]
+        },
+        {
           "visa_id": "Job Seeker",
           "visa_name": "Job Seeker Visa",
-          "official_source": "https://www.make-it-in-germany.com",
-          "eligibility_fields": [
-            "Recognized degree",
-            "Financial proof",
-            "Health insurance",
-            "Work experience"
-          ],
-          "documents_required": [
-            "Passport",
-            "Degree Certificate",
-            "Financial Proof"
-          ]
+          "official_source": "https://make-it-in-germany.com",
+          "eligibility_fields": ["Recognized degree", "Financial support", "Valid passport"],
+          "documents_required": ["Passport", "Degree Certificate", "Proof of Funds"]
         }
       ]
     },
@@ -130,20 +205,25 @@
       "country_name": "France",
       "visa_categories": [
         {
-          "visa_id": "Schengen Short Stay",
-          "visa_name": "Short Stay Visa",
+          "visa_id": "Short Stay (Schengen)",
+          "visa_name": "Tourist Visa",
           "official_source": "https://france-visas.gouv.fr",
-          "eligibility_fields": [
-            "Valid passport",
-            "Purpose of travel",
-            "Financial proof",
-            "Travel insurance"
-          ],
-          "documents_required": [
-            "Passport",
-            "Travel Insurance",
-            "Accommodation Proof"
-          ]
+          "eligibility_fields": ["Valid passport", "Travel insurance", "Purpose of visit"],
+          "documents_required": ["Passport", "Insurance Proof", "Travel Plan"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://france-visas.gouv.fr",
+          "eligibility_fields": ["University admission", "Financial support", "Insurance"],
+          "documents_required": ["Passport", "Admission Letter", "Financial Proof"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Work Visa",
+          "official_source": "https://france-visas.gouv.fr",
+          "eligibility_fields": ["Job offer", "Financial proof", "Valid passport"],
+          "documents_required": ["Passport", "Job Offer", "Proof of Funds"]
         }
       ]
     },
@@ -154,17 +234,15 @@
           "visa_id": "Temporary Visitor",
           "visa_name": "Tourist Visa",
           "official_source": "https://www.mofa.go.jp",
-          "eligibility_fields": [
-            "Valid passport",
-            "Travel itinerary",
-            "Financial proof",
-            "Return ticket"
-          ],
-          "documents_required": [
-            "Passport",
-            "Travel Plan",
-            "Financial Proof"
-          ]
+          "eligibility_fields": ["Valid passport", "Travel plan", "Financial support"],
+          "documents_required": ["Passport", "Travel Itinerary", "Proof of Funds"]
+        },
+        {
+          "visa_id": "Student Visa",
+          "visa_name": "Student Visa",
+          "official_source": "https://www.mofa.go.jp",
+          "eligibility_fields": ["School admission", "Proof of funds", "Valid passport"],
+          "documents_required": ["Passport", "Admission Letter", "Proof of Funds"]
         }
       ]
     },
@@ -172,20 +250,18 @@
       "country_name": "Singapore",
       "visa_categories": [
         {
-          "visa_id": "Short Term Visit",
+          "visa_id": "Tourist / Short Visit",
           "visa_name": "Visit Pass",
           "official_source": "https://www.ica.gov.sg",
-          "eligibility_fields": [
-            "Valid passport",
-            "Purpose of visit",
-            "Financial support",
-            "Return ticket"
-          ],
-          "documents_required": [
-            "Passport",
-            "Travel Itinerary",
-            "Financial Proof"
-          ]
+          "eligibility_fields": ["Valid passport", "Purpose of visit", "Financial support"],
+          "documents_required": ["Passport", "Travel Itinerary", "Proof of Funds"]
+        },
+        {
+          "visa_id": "Student Pass",
+          "visa_name": "Student Visa",
+          "official_source": "https://www.ica.gov.sg",
+          "eligibility_fields": ["Admission to institution", "Valid passport", "Financial capability"],
+          "documents_required": ["Passport", "Admission Letter", "Proof of Funds"]
         }
       ]
     },
@@ -196,17 +272,22 @@
           "visa_id": "C-3",
           "visa_name": "Tourist Visa",
           "official_source": "https://www.visa.go.kr",
-          "eligibility_fields": [
-            "Valid passport",
-            "Travel purpose",
-            "Financial proof",
-            "Return intention"
-          ],
-          "documents_required": [
-            "Passport",
-            "Travel Plan",
-            "Bank Statement"
-          ]
+          "eligibility_fields": ["Valid passport", "Purpose of visit", "Financial support"],
+          "documents_required": ["Passport", "Travel Plan", "Proof of Funds"]
+        },
+        {
+          "visa_id": "D-2",
+          "visa_name": "Student Visa",
+          "official_source": "https://www.visa.go.kr",
+          "eligibility_fields": ["University admission", "Financial proof", "Valid passport"],
+          "documents_required": ["Passport", "Admission Letter", "Proof of Funds"]
+        },
+        {
+          "visa_id": "D-8",
+          "visa_name": "Corporate Investor Visa",
+          "official_source": "https://www.visa.go.kr",
+          "eligibility_fields": ["Investment proof", "Valid passport", "Financial support"],
+          "documents_required": ["Passport", "Investment Proof", "Proof of Funds"]
         }
       ]
     }
