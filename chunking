@@ -1,0 +1,113 @@
+import json
+
+# --------------------------
+# SETTINGS
+# --------------------------
+
+CHUNK_SIZE = 180      # words per chunk
+CHUNK_OVERLAP = 40    # overlap words
+
+
+# --------------------------
+# LOAD MASTER DATASET
+# --------------------------
+
+with open("list.json", "r", encoding="utf-8") as f:
+    data = json.load(f)
+
+print("Countries Loaded:", len(data["countries"]))
+
+
+# --------------------------
+# CONVERT JSON → STRUCTURED TEXT
+# --------------------------
+
+documents = []
+
+for country in data["countries"]:
+    for visa in country["visa_categories"]:
+
+        eligibility_text = "\n".join(
+            [req.strip().rstrip(".") + "." for req in visa["eligibility_requirements"]]
+        )
+
+        documents_text = "\n".join(
+            [doc.strip().rstrip(".") + "." for doc in visa["documents_required"]]
+        )
+
+        text_content = f"""Country: {country['country_name']}.
+Visa Type: {visa['visa_type']}.
+Official Name: {visa['official_name']}.
+
+Eligibility Requirements:
+{eligibility_text}
+
+Documents Required:
+{documents_text}
+
+Official Source:
+{visa['official_source']}."""
+
+        # Remove unwanted leading/trailing spaces but keep structure
+        clean_text = "\n".join(
+            [line.strip() for line in text_content.strip().split("\n")]
+        )
+
+        documents.append({
+            "text": clean_text,
+            "country": country["country_name"],
+            "visa_type": visa["visa_type"]
+        })
+
+print("Total Documents Created:", len(documents))
+
+
+# --------------------------
+# WORD-BASED SMART CHUNKING
+# --------------------------
+
+def smart_chunk(text, chunk_size, overlap):
+    words = text.split()
+    chunks = []
+    start = 0
+
+    while start < len(words):
+        end = start + chunk_size
+        chunk_words = words[start:end]
+        chunk = " ".join(chunk_words)
+
+        if len(chunk) > 200:  # avoid tiny fragments
+            chunks.append(chunk)
+
+        start += chunk_size - overlap
+
+    return chunks
+
+
+# --------------------------
+# APPLY CHUNKING
+# --------------------------
+
+chunked_documents = []
+
+for doc in documents:
+    chunks = smart_chunk(doc["text"], CHUNK_SIZE, CHUNK_OVERLAP)
+
+    for chunk in chunks:
+        chunked_documents.append({
+            "text": chunk,
+            "country": doc["country"],
+            "visa_type": doc["visa_type"]
+        })
+
+print("Total Chunks Created:", len(chunked_documents))
+
+
+# --------------------------
+# SAVE CHUNKS
+# --------------------------
+
+with open("chunked_visa_data.json", "w", encoding="utf-8") as f:
+    json.dump(chunked_documents, f, indent=4)
+
+print("Chunked data saved successfully!")
