@@ -1,0 +1,53 @@
+import json
+from langchain_community.vectorstores import FAISS
+from langchain_huggingface import HuggingFaceEmbeddings
+from langchain_core.documents import Document
+
+# --------------------------
+# LOAD CHUNKED DATA
+# --------------------------
+with open("chunked_visa_data.json", "r", encoding="utf-8") as f:
+    chunks = json.load(f)
+
+print("Chunks Loaded:", len(chunks))
+
+# --------------------------
+# CONVERT TO LANGCHAIN DOCUMENTS
+# --------------------------
+documents = []
+
+for chunk in chunks:
+    documents.append(
+        Document(
+            page_content=chunk["text"],
+            metadata={
+                "country": chunk.get("country", ""),
+                "visa_type": chunk.get("visa_type", "")
+            }
+        )
+    )
+
+print("Documents Created!")
+
+# --------------------------
+# LOAD EMBEDDING MODEL
+# --------------------------
+embedding_model = HuggingFaceEmbeddings(
+    model_name="sentence-transformers/all-MiniLM-L6-v2"
+)
+
+print("Embedding Model Loaded!")
+
+# --------------------------
+# CREATE FAISS VECTOR STORE
+# --------------------------
+db = FAISS.from_documents(documents, embedding_model)
+
+print("FAISS Vector Store Created!")
+
+# --------------------------
+# SAVE LANGCHAIN FAISS
+# --------------------------
+db.save_local("faiss_index")
+
+print("Saved in faiss_index folder!")
