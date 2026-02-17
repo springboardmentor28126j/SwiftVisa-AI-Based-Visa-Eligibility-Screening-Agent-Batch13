@@ -22,21 +22,26 @@ def load_documents():
                 docs = loader.load()
 
                 for doc in docs:
-                    # Extract country automatically from folder name
                     parts = root.split(os.sep)
                     if len(parts) >= 2:
                         country = parts[1]
                         doc.metadata["country"] = country.capitalize()
 
-                    # Visa type from file name
                     visa_type = file.replace(".txt", "").replace("_", " ")
                     doc.metadata["visa_type"] = visa_type.title()
 
                     doc.metadata["source_file"] = file
 
+                    # NEW: Extract official link from document
+                    lines = doc.page_content.split("\n")
+                    for line in lines:
+                        if line.startswith("http"):
+                            doc.metadata["official_source"] = line.strip()
+
                 documents.extend(docs)
 
     return documents
+
 
 
 
