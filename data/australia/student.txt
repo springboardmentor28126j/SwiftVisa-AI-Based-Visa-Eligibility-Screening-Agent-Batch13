@@ -1,0 +1,14 @@
+Country: Australia
+Visa Type: Student Visa (Subclass 500)
+
+Official Source:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+
+Eligibility Requirements:
+
+1. Must be enrolled in a registered full-time course in Australia.
+2. Must provide Confirmation of Enrolment (CoE).
+3. Must demonstrate sufficient financial capacity to cover tuition, travel, and living expenses.
+4. Must meet English language proficiency requirements.
+5. Must meet health and character requirements.
+6. Must satisfy Genuine Student (GS) requirement.
