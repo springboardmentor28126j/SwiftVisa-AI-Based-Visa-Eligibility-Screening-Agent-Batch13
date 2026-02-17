@@ -22,27 +22,22 @@ def load_documents():
                 docs = loader.load()
 
                 for doc in docs:
+                    # Extract country automatically from folder name
+                    parts = root.split(os.sep)
+                    if len(parts) >= 2:
+                        country = parts[1]
+                        doc.metadata["country"] = country.capitalize()
+
+                    # Visa type from file name
+                    visa_type = file.replace(".txt", "").replace("_", " ")
+                    doc.metadata["visa_type"] = visa_type.title()
+
                     doc.metadata["source_file"] = file
-
-                    if "usa" in root:
-                        doc.metadata["country"] = "USA"
-                    elif "canada" in root:
-                        doc.metadata["country"] = "Canada"
-                    elif "uk" in root:
-                        doc.metadata["country"] = "UK"
-
-                    if "f1" in file:
-                        doc.metadata["visa_type"] = "F1"
-                    elif "h1b" in file:
-                        doc.metadata["visa_type"] = "H1B"
-                    elif "study_permit" in file:
-                        doc.metadata["visa_type"] = "Study Permit"
-                    elif "skilled_worker" in file:
-                        doc.metadata["visa_type"] = "Skilled Worker"
 
                 documents.extend(docs)
 
     return documents
+
 
 
 def chunk_documents(documents):
