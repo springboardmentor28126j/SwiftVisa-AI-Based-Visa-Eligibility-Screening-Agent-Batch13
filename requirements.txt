@@ -1,0 +1,10 @@
+tqdm==4.66.2
+langchain==0.2.1
+langchain-community==0.2.1
+langchain-core==0.2.1
+langchain-text-splitters==0.2.1
+sentence-transformers==2.6.1
+faiss-cpu==1.7.4
+torch==2.2.2
+numpy==1.25.2
+
