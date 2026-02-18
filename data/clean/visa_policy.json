@@ -1,0 +1,834 @@
+{
+  "meta": {
+    "project": "SwiftVisa - AI Visa Eligibility Screening",
+    "visa_types": [
+      "Tourist",
+      "Student",
+      "Work",
+      "Permanent_Residence",
+      "Family"
+    ],
+    "countries_supported": 13,
+    "countries": [
+      "India",
+      "USA",
+      "Canada",
+      "United_Kingdom",
+      "Australia",
+      "Germany",
+      "France",
+      "New_Zealand",
+      "Singapore",
+      "Japan",
+      "UAE",
+      "Netherlands",
+      "Ireland"
+    ]
+  },
+
+  "countries": {
+  "India": {
+    "official_portal": "https://indianvisaonline.gov.in/index.html",
+    "Tourist": {
+      "visa_code": "Tourist Visa / e‑Tourist Visa",
+      "documents": [
+        "Valid passport with at least 6 months validity",
+        "Recent passport‑size photograph",
+        "Completed online visa application",
+        "Proof of sufficient funds for stay",
+        "Travel itinerary",
+        "Return/onward journey ticket"
+      ]
+    },
+    "Student": {
+      "visa_code": "Student Visa",
+      "documents": [
+        "Valid passport with minimum required validity",
+        "Admission letter from recognized Indian educational institute",
+        "Completed visa application form",
+        "Proof of funds to cover tuition and living expenses",
+        "Passport‑size photographs",
+        "Medical fitness documents if required"
+      ]
+    },
+    "Work": {
+      "visa_code": "Employment Visa",
+      "documents": [
+        "Valid passport with required validity",
+        "Employment offer/contract from Indian employer",
+        "Completed online visa application",
+        "Proof of professional/educational qualifications",
+        "Passport‑size photographs",
+        "Relevant government clearances if required"
+      ]
+    },
+    "Permanent_Residence": {
+      "visa_code": "Long‑Term/OCI / Entry (as applicable)",
+      "documents": [
+        "Valid passport with appropriate validity",
+        "Proof of relationship to Indian citizen (marriage/birth certificates)",
+        "Completed visa application form",
+        "Proof of residence arrangement in India",
+        "Passport‑size photographs",
+        "Supporting documents per Entry or OCI application requirements"
+      ]
+    },
+    "Family": {
+      "visa_code": "Entry Visa / Dependent Visa",
+      "documents": [
+        "Valid passport with required validity",
+        "Proof of family relationship (e.g., marriage/birth certificate)",
+        "Completed visa application",
+        "Proof of principal visa holder status/employment in India",
+        "Passport‑size photographs"
+      ]
+    }
+ },
+
+  "USA": {
+    "official_portal": "https://travel.state.gov/content/travel/en/us-visas.html",
+    "Student": {
+      "visa_code": "F-1 / M-1 Student Visa",
+      "documents": [
+        "Valid passport",
+        "Nonimmigrant Visa Application (Form DS‑160) confirmation page",
+        "Visa application fee payment receipt",
+        "SEVIS I‑901 fee payment receipt",
+        "Form I‑20 (F/M) issued by school",
+        "Passport‑size photographs per U.S. visa specifications",
+        "Evidence of financial support",
+        "Academic transcripts and test scores (as required)"
+      ]
+    },
+    "Tourist": {
+      "visa_code": "B-2 / B-1/B-2 Visitor Visa",
+      "documents": [
+        "Valid passport",
+        "Nonimmigrant Visa Application (Form DS‑160) confirmation page",
+        "Visa application fee payment receipt",
+        "Passport‑size photographs per U.S. visa specifications",
+        "Evidence of ties to home country and intent to return",
+        "Proof of sufficient funds for the visit",
+        "Travel itinerary and accommodation details",
+        "Optional: Invitation letter for visiting family/friends"
+      ]
+    },
+    "Work": {
+      "visa_code": "H-1B / L-1 / O-1 Work Visas",
+      "documents": [
+        "Valid passport",
+        "Nonimmigrant Visa Application (Form DS‑160) confirmation page",
+        "Visa application fee payment receipt",
+        "Petition approval notice (e.g., USCIS Form I‑129)",
+        "Job offer letter/contract from U.S. employer",
+        "Evidence of qualifications and experience",
+        "Passport‑size photographs per U.S. visa specifications"
+      ]
+    },
+    "Permanent_Residence": {
+      "visa_code": "Immigrant Visa (Family or Employment Based)",
+      "documents": [
+        "Valid passport",
+        "Immigrant Visa Electronic Application (Form DS‑260) confirmation",
+        "Approved immigrant petition (e.g., Form I‑130 for family)",
+        "Affidavit of Support from U.S. sponsor",
+        "Medical examination results",
+        "Police certificates from all countries of residence",
+        "Civil documents (birth/marriage certificates, translations)"
+      ]
+    },
+    "Family": {
+      "visa_code": "Family‑Based Immigrant Visa",
+      "documents": [
+        "Valid passport",
+        "Immigrant Visa Electronic Application (Form DS‑260) confirmation",
+        "Approved Form I‑130 Petition for Alien Relative",
+        "Affidavit of Support (Form I‑864) from petitioner",
+        "Proof of relationship (birth/marriage certificates)",
+        "Medical examination results",
+        "Police certificates"
+      ]
+    }
+  },
+
+  "Canada": {
+    "official_portal": "https://www.canada.ca/en/immigration-refugees-citizenship.html",
+    "Tourist": {
+      "visa_code": "Temporary Resident Visa (Visitor Visa)",
+      "documents": [
+        "Valid passport or travel document",
+        "Temporary Resident Visa application forms",
+        "Proof of ties to home country (job, family, assets)",
+        "Evidence of sufficient funds for stay",
+        "Letter of invitation (if applicable)",
+        "Travel itinerary / return ticket",
+        "Passport_size photographs",
+        "Biometrics (if required)"
+      ]
+    },
+    "Student": {
+      "visa_code": "Study Permit",
+      "documents": [
+        "Valid passport/travel document",
+        "Letter of acceptance from a designated learning institution",
+        "Proof of financial support",
+        "Completed study permit application",
+        "Passport_size photographs",
+        "Biometrics (if required)",
+        "Proof of identity documents"
+      ]
+    },
+    "Work": {
+      "visa_code": "Work Permit",
+      "documents": [
+        "Valid passport",
+        "Job offer letter or contract",
+        "Labour Market Impact Assessment (LMIA) or LMIA_exempt offer (if required)",
+        "Completed work permit application",
+        "Proof of qualifications and experience",
+        "Biometrics (if required)"
+      ]
+    },
+    "Permanent_Residence": {
+      "visa_code": "Permanent Residence",
+      "documents": [
+        "Valid passport/travel document",
+        "Completed PR application forms",
+        "Educational Credential Assessment (if required)",
+        "Language test results (e.g., IELTS/TEF)",
+        "Proof of work experience",
+        "Police certificates",
+        "Medical examination results",
+        "Proof of funds (specific to streams)",
+        "Biometrics"
+      ]
+    },
+    "Family": {
+      "visa_code": "Family Sponsorship / Super Visa",
+      "documents": [
+        "Sponsor’s proof of Canadian citizenship or PR status",
+        "Proof of relationship (e.g., marriage/birth certificates)",
+        "Completed sponsorship and permanent residence application",
+        "Financial support evidence",
+        "Medical examination results",
+        "Police certificates for sponsored applicant",
+        "Proof of accommodation/funds"
+      ]
+  }
+},
+
+  "United_Kingdom": {
+    "official_portal": "https://www.gov.uk/browse/visas-immigration",
+
+    "Tourist": {
+      "visa_code": "Standard Visitor Visa",
+      "documents": [
+        "Valid passport",
+        "Completed online visa application form",
+        "Recent passport-size photograph",
+        "Travel itinerary / return flight ticket",
+        "Proof of accommodation",
+        "Proof of sufficient funds",
+        "Cover letter stating purpose of visit",
+        "Visa fee payment receipt"
+      ]
+    },
+
+    "Student": {
+      "visa_code": "Student Visa",
+      "documents": [
+        "Valid passport",
+        "Confirmation of Acceptance for Studies (CAS)",
+        "Proof of financial means",
+        "Academic certificates and transcripts",
+        "English language proficiency test results",
+        "Tuberculosis (TB) test certificate (if required)",
+        "Passport-size photographs"
+      ]
+    },
+
+    "Work": {
+      "visa_code": "Skilled Worker Visa",
+      "documents": [
+        "Valid passport",
+        "Certificate of Sponsorship (CoS)",
+        "Job offer from UK licensed sponsor",
+        "Proof of salary meeting minimum threshold",
+        "English language proficiency proof",
+        "Criminal record certificate (if required)",
+        "Passport-size photographs"
+      ]
+    },
+
+    "Permanent_Residence": {
+      "visa_code": "Indefinite Leave to Remain (ILR)",
+      "documents": [
+        "Valid passport",
+        "Proof of continuous residence in the UK",
+        "Biometric Residence Permit (BRP)",
+        "Proof of income and employment",
+        "Life in the UK Test pass certificate",
+        "English language requirement proof"
+      ]
+    },
+
+    "Family": {
+      "visa_code": "Family Visa",
+      "documents": [
+        "Valid passport for applicant",
+        "Sponsor’s UK citizenship or settlement proof",
+        "Proof of relationship (marriage/birth certificate)",
+        "Sponsor income proof",
+        "Proof of accommodation in the UK",
+        "English language test result",
+        "Passport-size photographs"
+      ]
+    }
+  },
+
+
+
+"Australia": {
+  "official_portal": "https://immi.homeaffairs.gov.au",
+  "Tourist": {
+    "visa_code": "Visitor Visa (Subclass 600)",
+    "documents": [
+      "Valid passport",
+      "Completed online visa application",
+      "Recent passport-size photograph",
+      "Travel itinerary / return flight ticket",
+      "Proof of accommodation",
+      "Proof of sufficient funds",
+      "Travel medical insurance",
+      "Cover letter stating purpose of visit"
+    ]
+  },
+  "Student": {
+    "visa_code": "Student Visa (Subclass 500)",
+    "documents": [
+      "Valid passport",
+      "Confirmation of Enrolment (CoE) from Australian institution",
+      "Genuine Student (GS) statement",
+      "Proof of financial capacity",
+      "Academic certificates and transcripts",
+      "English language proficiency test results",
+      "Overseas Student Health Cover (OSHC)",
+      "Passport-size photographs"
+    ]
+  },
+  "Work": {
+    "visa_code": "Temporary Skill Shortage Visa (Subclass 482)",
+    "documents": [
+      "Valid passport",
+      "Job offer / nomination from approved Australian employer",
+      "Skills assessment (if required)",
+      "Proof of relevant work experience",
+      "English language test results",
+      "Health examination report",
+      "Police clearance certificate",
+      "Passport-size photographs"
+    ]
+  },
+  "Permanent_Residence": {
+    "visa_code": "Skilled Independent Visa (Subclass 189)",
+    "documents": [
+      "Valid passport",
+      "Expression of Interest (EOI) via SkillSelect",
+      "Invitation to apply",
+      "Skills assessment",
+      "English language test results",
+      "Health examination report",
+      "Police clearance certificate",
+      "Proof of work experience",
+      "Educational certificates"
+    ]
+  },
+  "Family": {
+    "visa_code": "Partner / Family Visa",
+    "documents": [
+      "Valid passport for applicant",
+      "Sponsor’s Australian citizenship or PR proof",
+      "Proof of relationship (marriage/partnership evidence)",
+      "Joint financial and household documents",
+      "Health examination report",
+      "Police clearance certificate",
+      "Passport-size photographs",
+      "Completed family visa application"
+    ]
+
+  }
+},
+
+
+"Germany": {
+  "official_portal": "https://www.auswaertiges-amt.de",
+  "Tourist": {
+    "visa_code": "Schengen Short-Stay Visa (Type C)",
+    "documents": [
+      "Valid passport (issued within last 10 years and valid 3 months after departure)",
+      "Completed Schengen visa application form",
+      "Recent biometric passport photographs",
+      "Travel medical insurance (minimum coverage €30,000)",
+      "Confirmed return or onward flight ticket",
+      "Proof of accommodation",
+      "Proof of sufficient financial means",
+      "Cover letter stating purpose of visit"
+    ]
+  },
+  "Student": {
+    "visa_code": "National Visa for Study (Type D)",
+    "documents": [
+      "Valid passport",
+      "Letter of admission from German university",
+      "Proof of financial resources (blocked account or scholarship)",
+      "Academic transcripts and certificates",
+      "Proof of health insurance in Germany",
+      "Passport-size photographs",
+      "Completed national visa application form"
+    ]
+  },
+  "Work": {
+    "visa_code": "National Visa for Employment / EU Blue Card",
+    "documents": [
+      "Valid passport",
+      "Job offer or employment contract",
+      "Recognition of qualifications (if required)",
+      "Proof of professional experience",
+      "Resume / CV",
+      "Proof of health insurance",
+      "Passport-size photographs",
+      "Completed visa application form"
+    ]
+  },
+  "Permanent_Residence": {
+    "visa_code": "Settlement Permit (Niederlassungserlaubnis)",
+    "documents": [
+      "Valid passport",
+      "Proof of long-term legal residence in Germany",
+      "Proof of stable income and pension contributions",
+      "Proof of adequate living space",
+      "German language proficiency (B1 level)",
+      "Integration course certificate (if applicable)",
+      "Health insurance proof"
+    ]
+  },
+  "Family": {
+    "visa_code": "Family Reunification Visa",
+    "documents": [
+      "Valid passport for family member",
+      "Proof of relationship (marriage/birth certificate)",
+      "Sponsor’s valid German residence permit or citizenship proof",
+      "Proof of adequate accommodation",
+      "Sponsor income proof",
+      "German language certificate (A1 level for spouse, if required)",
+      "Passport-size photographs",
+      "Completed visa application form"
+    ]
+  }
+},
+
+  "France": {
+  "official_portal": "https://france-visas.gouv.fr",
+  "Tourist": {
+    "visa_code": "Schengen Short-Stay Visa (Type C)",
+    "documents": [
+      "Valid passport (issued within last 10 years and valid 3 months after departure)",
+      "Completed Schengen visa application form",
+      "Recent passport-size photographs (Schengen standards)",
+      "Travel medical insurance (minimum coverage €30,000)",
+      "Confirmed return or onward flight ticket",
+      "Proof of accommodation (hotel booking or attestation d’accueil)",
+      "Proof of sufficient financial means",
+      "Cover letter stating purpose of visit"
+    ]
+  },
+  "Student": {
+    "visa_code": "Long-Stay Student Visa (VLS-TS)",
+    "documents": [
+      "Valid passport",
+      "Acceptance letter from French educational institution",
+      "Campus France approval (for applicable countries)",
+      "Proof of tuition fee payment",
+      "Proof of financial means",
+      "Proof of accommodation in France",
+      "Travel medical insurance",
+      "Passport-size photographs",
+      "Completed visa application form"
+    ]
+  },
+  "Work": {
+    "visa_code": "Long-Stay Work Visa",
+    "documents": [
+      "Valid passport",
+      "Work authorisation issued by French authorities",
+      "Employment contract or job offer",
+      "Proof of professional qualifications",
+      "Resume / CV",
+      "Proof of accommodation in France",
+      "Passport-size photographs",
+      "Completed visa application form"
+    ]
+  },
+  "Permanent_Residence": {
+    "visa_code": "Carte de Résident (10-year residence card)",
+    "documents": [
+      "Valid passport",
+      "Proof of continuous residence in France (5+ years)",
+      "Proof of stable and sufficient income",
+      "Tax declarations",
+      "Proof of integration into French society",
+      "French language proficiency certificate",
+      "Proof of accommodation",
+      "Passport-size photographs"
+    ]
+  },
+  "Family": {
+    "visa_code": "Family Reunification Visa",
+    "documents": [
+      "Valid passport for family member",
+      "Proof of relationship (marriage certificate, birth certificate)",
+      "Sponsor’s valid French residence permit or citizenship proof",
+      "Sponsor income proof",
+      "Proof of accommodation in France",
+      "Medical certificate",
+      "Passport-size photographs",
+      "Completed visa application form"
+    ]
+  }
+},
+
+  "Japan": {
+  "official_portal": "https://www.mofa.go.jp",
+  "Tourist": {
+    "visa_code": "Temporary Visitor Visa",
+    "documents": [
+      "Valid passport",
+      "Completed Japan visa application form",
+      "Recent passport-size photograph",
+      "Travel itinerary (schedule of stay)",
+      "Return or onward flight ticket",
+      "Proof of sufficient funds",
+      "Proof of accommodation",
+      "Cover letter stating purpose of visit"
+    ]
+  },
+  "Student": {
+    "visa_code": "Student Visa",
+    "documents": [
+      "Valid passport",
+      "Certificate of Eligibility (COE) issued by Japanese institution",
+      "Letter of admission from Japanese school/university",
+      "Academic transcripts and certificates",
+      "Proof of financial support",
+      "Passport-size photographs",
+      "Completed visa application form"
+    ]
+  },
+  "Work": {
+    "visa_code": "Work Visa (Engineer/Specialist/Humanities etc.)",
+    "documents": [
+      "Valid passport",
+      "Certificate of Eligibility (COE)",
+      "Employment contract or job offer",
+      "Educational certificates",
+      "Resume / CV",
+      "Passport-size photographs",
+      "Completed visa application form"
+    ]
+  },
+  "Permanent_Residence": {
+    "visa_code": "Permanent Resident",
+    "documents": [
+      "Valid passport",
+      "Residence history in Japan",
+      "Proof of stable income and tax payments",
+      "Certificate of residence (Juminhyo)",
+      "Employment certificate",
+      "Statement of reasons for PR application",
+      "Guarantor documents",
+      "Photographs"
+    ]
+  },
+  "Family": {
+    "visa_code": "Dependent / Spouse of Japanese National",
+    "documents": [
+      "Valid passport",
+      "Certificate of Eligibility (COE)",
+      "Marriage certificate / birth certificate",
+      "Family register (Koseki Tohon if applicable)",
+      "Sponsor’s residence card or passport",
+      "Proof of financial support",
+      "Passport-size photographs"
+    ]
+  }
+},
+
+  "Singapore": {
+  "official_portal": "https://www.ica.gov.sg",
+  "Tourist": {
+    "visa_code": "Short-Term Visit Pass (STVP)",
+    "documents": [
+      "Valid passport (minimum 6 months validity)",
+      "Completed Singapore visa application form (Form 14A)",
+      "Recent passport-size photograph",
+      "Confirmed return or onward flight ticket",
+      "Proof of accommodation in Singapore",
+      "Proof of sufficient funds for stay",
+      "Cover letter stating purpose of visit",
+      "Local sponsor details (if required)",
+      "Visa fee payment receipt"
+    ]
+  },
+  "Student": {
+    "visa_code": "Student Pass",
+    "documents": [
+      "Valid passport",
+      "Letter of acceptance from Singapore educational institution",
+      "Student Pass application (SOLAR system)",
+      "Academic certificates and transcripts",
+      "Proof of financial means",
+      "Passport-size photographs",
+      "Medical examination report (if required)"
+    ]
+
+  },
+  "Work": {
+    "visa_code": "Employment Pass / S Pass / Work Permit",
+    "documents": [
+      "Valid passport",
+      "Job offer or employment contract",
+      "Work pass application submitted by employer",
+      "Educational certificates",
+      "Resume / CV",
+      "Passport-size photographs",
+      "Medical examination report (if required)"
+    ]
+
+  },
+  "Permanent_Residence": {
+    "visa_code": "Singapore Permanent Residence (PR)",
+    "documents": [
+      "Valid passport",
+      "Completed PR application form",
+      "Current work pass details",
+      "Employment history and payslips",
+      "Income tax statements",
+      "Educational certificates",
+      "Marriage certificate (if applicable)",
+      "Birth certificate",
+      "Passport-size photographs"
+    ]
+
+  },
+  "Family": {
+    "visa_code": "Dependant’s Pass / Long-Term Visit Pass",
+    "documents": [
+      "Valid passport for dependent",
+      "Sponsor’s valid Singapore work pass or PR status",
+      "Proof of relationship (marriage/birth certificates)",
+      "Sponsor income proof",
+      "Completed dependant visa application",
+      "Passport-size photographs",
+      "Medical examination report (if required)"
+    ]
+
+  }
+},
+
+  "UAE": {
+  "official_portal": "https://u.ae/en/information-and-services/visa-and-emirates-id",
+  "Tourist": {
+    "visa_code": "Visit / Tourist Visa",
+    "documents": [
+      "Valid passport (minimum 6 months validity)",
+      "Completed visa application form (entry permit if required)",
+      "Passport-size photograph",
+      "Proof of accommodation (booking or sponsor letter)",
+      "Return/onward confirmed ticket",
+      "Proof of sufficient funds",
+      "Travel medical insurance",
+      "Copy of passport cover page (new requirement applies to all visas)" 
+    ]
+  },
+  "Student": {
+    "visa_code": "Student Residence Visa",
+    "documents": [
+      "Valid passport (6+ months)",
+      "Official acceptance letter from UAE educational institution",
+      "Residence visa application (sponsor/university initiated)",
+      "Proof of tuition payment or scholarship details",
+      "Health insurance",
+      "Proof of financial means",
+      "Passport-size photograph"
+    ]
+  },
+  "Work": {
+    "visa_code": "Employment Residence Visa",
+    "documents": [
+      "Valid passport (6+ months)",
+      "Employment contract or job offer",
+      "Work permit issued by MoHRE and entry permit",
+      "Passport-size photo",
+      "Medical fitness certificate (after arrival)",
+      "Emirates ID application confirmation",
+      "Attested educational certificates (where required)"
+    ]
+  },
+  "Permanent_Residence": {
+    "visa_code": "Golden / Long-term Residence Visa",
+    "documents": [
+      "Valid passport",
+      "Evidence of eligibility category (investment/property/job achievement)",
+      "Proof of financial capacity or investment",
+      "Medical fitness certificate",
+      "Passport-size photographs",
+      "Emirates ID application details"
+    ]
+  },
+  "Family": {
+    "visa_code": "Family/Dependent Residence Visa",
+    "documents": [
+      "Valid passport for dependent (6+ months)",
+      "Sponsor’s valid UAE residence visa and Emirates ID",
+      "Passport-size photos for dependents",
+      "Marriage certificate (attested)",
+      "Birth certificates for children (attested)",
+      "Proof of accommodation (Ejari/tenancy contract)",
+      "Sponsor’s salary certificate or proof of income (minimum AED 4,000)"
+    ]
+  }
+},
+
+  "Netherlands": {
+  "official_portal": "https://ind.nl",
+  "Tourist": {
+    "visa_code": "Schengen C (Short Stay)",
+    "documents": [
+      "Valid passport (at least 3 months beyond intended departure from Schengen area)",
+      "Completed and signed Schengen visa application form (VAF1A / local form)",
+      "Passport-size photographs meeting Schengen photo standards",
+      "Travel health insurance covering entire Schengen area",
+      "Confirmed travel itinerary and return/onward flight booking",
+      "Proof of accommodation (hotel booking or host invitation)",
+      "Proof of sufficient funds for your stay",
+      "Copies of previous visas/entry stamps if available"
+    ]
+  },
+  "Student": {
+    "visa_code": "MVV + Residence Permit for Study",
+    "documents": [
+      "Valid passport with at least 2 blank pages",
+      "Official university/institution acceptance letter",
+      "Proof of sufficient financial means for tuition and living costs",
+      "Academic transcripts and certificates",
+      "Proof of health insurance (Dutch or international)",
+      "MVV application form if required (for long stay)",
+      "Biometric passport photos and identity documents"
+    ]
+  },
+  "Work": {
+    "visa_code": "Residence Permit with Work (GVVA / Highly Skilled Migrant)",
+    "documents": [
+      "Valid passport",
+      "Signed employment contract or job offer",
+      "Employer recognised sponsor application or GVVA application",
+      "Proof of qualifications/certificates",
+      "Proof of income and salary meeting Netherlands thresholds",
+      "Health insurance proof",
+      "Criminal record check and police clearance certificates"
+    ]
+  },
+  "Permanent_Residence": {
+    "visa_code": "Permanent Residence (Permanent EU residence)",
+    "documents": [
+      "Valid passport",
+      "Proof of continuous residence (typically 5 years residence permits)",
+      "Proof of stable and sufficient income",
+      "Proof of civic integration or Dutch language requirements",
+      "Municipal registration documents (BRP)",
+      "Health insurance coverage",
+      "Police clearance / good conduct declaration"
+    ]
+  },
+  "Family": {
+    "visa_code": "Family Reunification / Partner Residence Permit",
+    "documents": [
+      "Valid passport for family member",
+      "Proof of relationship (marriage, registered partnership, birth certificates)",
+      "Sponsor’s valid Dutch residence permit or nationality proof",
+      "Sponsor income proof and housing details",
+      "Civic integration exam certificate (if required)",
+      "Health insurance documentation",
+      "Tuberculosis (TB) test referral or test results (where applicable)"
+    ]
+    
+  }
+},
+  "Ireland": {
+  "official_portal": "https://www.irishimmigration.ie",
+    "Tourist": {
+    "visa_code": "Short Stay C",
+    "documents": [
+      "Valid passport",
+      "Completed visa application form",
+      "Recent passport-size photographs",
+      "Travel itinerary / return ticket",
+      "Proof of accommodation",
+      "Proof of sufficient funds",
+      "Letter explaining purpose of visit",
+      "Travel medical insurance",
+      "Visa fee payment receipt"
+    ]
+  },
+  "Student": {
+    "visa_code": "Long Stay D - Study",
+    "documents": [
+      "Valid passport",
+      "Letter of acceptance from Irish institution",
+      "Proof of tuition fee payment",
+      "Proof of financial means",
+      "Academic transcripts and certificates",
+      "English language test (IELTS/TOEFL)",
+      "Statement of purpose",
+      "Private medical insurance"
+    ]
+  },
+  "Work": {
+    "visa_code": "Employment Permit / Critical Skills",
+    "documents": [
+      "Valid passport",
+      "Employment permit issued by DETE",
+      "Job offer / contract",
+      "Proof of qualifications",
+      "Resume / CV",
+      "Police clearance certificate",
+      "Private medical insurance"
+    ]
+  },
+  "Permanent_Residence": {
+    "visa_code": "Long Term Residency",
+    "documents": [
+      "Valid passport",
+      "5 years continuous residence proof",
+      "Stable income proof",
+      "Tax compliance documents",
+      "Good character declaration",
+      "Medical insurance"
+    ]
+  },
+  "Family": {
+    "visa_code": "Join Family Visa",
+    "documents": [
+      "Valid passport",
+      "Proof of relationship",
+      "Sponsor residence permit / citizenship proof",
+      "Sponsor income proof",
+      "Accommodation proof",
+      "Police clearance certificate",
+      "Private medical insurance"
+    ]
+  }
+}
+  }}
+
+
