@@ -3,52 +3,47 @@
 
 ---
 
-# 🎯 Project Goal
+# Project Goal
 
 The goal of Milestone 1 is to prepare visa policy data and build a smart search system using AI.
-
 This milestone creates the base system for the Visa Eligibility Screening Agent.
 
 ---
 
-# 🧭 What We Did (Step-by-Step)
+#  What Was Done (Step-by-Step)
 
 Below is the complete process in simple steps.
 
----
+## Step 1 – Collect Visa Data
 
-# Step 1 – Collect Visa Data
+Visa information was collected for different countries.
 
-We collected visa information for different countries.
-
-The file used:
+File used:
 
 data/all_countries.json
 
 This file contains:
-
 - Country name
 - Visa type
 - Policy summary
 - Required documents
 - Official source
 
-This is our main visa policy database.
+This is the main visa policy database.
 
 ---
 
-# Step 2 – Convert Data into Chunks
+## Step 2 – Convert Data into Chunks
 
 Large files are hard to search.
 
-So we converted each visa policy into a small text block called a “chunk”.
+Each visa policy was converted into a small text block called a “chunk”.
 
 New file created:
 
 data/visa_policy_chunks.json
 
 Each chunk contains:
-
 - Chunk ID
 - Country
 - Visa Type
@@ -58,50 +53,50 @@ This makes the data ready for AI processing.
 
 ---
 
-# Step 3 – Create AI Embeddings
+## Step 3 – Create AI Embeddings
 
-We used a free AI model:
+Model used:
 
 SentenceTransformer (all-MiniLM-L6-v2)
 
-What it does:
+Purpose:
 
-- Converts text into numbers (vectors)
-- These numbers help the system understand meaning
+- Converts text into numerical vectors
+- Helps the system understand meaning
 
-We created embeddings for every chunk.
+Embeddings were created for every chunk.
 
 New file created:
 
 data/visa_policy_embeddings.json
 
-Now each visa policy has:
+Each visa policy now contains:
 
 - Text
-- AI embedding (number format)
+- AI embedding (vector format)
 
 ---
 
-# Step 4 – Store in FAISS Database
+## Step 4 – Store in FAISS Database
 
-We used FAISS.
+FAISS was used to store embeddings.
 
-FAISS is a tool that:
+FAISS:
 
-- Stores embeddings
-- Finds similar information very fast
+- Stores embeddings efficiently
+- Performs fast similarity search
 
 New file created:
 
 data/visa_faiss.index
 
-Now our data is searchable.
+Data is now searchable using vector similarity.
 
 ---
 
-# Step 5 – Build Smart Search
+## Step 5 – Build Smart Search System
 
-We created:
+File created:
 
 search.py
 
@@ -109,22 +104,22 @@ User can type a question like:
 
 "What documents are required for UK Student Visa?"
 
-System process:
+System Process:
 
-1. Convert question into embedding
+1. Convert the question into embedding
 2. Compare with stored visa embeddings
-3. Find most similar visa policy
-4. Show result
+3. Retrieve most similar visa policy
+4. Display best matching result
 
-Output shows:
+Output includes:
 
 - Country
 - Visa Type
-- Details
+- Policy Details
 
 ---
 
-# 🔄 Complete Workflow
+#  Complete Workflow
 
 all_countries.json  
         ↓  
@@ -144,24 +139,24 @@ Best matching visa policy shown
 
 ---
 
-# 📁 Project Structure
+#  Project Structure
 
 SWIFTVISA_AI/
 
-- data/
-    - all_countries.json
-    - visa_policy_chunks.json
-    - visa_policy_embeddings.json
-    - visa_faiss.index
+data/
+- all_countries.json
+- visa_policy_chunks.json
+- visa_policy_embeddings.json
+- visa_faiss.index
 
-- embed.py
-- search.py
-- requirements.txt
-- README.md
+embed.py  
+search.py  
+requirements.txt  
+README.md  
 
 ---
 
-# 🛠 Tools Used
+#  Tools Used
 
 - Python 3
 - SentenceTransformer
@@ -170,39 +165,28 @@ SWIFTVISA_AI/
 
 ---
 
-# 🚀 How To Run
+#  How To Run
 
-Step 1:
-
-Install libraries
+Step 1 – Install Dependencies
 
 pip install -r requirements.txt
 
-Step 2:
-
-Create embeddings
+Step 2 – Create Embeddings and FAISS Index
 
 python embed.py
 
-Step 3:
-
-Start search system
+Step 3 – Start Search System
 
 python search.py
 
 ---
 
-# ✅ Milestone 1 Completed
+#  Milestone 1 Status
+Completed:
+✔ Visa data organized  
+✔ Data converted into chunks  
+✔ AI embeddings generated  
+✔ FAISS vector index created  
+✔ Smart semantic search implemented  
 
-We successfully:
-
-✔ Organized visa data  
-✔ Converted it into searchable format  
-✔ Created AI embeddings  
-✔ Stored data in FAISS  
-✔ Built smart semantic search  
-
-This completes Milestone 1.
-
----
-
+Milestone 1 successfully completed.
