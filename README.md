@@ -183,6 +183,7 @@ python search.py
 
 #  Milestone 1 Status
 Completed:
+
 ✔ Visa data organized  
 ✔ Data converted into chunks  
 ✔ AI embeddings generated  
@@ -190,3 +191,4 @@ Completed:
 ✔ Smart semantic search implemented  
 
 Milestone 1 successfully completed.
+
