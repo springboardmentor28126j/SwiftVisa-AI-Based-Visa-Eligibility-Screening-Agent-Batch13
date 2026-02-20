@@ -45,10 +45,17 @@
 #     print(r.page_content)
 
 
+from dotenv import load_dotenv
+import os
 from ragging import ask
 
-# 🔑 Put your Gemini API key here
-api_key = "AIzaSyBCA8TUAYpxc7oyrhAqfMgrFU01hOS687g"
+# Load .env from parent directory
+load_dotenv("../.env")
+
+api_key = os.getenv("GEMINI_API_KEY")
+
+if not api_key:
+    raise ValueError("GEMINI_API_KEY not found in .env file")
 
 print("🚀 RAG system started. Type 'exit' to quit.\n")
 

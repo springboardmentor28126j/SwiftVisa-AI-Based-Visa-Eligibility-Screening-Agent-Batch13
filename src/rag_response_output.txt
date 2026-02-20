@@ -1,0 +1,23 @@
+Information regarding a "Work Visa of Germany" is not explicitly detailed in the provided context. However, information for a **Schengen Long Stay (Type D) visa** which can be for **Employment** within the **Schengen Area** is available.
+
+Here are the details for a Schengen Long Stay (Type D) visa for Employment:
+
+**Home Ties (214B Test):**
+*   **Employment Status:** Student, Employed, Business Owner
+*   **Placement Offer In Hand Value:** True
+*   **Immediate Family In Home Country Value:** True
+*   **Immediate Family In Migration Country Value:** False
+*   **Property Ownership Value:** False
+
+**Application Details:**
+*   **Primary Purpose:** Study, Employment, or Family Reunification
+*   **Intended Stay Days Recommended Min:** 180
+*   **Itinerary Clarity:** High
+*   **Has Integrity Fee Budget Value:** True
+
+**Financial Thresholds:**
+Information not found in official dataset. (Specific financial thresholds for applicants, such as minimum salary or required funds, are not provided in the context.)
+
+**Official Policy Sources:**
+*   https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en
+*   https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810

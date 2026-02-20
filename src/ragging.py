@@ -44,9 +44,9 @@ def load_vectorstore():
         persist_directory="../chroma_storage",
         embedding_function=embedding_model
     )
-    collection = vectorstore._collection
-    print("🔍 Sample metadata from DB:")
-    print(collection.get(include=["metadatas"], limit=5))
+    # collection = vectorstore._collection
+    # print("🔍 Sample metadata from DB:")
+    # print(collection.get(include=["metadatas"], limit=5))
 
     print("✅ Vector store loaded.")
     return vectorstore
@@ -112,10 +112,10 @@ def ask(question, country, api_key):
 
         answer = generate_answer(question, docs, api_key)
 
-        with open("rag_response_output.txt", "w", encoding="utf-8") as f:
-            f.write(answer)
+        # with open("rag_response_output.txt", "w", encoding="utf-8") as f:
+        #     f.write(answer)
 
-        print("📁 Response saved to rag_response_output.txt")
+        # print("📁 Response saved to rag_response_output.txt")
 
         return answer
 
