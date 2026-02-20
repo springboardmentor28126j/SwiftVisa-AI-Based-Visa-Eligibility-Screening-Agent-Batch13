@@ -1,0 +1,14 @@
+For a United Kingdom Student Visa, the financial requirements are as follows:
+
+**Financial Profile:**
+
+*   **Funding Source:** Self, Sponsor, Loan
+*   **Annual Income Threshold:** Minimum 15,000 GBP. This must meet UKVI tuition plus maintenance financial requirement.
+*   **Liquid Savings Threshold:** Minimum 12,000 GBP. These funds must cover tuition and required living expenses.
+*   **Bank Statement Consistency:** True
+*   **Has Last 3 Years ITR:** False
+
+**Official Policy Sources:**
+*   https://www.gov.uk/standard-visitor
+*   https://www.gov.uk/student-visa
+*   https://www.gov.uk/skilled-worker-visa

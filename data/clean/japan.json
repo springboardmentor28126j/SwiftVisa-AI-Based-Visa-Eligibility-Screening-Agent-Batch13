@@ -1,0 +1,478 @@
+{
+  "country": "Japan",
+  "currency": "JPY",
+  "official_policy_sources": [
+    "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+    "https://www.isa.go.jp/en/applications/index.html"
+  ],
+  "visa_dataset_reference": [
+    {
+      "target_visa_type": "Temporary stay",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-65" },
+          "nationality": "Any",
+          "current_education_status": "Any"
+        },
+        "application_details": {
+          "primary_purpose": "Tourism or Short Business Visit",
+          "intended_stay_days": { "recommended_max": 90 },
+          "itinerary_clarity": ["High", "Medium"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor"],
+          "annual_income": {
+            "currency": "JPY",
+            "engine_threshold_min": 900000,
+            "policy_reference": "Applicant should demonstrate financial capacity to support short-term stay without public funds"
+          },
+          "liquid_savings": {
+            "currency": "JPY",
+            "engine_threshold_min": 500000,
+            "policy_reference": "Proof of funds required to cover accommodation and daily expenses"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Student", "Employed", "Business Owner"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "property_ownership": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 1 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Student stay",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "17-40" },
+          "nationality": "Any",
+          "current_education_status": "Student"
+        },
+        "application_details": {
+          "primary_purpose": "Full-time Academic Study",
+          "intended_stay_days": { "recommended_min": 180 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor", "Loan"],
+          "annual_income": {
+            "currency": "JPY",
+            "engine_threshold_min": 1500000,
+            "policy_reference": "Applicant must demonstrate ability to support tuition and living costs"
+          },
+          "liquid_savings": {
+            "currency": "JPY",
+            "engine_threshold_min": 1000000,
+            "policy_reference": "Funds required for long-term educational residence"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": false,
+            "signal_type": "risk_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Student"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Employment stay",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-60" },
+          "nationality": "Any",
+          "current_education_status": "Graduate or Professional"
+        },
+        "application_details": {
+          "primary_purpose": "Employment",
+          "intended_stay_days": { "recommended_min": 365 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Sponsor"],
+          "annual_income": {
+            "currency": "JPY",
+            "engine_threshold_min": 3000000,
+            "policy_reference": "Employment income should meet standard salary expectations for foreign workers"
+          },
+          "liquid_savings": {
+            "currency": "JPY",
+            "engine_threshold_min": 300000,
+            "policy_reference": "Maintenance funds required during initial employment period"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Employed"],
+          "placement_offer_in_hand": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Family stay",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "Any" },
+          "nationality": "Any",
+          "current_education_status": "Any"
+        },
+        "application_details": {
+          "primary_purpose": "Family reunification",
+          "intended_stay_days": { "recommended_min": 180 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Sponsor"],
+          "annual_income": {
+            "currency": "JPY",
+            "engine_threshold_min": 2500000,
+            "policy_reference": "Sponsor must demonstrate financial ability to support dependent family members"
+          },
+          "liquid_savings": {
+            "currency": "JPY",
+            "engine_threshold_min": 200000,
+            "policy_reference": "Maintenance funds required for initial settlement"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Any"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_home_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_migration_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Special categories",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "Any" },
+          "nationality": "Any",
+          "current_education_status": "Any"
+        },
+        "application_details": {
+          "primary_purpose": "Cultural, research, or working holiday activities",
+          "intended_stay_days": { "recommended_min": 90 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor"],
+          "annual_income": {
+            "currency": "JPY",
+            "engine_threshold_min": 1200000,
+            "policy_reference": "Applicant should demonstrate sufficient funds for special activity stay"
+          },
+          "liquid_savings": {
+            "currency": "JPY",
+            "engine_threshold_min": 600000,
+            "policy_reference": "Proof of maintenance funds required"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Any"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Permanent residence",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "Any" },
+          "nationality": "Any",
+          "current_education_status": "Any"
+        },
+        "application_details": {
+          "primary_purpose": "Long-term settlement",
+          "intended_stay_days": { "recommended_min": 3650 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor"],
+          "annual_income": {
+            "currency": "JPY",
+            "engine_threshold_min": 3500000,
+            "policy_reference": "Applicant must demonstrate long-term financial stability"
+          },
+          "liquid_savings": {
+            "currency": "JPY",
+            "engine_threshold_min": 1000000,
+            "policy_reference": "Proof of long-term financial independence required"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Any"],
+          "placement_offer_in_hand": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_migration_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "property_ownership": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "country": "Schengen Area",
+  "currency": "EUR",
+  "official_policy_sources": [
+    "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+    "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810"
+  ],
+  "schengen_member_states": [
+    "Austria",
+    "Belgium",
+    "Croatia",
+    "Czech Republic",
+    "Denmark",
+    "Estonia",
+    "Finland",
+    "France",
+    "Germany",
+    "Greece",
+    "Hungary",
+    "Iceland",
+    "Italy",
+    "Latvia",
+    "Liechtenstein",
+    "Lithuania",
+    "Luxembourg",
+    "Malta",
+    "Netherlands",
+    "Norway",
+    "Poland",
+    "Portugal",
+    "Slovakia",
+    "Slovenia",
+    "Spain",
+    "Sweden",
+    "Switzerland"
+  ],
+  "visa_dataset_reference": [
+    {
+      "target_visa_type": "Schengen Short Stay (Type C)",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-65" },
+          "nationality": "Any",
+          "current_education_status": "Any"
+        },
+        "application_details": {
+          "primary_purpose": "Tourism, Business, or Family Visit",
+          "intended_stay_days": { "recommended_max": 90 },
+          "itinerary_clarity": ["High", "Medium"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor"],
+          "annual_income": {
+            "currency": "EUR",
+            "engine_threshold_min": 7000,
+            "policy_reference": "Applicant should demonstrate stable income sufficient to cover travel and stay costs"
+          },
+          "liquid_savings": {
+            "currency": "EUR",
+            "engine_threshold_min": 4000,
+            "policy_reference": "Proof of funds required to cover accommodation and daily expenses during visit"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Student", "Employed", "Business Owner"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "property_ownership": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 1 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Schengen Long Stay (Type D)",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-60" },
+          "nationality": "Any",
+          "current_education_status": "Student or Professional"
+        },
+        "application_details": {
+          "primary_purpose": "Study, Employment, or Family Reunification",
+          "intended_stay_days": { "recommended_min": 180 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor", "Loan"],
+          "annual_income": {
+            "currency": "EUR",
+            "engine_threshold_min": 14000,
+            "policy_reference": "Applicant must show long-term financial stability for residence period"
+          },
+          "liquid_savings": {
+            "currency": "EUR",
+            "engine_threshold_min": 9000,
+            "policy_reference": "Proof of funds required to sustain living costs during long stay"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Student", "Employed", "Business Owner"],
+          "placement_offer_in_hand": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    }
+  ]
+}

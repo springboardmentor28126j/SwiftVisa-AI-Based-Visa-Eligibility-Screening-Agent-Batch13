@@ -1,0 +1,482 @@
+{
+  "country": "Australia",
+  "currency": "AUD",
+  "official_policy_sources": [
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+    "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+    "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+  ],
+  "visa_dataset_reference": [
+    {
+      "target_visa_type": "Visitor",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-70" },
+          "nationality": "Any",
+          "current_education_status": "Any"
+        },
+        "application_details": {
+          "primary_purpose": "Tourism or Business Visitor",
+          "intended_stay_days": { "recommended_max": 90 },
+          "itinerary_clarity": ["High", "Medium"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor"],
+          "annual_income": {
+            "currency": "AUD",
+            "engine_threshold_min": 9000,
+            "policy_reference": "Applicant should demonstrate ability to cover travel and accommodation costs"
+          },
+          "liquid_savings": {
+            "currency": "AUD",
+            "engine_threshold_min": 5000,
+            "policy_reference": "Proof of funds required for short-term stay"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Student", "Employed", "Business Owner"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "property_ownership": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 1 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Student",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "17-45" },
+          "nationality": "Any",
+          "current_education_status": "Student"
+        },
+        "application_details": {
+          "primary_purpose": "Full-time Academic Study",
+          "intended_stay_days": { "recommended_min": 180 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor", "Loan"],
+          "annual_income": {
+            "currency": "AUD",
+            "engine_threshold_min": 22000,
+            "policy_reference": "Applicant must demonstrate financial capacity for tuition and living costs"
+          },
+          "liquid_savings": {
+            "currency": "AUD",
+            "engine_threshold_min": 15000,
+            "policy_reference": "Maintenance funds required for educational residence"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": false,
+            "signal_type": "risk_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Student"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Work",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-55" },
+          "nationality": "Any",
+          "current_education_status": "Graduate or Professional"
+        },
+        "application_details": {
+          "primary_purpose": "Temporary Skilled Employment",
+          "intended_stay_days": { "recommended_min": 365 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Sponsor"],
+          "annual_income": {
+            "currency": "AUD",
+            "engine_threshold_min": 35000,
+            "policy_reference": "Employment income should meet skilled salary standards"
+          },
+          "liquid_savings": {
+            "currency": "AUD",
+            "engine_threshold_min": 4000,
+            "policy_reference": "Initial maintenance funds required"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Employed"],
+          "placement_offer_in_hand": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Skilled migration",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-45" },
+          "nationality": "Any",
+          "current_education_status": "Professional"
+        },
+        "application_details": {
+          "primary_purpose": "Points-based skilled migration",
+          "intended_stay_days": { "recommended_min": 730 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self"],
+          "annual_income": {
+            "currency": "AUD",
+            "engine_threshold_min": 50000,
+            "policy_reference": "Applicant should demonstrate long-term financial stability"
+          },
+          "liquid_savings": {
+            "currency": "AUD",
+            "engine_threshold_min": 15000,
+            "policy_reference": "Settlement funds required for migration"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Professional"],
+          "placement_offer_in_hand": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_migration_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "property_ownership": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Family migration",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "Any" },
+          "nationality": "Any",
+          "current_education_status": "Any"
+        },
+        "application_details": {
+          "primary_purpose": "Family reunification",
+          "intended_stay_days": { "recommended_min": 365 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Sponsor"],
+          "annual_income": {
+            "currency": "AUD",
+            "engine_threshold_min": 30000,
+            "policy_reference": "Sponsor must demonstrate financial ability to support dependents"
+          },
+          "liquid_savings": {
+            "currency": "AUD",
+            "engine_threshold_min": 8000,
+            "policy_reference": "Settlement support funds required"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Any"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_home_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_migration_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Permanent residence",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "Any" },
+          "nationality": "Any",
+          "current_education_status": "Any"
+        },
+        "application_details": {
+          "primary_purpose": "Permanent settlement",
+          "intended_stay_days": { "recommended_min": 1825 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self"],
+          "annual_income": {
+            "currency": "AUD",
+            "engine_threshold_min": 60000,
+            "policy_reference": "Applicant must demonstrate strong long-term financial stability"
+          },
+          "liquid_savings": {
+            "currency": "AUD",
+            "engine_threshold_min": 20000,
+            "policy_reference": "Settlement and independence funds required"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Any"],
+          "placement_offer_in_hand": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_migration_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "property_ownership": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    }
+  ]
+}

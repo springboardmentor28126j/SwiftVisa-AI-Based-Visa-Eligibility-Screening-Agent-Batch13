@@ -1,0 +1,13 @@
+langchain
+langchain-openai
+langchain-community
+langchain-chroma
+langchain-text-splitters
+fastapi
+uvicorn
+python-dotenv
+tiktoken
+chromadb
+google-generativeai
+anthropic
+python

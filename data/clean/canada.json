@@ -1,0 +1,245 @@
+{
+  "country": "Canada",
+  "currency": "CAD",
+  "official_policy_sources": [
+    "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+    "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+    "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+  ],
+  "visa_dataset_reference": [
+    {
+      "target_visa_type": "Visitor Visa",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-65" },
+          "nationality": "Any",
+          "current_education_status": "Any"
+        },
+        "application_details": {
+          "primary_purpose": "Tourism or Family Visit",
+          "intended_stay_days": { "recommended_max": 180 },
+          "itinerary_clarity": ["High", "Medium"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor"],
+          "annual_income": {
+            "currency": "CAD",
+            "engine_threshold_min": 8000,
+            "policy_reference": "Applicant should demonstrate financial ability to support travel and accommodation costs"
+          },
+          "liquid_savings": {
+            "currency": "CAD",
+            "engine_threshold_min": 4500,
+            "policy_reference": "Proof of funds required for short-term stay expenses"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Student", "Employed", "Business Owner"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "property_ownership": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 1 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Study Permit",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "17-40" },
+          "nationality": "Any",
+          "current_education_status": "Student"
+        },
+        "application_details": {
+          "primary_purpose": "Full-time Academic Study",
+          "intended_stay_days": { "recommended_min": 180 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor", "Loan"],
+          "annual_income": {
+            "currency": "CAD",
+            "engine_threshold_min": 18000,
+            "policy_reference": "Applicant must demonstrate ability to support tuition and living costs"
+          },
+          "liquid_savings": {
+            "currency": "CAD",
+            "engine_threshold_min": 12000,
+            "policy_reference": "Proof of maintenance funds required for educational residence"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": false,
+            "signal_type": "risk_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Student"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Work Permit",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-60" },
+          "nationality": "Any",
+          "current_education_status": "Graduate or Professional"
+        },
+        "application_details": {
+          "primary_purpose": "Temporary Skilled Employment",
+          "intended_stay_days": { "recommended_min": 365 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Sponsor"],
+          "annual_income": {
+            "currency": "CAD",
+            "engine_threshold_min": 25000,
+            "policy_reference": "Employment income should meet standard salary expectations"
+          },
+          "liquid_savings": {
+            "currency": "CAD",
+            "engine_threshold_min": 3000,
+            "policy_reference": "Initial maintenance funds required during employment transition"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Employed"],
+          "placement_offer_in_hand": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    }
+  ]
+}

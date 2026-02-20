@@ -1,0 +1,3574 @@
+
+================================================================================
+CHUNK 1
+================================================================================
+
+Country: Australia
+Visa Type: Visitor
+Section: User Metadata
+
+Age Preferred Range: 21-70
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 2
+================================================================================
+
+Country: Australia
+Visa Type: Visitor
+Section: Application Details
+
+Primary Purpose: Tourism or Business Visitor
+Intended Stay Days Recommended Max: 90
+Itinerary Clarity: High, Medium
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 3
+================================================================================
+
+Country: Australia
+Visa Type: Visitor
+Section: Financial Profile
+
+Funding Source: Self, Sponsor
+Annual Income Currency: AUD
+Annual Income Engine Threshold Min: 9000
+Annual Income Policy Reference: Applicant should demonstrate ability to cover travel and accommodation costs
+Liquid Savings Currency: AUD
+Liquid Savings Engine Threshold Min: 5000
+Liquid Savings Policy Reference: Proof of funds required for short-term stay
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 4
+================================================================================
+
+Country: Australia
+Visa Type: Visitor
+Section: Home Ties 214B Test
+
+Employment Status: Student, Employed, Business Owner
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 5
+================================================================================
+
+Country: Australia
+Visa Type: Visitor
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 1
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 6
+================================================================================
+
+Country: Australia
+Visa Type: Student
+Section: User Metadata
+
+Age Preferred Range: 17-45
+Nationality: Any
+Current Education Status: Student
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 7
+================================================================================
+
+Country: Australia
+Visa Type: Student
+Section: Application Details
+
+Primary Purpose: Full-time Academic Study
+Intended Stay Days Recommended Min: 180
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 8
+================================================================================
+
+Country: Australia
+Visa Type: Student
+Section: Financial Profile
+
+Funding Source: Self, Sponsor, Loan
+Annual Income Currency: AUD
+Annual Income Engine Threshold Min: 22000
+Annual Income Policy Reference: Applicant must demonstrate financial capacity for tuition and living costs
+Liquid Savings Currency: AUD
+Liquid Savings Engine Threshold Min: 15000
+Liquid Savings Policy Reference: Maintenance funds required for educational residence
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: False
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 9
+================================================================================
+
+Country: Australia
+Visa Type: Student
+Section: Home Ties 214B Test
+
+Employment Status: Student
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 10
+================================================================================
+
+Country: Australia
+Visa Type: Student
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 11
+================================================================================
+
+Country: Australia
+Visa Type: Work
+Section: User Metadata
+
+Age Preferred Range: 21-55
+Nationality: Any
+Current Education Status: Graduate or Professional
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 12
+================================================================================
+
+Country: Australia
+Visa Type: Work
+Section: Application Details
+
+Primary Purpose: Temporary Skilled Employment
+Intended Stay Days Recommended Min: 365
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 13
+================================================================================
+
+Country: Australia
+Visa Type: Work
+Section: Financial Profile
+
+Funding Source: Sponsor
+Annual Income Currency: AUD
+Annual Income Engine Threshold Min: 35000
+Annual Income Policy Reference: Employment income should meet skilled salary standards
+Liquid Savings Currency: AUD
+Liquid Savings Engine Threshold Min: 4000
+Liquid Savings Policy Reference: Initial maintenance funds required
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 14
+================================================================================
+
+Country: Australia
+Visa Type: Work
+Section: Home Ties 214B Test
+
+Employment Status: Employed
+Placement Offer In Hand Value: True
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 15
+================================================================================
+
+Country: Australia
+Visa Type: Work
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 16
+================================================================================
+
+Country: Australia
+Visa Type: Skilled migration
+Section: User Metadata
+
+Age Preferred Range: 21-45
+Nationality: Any
+Current Education Status: Professional
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 17
+================================================================================
+
+Country: Australia
+Visa Type: Skilled migration
+Section: Application Details
+
+Primary Purpose: Points-based skilled migration
+Intended Stay Days Recommended Min: 730
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 18
+================================================================================
+
+Country: Australia
+Visa Type: Skilled migration
+Section: Financial Profile
+
+Funding Source: Self
+Annual Income Currency: AUD
+Annual Income Engine Threshold Min: 50000
+Annual Income Policy Reference: Applicant should demonstrate long-term financial stability
+Liquid Savings Currency: AUD
+Liquid Savings Engine Threshold Min: 15000
+Liquid Savings Policy Reference: Settlement funds required for migration
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 19
+================================================================================
+
+Country: Australia
+Visa Type: Skilled migration
+Section: Home Ties 214B Test
+
+Employment Status: Professional
+Placement Offer In Hand Value: True
+Immediate Family In Home Country Value: False
+Immediate Family In Migration Country Value: True
+Property Ownership Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 20
+================================================================================
+
+Country: Australia
+Visa Type: Skilled migration
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 21
+================================================================================
+
+Country: Australia
+Visa Type: Family migration
+Section: User Metadata
+
+Age Preferred Range: Any
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 22
+================================================================================
+
+Country: Australia
+Visa Type: Family migration
+Section: Application Details
+
+Primary Purpose: Family reunification
+Intended Stay Days Recommended Min: 365
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 23
+================================================================================
+
+Country: Australia
+Visa Type: Family migration
+Section: Financial Profile
+
+Funding Source: Sponsor
+Annual Income Currency: AUD
+Annual Income Engine Threshold Min: 30000
+Annual Income Policy Reference: Sponsor must demonstrate financial ability to support dependents
+Liquid Savings Currency: AUD
+Liquid Savings Engine Threshold Min: 8000
+Liquid Savings Policy Reference: Settlement support funds required
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 24
+================================================================================
+
+Country: Australia
+Visa Type: Family migration
+Section: Home Ties 214B Test
+
+Employment Status: Any
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: False
+Immediate Family In Migration Country Value: True
+Property Ownership Value: False
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 25
+================================================================================
+
+Country: Australia
+Visa Type: Family migration
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 26
+================================================================================
+
+Country: Australia
+Visa Type: Permanent residence
+Section: User Metadata
+
+Age Preferred Range: Any
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 27
+================================================================================
+
+Country: Australia
+Visa Type: Permanent residence
+Section: Application Details
+
+Primary Purpose: Permanent settlement
+Intended Stay Days Recommended Min: 1825
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 28
+================================================================================
+
+Country: Australia
+Visa Type: Permanent residence
+Section: Financial Profile
+
+Funding Source: Self
+Annual Income Currency: AUD
+Annual Income Engine Threshold Min: 60000
+Annual Income Policy Reference: Applicant must demonstrate strong long-term financial stability
+Liquid Savings Currency: AUD
+Liquid Savings Engine Threshold Min: 20000
+Liquid Savings Policy Reference: Settlement and independence funds required
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 29
+================================================================================
+
+Country: Australia
+Visa Type: Permanent residence
+Section: Home Ties 214B Test
+
+Employment Status: Any
+Placement Offer In Hand Value: True
+Immediate Family In Home Country Value: False
+Immediate Family In Migration Country Value: True
+Property Ownership Value: True
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 30
+================================================================================
+
+Country: Australia
+Visa Type: Permanent residence
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482
+https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore
+https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident
+
+
+================================================================================
+CHUNK 31
+================================================================================
+
+Country: Canada
+Visa Type: Visitor Visa
+Section: User Metadata
+
+Age Preferred Range: 21-65
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 32
+================================================================================
+
+Country: Canada
+Visa Type: Visitor Visa
+Section: Application Details
+
+Primary Purpose: Tourism or Family Visit
+Intended Stay Days Recommended Max: 180
+Itinerary Clarity: High, Medium
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 33
+================================================================================
+
+Country: Canada
+Visa Type: Visitor Visa
+Section: Financial Profile
+
+Funding Source: Self, Sponsor
+Annual Income Currency: CAD
+Annual Income Engine Threshold Min: 8000
+Annual Income Policy Reference: Applicant should demonstrate financial ability to support travel and accommodation costs
+Liquid Savings Currency: CAD
+Liquid Savings Engine Threshold Min: 4500
+Liquid Savings Policy Reference: Proof of funds required for short-term stay expenses
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 34
+================================================================================
+
+Country: Canada
+Visa Type: Visitor Visa
+Section: Home Ties 214B Test
+
+Employment Status: Student, Employed, Business Owner
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: True
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 35
+================================================================================
+
+Country: Canada
+Visa Type: Visitor Visa
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 1
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 36
+================================================================================
+
+Country: Canada
+Visa Type: Study Permit
+Section: User Metadata
+
+Age Preferred Range: 17-40
+Nationality: Any
+Current Education Status: Student
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 37
+================================================================================
+
+Country: Canada
+Visa Type: Study Permit
+Section: Application Details
+
+Primary Purpose: Full-time Academic Study
+Intended Stay Days Recommended Min: 180
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 38
+================================================================================
+
+Country: Canada
+Visa Type: Study Permit
+Section: Financial Profile
+
+Funding Source: Self, Sponsor, Loan
+Annual Income Currency: CAD
+Annual Income Engine Threshold Min: 18000
+Annual Income Policy Reference: Applicant must demonstrate ability to support tuition and living costs
+Liquid Savings Currency: CAD
+Liquid Savings Engine Threshold Min: 12000
+Liquid Savings Policy Reference: Proof of maintenance funds required for educational residence
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: False
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 39
+================================================================================
+
+Country: Canada
+Visa Type: Study Permit
+Section: Home Ties 214B Test
+
+Employment Status: Student
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 40
+================================================================================
+
+Country: Canada
+Visa Type: Study Permit
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 41
+================================================================================
+
+Country: Canada
+Visa Type: Work Permit
+Section: User Metadata
+
+Age Preferred Range: 21-60
+Nationality: Any
+Current Education Status: Graduate or Professional
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 42
+================================================================================
+
+Country: Canada
+Visa Type: Work Permit
+Section: Application Details
+
+Primary Purpose: Temporary Skilled Employment
+Intended Stay Days Recommended Min: 365
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 43
+================================================================================
+
+Country: Canada
+Visa Type: Work Permit
+Section: Financial Profile
+
+Funding Source: Sponsor
+Annual Income Currency: CAD
+Annual Income Engine Threshold Min: 25000
+Annual Income Policy Reference: Employment income should meet standard salary expectations
+Liquid Savings Currency: CAD
+Liquid Savings Engine Threshold Min: 3000
+Liquid Savings Policy Reference: Initial maintenance funds required during employment transition
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 44
+================================================================================
+
+Country: Canada
+Visa Type: Work Permit
+Section: Home Ties 214B Test
+
+Employment Status: Employed
+Placement Offer In Hand Value: True
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 45
+================================================================================
+
+Country: Canada
+Visa Type: Work Permit
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html
+https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html
+
+
+================================================================================
+CHUNK 46
+================================================================================
+
+Country: China
+Visa Type: Tourist Visa (L)
+Section: User Metadata
+
+Age Preferred Range: 21-65
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 47
+================================================================================
+
+Country: China
+Visa Type: Tourist Visa (L)
+Section: Application Details
+
+Primary Purpose: Tourism
+Intended Stay Days Recommended Max: 60
+Itinerary Clarity: High, Medium
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 48
+================================================================================
+
+Country: China
+Visa Type: Tourist Visa (L)
+Section: Financial Profile
+
+Funding Source: Self, Sponsor
+Annual Income Currency: CNY
+Annual Income Engine Threshold Min: 36000
+Annual Income Policy Reference: Applicant should demonstrate financial capacity to cover travel and accommodation costs
+Liquid Savings Currency: CNY
+Liquid Savings Engine Threshold Min: 20000
+Liquid Savings Policy Reference: Proof of funds required for short-term stay expenses
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 49
+================================================================================
+
+Country: China
+Visa Type: Tourist Visa (L)
+Section: Home Ties 214B Test
+
+Employment Status: Student, Employed, Business Owner
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: True
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 50
+================================================================================
+
+Country: China
+Visa Type: Tourist Visa (L)
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 1
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 51
+================================================================================
+
+Country: China
+Visa Type: Student Visa (X1/X2)
+Section: User Metadata
+
+Age Preferred Range: 17-40
+Nationality: Any
+Current Education Status: Student
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 52
+================================================================================
+
+Country: China
+Visa Type: Student Visa (X1/X2)
+Section: Application Details
+
+Primary Purpose: Full-time Academic Study
+Intended Stay Days Recommended Min: 180
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 53
+================================================================================
+
+Country: China
+Visa Type: Student Visa (X1/X2)
+Section: Financial Profile
+
+Funding Source: Self, Sponsor, Loan
+Annual Income Currency: CNY
+Annual Income Engine Threshold Min: 72000
+Annual Income Policy Reference: Applicant must demonstrate financial ability to support tuition and living costs
+Liquid Savings Currency: CNY
+Liquid Savings Engine Threshold Min: 50000
+Liquid Savings Policy Reference: Proof of maintenance funds required for educational residence
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: False
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 54
+================================================================================
+
+Country: China
+Visa Type: Student Visa (X1/X2)
+Section: Home Ties 214B Test
+
+Employment Status: Student
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 55
+================================================================================
+
+Country: China
+Visa Type: Student Visa (X1/X2)
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 56
+================================================================================
+
+Country: China
+Visa Type: Work Visa (Z)
+Section: User Metadata
+
+Age Preferred Range: 21-60
+Nationality: Any
+Current Education Status: Graduate or Professional
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 57
+================================================================================
+
+Country: China
+Visa Type: Work Visa (Z)
+Section: Application Details
+
+Primary Purpose: Long-term Employment
+Intended Stay Days Recommended Min: 365
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 58
+================================================================================
+
+Country: China
+Visa Type: Work Visa (Z)
+Section: Financial Profile
+
+Funding Source: Sponsor
+Annual Income Currency: CNY
+Annual Income Engine Threshold Min: 108000
+Annual Income Policy Reference: Employment income should meet standard salary expectations for foreign workers
+Liquid Savings Currency: CNY
+Liquid Savings Engine Threshold Min: 10000
+Liquid Savings Policy Reference: Initial maintenance funds required during employment transition
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 59
+================================================================================
+
+Country: China
+Visa Type: Work Visa (Z)
+Section: Home Ties 214B Test
+
+Employment Status: Employed
+Placement Offer In Hand Value: True
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 60
+================================================================================
+
+Country: China
+Visa Type: Work Visa (Z)
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/
+https://bio.visaforchina.cn/
+
+
+================================================================================
+CHUNK 61
+================================================================================
+
+Country: India
+Visa Type: Tourism
+Section: User Metadata
+
+Age Preferred Range: 21-70
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 62
+================================================================================
+
+Country: India
+Visa Type: Tourism
+Section: Application Details
+
+Primary Purpose: Tourism
+Intended Stay Days Recommended Max: 180
+Itinerary Clarity: High, Medium
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 63
+================================================================================
+
+Country: India
+Visa Type: Tourism
+Section: Financial Profile
+
+Funding Source: Self, Sponsor
+Annual Income Currency: INR
+Annual Income Engine Threshold Min: 350000
+Annual Income Policy Reference: Applicant should demonstrate ability to fund travel and accommodation
+Liquid Savings Currency: INR
+Liquid Savings Engine Threshold Min: 150000
+Liquid Savings Policy Reference: Proof of funds required for stay expenses
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: False
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 64
+================================================================================
+
+Country: India
+Visa Type: Tourism
+Section: Home Ties 214B Test
+
+Employment Status: Student, Employed, Business Owner
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 65
+================================================================================
+
+Country: India
+Visa Type: Tourism
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 66
+================================================================================
+
+Country: India
+Visa Type: Business
+Section: User Metadata
+
+Age Preferred Range: 21-65
+Nationality: Any
+Current Education Status: Professional
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 67
+================================================================================
+
+Country: India
+Visa Type: Business
+Section: Application Details
+
+Primary Purpose: Business meetings and trade activity
+Intended Stay Days Recommended Max: 180
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 68
+================================================================================
+
+Country: India
+Visa Type: Business
+Section: Financial Profile
+
+Funding Source: Self, Sponsor
+Annual Income Currency: INR
+Annual Income Engine Threshold Min: 600000
+Annual Income Policy Reference: Applicant should show financial stability for business travel
+Liquid Savings Currency: INR
+Liquid Savings Engine Threshold Min: 200000
+Liquid Savings Policy Reference: Funds required for business stay expenses
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 69
+================================================================================
+
+Country: India
+Visa Type: Business
+Section: Home Ties 214B Test
+
+Employment Status: Employed, Business Owner
+Placement Offer In Hand Value: True
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: True
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 70
+================================================================================
+
+Country: India
+Visa Type: Business
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 1
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 71
+================================================================================
+
+Country: India
+Visa Type: Employment
+Section: User Metadata
+
+Age Preferred Range: 21-60
+Nationality: Any
+Current Education Status: Graduate or Professional
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 72
+================================================================================
+
+Country: India
+Visa Type: Employment
+Section: Application Details
+
+Primary Purpose: Employment
+Intended Stay Days Recommended Min: 365
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 73
+================================================================================
+
+Country: India
+Visa Type: Employment
+Section: Financial Profile
+
+Funding Source: Sponsor
+Annual Income Currency: INR
+Annual Income Engine Threshold Min: 800000
+Annual Income Policy Reference: Employment salary should meet minimum professional standards
+Liquid Savings Currency: INR
+Liquid Savings Engine Threshold Min: 100000
+Liquid Savings Policy Reference: Initial maintenance funds required
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 74
+================================================================================
+
+Country: India
+Visa Type: Employment
+Section: Home Ties 214B Test
+
+Employment Status: Employed
+Placement Offer In Hand Value: True
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 75
+================================================================================
+
+Country: India
+Visa Type: Employment
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 76
+================================================================================
+
+Country: India
+Visa Type: Study
+Section: User Metadata
+
+Age Preferred Range: 17-40
+Nationality: Any
+Current Education Status: Student
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 77
+================================================================================
+
+Country: India
+Visa Type: Study
+Section: Application Details
+
+Primary Purpose: Academic Study
+Intended Stay Days Recommended Min: 180
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 78
+================================================================================
+
+Country: India
+Visa Type: Study
+Section: Financial Profile
+
+Funding Source: Self, Sponsor, Loan
+Annual Income Currency: INR
+Annual Income Engine Threshold Min: 500000
+Annual Income Policy Reference: Applicant must support tuition and living costs
+Liquid Savings Currency: INR
+Liquid Savings Engine Threshold Min: 300000
+Liquid Savings Policy Reference: Proof of maintenance funds required
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: False
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 79
+================================================================================
+
+Country: India
+Visa Type: Study
+Section: Home Ties 214B Test
+
+Employment Status: Student
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 80
+================================================================================
+
+Country: India
+Visa Type: Study
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 81
+================================================================================
+
+Country: India
+Visa Type: Family/Entry
+Section: User Metadata
+
+Age Preferred Range: Any
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 82
+================================================================================
+
+Country: India
+Visa Type: Family/Entry
+Section: Application Details
+
+Primary Purpose: Family reunification or dependent entry
+Intended Stay Days Recommended Min: 180
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 83
+================================================================================
+
+Country: India
+Visa Type: Family/Entry
+Section: Financial Profile
+
+Funding Source: Sponsor
+Annual Income Currency: INR
+Annual Income Engine Threshold Min: 400000
+Annual Income Policy Reference: Sponsor must demonstrate ability to support dependent
+Liquid Savings Currency: INR
+Liquid Savings Engine Threshold Min: 100000
+Liquid Savings Policy Reference: Maintenance funds required for initial settlement
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 84
+================================================================================
+
+Country: India
+Visa Type: Family/Entry
+Section: Home Ties 214B Test
+
+Employment Status: Any
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: False
+Immediate Family In Migration Country Value: True
+Property Ownership Value: False
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 85
+================================================================================
+
+Country: India
+Visa Type: Family/Entry
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://indianvisaonline.gov.in/
+https://www.mha.gov.in/en/divisionofmha/foreigners-division
+
+
+================================================================================
+CHUNK 86
+================================================================================
+
+Country: Japan
+Visa Type: Temporary stay
+Section: User Metadata
+
+Age Preferred Range: 21-65
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 87
+================================================================================
+
+Country: Japan
+Visa Type: Temporary stay
+Section: Application Details
+
+Primary Purpose: Tourism or Short Business Visit
+Intended Stay Days Recommended Max: 90
+Itinerary Clarity: High, Medium
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 88
+================================================================================
+
+Country: Japan
+Visa Type: Temporary stay
+Section: Financial Profile
+
+Funding Source: Self, Sponsor
+Annual Income Currency: JPY
+Annual Income Engine Threshold Min: 900000
+Annual Income Policy Reference: Applicant should demonstrate financial capacity to support short-term stay without public funds
+Liquid Savings Currency: JPY
+Liquid Savings Engine Threshold Min: 500000
+Liquid Savings Policy Reference: Proof of funds required to cover accommodation and daily expenses
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 89
+================================================================================
+
+Country: Japan
+Visa Type: Temporary stay
+Section: Home Ties 214B Test
+
+Employment Status: Student, Employed, Business Owner
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: True
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 90
+================================================================================
+
+Country: Japan
+Visa Type: Temporary stay
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 1
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 91
+================================================================================
+
+Country: Japan
+Visa Type: Student stay
+Section: User Metadata
+
+Age Preferred Range: 17-40
+Nationality: Any
+Current Education Status: Student
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 92
+================================================================================
+
+Country: Japan
+Visa Type: Student stay
+Section: Application Details
+
+Primary Purpose: Full-time Academic Study
+Intended Stay Days Recommended Min: 180
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 93
+================================================================================
+
+Country: Japan
+Visa Type: Student stay
+Section: Financial Profile
+
+Funding Source: Self, Sponsor, Loan
+Annual Income Currency: JPY
+Annual Income Engine Threshold Min: 1500000
+Annual Income Policy Reference: Applicant must demonstrate ability to support tuition and living costs
+Liquid Savings Currency: JPY
+Liquid Savings Engine Threshold Min: 1000000
+Liquid Savings Policy Reference: Funds required for long-term educational residence
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: False
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 94
+================================================================================
+
+Country: Japan
+Visa Type: Student stay
+Section: Home Ties 214B Test
+
+Employment Status: Student
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 95
+================================================================================
+
+Country: Japan
+Visa Type: Student stay
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 96
+================================================================================
+
+Country: Japan
+Visa Type: Employment stay
+Section: User Metadata
+
+Age Preferred Range: 21-60
+Nationality: Any
+Current Education Status: Graduate or Professional
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 97
+================================================================================
+
+Country: Japan
+Visa Type: Employment stay
+Section: Application Details
+
+Primary Purpose: Employment
+Intended Stay Days Recommended Min: 365
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 98
+================================================================================
+
+Country: Japan
+Visa Type: Employment stay
+Section: Financial Profile
+
+Funding Source: Sponsor
+Annual Income Currency: JPY
+Annual Income Engine Threshold Min: 3000000
+Annual Income Policy Reference: Employment income should meet standard salary expectations for foreign workers
+Liquid Savings Currency: JPY
+Liquid Savings Engine Threshold Min: 300000
+Liquid Savings Policy Reference: Maintenance funds required during initial employment period
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 99
+================================================================================
+
+Country: Japan
+Visa Type: Employment stay
+Section: Home Ties 214B Test
+
+Employment Status: Employed
+Placement Offer In Hand Value: True
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 100
+================================================================================
+
+Country: Japan
+Visa Type: Employment stay
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 101
+================================================================================
+
+Country: Japan
+Visa Type: Family stay
+Section: User Metadata
+
+Age Preferred Range: Any
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 102
+================================================================================
+
+Country: Japan
+Visa Type: Family stay
+Section: Application Details
+
+Primary Purpose: Family reunification
+Intended Stay Days Recommended Min: 180
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 103
+================================================================================
+
+Country: Japan
+Visa Type: Family stay
+Section: Financial Profile
+
+Funding Source: Sponsor
+Annual Income Currency: JPY
+Annual Income Engine Threshold Min: 2500000
+Annual Income Policy Reference: Sponsor must demonstrate financial ability to support dependent family members
+Liquid Savings Currency: JPY
+Liquid Savings Engine Threshold Min: 200000
+Liquid Savings Policy Reference: Maintenance funds required for initial settlement
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 104
+================================================================================
+
+Country: Japan
+Visa Type: Family stay
+Section: Home Ties 214B Test
+
+Employment Status: Any
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: False
+Immediate Family In Migration Country Value: True
+Property Ownership Value: False
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 105
+================================================================================
+
+Country: Japan
+Visa Type: Family stay
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 106
+================================================================================
+
+Country: Japan
+Visa Type: Special categories
+Section: User Metadata
+
+Age Preferred Range: Any
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 107
+================================================================================
+
+Country: Japan
+Visa Type: Special categories
+Section: Application Details
+
+Primary Purpose: Cultural, research, or working holiday activities
+Intended Stay Days Recommended Min: 90
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 108
+================================================================================
+
+Country: Japan
+Visa Type: Special categories
+Section: Financial Profile
+
+Funding Source: Self, Sponsor
+Annual Income Currency: JPY
+Annual Income Engine Threshold Min: 1200000
+Annual Income Policy Reference: Applicant should demonstrate sufficient funds for special activity stay
+Liquid Savings Currency: JPY
+Liquid Savings Engine Threshold Min: 600000
+Liquid Savings Policy Reference: Proof of maintenance funds required
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: False
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 109
+================================================================================
+
+Country: Japan
+Visa Type: Special categories
+Section: Home Ties 214B Test
+
+Employment Status: Any
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 110
+================================================================================
+
+Country: Japan
+Visa Type: Special categories
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 111
+================================================================================
+
+Country: Japan
+Visa Type: Permanent residence
+Section: User Metadata
+
+Age Preferred Range: Any
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 112
+================================================================================
+
+Country: Japan
+Visa Type: Permanent residence
+Section: Application Details
+
+Primary Purpose: Long-term settlement
+Intended Stay Days Recommended Min: 3650
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 113
+================================================================================
+
+Country: Japan
+Visa Type: Permanent residence
+Section: Financial Profile
+
+Funding Source: Self, Sponsor
+Annual Income Currency: JPY
+Annual Income Engine Threshold Min: 3500000
+Annual Income Policy Reference: Applicant must demonstrate long-term financial stability
+Liquid Savings Currency: JPY
+Liquid Savings Engine Threshold Min: 1000000
+Liquid Savings Policy Reference: Proof of long-term financial independence required
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 114
+================================================================================
+
+Country: Japan
+Visa Type: Permanent residence
+Section: Home Ties 214B Test
+
+Employment Status: Any
+Placement Offer In Hand Value: True
+Immediate Family In Home Country Value: False
+Immediate Family In Migration Country Value: True
+Property Ownership Value: True
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 115
+================================================================================
+
+Country: Japan
+Visa Type: Permanent residence
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://www.mofa.go.jp/j_info/visit/visa/index.html
+https://www.isa.go.jp/en/applications/index.html
+
+
+================================================================================
+CHUNK 116
+================================================================================
+
+Country: Russia
+Visa Type: Tourist Visa
+Section: User Metadata
+
+Age Preferred Range: 21-70
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 117
+================================================================================
+
+Country: Russia
+Visa Type: Tourist Visa
+Section: Application Details
+
+Primary Purpose: Tourism
+Intended Stay Days Recommended Max: 30
+Itinerary Clarity: High, Medium
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 118
+================================================================================
+
+Country: Russia
+Visa Type: Tourist Visa
+Section: Financial Profile
+
+Funding Source: Self, Sponsor
+Annual Income Currency: RUB
+Annual Income Engine Threshold Min: 450000
+Annual Income Policy Reference: Applicant should demonstrate stable income to support travel expenses
+Liquid Savings Currency: RUB
+Liquid Savings Engine Threshold Min: 200000
+Liquid Savings Policy Reference: Proof of available funds required for accommodation and daily expenses
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: False
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 119
+================================================================================
+
+Country: Russia
+Visa Type: Tourist Visa
+Section: Home Ties 214B Test
+
+Employment Status: Student, Employed, Business Owner
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: True
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 120
+================================================================================
+
+Country: Russia
+Visa Type: Tourist Visa
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 1
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 121
+================================================================================
+
+Country: Russia
+Visa Type: Student Visa
+Section: User Metadata
+
+Age Preferred Range: 17-45
+Nationality: Any
+Current Education Status: Student
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 122
+================================================================================
+
+Country: Russia
+Visa Type: Student Visa
+Section: Application Details
+
+Primary Purpose: Academic Study
+Intended Stay Days Recommended Min: 180
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 123
+================================================================================
+
+Country: Russia
+Visa Type: Student Visa
+Section: Financial Profile
+
+Funding Source: Self, Sponsor, Loan
+Annual Income Currency: RUB
+Annual Income Engine Threshold Min: 700000
+Annual Income Policy Reference: Applicant must show financial capacity to support tuition and living costs
+Liquid Savings Currency: RUB
+Liquid Savings Engine Threshold Min: 350000
+Liquid Savings Policy Reference: Proof of funds required for long-term residence expenses
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: False
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 124
+================================================================================
+
+Country: Russia
+Visa Type: Student Visa
+Section: Home Ties 214B Test
+
+Employment Status: Student
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 125
+================================================================================
+
+Country: Russia
+Visa Type: Student Visa
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 126
+================================================================================
+
+Country: Russia
+Visa Type: Work Visa
+Section: User Metadata
+
+Age Preferred Range: 21-60
+Nationality: Any
+Current Education Status: Graduate or Professional
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 127
+================================================================================
+
+Country: Russia
+Visa Type: Work Visa
+Section: Application Details
+
+Primary Purpose: Employment
+Intended Stay Days Recommended Min: 365
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 128
+================================================================================
+
+Country: Russia
+Visa Type: Work Visa
+Section: Financial Profile
+
+Funding Source: Sponsor
+Annual Income Currency: RUB
+Annual Income Engine Threshold Min: 1200000
+Annual Income Policy Reference: Income should meet employment salary standards for foreign workers
+Liquid Savings Currency: RUB
+Liquid Savings Engine Threshold Min: 150000
+Liquid Savings Policy Reference: Maintenance funds required during initial employment period
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 129
+================================================================================
+
+Country: Russia
+Visa Type: Work Visa
+Section: Home Ties 214B Test
+
+Employment Status: Employed
+Placement Offer In Hand Value: True
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 130
+================================================================================
+
+Country: Russia
+Visa Type: Work Visa
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://electronic-visa.kdmid.ru/index_en.html
+https://www.mid.ru/en/foreign_policy/consular_service/visa/
+
+
+================================================================================
+CHUNK 131
+================================================================================
+
+Country: Schengen Area
+Visa Type: Schengen Short Stay (Type C)
+Section: User Metadata
+
+Age Preferred Range: 21-65
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810
+
+
+================================================================================
+CHUNK 132
+================================================================================
+
+Country: Schengen Area
+Visa Type: Schengen Short Stay (Type C)
+Section: Application Details
+
+Primary Purpose: Tourism, Business, or Family Visit
+Intended Stay Days Recommended Max: 90
+Itinerary Clarity: High, Medium
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810
+
+
+================================================================================
+CHUNK 133
+================================================================================
+
+Country: Schengen Area
+Visa Type: Schengen Short Stay (Type C)
+Section: Financial Profile
+
+Funding Source: Self, Sponsor
+Annual Income Currency: EUR
+Annual Income Engine Threshold Min: 7000
+Annual Income Policy Reference: Applicant should demonstrate stable income sufficient to cover travel and stay costs
+Liquid Savings Currency: EUR
+Liquid Savings Engine Threshold Min: 4000
+Liquid Savings Policy Reference: Proof of funds required to cover accommodation and daily expenses during visit
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810
+
+
+================================================================================
+CHUNK 134
+================================================================================
+
+Country: Schengen Area
+Visa Type: Schengen Short Stay (Type C)
+Section: Home Ties 214B Test
+
+Employment Status: Student, Employed, Business Owner
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: True
+
+Official Policy Sources:
+https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810
+
+
+================================================================================
+CHUNK 135
+================================================================================
+
+Country: Schengen Area
+Visa Type: Schengen Short Stay (Type C)
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 1
+
+Official Policy Sources:
+https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810
+
+
+================================================================================
+CHUNK 136
+================================================================================
+
+Country: Schengen Area
+Visa Type: Schengen Long Stay (Type D)
+Section: User Metadata
+
+Age Preferred Range: 21-60
+Nationality: Any
+Current Education Status: Student or Professional
+
+Official Policy Sources:
+https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810
+
+
+================================================================================
+CHUNK 137
+================================================================================
+
+Country: Schengen Area
+Visa Type: Schengen Long Stay (Type D)
+Section: Application Details
+
+Primary Purpose: Study, Employment, or Family Reunification
+Intended Stay Days Recommended Min: 180
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810
+
+
+================================================================================
+CHUNK 138
+================================================================================
+
+Country: Schengen Area
+Visa Type: Schengen Long Stay (Type D)
+Section: Financial Profile
+
+Funding Source: Self, Sponsor, Loan
+Annual Income Currency: EUR
+Annual Income Engine Threshold Min: 14000
+Annual Income Policy Reference: Applicant must show long-term financial stability for residence period
+Liquid Savings Currency: EUR
+Liquid Savings Engine Threshold Min: 9000
+Liquid Savings Policy Reference: Proof of funds required to sustain living costs during long stay
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810
+
+
+================================================================================
+CHUNK 139
+================================================================================
+
+Country: Schengen Area
+Visa Type: Schengen Long Stay (Type D)
+Section: Home Ties 214B Test
+
+Employment Status: Student, Employed, Business Owner
+Placement Offer In Hand Value: True
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810
+
+
+================================================================================
+CHUNK 140
+================================================================================
+
+Country: Schengen Area
+Visa Type: Schengen Long Stay (Type D)
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en
+https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810
+
+
+================================================================================
+CHUNK 141
+================================================================================
+
+Country: United Kingdom
+Visa Type: Standard Visitor
+Section: User Metadata
+
+Age Preferred Range: 21-65
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 142
+================================================================================
+
+Country: United Kingdom
+Visa Type: Standard Visitor
+Section: Application Details
+
+Primary Purpose: Tourism, Family Visit, or Business Visit
+Intended Stay Days Recommended Max: 180
+Itinerary Clarity: High, Medium
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 143
+================================================================================
+
+Country: United Kingdom
+Visa Type: Standard Visitor
+Section: Financial Profile
+
+Funding Source: Self, Sponsor
+Annual Income Currency: GBP
+Annual Income Engine Threshold Min: 6000
+Annual Income Policy Reference: Must show sufficient funds to cover entire trip without public funds
+Liquid Savings Currency: GBP
+Liquid Savings Engine Threshold Min: 3000
+Liquid Savings Policy Reference: Must demonstrate ability to pay accommodation, travel, and living costs
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 144
+================================================================================
+
+Country: United Kingdom
+Visa Type: Standard Visitor
+Section: Home Ties 214B Test
+
+Employment Status: Student, Employed, Business Owner
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: True
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 145
+================================================================================
+
+Country: United Kingdom
+Visa Type: Standard Visitor
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 1
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 146
+================================================================================
+
+Country: United Kingdom
+Visa Type: Student Visa
+Section: User Metadata
+
+Age Preferred Range: 17-40
+Nationality: Any
+Current Education Status: Student
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 147
+================================================================================
+
+Country: United Kingdom
+Visa Type: Student Visa
+Section: Application Details
+
+Primary Purpose: Full-time Academic Study
+Intended Stay Days Recommended Min: 180
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 148
+================================================================================
+
+Country: United Kingdom
+Visa Type: Student Visa
+Section: Financial Profile
+
+Funding Source: Self, Sponsor, Loan
+Annual Income Currency: GBP
+Annual Income Engine Threshold Min: 15000
+Annual Income Policy Reference: Must meet UKVI tuition plus maintenance financial requirement
+Liquid Savings Currency: GBP
+Liquid Savings Engine Threshold Min: 12000
+Liquid Savings Policy Reference: Funds must cover tuition and required living expenses
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: False
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 149
+================================================================================
+
+Country: United Kingdom
+Visa Type: Student Visa
+Section: Home Ties 214B Test
+
+Employment Status: Student
+Placement Offer In Hand Value: False
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 150
+================================================================================
+
+Country: United Kingdom
+Visa Type: Student Visa
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 151
+================================================================================
+
+Country: United Kingdom
+Visa Type: Skilled Worker Visa
+Section: User Metadata
+
+Age Preferred Range: 21-60
+Nationality: Any
+Current Education Status: Graduate or Professional
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 152
+================================================================================
+
+Country: United Kingdom
+Visa Type: Skilled Worker Visa
+Section: Application Details
+
+Primary Purpose: Long-term Skilled Employment
+Intended Stay Days Recommended Min: 365
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 153
+================================================================================
+
+Country: United Kingdom
+Visa Type: Skilled Worker Visa
+Section: Financial Profile
+
+Funding Source: Sponsor
+Annual Income Currency: GBP
+Annual Income Engine Threshold Min: 26200
+Annual Income Policy Reference: Must meet Skilled Worker salary threshold set by UK Home Office
+Liquid Savings Currency: GBP
+Liquid Savings Engine Threshold Min: 1500
+Liquid Savings Policy Reference: Maintenance funds required unless certified by sponsor
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 154
+================================================================================
+
+Country: United Kingdom
+Visa Type: Skilled Worker Visa
+Section: Home Ties 214B Test
+
+Employment Status: Employed
+Placement Offer In Hand Value: True
+Immediate Family In Home Country Value: True
+Immediate Family In Migration Country Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 155
+================================================================================
+
+Country: United Kingdom
+Visa Type: Skilled Worker Visa
+Section: Security And History
+
+Prior Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://www.gov.uk/standard-visitor
+https://www.gov.uk/student-visa
+https://www.gov.uk/skilled-worker-visa
+
+
+================================================================================
+CHUNK 156
+================================================================================
+
+Country: United States of America
+Visa Type: B1/B2
+Section: User Metadata
+
+Age Preferred Range: 21-60
+Nationality: Any
+Current Education Status: Any
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 157
+================================================================================
+
+Country: United States of America
+Visa Type: B1/B2
+Section: Application Details
+
+Primary Purpose: Tourism or Business Visit
+Intended Stay Days Recommended Max: 90
+Itinerary Clarity: High, Medium
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 158
+================================================================================
+
+Country: United States of America
+Visa Type: B1/B2
+Section: Financial Profile
+
+Funding Source: Self, Sponsor
+Annual Income Usd Minimum: 8000
+Liquid Savings Usd Minimum: 5000
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 159
+================================================================================
+
+Country: United States of America
+Visa Type: B1/B2
+Section: Home Ties 214B Test
+
+Employment Status: Student, Employed, Business Owner
+Placement Offer In Hand Value: False
+Immediate Family In India Value: True
+Immediate Family In Usa Value: False
+Property Ownership Value: True
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 160
+================================================================================
+
+Country: United States of America
+Visa Type: B1/B2
+Section: Security And History
+
+Prior Us Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 1
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 161
+================================================================================
+
+Country: United States of America
+Visa Type: F-1
+Section: User Metadata
+
+Age Preferred Range: 17-35
+Nationality: Any
+Current Education Status: Student
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 162
+================================================================================
+
+Country: United States of America
+Visa Type: F-1
+Section: Application Details
+
+Primary Purpose: Full-time Academic Study
+Intended Stay Days Recommended Min: 180
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 163
+================================================================================
+
+Country: United States of America
+Visa Type: F-1
+Section: Financial Profile
+
+Funding Source: Self, Sponsor, Loan
+Annual Income Usd Minimum: 15000
+Liquid Savings Usd Minimum: 12000
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: False
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 164
+================================================================================
+
+Country: United States of America
+Visa Type: F-1
+Section: Home Ties 214B Test
+
+Employment Status: Student
+Placement Offer In Hand Value: False
+Immediate Family In India Value: True
+Immediate Family In Usa Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 165
+================================================================================
+
+Country: United States of America
+Visa Type: F-1
+Section: Security And History
+
+Prior Us Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 166
+================================================================================
+
+Country: United States of America
+Visa Type: H-1B
+Section: User Metadata
+
+Age Preferred Range: 21-55
+Nationality: Any
+Current Education Status: Graduate or Professional
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 167
+================================================================================
+
+Country: United States of America
+Visa Type: H-1B
+Section: Application Details
+
+Primary Purpose: Specialty Occupation Employment
+Intended Stay Days Recommended Min: 365
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 168
+================================================================================
+
+Country: United States of America
+Visa Type: H-1B
+Section: Financial Profile
+
+Funding Source: Sponsor
+Annual Income Usd Minimum: 20000
+Liquid Savings Usd Minimum: 3000
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 169
+================================================================================
+
+Country: United States of America
+Visa Type: H-1B
+Section: Home Ties 214B Test
+
+Employment Status: Employed
+Placement Offer In Hand Value: True
+Immediate Family In India Value: True
+Immediate Family In Usa Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 170
+================================================================================
+
+Country: United States of America
+Visa Type: H-1B
+Section: Security And History
+
+Prior Us Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 171
+================================================================================
+
+Country: United States of America
+Visa Type: L-1
+Section: User Metadata
+
+Age Preferred Range: 25-55
+Nationality: Any
+Current Education Status: Professional
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 172
+================================================================================
+
+Country: United States of America
+Visa Type: L-1
+Section: Application Details
+
+Primary Purpose: Intra-company Transfer
+Intended Stay Days Recommended Min: 365
+Itinerary Clarity: High
+Has Integrity Fee Budget Value: True
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 173
+================================================================================
+
+Country: United States of America
+Visa Type: L-1
+Section: Financial Profile
+
+Funding Source: Sponsor
+Annual Income Usd Minimum: 25000
+Liquid Savings Usd Minimum: 5000
+Bank Statement Consistency Value: True
+Has Last 3 Years Itr Value: True
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 174
+================================================================================
+
+Country: United States of America
+Visa Type: L-1
+Section: Home Ties 214B Test
+
+Employment Status: Employed, Business Owner
+Placement Offer In Hand Value: True
+Immediate Family In India Value: True
+Immediate Family In Usa Value: False
+Property Ownership Value: False
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+
+
+================================================================================
+CHUNK 175
+================================================================================
+
+Country: United States of America
+Visa Type: L-1
+Section: Security And History
+
+Prior Us Visa Rejections Value: False
+Overstay History Value: False
+Social Media Scan Risk Value: False
+Criminal Record Value: False
+Travel History Count 5Yrs Recommended Min: 0
+
+Official Policy Sources:
+https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html
+https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html
+https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html
+https://www.uscis.gov/working-in-the-united-states
+https://www.uscis.gov/family
+https://www.uscis.gov/green-card
+

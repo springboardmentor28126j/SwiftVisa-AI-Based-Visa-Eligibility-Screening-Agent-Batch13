@@ -1,0 +1,307 @@
+{
+  "country": "United States of America",
+  "currency":"USD",
+  "official_policy_sources": [
+  "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+  "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+  "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+  "https://www.uscis.gov/working-in-the-united-states",
+  "https://www.uscis.gov/family",
+  "https://www.uscis.gov/green-card"
+]
+,
+  "visa_dataset_reference": [
+   
+   
+    {
+      "target_visa_type": "B1/B2",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-60" },
+          "nationality": "Any",
+          "current_education_status": "Any"
+        },
+        "application_details": {
+          "primary_purpose": "Tourism or Business Visit",
+          "intended_stay_days": { "recommended_max": 90 },
+          "itinerary_clarity": ["High", "Medium"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor"],
+          "annual_income_usd": { "minimum": 8000 },
+          "liquid_savings_usd": { "minimum": 5000 },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Student", "Employed", "Business Owner"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "immediate_family_in_india": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_usa": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "property_ownership": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "security_and_history": {
+          "prior_us_visa_rejections": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 1 }
+        }
+      }
+    },
+   
+   
+   
+   
+    {
+      "target_visa_type": "F-1",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "17-35" },
+          "nationality": "Any",
+          "current_education_status": "Student"
+        },
+        "application_details": {
+          "primary_purpose": "Full-time Academic Study",
+          "intended_stay_days": { "recommended_min": 180 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor", "Loan"],
+          "annual_income_usd": { "minimum": 15000 },
+          "liquid_savings_usd": { "minimum": 12000 },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": false,
+            "signal_type": "risk_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Student"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_india": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_usa": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_us_visa_rejections": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+   
+   
+   
+    {
+      "target_visa_type": "H-1B",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-55" },
+          "nationality": "Any",
+          "current_education_status": "Graduate or Professional"
+        },
+        "application_details": {
+          "primary_purpose": "Specialty Occupation Employment",
+          "intended_stay_days": { "recommended_min": 365 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Sponsor"],
+          "annual_income_usd": { "minimum": 20000 },
+          "liquid_savings_usd": { "minimum": 3000 },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Employed"],
+          "placement_offer_in_hand": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_india": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_usa": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_us_visa_rejections": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+   
+   
+   
+    {
+      "target_visa_type": "L-1",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "25-55" },
+          "nationality": "Any",
+          "current_education_status": "Professional"
+        },
+        "application_details": {
+          "primary_purpose": "Intra-company Transfer",
+          "intended_stay_days": { "recommended_min": 365 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Sponsor"],
+          "annual_income_usd": { "minimum": 25000 },
+          "liquid_savings_usd": { "minimum": 5000 },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Employed", "Business Owner"],
+          "placement_offer_in_hand": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_india": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_usa": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_us_visa_rejections": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "risk_signal"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    }
+  ]
+}

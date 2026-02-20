@@ -1,0 +1,400 @@
+{
+  "country": "India",
+  "currency": "INR",
+  "official_policy_sources": [
+    "https://indianvisaonline.gov.in/",
+    "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+  ],
+  "visa_dataset_reference": [
+    {
+      "target_visa_type": "Tourism",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-70" },
+          "nationality": "Any",
+          "current_education_status": "Any"
+        },
+        "application_details": {
+          "primary_purpose": "Tourism",
+          "intended_stay_days": { "recommended_max": 180 },
+          "itinerary_clarity": ["High", "Medium"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor"],
+          "annual_income": {
+            "currency": "INR",
+            "engine_threshold_min": 350000,
+            "policy_reference": "Applicant should demonstrate ability to fund travel and accommodation"
+          },
+          "liquid_savings": {
+            "currency": "INR",
+            "engine_threshold_min": 150000,
+            "policy_reference": "Proof of funds required for stay expenses"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Student", "Employed", "Business Owner"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Business",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-65" },
+          "nationality": "Any",
+          "current_education_status": "Professional"
+        },
+        "application_details": {
+          "primary_purpose": "Business meetings and trade activity",
+          "intended_stay_days": { "recommended_max": 180 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor"],
+          "annual_income": {
+            "currency": "INR",
+            "engine_threshold_min": 600000,
+            "policy_reference": "Applicant should show financial stability for business travel"
+          },
+          "liquid_savings": {
+            "currency": "INR",
+            "engine_threshold_min": 200000,
+            "policy_reference": "Funds required for business stay expenses"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Employed", "Business Owner"],
+          "placement_offer_in_hand": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "property_ownership": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 1 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Employment",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "21-60" },
+          "nationality": "Any",
+          "current_education_status": "Graduate or Professional"
+        },
+        "application_details": {
+          "primary_purpose": "Employment",
+          "intended_stay_days": { "recommended_min": 365 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Sponsor"],
+          "annual_income": {
+            "currency": "INR",
+            "engine_threshold_min": 800000,
+            "policy_reference": "Employment salary should meet minimum professional standards"
+          },
+          "liquid_savings": {
+            "currency": "INR",
+            "engine_threshold_min": 100000,
+            "policy_reference": "Initial maintenance funds required"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Employed"],
+          "placement_offer_in_hand": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Study",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "17-40" },
+          "nationality": "Any",
+          "current_education_status": "Student"
+        },
+        "application_details": {
+          "primary_purpose": "Academic Study",
+          "intended_stay_days": { "recommended_min": 180 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Self", "Sponsor", "Loan"],
+          "annual_income": {
+            "currency": "INR",
+            "engine_threshold_min": 500000,
+            "policy_reference": "Applicant must support tuition and living costs"
+          },
+          "liquid_savings": {
+            "currency": "INR",
+            "engine_threshold_min": 300000,
+            "policy_reference": "Proof of maintenance funds required"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Student"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_home_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "immediate_family_in_migration_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    },
+    {
+      "target_visa_type": "Family/Entry",
+      "visa_screening_tool": {
+        "user_metadata": {
+          "age": { "preferred_range": "Any" },
+          "nationality": "Any",
+          "current_education_status": "Any"
+        },
+        "application_details": {
+          "primary_purpose": "Family reunification or dependent entry",
+          "intended_stay_days": { "recommended_min": 180 },
+          "itinerary_clarity": ["High"],
+          "has_integrity_fee_budget": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "financial_profile": {
+          "funding_source": ["Sponsor"],
+          "annual_income": {
+            "currency": "INR",
+            "engine_threshold_min": 400000,
+            "policy_reference": "Sponsor must demonstrate ability to support dependent"
+          },
+          "liquid_savings": {
+            "currency": "INR",
+            "engine_threshold_min": 100000,
+            "policy_reference": "Maintenance funds required for initial settlement"
+          },
+          "bank_statement_consistency": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "has_last_3_years_itr": {
+            "value": true,
+            "signal_type": "positive_signal"
+          }
+        },
+        "home_ties_214b_test": {
+          "employment_status": ["Any"],
+          "placement_offer_in_hand": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_home_country": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "immediate_family_in_migration_country": {
+            "value": true,
+            "signal_type": "positive_signal"
+          },
+          "property_ownership": {
+            "value": false,
+            "signal_type": "neutral"
+          }
+        },
+        "security_and_history": {
+          "prior_visa_rejections": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "overstay_history": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "social_media_scan_risk": {
+            "value": false,
+            "signal_type": "neutral"
+          },
+          "criminal_record": {
+            "value": false,
+            "signal_type": "hard_disqualifier"
+          },
+          "travel_history_count_5yrs": { "recommended_min": 0 }
+        }
+      }
+    }
+  ]
+}

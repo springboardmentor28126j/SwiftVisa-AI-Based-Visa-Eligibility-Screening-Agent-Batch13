@@ -1,0 +1,2332 @@
+[
+  {
+    "text": "Country: Australia\nVisa Type: Visitor\nSection: User Metadata\n\nAge Preferred Range: 21-70\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Visitor",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Visitor\nSection: Application Details\n\nPrimary Purpose: Tourism or Business Visitor\nIntended Stay Days Recommended Max: 90\nItinerary Clarity: High, Medium\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Visitor",
+      "section": "application_details",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Visitor\nSection: Financial Profile\n\nFunding Source: Self, Sponsor\nAnnual Income Currency: AUD\nAnnual Income Engine Threshold Min: 9000\nAnnual Income Policy Reference: Applicant should demonstrate ability to cover travel and accommodation costs\nLiquid Savings Currency: AUD\nLiquid Savings Engine Threshold Min: 5000\nLiquid Savings Policy Reference: Proof of funds required for short-term stay\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Visitor",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Visitor\nSection: Home Ties 214B Test\n\nEmployment Status: Student, Employed, Business Owner\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Visitor",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Visitor\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 1\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Visitor",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Student\nSection: User Metadata\n\nAge Preferred Range: 17-45\nNationality: Any\nCurrent Education Status: Student\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Student",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Student\nSection: Application Details\n\nPrimary Purpose: Full-time Academic Study\nIntended Stay Days Recommended Min: 180\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Student",
+      "section": "application_details",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Student\nSection: Financial Profile\n\nFunding Source: Self, Sponsor, Loan\nAnnual Income Currency: AUD\nAnnual Income Engine Threshold Min: 22000\nAnnual Income Policy Reference: Applicant must demonstrate financial capacity for tuition and living costs\nLiquid Savings Currency: AUD\nLiquid Savings Engine Threshold Min: 15000\nLiquid Savings Policy Reference: Maintenance funds required for educational residence\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: False\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Student",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Student\nSection: Home Ties 214B Test\n\nEmployment Status: Student\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Student",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Student\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Student",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Work\nSection: User Metadata\n\nAge Preferred Range: 21-55\nNationality: Any\nCurrent Education Status: Graduate or Professional\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Work",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Work\nSection: Application Details\n\nPrimary Purpose: Temporary Skilled Employment\nIntended Stay Days Recommended Min: 365\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Work",
+      "section": "application_details",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Work\nSection: Financial Profile\n\nFunding Source: Sponsor\nAnnual Income Currency: AUD\nAnnual Income Engine Threshold Min: 35000\nAnnual Income Policy Reference: Employment income should meet skilled salary standards\nLiquid Savings Currency: AUD\nLiquid Savings Engine Threshold Min: 4000\nLiquid Savings Policy Reference: Initial maintenance funds required\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Work",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Work\nSection: Home Ties 214B Test\n\nEmployment Status: Employed\nPlacement Offer In Hand Value: True\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Work",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Work\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Work",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Skilled migration\nSection: User Metadata\n\nAge Preferred Range: 21-45\nNationality: Any\nCurrent Education Status: Professional\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Skilled migration",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Skilled migration\nSection: Application Details\n\nPrimary Purpose: Points-based skilled migration\nIntended Stay Days Recommended Min: 730\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Skilled migration",
+      "section": "application_details",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Skilled migration\nSection: Financial Profile\n\nFunding Source: Self\nAnnual Income Currency: AUD\nAnnual Income Engine Threshold Min: 50000\nAnnual Income Policy Reference: Applicant should demonstrate long-term financial stability\nLiquid Savings Currency: AUD\nLiquid Savings Engine Threshold Min: 15000\nLiquid Savings Policy Reference: Settlement funds required for migration\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Skilled migration",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Skilled migration\nSection: Home Ties 214B Test\n\nEmployment Status: Professional\nPlacement Offer In Hand Value: True\nImmediate Family In Home Country Value: False\nImmediate Family In Migration Country Value: True\nProperty Ownership Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Skilled migration",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Skilled migration\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Skilled migration",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Family migration\nSection: User Metadata\n\nAge Preferred Range: Any\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Family migration",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Family migration\nSection: Application Details\n\nPrimary Purpose: Family reunification\nIntended Stay Days Recommended Min: 365\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Family migration",
+      "section": "application_details",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Family migration\nSection: Financial Profile\n\nFunding Source: Sponsor\nAnnual Income Currency: AUD\nAnnual Income Engine Threshold Min: 30000\nAnnual Income Policy Reference: Sponsor must demonstrate financial ability to support dependents\nLiquid Savings Currency: AUD\nLiquid Savings Engine Threshold Min: 8000\nLiquid Savings Policy Reference: Settlement support funds required\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Family migration",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Family migration\nSection: Home Ties 214B Test\n\nEmployment Status: Any\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: False\nImmediate Family In Migration Country Value: True\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Family migration",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Family migration\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Family migration",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Permanent residence\nSection: User Metadata\n\nAge Preferred Range: Any\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Permanent residence",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Permanent residence\nSection: Application Details\n\nPrimary Purpose: Permanent settlement\nIntended Stay Days Recommended Min: 1825\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Permanent residence",
+      "section": "application_details",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Permanent residence\nSection: Financial Profile\n\nFunding Source: Self\nAnnual Income Currency: AUD\nAnnual Income Engine Threshold Min: 60000\nAnnual Income Policy Reference: Applicant must demonstrate strong long-term financial stability\nLiquid Savings Currency: AUD\nLiquid Savings Engine Threshold Min: 20000\nLiquid Savings Policy Reference: Settlement and independence funds required\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Permanent residence",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Permanent residence\nSection: Home Ties 214B Test\n\nEmployment Status: Any\nPlacement Offer In Hand Value: True\nImmediate Family In Home Country Value: False\nImmediate Family In Migration Country Value: True\nProperty Ownership Value: True\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Permanent residence",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Australia\nVisa Type: Permanent residence\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482\nhttps://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore\nhttps://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident",
+    "metadata": {
+      "country": "Australia",
+      "visa_type": "Permanent residence",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482",
+        "https://immi.homeaffairs.gov.au/visas/working-in-australia/skillselect",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/partner-onshore",
+        "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/permanent-resident"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Visitor Visa\nSection: User Metadata\n\nAge Preferred Range: 21-65\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Visitor Visa",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Visitor Visa\nSection: Application Details\n\nPrimary Purpose: Tourism or Family Visit\nIntended Stay Days Recommended Max: 180\nItinerary Clarity: High, Medium\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Visitor Visa",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Visitor Visa\nSection: Financial Profile\n\nFunding Source: Self, Sponsor\nAnnual Income Currency: CAD\nAnnual Income Engine Threshold Min: 8000\nAnnual Income Policy Reference: Applicant should demonstrate financial ability to support travel and accommodation costs\nLiquid Savings Currency: CAD\nLiquid Savings Engine Threshold Min: 4500\nLiquid Savings Policy Reference: Proof of funds required for short-term stay expenses\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Visitor Visa",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Visitor Visa\nSection: Home Ties 214B Test\n\nEmployment Status: Student, Employed, Business Owner\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: True\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Visitor Visa",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Visitor Visa\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 1\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Visitor Visa",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Study Permit\nSection: User Metadata\n\nAge Preferred Range: 17-40\nNationality: Any\nCurrent Education Status: Student\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Study Permit",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Study Permit\nSection: Application Details\n\nPrimary Purpose: Full-time Academic Study\nIntended Stay Days Recommended Min: 180\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Study Permit",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Study Permit\nSection: Financial Profile\n\nFunding Source: Self, Sponsor, Loan\nAnnual Income Currency: CAD\nAnnual Income Engine Threshold Min: 18000\nAnnual Income Policy Reference: Applicant must demonstrate ability to support tuition and living costs\nLiquid Savings Currency: CAD\nLiquid Savings Engine Threshold Min: 12000\nLiquid Savings Policy Reference: Proof of maintenance funds required for educational residence\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: False\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Study Permit",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Study Permit\nSection: Home Ties 214B Test\n\nEmployment Status: Student\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Study Permit",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Study Permit\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Study Permit",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Work Permit\nSection: User Metadata\n\nAge Preferred Range: 21-60\nNationality: Any\nCurrent Education Status: Graduate or Professional\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Work Permit",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Work Permit\nSection: Application Details\n\nPrimary Purpose: Temporary Skilled Employment\nIntended Stay Days Recommended Min: 365\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Work Permit",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Work Permit\nSection: Financial Profile\n\nFunding Source: Sponsor\nAnnual Income Currency: CAD\nAnnual Income Engine Threshold Min: 25000\nAnnual Income Policy Reference: Employment income should meet standard salary expectations\nLiquid Savings Currency: CAD\nLiquid Savings Engine Threshold Min: 3000\nLiquid Savings Policy Reference: Initial maintenance funds required during employment transition\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Work Permit",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Work Permit\nSection: Home Ties 214B Test\n\nEmployment Status: Employed\nPlacement Offer In Hand Value: True\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Work Permit",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Canada\nVisa Type: Work Permit\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html\nhttps://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html",
+    "metadata": {
+      "country": "Canada",
+      "visa_type": "Work Permit",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html",
+        "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Tourist Visa (L)\nSection: User Metadata\n\nAge Preferred Range: 21-65\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Tourist Visa (L)",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Tourist Visa (L)\nSection: Application Details\n\nPrimary Purpose: Tourism\nIntended Stay Days Recommended Max: 60\nItinerary Clarity: High, Medium\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Tourist Visa (L)",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Tourist Visa (L)\nSection: Financial Profile\n\nFunding Source: Self, Sponsor\nAnnual Income Currency: CNY\nAnnual Income Engine Threshold Min: 36000\nAnnual Income Policy Reference: Applicant should demonstrate financial capacity to cover travel and accommodation costs\nLiquid Savings Currency: CNY\nLiquid Savings Engine Threshold Min: 20000\nLiquid Savings Policy Reference: Proof of funds required for short-term stay expenses\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Tourist Visa (L)",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Tourist Visa (L)\nSection: Home Ties 214B Test\n\nEmployment Status: Student, Employed, Business Owner\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: True\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Tourist Visa (L)",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Tourist Visa (L)\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 1\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Tourist Visa (L)",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Student Visa (X1/X2)\nSection: User Metadata\n\nAge Preferred Range: 17-40\nNationality: Any\nCurrent Education Status: Student\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Student Visa (X1/X2)",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Student Visa (X1/X2)\nSection: Application Details\n\nPrimary Purpose: Full-time Academic Study\nIntended Stay Days Recommended Min: 180\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Student Visa (X1/X2)",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Student Visa (X1/X2)\nSection: Financial Profile\n\nFunding Source: Self, Sponsor, Loan\nAnnual Income Currency: CNY\nAnnual Income Engine Threshold Min: 72000\nAnnual Income Policy Reference: Applicant must demonstrate financial ability to support tuition and living costs\nLiquid Savings Currency: CNY\nLiquid Savings Engine Threshold Min: 50000\nLiquid Savings Policy Reference: Proof of maintenance funds required for educational residence\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: False\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Student Visa (X1/X2)",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Student Visa (X1/X2)\nSection: Home Ties 214B Test\n\nEmployment Status: Student\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Student Visa (X1/X2)",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Student Visa (X1/X2)\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Student Visa (X1/X2)",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Work Visa (Z)\nSection: User Metadata\n\nAge Preferred Range: 21-60\nNationality: Any\nCurrent Education Status: Graduate or Professional\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Work Visa (Z)",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Work Visa (Z)\nSection: Application Details\n\nPrimary Purpose: Long-term Employment\nIntended Stay Days Recommended Min: 365\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Work Visa (Z)",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Work Visa (Z)\nSection: Financial Profile\n\nFunding Source: Sponsor\nAnnual Income Currency: CNY\nAnnual Income Engine Threshold Min: 108000\nAnnual Income Policy Reference: Employment income should meet standard salary expectations for foreign workers\nLiquid Savings Currency: CNY\nLiquid Savings Engine Threshold Min: 10000\nLiquid Savings Policy Reference: Initial maintenance funds required during employment transition\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Work Visa (Z)",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Work Visa (Z)\nSection: Home Ties 214B Test\n\nEmployment Status: Employed\nPlacement Offer In Hand Value: True\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Work Visa (Z)",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: China\nVisa Type: Work Visa (Z)\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/\nhttps://bio.visaforchina.cn/",
+    "metadata": {
+      "country": "China",
+      "visa_type": "Work Visa (Z)",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.mfa.gov.cn/eng/ljzg_665465/visas_665537/",
+        "https://bio.visaforchina.cn/"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Tourism\nSection: User Metadata\n\nAge Preferred Range: 21-70\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Tourism",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Tourism\nSection: Application Details\n\nPrimary Purpose: Tourism\nIntended Stay Days Recommended Max: 180\nItinerary Clarity: High, Medium\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Tourism",
+      "section": "application_details",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Tourism\nSection: Financial Profile\n\nFunding Source: Self, Sponsor\nAnnual Income Currency: INR\nAnnual Income Engine Threshold Min: 350000\nAnnual Income Policy Reference: Applicant should demonstrate ability to fund travel and accommodation\nLiquid Savings Currency: INR\nLiquid Savings Engine Threshold Min: 150000\nLiquid Savings Policy Reference: Proof of funds required for stay expenses\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: False\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Tourism",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Tourism\nSection: Home Ties 214B Test\n\nEmployment Status: Student, Employed, Business Owner\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Tourism",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Tourism\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Tourism",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Business\nSection: User Metadata\n\nAge Preferred Range: 21-65\nNationality: Any\nCurrent Education Status: Professional\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Business",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Business\nSection: Application Details\n\nPrimary Purpose: Business meetings and trade activity\nIntended Stay Days Recommended Max: 180\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Business",
+      "section": "application_details",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Business\nSection: Financial Profile\n\nFunding Source: Self, Sponsor\nAnnual Income Currency: INR\nAnnual Income Engine Threshold Min: 600000\nAnnual Income Policy Reference: Applicant should show financial stability for business travel\nLiquid Savings Currency: INR\nLiquid Savings Engine Threshold Min: 200000\nLiquid Savings Policy Reference: Funds required for business stay expenses\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Business",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Business\nSection: Home Ties 214B Test\n\nEmployment Status: Employed, Business Owner\nPlacement Offer In Hand Value: True\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: True\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Business",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Business\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 1\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Business",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Employment\nSection: User Metadata\n\nAge Preferred Range: 21-60\nNationality: Any\nCurrent Education Status: Graduate or Professional\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Employment",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Employment\nSection: Application Details\n\nPrimary Purpose: Employment\nIntended Stay Days Recommended Min: 365\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Employment",
+      "section": "application_details",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Employment\nSection: Financial Profile\n\nFunding Source: Sponsor\nAnnual Income Currency: INR\nAnnual Income Engine Threshold Min: 800000\nAnnual Income Policy Reference: Employment salary should meet minimum professional standards\nLiquid Savings Currency: INR\nLiquid Savings Engine Threshold Min: 100000\nLiquid Savings Policy Reference: Initial maintenance funds required\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Employment",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Employment\nSection: Home Ties 214B Test\n\nEmployment Status: Employed\nPlacement Offer In Hand Value: True\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Employment",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Employment\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Employment",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Study\nSection: User Metadata\n\nAge Preferred Range: 17-40\nNationality: Any\nCurrent Education Status: Student\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Study",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Study\nSection: Application Details\n\nPrimary Purpose: Academic Study\nIntended Stay Days Recommended Min: 180\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Study",
+      "section": "application_details",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Study\nSection: Financial Profile\n\nFunding Source: Self, Sponsor, Loan\nAnnual Income Currency: INR\nAnnual Income Engine Threshold Min: 500000\nAnnual Income Policy Reference: Applicant must support tuition and living costs\nLiquid Savings Currency: INR\nLiquid Savings Engine Threshold Min: 300000\nLiquid Savings Policy Reference: Proof of maintenance funds required\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: False\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Study",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Study\nSection: Home Ties 214B Test\n\nEmployment Status: Student\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Study",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Study\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Study",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Family/Entry\nSection: User Metadata\n\nAge Preferred Range: Any\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Family/Entry",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Family/Entry\nSection: Application Details\n\nPrimary Purpose: Family reunification or dependent entry\nIntended Stay Days Recommended Min: 180\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Family/Entry",
+      "section": "application_details",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Family/Entry\nSection: Financial Profile\n\nFunding Source: Sponsor\nAnnual Income Currency: INR\nAnnual Income Engine Threshold Min: 400000\nAnnual Income Policy Reference: Sponsor must demonstrate ability to support dependent\nLiquid Savings Currency: INR\nLiquid Savings Engine Threshold Min: 100000\nLiquid Savings Policy Reference: Maintenance funds required for initial settlement\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Family/Entry",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Family/Entry\nSection: Home Ties 214B Test\n\nEmployment Status: Any\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: False\nImmediate Family In Migration Country Value: True\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Family/Entry",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: India\nVisa Type: Family/Entry\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://indianvisaonline.gov.in/\nhttps://www.mha.gov.in/en/divisionofmha/foreigners-division",
+    "metadata": {
+      "country": "India",
+      "visa_type": "Family/Entry",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://indianvisaonline.gov.in/",
+        "https://www.mha.gov.in/en/divisionofmha/foreigners-division"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Temporary stay\nSection: User Metadata\n\nAge Preferred Range: 21-65\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Temporary stay",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Temporary stay\nSection: Application Details\n\nPrimary Purpose: Tourism or Short Business Visit\nIntended Stay Days Recommended Max: 90\nItinerary Clarity: High, Medium\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Temporary stay",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Temporary stay\nSection: Financial Profile\n\nFunding Source: Self, Sponsor\nAnnual Income Currency: JPY\nAnnual Income Engine Threshold Min: 900000\nAnnual Income Policy Reference: Applicant should demonstrate financial capacity to support short-term stay without public funds\nLiquid Savings Currency: JPY\nLiquid Savings Engine Threshold Min: 500000\nLiquid Savings Policy Reference: Proof of funds required to cover accommodation and daily expenses\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Temporary stay",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Temporary stay\nSection: Home Ties 214B Test\n\nEmployment Status: Student, Employed, Business Owner\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: True\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Temporary stay",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Temporary stay\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 1\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Temporary stay",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Student stay\nSection: User Metadata\n\nAge Preferred Range: 17-40\nNationality: Any\nCurrent Education Status: Student\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Student stay",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Student stay\nSection: Application Details\n\nPrimary Purpose: Full-time Academic Study\nIntended Stay Days Recommended Min: 180\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Student stay",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Student stay\nSection: Financial Profile\n\nFunding Source: Self, Sponsor, Loan\nAnnual Income Currency: JPY\nAnnual Income Engine Threshold Min: 1500000\nAnnual Income Policy Reference: Applicant must demonstrate ability to support tuition and living costs\nLiquid Savings Currency: JPY\nLiquid Savings Engine Threshold Min: 1000000\nLiquid Savings Policy Reference: Funds required for long-term educational residence\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: False\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Student stay",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Student stay\nSection: Home Ties 214B Test\n\nEmployment Status: Student\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Student stay",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Student stay\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Student stay",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Employment stay\nSection: User Metadata\n\nAge Preferred Range: 21-60\nNationality: Any\nCurrent Education Status: Graduate or Professional\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Employment stay",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Employment stay\nSection: Application Details\n\nPrimary Purpose: Employment\nIntended Stay Days Recommended Min: 365\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Employment stay",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Employment stay\nSection: Financial Profile\n\nFunding Source: Sponsor\nAnnual Income Currency: JPY\nAnnual Income Engine Threshold Min: 3000000\nAnnual Income Policy Reference: Employment income should meet standard salary expectations for foreign workers\nLiquid Savings Currency: JPY\nLiquid Savings Engine Threshold Min: 300000\nLiquid Savings Policy Reference: Maintenance funds required during initial employment period\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Employment stay",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Employment stay\nSection: Home Ties 214B Test\n\nEmployment Status: Employed\nPlacement Offer In Hand Value: True\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Employment stay",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Employment stay\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Employment stay",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Family stay\nSection: User Metadata\n\nAge Preferred Range: Any\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Family stay",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Family stay\nSection: Application Details\n\nPrimary Purpose: Family reunification\nIntended Stay Days Recommended Min: 180\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Family stay",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Family stay\nSection: Financial Profile\n\nFunding Source: Sponsor\nAnnual Income Currency: JPY\nAnnual Income Engine Threshold Min: 2500000\nAnnual Income Policy Reference: Sponsor must demonstrate financial ability to support dependent family members\nLiquid Savings Currency: JPY\nLiquid Savings Engine Threshold Min: 200000\nLiquid Savings Policy Reference: Maintenance funds required for initial settlement\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Family stay",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Family stay\nSection: Home Ties 214B Test\n\nEmployment Status: Any\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: False\nImmediate Family In Migration Country Value: True\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Family stay",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Family stay\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Family stay",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Special categories\nSection: User Metadata\n\nAge Preferred Range: Any\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Special categories",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Special categories\nSection: Application Details\n\nPrimary Purpose: Cultural, research, or working holiday activities\nIntended Stay Days Recommended Min: 90\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Special categories",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Special categories\nSection: Financial Profile\n\nFunding Source: Self, Sponsor\nAnnual Income Currency: JPY\nAnnual Income Engine Threshold Min: 1200000\nAnnual Income Policy Reference: Applicant should demonstrate sufficient funds for special activity stay\nLiquid Savings Currency: JPY\nLiquid Savings Engine Threshold Min: 600000\nLiquid Savings Policy Reference: Proof of maintenance funds required\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: False\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Special categories",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Special categories\nSection: Home Ties 214B Test\n\nEmployment Status: Any\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Special categories",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Special categories\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Special categories",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Permanent residence\nSection: User Metadata\n\nAge Preferred Range: Any\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Permanent residence",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Permanent residence\nSection: Application Details\n\nPrimary Purpose: Long-term settlement\nIntended Stay Days Recommended Min: 3650\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Permanent residence",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Permanent residence\nSection: Financial Profile\n\nFunding Source: Self, Sponsor\nAnnual Income Currency: JPY\nAnnual Income Engine Threshold Min: 3500000\nAnnual Income Policy Reference: Applicant must demonstrate long-term financial stability\nLiquid Savings Currency: JPY\nLiquid Savings Engine Threshold Min: 1000000\nLiquid Savings Policy Reference: Proof of long-term financial independence required\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Permanent residence",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Permanent residence\nSection: Home Ties 214B Test\n\nEmployment Status: Any\nPlacement Offer In Hand Value: True\nImmediate Family In Home Country Value: False\nImmediate Family In Migration Country Value: True\nProperty Ownership Value: True\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Permanent residence",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Japan\nVisa Type: Permanent residence\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://www.mofa.go.jp/j_info/visit/visa/index.html\nhttps://www.isa.go.jp/en/applications/index.html",
+    "metadata": {
+      "country": "Japan",
+      "visa_type": "Permanent residence",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.mofa.go.jp/j_info/visit/visa/index.html",
+        "https://www.isa.go.jp/en/applications/index.html"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Tourist Visa\nSection: User Metadata\n\nAge Preferred Range: 21-70\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Tourist Visa",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Tourist Visa\nSection: Application Details\n\nPrimary Purpose: Tourism\nIntended Stay Days Recommended Max: 30\nItinerary Clarity: High, Medium\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Tourist Visa",
+      "section": "application_details",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Tourist Visa\nSection: Financial Profile\n\nFunding Source: Self, Sponsor\nAnnual Income Currency: RUB\nAnnual Income Engine Threshold Min: 450000\nAnnual Income Policy Reference: Applicant should demonstrate stable income to support travel expenses\nLiquid Savings Currency: RUB\nLiquid Savings Engine Threshold Min: 200000\nLiquid Savings Policy Reference: Proof of available funds required for accommodation and daily expenses\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: False\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Tourist Visa",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Tourist Visa\nSection: Home Ties 214B Test\n\nEmployment Status: Student, Employed, Business Owner\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: True\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Tourist Visa",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Tourist Visa\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 1\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Tourist Visa",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Student Visa\nSection: User Metadata\n\nAge Preferred Range: 17-45\nNationality: Any\nCurrent Education Status: Student\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Student Visa",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Student Visa\nSection: Application Details\n\nPrimary Purpose: Academic Study\nIntended Stay Days Recommended Min: 180\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Student Visa",
+      "section": "application_details",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Student Visa\nSection: Financial Profile\n\nFunding Source: Self, Sponsor, Loan\nAnnual Income Currency: RUB\nAnnual Income Engine Threshold Min: 700000\nAnnual Income Policy Reference: Applicant must show financial capacity to support tuition and living costs\nLiquid Savings Currency: RUB\nLiquid Savings Engine Threshold Min: 350000\nLiquid Savings Policy Reference: Proof of funds required for long-term residence expenses\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: False\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Student Visa",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Student Visa\nSection: Home Ties 214B Test\n\nEmployment Status: Student\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Student Visa",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Student Visa\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Student Visa",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Work Visa\nSection: User Metadata\n\nAge Preferred Range: 21-60\nNationality: Any\nCurrent Education Status: Graduate or Professional\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Work Visa",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Work Visa\nSection: Application Details\n\nPrimary Purpose: Employment\nIntended Stay Days Recommended Min: 365\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Work Visa",
+      "section": "application_details",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Work Visa\nSection: Financial Profile\n\nFunding Source: Sponsor\nAnnual Income Currency: RUB\nAnnual Income Engine Threshold Min: 1200000\nAnnual Income Policy Reference: Income should meet employment salary standards for foreign workers\nLiquid Savings Currency: RUB\nLiquid Savings Engine Threshold Min: 150000\nLiquid Savings Policy Reference: Maintenance funds required during initial employment period\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Work Visa",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Work Visa\nSection: Home Ties 214B Test\n\nEmployment Status: Employed\nPlacement Offer In Hand Value: True\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Work Visa",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Russia\nVisa Type: Work Visa\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://electronic-visa.kdmid.ru/index_en.html\nhttps://www.mid.ru/en/foreign_policy/consular_service/visa/",
+    "metadata": {
+      "country": "Russia",
+      "visa_type": "Work Visa",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://electronic-visa.kdmid.ru/index_en.html",
+        "https://www.mid.ru/en/foreign_policy/consular_service/visa/"
+      ]
+    }
+  },
+  {
+    "text": "Country: Schengen Area\nVisa Type: Schengen Short Stay (Type C)\nSection: User Metadata\n\nAge Preferred Range: 21-65\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en\nhttps://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810",
+    "metadata": {
+      "country": "Schengen Area",
+      "visa_type": "Schengen Short Stay (Type C)",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810"
+      ]
+    }
+  },
+  {
+    "text": "Country: Schengen Area\nVisa Type: Schengen Short Stay (Type C)\nSection: Application Details\n\nPrimary Purpose: Tourism, Business, or Family Visit\nIntended Stay Days Recommended Max: 90\nItinerary Clarity: High, Medium\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en\nhttps://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810",
+    "metadata": {
+      "country": "Schengen Area",
+      "visa_type": "Schengen Short Stay (Type C)",
+      "section": "application_details",
+      "official_sources": [
+        "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810"
+      ]
+    }
+  },
+  {
+    "text": "Country: Schengen Area\nVisa Type: Schengen Short Stay (Type C)\nSection: Financial Profile\n\nFunding Source: Self, Sponsor\nAnnual Income Currency: EUR\nAnnual Income Engine Threshold Min: 7000\nAnnual Income Policy Reference: Applicant should demonstrate stable income sufficient to cover travel and stay costs\nLiquid Savings Currency: EUR\nLiquid Savings Engine Threshold Min: 4000\nLiquid Savings Policy Reference: Proof of funds required to cover accommodation and daily expenses during visit\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en\nhttps://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810",
+    "metadata": {
+      "country": "Schengen Area",
+      "visa_type": "Schengen Short Stay (Type C)",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810"
+      ]
+    }
+  },
+  {
+    "text": "Country: Schengen Area\nVisa Type: Schengen Short Stay (Type C)\nSection: Home Ties 214B Test\n\nEmployment Status: Student, Employed, Business Owner\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: True\n\nOfficial Policy Sources:\nhttps://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en\nhttps://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810",
+    "metadata": {
+      "country": "Schengen Area",
+      "visa_type": "Schengen Short Stay (Type C)",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810"
+      ]
+    }
+  },
+  {
+    "text": "Country: Schengen Area\nVisa Type: Schengen Short Stay (Type C)\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 1\n\nOfficial Policy Sources:\nhttps://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en\nhttps://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810",
+    "metadata": {
+      "country": "Schengen Area",
+      "visa_type": "Schengen Short Stay (Type C)",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810"
+      ]
+    }
+  },
+  {
+    "text": "Country: Schengen Area\nVisa Type: Schengen Long Stay (Type D)\nSection: User Metadata\n\nAge Preferred Range: 21-60\nNationality: Any\nCurrent Education Status: Student or Professional\n\nOfficial Policy Sources:\nhttps://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en\nhttps://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810",
+    "metadata": {
+      "country": "Schengen Area",
+      "visa_type": "Schengen Long Stay (Type D)",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810"
+      ]
+    }
+  },
+  {
+    "text": "Country: Schengen Area\nVisa Type: Schengen Long Stay (Type D)\nSection: Application Details\n\nPrimary Purpose: Study, Employment, or Family Reunification\nIntended Stay Days Recommended Min: 180\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en\nhttps://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810",
+    "metadata": {
+      "country": "Schengen Area",
+      "visa_type": "Schengen Long Stay (Type D)",
+      "section": "application_details",
+      "official_sources": [
+        "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810"
+      ]
+    }
+  },
+  {
+    "text": "Country: Schengen Area\nVisa Type: Schengen Long Stay (Type D)\nSection: Financial Profile\n\nFunding Source: Self, Sponsor, Loan\nAnnual Income Currency: EUR\nAnnual Income Engine Threshold Min: 14000\nAnnual Income Policy Reference: Applicant must show long-term financial stability for residence period\nLiquid Savings Currency: EUR\nLiquid Savings Engine Threshold Min: 9000\nLiquid Savings Policy Reference: Proof of funds required to sustain living costs during long stay\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en\nhttps://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810",
+    "metadata": {
+      "country": "Schengen Area",
+      "visa_type": "Schengen Long Stay (Type D)",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810"
+      ]
+    }
+  },
+  {
+    "text": "Country: Schengen Area\nVisa Type: Schengen Long Stay (Type D)\nSection: Home Ties 214B Test\n\nEmployment Status: Student, Employed, Business Owner\nPlacement Offer In Hand Value: True\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en\nhttps://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810",
+    "metadata": {
+      "country": "Schengen Area",
+      "visa_type": "Schengen Long Stay (Type D)",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810"
+      ]
+    }
+  },
+  {
+    "text": "Country: Schengen Area\nVisa Type: Schengen Long Stay (Type D)\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en\nhttps://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810",
+    "metadata": {
+      "country": "Schengen Area",
+      "visa_type": "Schengen Long Stay (Type D)",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://home-affairs.ec.europa.eu/policies/schengen-borders-and-visa/visa-policy_en",
+        "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32009R0810"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Standard Visitor\nSection: User Metadata\n\nAge Preferred Range: 21-65\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Standard Visitor",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Standard Visitor\nSection: Application Details\n\nPrimary Purpose: Tourism, Family Visit, or Business Visit\nIntended Stay Days Recommended Max: 180\nItinerary Clarity: High, Medium\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Standard Visitor",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Standard Visitor\nSection: Financial Profile\n\nFunding Source: Self, Sponsor\nAnnual Income Currency: GBP\nAnnual Income Engine Threshold Min: 6000\nAnnual Income Policy Reference: Must show sufficient funds to cover entire trip without public funds\nLiquid Savings Currency: GBP\nLiquid Savings Engine Threshold Min: 3000\nLiquid Savings Policy Reference: Must demonstrate ability to pay accommodation, travel, and living costs\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Standard Visitor",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Standard Visitor\nSection: Home Ties 214B Test\n\nEmployment Status: Student, Employed, Business Owner\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: True\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Standard Visitor",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Standard Visitor\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 1\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Standard Visitor",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Student Visa\nSection: User Metadata\n\nAge Preferred Range: 17-40\nNationality: Any\nCurrent Education Status: Student\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Student Visa",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Student Visa\nSection: Application Details\n\nPrimary Purpose: Full-time Academic Study\nIntended Stay Days Recommended Min: 180\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Student Visa",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Student Visa\nSection: Financial Profile\n\nFunding Source: Self, Sponsor, Loan\nAnnual Income Currency: GBP\nAnnual Income Engine Threshold Min: 15000\nAnnual Income Policy Reference: Must meet UKVI tuition plus maintenance financial requirement\nLiquid Savings Currency: GBP\nLiquid Savings Engine Threshold Min: 12000\nLiquid Savings Policy Reference: Funds must cover tuition and required living expenses\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: False\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Student Visa",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Student Visa\nSection: Home Ties 214B Test\n\nEmployment Status: Student\nPlacement Offer In Hand Value: False\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Student Visa",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Student Visa\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Student Visa",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Skilled Worker Visa\nSection: User Metadata\n\nAge Preferred Range: 21-60\nNationality: Any\nCurrent Education Status: Graduate or Professional\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Skilled Worker Visa",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Skilled Worker Visa\nSection: Application Details\n\nPrimary Purpose: Long-term Skilled Employment\nIntended Stay Days Recommended Min: 365\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Skilled Worker Visa",
+      "section": "application_details",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Skilled Worker Visa\nSection: Financial Profile\n\nFunding Source: Sponsor\nAnnual Income Currency: GBP\nAnnual Income Engine Threshold Min: 26200\nAnnual Income Policy Reference: Must meet Skilled Worker salary threshold set by UK Home Office\nLiquid Savings Currency: GBP\nLiquid Savings Engine Threshold Min: 1500\nLiquid Savings Policy Reference: Maintenance funds required unless certified by sponsor\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Skilled Worker Visa",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Skilled Worker Visa\nSection: Home Ties 214B Test\n\nEmployment Status: Employed\nPlacement Offer In Hand Value: True\nImmediate Family In Home Country Value: True\nImmediate Family In Migration Country Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Skilled Worker Visa",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United Kingdom\nVisa Type: Skilled Worker Visa\nSection: Security And History\n\nPrior Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://www.gov.uk/standard-visitor\nhttps://www.gov.uk/student-visa\nhttps://www.gov.uk/skilled-worker-visa",
+    "metadata": {
+      "country": "United Kingdom",
+      "visa_type": "Skilled Worker Visa",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://www.gov.uk/standard-visitor",
+        "https://www.gov.uk/student-visa",
+        "https://www.gov.uk/skilled-worker-visa"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: B1/B2\nSection: User Metadata\n\nAge Preferred Range: 21-60\nNationality: Any\nCurrent Education Status: Any\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "B1/B2",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: B1/B2\nSection: Application Details\n\nPrimary Purpose: Tourism or Business Visit\nIntended Stay Days Recommended Max: 90\nItinerary Clarity: High, Medium\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "B1/B2",
+      "section": "application_details",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: B1/B2\nSection: Financial Profile\n\nFunding Source: Self, Sponsor\nAnnual Income Usd Minimum: 8000\nLiquid Savings Usd Minimum: 5000\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "B1/B2",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: B1/B2\nSection: Home Ties 214B Test\n\nEmployment Status: Student, Employed, Business Owner\nPlacement Offer In Hand Value: False\nImmediate Family In India Value: True\nImmediate Family In Usa Value: False\nProperty Ownership Value: True\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "B1/B2",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: B1/B2\nSection: Security And History\n\nPrior Us Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 1\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "B1/B2",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: F-1\nSection: User Metadata\n\nAge Preferred Range: 17-35\nNationality: Any\nCurrent Education Status: Student\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "F-1",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: F-1\nSection: Application Details\n\nPrimary Purpose: Full-time Academic Study\nIntended Stay Days Recommended Min: 180\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "F-1",
+      "section": "application_details",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: F-1\nSection: Financial Profile\n\nFunding Source: Self, Sponsor, Loan\nAnnual Income Usd Minimum: 15000\nLiquid Savings Usd Minimum: 12000\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: False\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "F-1",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: F-1\nSection: Home Ties 214B Test\n\nEmployment Status: Student\nPlacement Offer In Hand Value: False\nImmediate Family In India Value: True\nImmediate Family In Usa Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "F-1",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: F-1\nSection: Security And History\n\nPrior Us Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "F-1",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: H-1B\nSection: User Metadata\n\nAge Preferred Range: 21-55\nNationality: Any\nCurrent Education Status: Graduate or Professional\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "H-1B",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: H-1B\nSection: Application Details\n\nPrimary Purpose: Specialty Occupation Employment\nIntended Stay Days Recommended Min: 365\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "H-1B",
+      "section": "application_details",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: H-1B\nSection: Financial Profile\n\nFunding Source: Sponsor\nAnnual Income Usd Minimum: 20000\nLiquid Savings Usd Minimum: 3000\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "H-1B",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: H-1B\nSection: Home Ties 214B Test\n\nEmployment Status: Employed\nPlacement Offer In Hand Value: True\nImmediate Family In India Value: True\nImmediate Family In Usa Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "H-1B",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: H-1B\nSection: Security And History\n\nPrior Us Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "H-1B",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: L-1\nSection: User Metadata\n\nAge Preferred Range: 25-55\nNationality: Any\nCurrent Education Status: Professional\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "L-1",
+      "section": "user_metadata",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: L-1\nSection: Application Details\n\nPrimary Purpose: Intra-company Transfer\nIntended Stay Days Recommended Min: 365\nItinerary Clarity: High\nHas Integrity Fee Budget Value: True\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "L-1",
+      "section": "application_details",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: L-1\nSection: Financial Profile\n\nFunding Source: Sponsor\nAnnual Income Usd Minimum: 25000\nLiquid Savings Usd Minimum: 5000\nBank Statement Consistency Value: True\nHas Last 3 Years Itr Value: True\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "L-1",
+      "section": "financial_profile",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: L-1\nSection: Home Ties 214B Test\n\nEmployment Status: Employed, Business Owner\nPlacement Offer In Hand Value: True\nImmediate Family In India Value: True\nImmediate Family In Usa Value: False\nProperty Ownership Value: False\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "L-1",
+      "section": "home_ties_214b_test",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  },
+  {
+    "text": "Country: United States of America\nVisa Type: L-1\nSection: Security And History\n\nPrior Us Visa Rejections Value: False\nOverstay History Value: False\nSocial Media Scan Risk Value: False\nCriminal Record Value: False\nTravel History Count 5Yrs Recommended Min: 0\n\nOfficial Policy Sources:\nhttps://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html\nhttps://travel.state.gov/content/travel/en/us-visas/study/student-visa.html\nhttps://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html\nhttps://www.uscis.gov/working-in-the-united-states\nhttps://www.uscis.gov/family\nhttps://www.uscis.gov/green-card",
+    "metadata": {
+      "country": "United States of America",
+      "visa_type": "L-1",
+      "section": "security_and_history",
+      "official_sources": [
+        "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html",
+        "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html",
+        "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html",
+        "https://www.uscis.gov/working-in-the-united-states",
+        "https://www.uscis.gov/family",
+        "https://www.uscis.gov/green-card"
+      ]
+    }
+  }
+]

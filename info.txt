@@ -1,0 +1,747 @@
+{
+  "meta_data": {
+    "country_of_residence": "India",
+    "target_country": "USA",
+    "last_updated": "2026-02-10",
+    "currency_conversion_rate": "1 USD = ~86 INR",
+    "visa_fee_standard_non_petition": 185,
+    "visa_fee_petition_based": 205
+  },
+  "visa_index": [
+    {
+      "visa_type_id": "US_B1",
+      "visa_code": "B1",
+      "category": "Business Visitor",
+      "purpose_text": "The B1 visa is strictly for temporary business-related activities. It is intended for individuals traveling to consult with business associates, attend scientific, educational, professional, or business conventions/conferences, settle an estate, or negotiate contracts. It does NOT permit gainful employment or payment from a US source.",
+      "embedding_context": [
+        "business meeting usa",
+        "conference visa",
+        "negotiating contract usa",
+        "attending trade show",
+        "consulting with client"
+      ],
+      "eligibility_criteria_text": "Applicant must demonstrate: (1) The purpose of the trip is for legitimate business of a temporary nature. (2) They plan to remain for a specific, limited period. (3) They have funds to cover expenses in the US. (4) They have a residence outside the US and other binding ties that ensure their return.",
+      "application_process": {
+        "form_required": "DS-160",
+        "interview_mandatory": true,
+        "petition_required": false
+      },
+      "financial_thresholds": {
+        "min_liquid_assets_inr": 300000,
+        "recommended_liquid_assets_inr": 500000,
+        "sponsor_allowed": "Employer (Company Sponsorship)"
+      },
+      "documents_required": [
+        "Passport (valid 6+ months)",
+        "DS-160 Confirmation",
+        "Invitation Letter from US Company/Conference",
+        "Letter from Indian Employer regarding the trip",
+        "Business financial records (if self-employed)"
+      ],
+      "interview_focus": "Why is this meeting necessary in person? Who is your contact in the US? How long have you been with your current company?",
+      "validity_period": "10 Years (Multiple Entry)",
+      "duration_of_stay": "Usually 1-6 months (determined at Port of Entry)",
+      "red_flags": "No clear business agenda; generic invitation letter; no travel history."
+    },
+    {
+      "visa_type_id": "US_B2",
+      "visa_code": "B2",
+      "category": "Tourist/Medical Visitor",
+      "purpose_text": "The B2 visa is for tourism, vacation (holiday), visiting friends or relatives, medical treatment, participation in social events hosted by fraternal, social, or service organizations, or participation by amateurs in musical/sports events (unpaid).",
+      "embedding_context": [
+        "tourism visa",
+        "visiting family usa",
+        "medical treatment usa",
+        "holiday visa",
+        "attending wedding usa"
+      ],
+      "eligibility_criteria_text": "Applicant must prove strong social and economic ties to their home country (India) that compel them to return after a temporary stay. Intent to immigrate is presumed under Section 214(b) until proven otherwise.",
+      "application_process": {
+        "form_required": "DS-160",
+        "interview_mandatory": true,
+        "petition_required": false
+      },
+      "financial_thresholds": {
+        "min_liquid_assets_inr": 300000,
+        "recommended_liquid_assets_inr": 600000,
+        "sponsor_allowed": "Self or Immediate Family (Form I-134 Affidavit of Support helpful but not mandatory)"
+      },
+      "documents_required": [
+        "Passport",
+        "DS-160 Confirmation",
+        "Travel Itinerary",
+        "Proof of Funds (Bank statements, ITR)",
+        "Letter from Doctor/Hospital (if Medical)"
+      ],
+      "interview_focus": "What is the specific purpose of your trip? How will you pay for it? When will you return?",
+      "validity_period": "10 Years (Multiple Entry)",
+      "duration_of_stay": "Usually 6 months",
+      "red_flags": "Young single unemployed applicant; entire family applying together; recent large bank deposits."
+    },
+    {
+      "visa_type_id": "US_J1",
+      "visa_code": "J1",
+      "category": "Exchange Visitor",
+      "purpose_text": "For individuals approved to participate in work-and-study-based exchange visitor programs. Examples include au pairs, summer work travel, interns, trainees, scholars, and professors.",
+      "embedding_context": [
+        "internship usa",
+        "research scholar visa",
+        "au pair visa",
+        "summer work travel",
+        "exchange program"
+      ],
+      "eligibility_criteria_text": "Must be accepted into a designated exchange visitor program. Must demonstrate English proficiency. May be subject to the 'Two-Year Home-Country Physical Presence Requirement' (Section 212(e)).",
+      "application_process": {
+        "form_required": "DS-160",
+        "primary_document": "Form DS-2019 (Certificate of Eligibility)",
+        "interview_mandatory": true,
+        "fees": ["Visa Fee ($185)", "SEVIS Fee (I-901)"]
+      },
+      "financial_thresholds": {
+        "min_liquid_assets_inr": "Depends on program stipend",
+        "sponsor_allowed": "Program Sponsor or Self"
+      },
+      "documents_required": [
+        "Passport",
+        "DS-160 Confirmation",
+        "Form DS-2019 (Original)",
+        "Form DS-7002 (Training Plan - for Interns/Trainees)",
+        "SEVIS Fee Receipt"
+      ],
+      "interview_focus": "What is your program about? Do you plan to return to India to use these skills? Who is paying for your stay?",
+      "validity_period": "Duration of Program",
+      "duration_of_stay": "Program dates + 30 days grace period",
+      "red_flags": "Program not related to academic/career background; inability to explain the training plan."
+    },
+    {
+      "visa_type_id": "US_L1",
+      "visa_code": "L1 (L1A/L1B)",
+      "category": "Intracompany Transferee",
+      "purpose_text": "For employees of an international company who are being transferred to a parent, branch, affiliate, or subsidiary of the same company in the US. L1A is for Managers/Executives. L1B is for employees with Specialized Knowledge.",
+      "embedding_context": [
+        "internal transfer usa",
+        "manager transfer visa",
+        "specialized knowledge visa",
+        "company transfer"
+      ],
+      "eligibility_criteria_text": "Must have worked for the foreign company for a continuous period of one year within the preceding three years. The US company must have a qualifying relationship with the foreign company.",
+      "application_process": {
+        "form_required": "DS-160",
+        "primary_document": "Form I-129 Petition (Approved)",
+        "interview_mandatory": true,
+        "petition_required": true
+      },
+      "financial_thresholds": {
+        "min_liquid_assets_inr": "N/A (Salary based)",
+        "sponsor_allowed": "Employer Only"
+      },
+      "documents_required": [
+        "Passport",
+        "DS-160 Confirmation",
+        "Form I-797 (Notice of Action/Approval)",
+        "Form I-129S (for Blanket petitions)",
+        "Letter from Employer confirming transfer"
+      ],
+      "interview_focus": "What are your specific managerial duties? What is your specialized knowledge that a US worker doesn't have? How long have you worked for the Indian entity?",
+      "validity_period": "L1A: Up to 7 years / L1B: Up to 5 years",
+      "duration_of_stay": "Based on petition validity (usually 3 years initially)",
+      "red_flags": "Salary too low for a manager; generic job description; small consultancy company."
+    },
+    {
+      "visa_type_id": "US_O1",
+      "visa_code": "O1",
+      "category": "Individual with Extraordinary Ability",
+      "purpose_text": "For individuals who possess extraordinary ability in the sciences, arts, education, business, or athletics, or who have a demonstrated record of extraordinary achievement in the motion picture or television industry.",
+      "embedding_context": [
+        "extraordinary ability visa",
+        "artist visa usa",
+        "scientist visa usa",
+        "athlete visa usa",
+        "nobel prize visa"
+      ],
+      "eligibility_criteria_text": "Must demonstrate sustained national or international acclaim. Requires a peer group advisory opinion. Must be coming to the US to continue work in the area of extraordinary ability.",
+      "application_process": {
+        "form_required": "DS-160",
+        "primary_document": "Form I-129 Petition",
+        "interview_mandatory": true,
+        "petition_required": true
+      },
+      "financial_thresholds": {
+        "min_liquid_assets_inr": "N/A",
+        "sponsor_allowed": "US Employer or Agent"
+      },
+      "documents_required": [
+        "Passport",
+        "Form I-797 Approval Notice",
+        "Copy of Petition with all supporting evidence (Press articles, Awards)",
+        "Consultation Letter (Advisory Opinion)"
+      ],
+      "interview_focus": "What is your extraordinary ability? What project will you work on? Show me evidence of your awards.",
+      "validity_period": "Up to 3 years initially (Unlimited 1-year extensions)",
+      "duration_of_stay": "Validity of Petition + 10 days",
+      "red_flags": "Lack of major awards; evidence is local only (not national/international); no specific itinerary."
+    },
+    {
+      "visa_type_id": "US_C1D",
+      "visa_code": "C1/D",
+      "category": "Transit/Crew Member",
+      "purpose_text": "For crew members serving on board a sea vessel or aircraft in the US (pilots, flight attendants, ship captains, cruise staff) and who need to transit through the US to join their vessel/aircraft.",
+      "embedding_context": [
+        "airline crew visa",
+        "ship crew visa",
+        "pilot visa usa",
+        "flight attendant visa",
+        "cruise ship worker visa"
+      ],
+      "eligibility_criteria_text": "Must be employed by the airline or shipping company. The trip must be strictly for transit or crew duty.",
+      "application_process": {
+        "form_required": "DS-160",
+        "interview_mandatory": true,
+        "petition_required": false
+      },
+      "financial_thresholds": {
+        "min_liquid_assets_inr": "N/A",
+        "sponsor_allowed": "Employer"
+      },
+      "documents_required": [
+        "Passport",
+        "DS-160 Confirmation",
+        "Original Letter from Employer (Airline/Shipping line)",
+        "Seaman's Book (CDC) if applicable"
+      ],
+      "interview_focus": "How long have you worked for this airline? What is your route? When do you join the vessel?",
+      "validity_period": "Up to 10 Years (Multiple Entry)",
+      "duration_of_stay": "Max 29 days per entry",
+      "red_flags": "No continuous employment history with the airline; vague answers about the vessel's location."
+    }
+  ],
+  "rag_processing_instructions": {
+    "text_extraction_strategy": "Combine 'purpose_text' and 'eligibility_criteria_text' for primary vector embedding.",
+    "filtering_strategy": "Use 'visa_code' and 'category' as metadata filters.",
+    "chunking_guide": "Keep 'application_process' and 'documents_required' as separate chunks linked to the parent visa_type_id."
+  }
+}
+
+
+{
+  "meta_data": {
+    "country_of_residence": "India",
+    "target_country": "Russia",
+    "current_date": "2026-02-10",
+    "currency_conversion_rate": "1 RUB = ~0.90 INR (Fluctuating)",
+    "official_portal_evisa": "evisa.kdmid.ru",
+    "official_portal_sticker": "visa.kdmid.ru",
+    "policy_updates_2025_2026": [
+      "E-Visa stay duration extended to 30 days (effective Aug 2025).",
+      "Visa-Free Group Travel for Indians (Groups of 5-50) is operational.",
+      "Mandatory Biometrics for all paper visa applicants."
+    ]
+  },
+  "visa_index": [
+    {
+      "visa_type_id": "RUS_E_VISA_2026",
+      "visa_code": "Unified E-Visa",
+      "category": "Electronic Visa (Short Term)",
+      "purpose_text": "For tourism, business, humanitarian interaction, and guest visits. This is the most popular option for Indian travelers in 2026 due to the extended validity rules introduced in late 2025.",
+      "embedding_context": [
+        "russia e-visa for indians 2026",
+        "moscow st petersburg trip visa",
+        "online russia visa application",
+        "30 days stay russia e-visa"
+      ],
+      "eligibility_criteria_text": "Available to Indian citizens with a passport valid for 6+ months. No invitation letter required. No hotel booking confirmation required at the time of application (though recommended for border control).",
+      "application_process": {
+        "form_required": "Online Form (evisa.kdmid.ru)",
+        "processing_time": "4 Calendar Days",
+        "interview_mandatory": false,
+        "biometrics_required": false
+      },
+      "financial_thresholds": {
+        "visa_fee_usd": 52,
+        "visa_fee_inr_approx": 4800,
+        "min_liquid_assets_heuristic": "Show approx ₹50,000 - ₹80,000 in bank for a 1-week trip.",
+        "insurance_mandatory": "Yes (Medical Insurance covering valid in Russia)"
+      },
+      "validity_rules": {
+        "visa_validity": "120 Days (from issue date)",
+        "max_stay": "30 Days (Per entry - Single Entry Only)",
+        "note": "The stay limit was increased from 16 to 30 days in August 2025."
+      },
+      "documents_required": [
+        "Digital Photo (JPEG, 35x45mm, White Background)",
+        "Passport Scan (Bio page)",
+        "Medical Insurance Policy (Covering Russia)"
+      ],
+      "red_flags": "Applying more than 40 days in advance (not allowed); Passport expiring in <6 months; Previous overstay in Russia."
+    },
+    {
+      "visa_type_id": "RUS_GROUP_VISA_FREE",
+      "visa_code": "Group Visa-Free",
+      "category": "Tourist Group (Bilateral Agreement)",
+      "purpose_text": "For organized tourist groups traveling through registered tour operators. Allows visa-free entry for the entire group.",
+      "embedding_context": [
+        "visa free russia india",
+        "group travel russia package",
+        "tour operator russia visa waiver"
+      ],
+      "eligibility_criteria_text": "Must travel in a group of 5 to 50 people. Must be organized by a certified tour operator in India and Russia. The group must travel together on the same itinerary.",
+      "application_process": {
+        "form_required": "Group List (Manifest)",
+        "processing_time": "Managed by Tour Operator",
+        "interview_mandatory": false
+      },
+      "financial_thresholds": {
+        "visa_fee": 0,
+        "logic": "Cost is usually embedded in the tour package."
+      },
+      "validity_rules": {
+        "max_stay": "15 Days",
+        "entry_exit_rule": "Must enter and exit as a group. Cannot split up."
+      },
+      "documents_required": [
+        "Passport",
+        "Tour Group Confirmation Letter",
+        "Travel Insurance"
+      ]
+    },
+    {
+      "visa_type_id": "RUS_TOURIST_STICKER",
+      "visa_code": "Tourist (Standard)",
+      "category": "Standard Paper Visa",
+      "purpose_text": "For travelers exceeding 30 days or those ineligible for E-Visa. Required for double/multiple entry tourism (if specifically granted).",
+      "embedding_context": [
+        "long term tourist visa russia",
+        "sticker visa russia india",
+        "double entry russia tourist"
+      ],
+      "eligibility_criteria_text": "Requires a 'Tourist Confirmation' (Voucher) from a Russian tour operator or hotel registered with the MFA. Simple hotel booking (Booking.com) is NOT enough; you need the official voucher code.",
+      "application_process": {
+        "form_required": "Electronic Visa Application Form (EVA) printed",
+        "submission_location": "Russian Visa Centre (VFS Global) or Consular Section",
+        "interview_mandatory": "Possible",
+        "biometrics_required": true
+      },
+      "financial_thresholds": {
+        "visa_fee_single_inr": 6480,
+        "visa_fee_double_inr": 10368,
+        "ruble_requirement": "Must declare foreign currency if carrying >$10,000."
+      },
+      "documents_required": [
+        "Original Passport",
+        "Tourist Voucher (Confirmation) - Original or good copy",
+        "Photo (3.5 x 4.5 cm)",
+        "Cover Letter"
+      ],
+      "validity_rules": {
+        "max_stay": "Up to 90 Days (usually issued for 30 days initially)",
+        "registration_rule": "Must register with migration police within 7 working days of arrival (Hotel does this usually)."
+      }
+    },
+    {
+      "visa_type_id": "RUS_STUDENT",
+      "visa_code": "Study Visa",
+      "category": "Education / Academic",
+      "purpose_text": "For Indian students enrolling in Russian medical/engineering universities. A major category for Indian applicants.",
+      "embedding_context": [
+        "mbbs in russia visa",
+        "student visa russia requirements",
+        "hiv test for russia visa"
+      ],
+      "eligibility_criteria_text": "Must have an invitation from the Ministry of Internal Affairs (MVD) issued by the University. Must be HIV Negative.",
+      "application_process": {
+        "form_required": "EVA Form",
+        "petition_required": true
+      },
+      "financial_thresholds": {
+        "visa_fee_single_inr": "Approx 4500-6500",
+        "liquid_assets": "Proof of Funds for tuition + living (approx ₹3-4 Lakhs/year)",
+        "medical_test_cost": "Variable (HIV test mandatory)"
+      },
+      "documents_required": [
+        "Original Passport (valid 1.5 years from visa start date)",
+        "HIV Test Certificate (negative result, taken within last 3 months)",
+        "Official Invitation (Original or Telex)",
+        "Educational Certificates (Apostilled/Legalized)"
+      ],
+      "validity_rules": {
+        "initial_validity": "90 Days (Single Entry)",
+        "extension_rule": "Extended to 1 year (Multiple Entry) once in Russia by the University."
+      },
+      "red_flags": "HIV Positive result; Passport valid for less than 1.5 years; Discrepancy in name between Invitation and Passport."
+    },
+    {
+      "visa_type_id": "RUS_WORK_PERMIT",
+      "visa_code": "Work Visa",
+      "category": "Employment",
+      "purpose_text": "For Indians hired by Russian companies. Strictly controlled by quotas.",
+      "embedding_context": [
+        "work in russia for indian",
+        "teaching english in russia visa",
+        "highly qualified specialist visa russia"
+      ],
+      "eligibility_criteria_text": "Employer must have obtained a 'Quota' to hire a foreigner. 'Highly Qualified Specialists' (HQS) are exempt from quotas if salary > 167,000 RUB/month.",
+      "application_process": {
+        "form_required": "EVA Form",
+        "medical_exam_mandatory": "Yes (HIV, TB, Leprosy, Drugs)"
+      },
+      "documents_required": [
+        "HIV Test Certificate",
+        "Work Invitation (Original)",
+        "Medical Certificate (Form 086/u equivalent)",
+        "Employer's Letter of Guarantee"
+      ],
+      "validity_rules": {
+        "max_stay": "1 Year or 3 Years (for HQS)",
+        "biometrics_in_country": "Mandatory fingerprinting and medical check within 30 days of arrival."
+      }
+    }
+  ],
+  "rag_processing_instructions": {
+    "text_extraction_strategy": "Extract 'HIV Test' requirement specifically for Student and Work visas as a hard constraint.",
+    "filtering_strategy": "If user mentions 'Tourist' and 'Less than 1 month', prioritize RUS_E_VISA_2026. If user mentions 'Group Tour', suggest RUS_GROUP_VISA_FREE.",
+    "chunking_guide": "Keep the 'validity_rules' for E-Visa separate as they changed recently (Aug 2025)."
+  }
+}
+
+
+{
+  "meta_data": {
+    "country_of_residence": "India",
+    "target_country": "Canada",
+    "last_updated": "2026-02-10",
+    "currency_conversion_rate": "1 CAD = ~61 INR",
+    "official_portal": "IRCC (Immigration, Refugees and Citizenship Canada)",
+    "biometrics_fee_cad": 85,
+    "visa_fee_base_cad": 100
+  },
+  "visa_index": [
+    {
+      "visa_type_id": "CAN_TRV_VISITOR",
+      "visa_code": "V-1 (Visitor Visa)",
+      "category": "Temporary Resident Visa (TRV)",
+      "purpose_text": "For tourism, visiting family/friends, or short-term business meetings. This is a standard visitor visa. Unlike the US, business and tourism fall under the same 'Visitor' category, though the intent must be specified.",
+      "embedding_context": [
+        "canada tourist visa india",
+        "visiting family in canada",
+        "business meeting canada",
+        "can+ program india",
+        "attend conference canada"
+      ],
+      "eligibility_criteria_text": "Applicant must prove they will leave Canada at the end of their stay. Must show sufficient funds. 'Dual Intent' (seeking permanent residence while visiting) is legally permitted but must be disclosed. Indian citizens who have held a US visa in the last 10 years may qualify for expedited processing under the 'CAN+' program.",
+      "application_process": {
+        "form_required": "IMM 5257",
+        "biometrics_mandatory": true,
+        "interview_mandatory": false,
+        "processing_time_heuristic": "Variable (often 20-50 days for India)"
+      },
+      "financial_thresholds": {
+        "min_liquid_assets_inr": 400000,
+        "recommended_liquid_assets_inr": 700000,
+        "sponsor_allowed": "Self or Host in Canada (Invitation Letter)"
+      },
+      "documents_required": [
+        "Passport (valid for intended stay)",
+        "Proof of Means of Financial Support (Bank statements 4 months)",
+        "Purpose of Travel (Itinerary)",
+        "Family Information Form (IMM 5645)",
+        "Letter of Invitation (if visiting family)"
+      ],
+      "red_flags": "Unexplained large deposits; no travel history; vague purpose of visit; previous refusals from 'Five Eyes' countries (US, UK, NZ, Aus)."
+    },
+    {
+      "visa_type_id": "CAN_SUPER_VISA",
+      "visa_code": "PG-1 (Super Visa)",
+      "category": "Parent and Grandparent Super Visa",
+      "purpose_text": "Exclusively for parents and grandparents of Canadian citizens or Permanent Residents. Allows eligible parents to stay in Canada for up to 5 years at a time without renewing their status.",
+      "embedding_context": [
+        "parents visiting canada long term",
+        "super visa for indian parents",
+        "stay in canada 5 years",
+        "medical insurance canada visa"
+      ],
+      "eligibility_criteria_text": "The host (child/grandchild in Canada) must meet the 'Low Income Cut-Off' (LICO) minimum income threshold. The applicant must pass a medical exam and purchase Canadian medical insurance.",
+      "application_process": {
+        "form_required": "IMM 5257",
+        "medical_exam_mandatory": true,
+        "insurance_mandatory": true
+      },
+      "financial_thresholds": {
+        "min_liquid_assets_inr": "N/A (Relies on Host Income)",
+        "host_income_requirement": "Must meet LICO based on family size (e.g., ~CAD 55,000+ for small families)",
+        "insurance_cost_heuristic": "Approx CAD 1,500 - 2,500 per year per parent"
+      },
+      "documents_required": [
+        "Proof of Relationship (Birth Certificate of host)",
+        "Proof of Host's Citizenship/PR (Passport/PR Card)",
+        "Proof of Host's Income (NOA - Notice of Assessment, T4)",
+        "Proof of Medical Insurance (1 year coverage, min $100k)",
+        "Immigration Medical Exam (IME) completion"
+      ],
+      "red_flags": "Host income below LICO; insurance not fully paid or from non-Canadian company; applicant has serious medical inadmissibility issues."
+    },
+    {
+      "visa_type_id": "CAN_STUDY_SDS",
+      "visa_code": "S-1 (SDS)",
+      "category": "Study Permit (Student Direct Stream)",
+      "purpose_text": "An expedited study permit processing stream specifically for legal residents of India (and select other countries). It requires higher upfront financial proof but offers faster processing than the regular stream.",
+      "embedding_context": [
+        "study in canada india",
+        "sds visa requirements",
+        "student direct stream india",
+        "gic canada amount",
+        "college admission canada"
+      ],
+      "eligibility_criteria_text": "Must have an acceptance letter from a Designated Learning Institution (DLI). Must pay 1st-year tuition in full. Must buy a Guaranteed Investment Certificate (GIC). Must have valid language test results (IELTS Academic 6.0+ or PTE/CELPIP equivalent).",
+      "application_process": {
+        "form_required": "IMM 1294",
+        "biometrics_mandatory": true,
+        "processing_time_heuristic": "Fast (target 20 calendar days)"
+      },
+      "financial_thresholds": {
+        "mandatory_gic_cad": 20635,
+        "tuition_payment": "1 Full Year Paid Upfront",
+        "logic": "GIC amount (CAD 20,635) + 1 Year Tuition Receipt is mandatory for SDS."
+      },
+      "documents_required": [
+        "Letter of Acceptance (LOA) from DLI",
+        "Proof of GIC Payment ($20,635 CAD)",
+        "Proof of Tuition Payment (Receipt)",
+        "Language Test Results (IELTS/PTE)",
+        "Most recent secondary or post-secondary transcripts",
+        "Upfront Medical Exam receipt"
+      ],
+      "red_flags": "GIC amount too low (using old $10k rule); unauthorized DLI; language score below band 6.0; large study gap without explanation."
+    },
+    {
+      "visa_type_id": "CAN_WORK_LMIA",
+      "visa_code": "W-1 (Closed)",
+      "category": "Employer-Specific Work Permit",
+      "purpose_text": "For individuals who have a valid job offer from a Canadian employer supported by a Labour Market Impact Assessment (LMIA). This is a 'closed' permit, meaning you can only work for that specific employer.",
+      "embedding_context": [
+        "work visa canada from india",
+        "lmia job offer",
+        "closed work permit",
+        "temporary foreign worker program"
+      ],
+      "eligibility_criteria_text": "The Canadian employer must obtain a positive LMIA showing no Canadian was available for the job. The applicant must prove they are qualified for the role.",
+      "application_process": {
+        "form_required": "IMM 1295",
+        "petition_required": true
+      },
+      "financial_thresholds": {
+        "min_liquid_assets_inr": "Variable (Proof of funds often required for initial settlement)",
+        "sponsor_allowed": "Employer (Job Offer)"
+      },
+      "documents_required": [
+        "LMIA Number (provided by employer)",
+        "Job Offer Letter (Contract)",
+        "Proof of Qualification (Education/Experience Certificates)",
+        "Passport"
+      ],
+      "red_flags": "LMIA appears fake/unverified; applicant's experience doesn't match the job code (TEER category); company is on the 'ineligible employers' list."
+    },
+    {
+      "visa_type_id": "CAN_WORK_OPEN_SPOUSAL",
+      "visa_code": "W-1 (Open)",
+      "category": "Spousal Open Work Permit (SOWP)",
+      "purpose_text": "For spouses of skilled workers (high TEER categories) or international students in Canada. Allows the spouse to work for *any* employer in Canada.",
+      "embedding_context": [
+        "spouse visa canada work",
+        "husband wife open work permit",
+        "dependent work visa canada",
+        "sowp eligibility"
+      ],
+      "eligibility_criteria_text": "Principal applicant (spouse in Canada) must have a valid study permit (in eligible programs like Masters/PhD/Professional degrees) OR a valid work permit in a skilled occupation (TEER 0, 1, 2, or 3).",
+      "application_process": {
+        "form_required": "IMM 1295",
+        "dependency_check": true
+      },
+      "financial_thresholds": {
+        "min_liquid_assets_inr": 300000,
+        "logic": "Must show funds to support stay while looking for work."
+      },
+      "documents_required": [
+        "Principal Applicant's Permit (Study/Work)",
+        "Principal Applicant's Enrollment Letter or Pay Slips",
+        "Marriage Certificate",
+        "Proof of Funds"
+      ],
+      "red_flags": "Principal applicant is in a low-skilled job (TEER 4/5); Principal student is in an undergraduate college program (recent rule change restricts SOWP for college undergrads)."
+    }
+  ],
+  "rag_processing_instructions": {
+    "text_extraction_strategy": "Prioritize 'eligibility_criteria_text' and 'documents_required' for student queries.",
+    "filtering_strategy": "Check for 'SDS' keywords. If user is Indian Student, default to CAN_STUDY_SDS over generic study permits.",
+    "chunking_guide": "Keep the 'financial_thresholds' for SDS as a high-priority separate chunk due to the specific GIC amount ($20,635 CAD)."
+  },
+  "common_forms_reference": {
+    "IMM_0008": "The main 'master' form for all PR applications.",
+    "IMM_5669": "The 'background check' form (history of address, work, crimes) - required for ALL PR.",
+    "IMM_5406": "Family info form for PR (lists parents, siblings, children).",
+    "IMM_5645": "Family info form for Temporary Visas (Visitor/Student/Work).",
+    "IMM_5476": "Use of Representative form (if a lawyer/consultant is applying for you)."
+  }
+}
+
+
+{
+  "meta_data": {
+    "country_of_residence": "India",
+    "target_country": "Germany",
+    "current_date": "2026-02-10",
+    "currency_conversion_rate": "1 EUR = ~92 INR",
+    "official_portal": "Auswärtiges Amt (Federal Foreign Office) Digital Portal",
+    "handling_agency": "VFS Global / Visametric (depending on jurisdiction)",
+    "key_2026_policy_updates": [
+      "New Blocked Account Threshold: €11,904/year (€992/month).",
+      "Opportunity Card (Chancenkarte) is fully operational for Indians.",
+      "Digitized Application: Preliminary checks are now often online before the VFS appointment."
+    ]
+  },
+  "visa_index": [
+    {
+      "category_group": "SHORT_TERM_SCHENGEN",
+      "visa_type_id": "DE_SCHENGEN_C",
+      "visa_name": "Schengen Visa (Type C)",
+      "purpose": "Tourism, Business, Visiting Family (Max 90 days in 180 days)",
+      "embedding_context": [
+        "germany tourist visa india",
+        "visit berlin visa",
+        "business meeting frankfurt visa",
+        "attend trade fair germany"
+      ],
+      "application_process": {
+        "form_required": "Videx Form (Online)",
+        "biometrics_mandatory": true,
+        "processing_time": "15 Calendar Days (officially), but often 20-30 days in peak season (May-Sept).",
+        "interview_requirement": "Submission at VFS; Interview rare unless flagged."
+      },
+      "financial_thresholds": {
+        "visa_fee_eur": 90,
+        "visa_fee_inr_approx": 8300,
+        "vfs_service_fee_inr": "Approx 1800-2500",
+        "min_liquid_assets_heuristic": "Show approx ₹4-5 Lakhs for a 10-day trip.",
+        "insurance_mandatory": "Yes (Min coverage €30,000 - Must cover Repatriation)."
+      },
+      "documents_required": [
+        "Passport (issued in last 10 years)",
+        "Biometric Photos (35x45mm, 80% face coverage)",
+        "Travel Health Insurance",
+        "Flight Reservation (dummy ticket usually accepted)",
+        "Proof of Accommodation (Hotel/Invitation)",
+        "ITR V (last 3 years)",
+        "Bank Statements (last 3-6 months, stamped)"
+      ],
+      "red_flags": "dummy hotel bookings that get cancelled before visa issuance; insurance with 'deductibles'; applying at German embassy when main destination is France."
+    },
+    {
+      "category_group": "LONG_TERM_NATIONAL",
+      "visa_type_id": "DE_STUDENT_APS",
+      "visa_name": "Student Visa (Type D)",
+      "purpose": "University studies (Bachelor/Master/PhD)",
+      "embedding_context": [
+        "masters in germany for indian",
+        "aps certificate india",
+        "blocked account amount 2026",
+        "student visa germany requirements"
+      ],
+      "eligibility_criteria_text": "Must have an APS (Akademische Prüfstelle) Certificate. This is MANDATORY for Indian students (verifies Indian degree authenticity).",
+      "financial_thresholds": {
+        "threshold_type": "GOVERNMENT_MANDATE",
+        "blocked_account_total_eur": 11904,
+        "blocked_account_monthly_eur": 992,
+        "rationale": "2026 BAföG rate. Must be deposited in a provider like Expatrio/Fintiba/Coracle."
+      },
+      "documents_required": [
+        "APS Certificate (Original)",
+        "University Admission Letter (Zulassungsbescheid)",
+        "Blocked Account Confirmation (Sperrkonto)",
+        "Travel Health Insurance (Incoming-Versicherung)",
+        "Videx Form (Long Term)",
+        "CV and Motivation Letter"
+      ],
+      "process_nuance": "Two-step process: 1. Apply for APS (takes 3-4 weeks). 2. Apply for Visa (takes 4-6 weeks). Total lead time ~3 months.",
+      "red_flags": "Applying without APS; Blocked account amount below €11,904; Language level lower than university requirement."
+    },
+    {
+      "category_group": "LONG_TERM_NATIONAL",
+      "visa_type_id": "DE_CHANCENKARTE",
+      "visa_name": "Opportunity Card (Chancenkarte)",
+      "purpose": "Job seeker visa for skilled workers (1 Year validity)",
+      "embedding_context": [
+        "job seeker visa germany 2026",
+        "germany points based visa india",
+        "chancenkarte calculator",
+        "move to germany without job"
+      ],
+      "eligibility_criteria_text": "Points-based system (Need 6 points). Criteria: Language (A1 German or B2 English), Experience, Age, Qualification recognition. OR 'Skilled Worker' status (Full recognition).",
+      "financial_thresholds": {
+        "threshold_type": "GOVERNMENT_MANDATE",
+        "blocked_account_monthly_eur": 1027,
+        "blocked_account_total_eur": 12324,
+        "secondary_option": "Part-time work permitted (20 hours/week) to supplement funds."
+      },
+      "documents_required": [
+        "University Degree / Vocational Training Certificate",
+        "Language Certificates (IELTS/TOEFL or Goethe/Telc)",
+        "ZAB Statement of Comparability (if degree is not automatically recognized)",
+        "Motivation Letter for Job Search"
+      ],
+      "validity_rules": {
+        "duration": "1 Year",
+        "extension": "Can be extended if near-job offer, otherwise must switch to Work Permit."
+      }
+    },
+    {
+      "category_group": "LONG_TERM_NATIONAL",
+      "visa_type_id": "DE_BLUE_CARD",
+      "visa_name": "EU Blue Card (Blaue Karte EU)",
+      "purpose": "High-skilled employment with a specific salary threshold",
+      "embedding_context": [
+        "software engineer visa germany",
+        "blue card salary 2026",
+        "it specialist germany visa"
+      ],
+      "eligibility_criteria_text": "Must have a concrete job offer. Salary must meet 2026 thresholds. IT Specialists can apply without a degree if they have 3 years experience.",
+      "financial_thresholds": {
+        "threshold_type": "SALARY_THRESHOLD",
+        "min_salary_regular_eur": 45300,
+        "min_salary_shortage_occupation_eur": 41041.80,
+        "shortage_fields": "STEM, IT, Healthcare, Teaching"
+      },
+      "documents_required": [
+        "Employment Contract (stating salary)",
+        "Erklärung zum Beschäftigungsverhältnis (Form filled by employer)",
+        "University Degree (Anabin H+ status)"
+      ],
+      "advantages": "Faster path to PR (21 months with B1 German); Spouses get immediate unrestricted work rights."
+    },
+    {
+      "category_group": "LONG_TERM_NATIONAL",
+      "visa_type_id": "DE_FAMILY_REUNION",
+      "visa_name": "Family Reunion (Familienzusammenführung)",
+      "purpose": "Spouse or Children joining a German Resident",
+      "embedding_context": [
+        "spouse visa germany",
+        "dependent visa germany india",
+        "a1 german for spouse"
+      ],
+      "eligibility_criteria_text": "Principal applicant must have enough living space (approx 12 sqm per person) and sufficient salary. Spouse usually needs A1 German certificate (unless Principal is a Blue Card holder).",
+      "financial_thresholds": {
+        "threshold_type": "CALCULATED_NEED",
+        "logic": "Net Income > (Rent + Health Insurance + 'Regelsatz' cost of living). Approx Net €2500+ usually safe for a couple."
+      },
+      "documents_required": [
+        "Marriage Certificate (Apostilled by MEA India)",
+        "A1 German Certificate (Goethe/Telc)",
+        "Copy of Spouse's Residence Permit",
+        "Proof of Spouse's Accomodation & Salary"
+      ]
+    }
+  ],
+  "rag_processing_instructions": {
+    "text_extraction_strategy": "For 'Student' queries, always extract 'APS Certificate' as a blocker. For 'Job Seeker', extract 'Chancenkarte' points logic.",
+    "filtering_strategy": "If User Salary < €41,041 -> Recommend 'Work Visa (Qualified Professional)' instead of 'Blue Card'.",
+    "chunking_guide": "Keep 'blocked_account_total_eur' as a separate high-priority retrieval chunk for 2026 financial queries."
+  }
+}

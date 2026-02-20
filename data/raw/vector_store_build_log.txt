@@ -1,0 +1,3 @@
+Total Chunks: 175
+Embedding Model: sentence-transformers/all-mpnet-base-v2
+Persist Directory: ../chroma_storage

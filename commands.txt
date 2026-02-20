@@ -1,0 +1,2 @@
+cd D:\Infosys\SwiftVisa-AI-Based-Visa-Eligibility-Screening-Agent-Batch13 - venv\Scripts\activate  
+cd src - python index.py 
