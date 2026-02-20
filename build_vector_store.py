@@ -1,7 +1,8 @@
 print("Script is running...")
 
 import os
-from langchain_community.document_loaders import TextLoader
+import json
+from langchain_core.documents import Document
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -14,35 +15,23 @@ VECTOR_STORE_PATH = "visa_vector_store"
 def load_documents():
     documents = []
 
-    for root, _, files in os.walk(DATA_PATH):
-        for file in files:
-            if file.endswith(".txt"):
-                path = os.path.join(root, file)
-                loader = TextLoader(path, encoding="utf-8")
-                docs = loader.load()
+    path = os.path.join(DATA_PATH, "visa_policies.json")
 
-                for doc in docs:
-                    parts = root.split(os.sep)
-                    if len(parts) >= 2:
-                        country = parts[1]
-                        doc.metadata["country"] = country.capitalize()
+    with open(path, "r", encoding="utf-8") as f:
+        data = json.load(f)
 
-                    visa_type = file.replace(".txt", "").replace("_", " ")
-                    doc.metadata["visa_type"] = visa_type.title()
-
-                    doc.metadata["source_file"] = file
-
-                    # NEW: Extract official link from document
-                    lines = doc.page_content.split("\n")
-                    for line in lines:
-                        if line.startswith("http"):
-                            doc.metadata["official_source"] = line.strip()
-
-                documents.extend(docs)
+    for item in data:
+        doc = Document(
+    page_content=item["eligibility_text"],
+    metadata={
+        "country": item["country"].strip().lower(),
+        "visa_type": item["visa_type"].strip().lower(),
+        "official_source": item["official_source"]
+    }
+)
+        documents.append(doc)
 
     return documents
-
-
 
 
 def chunk_documents(documents):
