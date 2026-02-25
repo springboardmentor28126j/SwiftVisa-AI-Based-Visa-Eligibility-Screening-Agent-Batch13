@@ -5,6 +5,7 @@ langchain-community==0.2.16
 # Embeddings
 sentence-transformers==2.7.0
 transformers==4.41.2
+Hugging Face sentence transformers
 
 # Vector Database
 chromadb==0.5.3
@@ -17,3 +18,4 @@ python-dotenv==1.0.1
 
 # Utilities
 numpy
+
