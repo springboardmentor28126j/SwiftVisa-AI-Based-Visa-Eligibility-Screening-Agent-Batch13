@@ -1,5 +1,6 @@
 __pycache__/
 visa_vector_store/
+decision_logs.json
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -146,6 +147,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
 
 # Spyder project settings
 .spyderproject

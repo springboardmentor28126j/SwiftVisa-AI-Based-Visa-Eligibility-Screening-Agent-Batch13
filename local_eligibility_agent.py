@@ -1,18 +1,17 @@
-import torch
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import json
+import re
+from datetime import datetime
+import requests
 
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
 
 VECTOR_STORE_PATH = "visa_vector_store"
 
-print("Loading local model... (first time may take a few minutes)")
-model_name = "google/flan-t5-base"
 
-tokenizer = AutoTokenizer.from_pretrained(model_name)
-model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
-
-
+# -----------------------------
+# Load Vector Store
+# -----------------------------
 def load_vector_store():
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
@@ -25,60 +24,105 @@ def load_vector_store():
     )
 
 
+# -----------------------------
+# Retrieve Policy
+# -----------------------------
 def retrieve_policy(country, visa_type):
-    print("\nDEBUG USER INPUT:")
-    print("country =", repr(country))
-    print("visa_type =", repr(visa_type))
     vectorstore = load_vector_store()
 
-    # Retrieve larger pool
-    results = vectorstore.similarity_search("", k=50)
+    query = f"{country} {visa_type}"
 
-    # Filter by metadata
-    filtered = []
+    retrieved_docs = vectorstore.similarity_search(
+        query,
+        k=3,
+        filter={
+            "country": country.lower(),
+            "visa_type": visa_type.lower()
+        }
+    )
 
-    for doc in results:
-       doc_country = doc.metadata.get("country", "").strip().lower()
-    doc_visa = doc.metadata.get("visa_type", "").strip().lower()
+    source_links = set()
+    filtered_docs = []
 
-    if doc_country == country.strip().lower() and doc_visa == visa_type.strip().lower():
-        filtered.append(doc)
+    for doc in retrieved_docs:
+        doc_country = doc.metadata.get("country", "").strip().lower()
+        doc_visa = doc.metadata.get("visa_type", "").strip().lower()
 
-    if not filtered:
-        return None
+        if doc_country == country.lower() and doc_visa == visa_type.lower():
+            filtered_docs.append(doc)
 
-    return "\n\n".join([doc.page_content for doc in filtered])
+            if "official_source" in doc.metadata:
+                source_links.add(doc.metadata["official_source"])
 
+    if not filtered_docs:
+        return None, None
+
+    context = "\n\n".join([doc.page_content for doc in filtered_docs])
+    return context, source_links
+
+
+# -----------------------------
+# Generate Response (LM Studio)
+# -----------------------------
 def generate_response(prompt):
-    inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=1024)
-    outputs = model.generate(
-    **inputs,
-    max_new_tokens=200,
-    num_beams=4,
-    repetition_penalty=1.2,
-    no_repeat_ngram_size=3,
-    early_stopping=True
-)
+    response = requests.post(
+        "http://localhost:1234/v1/chat/completions",
+        json={
+            "model": "phi-3-mini-4k-instruct",
+            "messages": [
+                {"role": "user", "content": prompt}
+            ],
+            "temperature": 0.2,
+            "max_tokens": 300
+        }
+    )
+
+    result = response.json()
+    return result["choices"][0]["message"]["content"]
 
 
+# -----------------------------
+# Log Decision
+# -----------------------------
+def log_decision(user_data, decision, confidence_value, confidence_level):
+    log_entry = {
+        "timestamp": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "user_profile": user_data,
+        "decision": decision,
+        "confidence_score": confidence_value,
+        "confidence_level": confidence_level
+    }
 
-    return tokenizer.decode(outputs[0], skip_special_tokens=True)
+    logs = []
+
+    try:
+        with open("decision_logs.json", "r") as file:
+            content = file.read().strip()
+            if content:
+                logs = json.loads(content)
+    except Exception:
+        logs = []
+
+    logs.append(log_entry)
+
+    with open("decision_logs.json", "w") as file:
+        json.dump(logs, file, indent=4)
 
 
+# -----------------------------
+# MAIN PROGRAM
+# -----------------------------
 if __name__ == "__main__":
 
     print("=== Visa Eligibility Screening System ===\n")
 
-    # Take structured input from user
     age = input("Enter Age: ")
     nationality = input("Enter Nationality: ")
     education = input("Enter Education Level: ")
     employment = input("Enter Employment Status: ")
     income = input("Enter Annual Income: ")
-    country = input("Enter Country: ")
-    visa_type = input("Enter Visa Type: ")
-    country = country.strip().lower()
-    visa_type = visa_type.strip().lower()
+    country = input("Enter Country: ").strip().lower()
+    visa_type = input("Enter Visa Type: ").strip().lower()
 
     user_data = {
         "age": age,
@@ -92,41 +136,74 @@ if __name__ == "__main__":
 
     print("\nRetrieving relevant policy...\n")
 
-    context = retrieve_policy(
-        user_data["country"],
-        user_data["visa_type"]
-    )
+    context, source_links = retrieve_policy(country, visa_type)
 
-if not context:
-    print("No matching policy found for given country and visa type.")
-else:
-    prompt = f"""
-You are an immigration eligibility officer.
+    if not context:
+        print("No matching policy found for given country and visa type.")
+    else:
 
-Based strictly on the policy context, determine eligibility.
+        prompt = f"""
+You are an immigration eligibility assessment system.
 
-You must choose ONLY ONE:
-Eligible
-Possibly Eligible
-Not Eligible
+Based ONLY on the provided policy context, evaluate the applicant.
 
-Then explain reasoning clearly.
+Return output strictly in this format:
 
-Applicant Details:
-Age: {user_data['age']}
-Nationality: {user_data['nationality']}
-Education: {user_data['education']}
-Employment: {user_data['employment']}
-Income: {user_data['income']}
-Country: {user_data['country']}
-Visa Type: {user_data['visa_type']}
+Decision: <Eligible / Possibly Eligible / Not Eligible>
+Confidence: <0 to 1 score>
+Reasoning: <Clear explanation grounded in policy>
+
+User Profile:
+Age: {age}
+Nationality: {nationality}
+Education: {education}
+Employment: {employment}
+Income: {income}
+Country: {country}
+Visa Type: {visa_type}
 
 Policy Context:
 {context}
+
+Do not add extra text.
+Only follow the format above.
 """
 
-    print("Generating eligibility decision...\n")
-    result = generate_response(prompt)
+        print("Generating eligibility decision...\n")
 
-    print("=== ELIGIBILITY RESULT ===\n")
-    print(result)
+        result = generate_response(prompt)
+
+        print("=== ELIGIBILITY RESULT ===\n")
+        print(result)
+
+        # -----------------------------
+        # Extract Decision + Confidence
+        # -----------------------------
+        decision_match = re.search(r"Decision:\s*(.*)", result)
+        confidence_match = re.search(r"Confidence:\s*([0-9.]+)", result)
+
+        decision = decision_match.group(1).strip() if decision_match else "Unknown"
+        confidence_value = float(confidence_match.group(1)) if confidence_match else 0.5
+
+        # -----------------------------
+        # Convert Confidence Level
+        # -----------------------------
+        if confidence_value >= 0.75:
+            confidence_level = "High"
+        elif confidence_value >= 0.4:
+            confidence_level = "Medium"
+        else:
+            confidence_level = "Low"
+
+        print(f"\nConfidence Level: {confidence_level}")
+
+        print("\nBased on Official Source(s):")
+        for link in source_links:
+            print(link)
+
+        # -----------------------------
+        # Log Decision
+        # -----------------------------
+        log_decision(user_data, decision, confidence_value, confidence_level)
+
+        print("\nDecision logged successfully.")
