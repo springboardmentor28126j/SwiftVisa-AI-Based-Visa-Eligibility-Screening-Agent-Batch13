@@ -1,4 +1,4 @@
-# 🚀 SwiftVisa – AI-Based Visa Eligibility Screening Agent
+# 🚀 SwiftVisa – AI-Based Visa Eligibility Screening Agent.
 
 An AI-powered visa eligibility screening system built using a Retrieval-Augmented Generation (RAG) architecture.
 
