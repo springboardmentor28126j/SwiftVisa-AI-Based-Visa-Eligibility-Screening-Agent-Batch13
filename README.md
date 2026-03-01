@@ -1,144 +1,132 @@
 # 🚀 SwiftVisa – AI-Based Visa Eligibility Screening Agent
 
+An AI-powered visa eligibility screening system built using a Retrieval-Augmented Generation (RAG) architecture.
+
+This system analyzes official immigration policies and evaluates applicant eligibility using a local Large Language Model (LLM).
+
+---
+
 ## 📌 Project Overview
 
-SwiftVisa is an AI-powered Visa Eligibility Screening System built using a Retrieval-Augmented Generation (RAG) architecture.
+SwiftVisa is designed to:
 
-The system analyzes official government visa eligibility guidelines and generates preliminary eligibility decisions based on structured user input such as age, education, employment, income, country, and visa type.
+- Collect official visa eligibility policies
+- Store them in structured format
+- Retrieve relevant policy sections using vector search
+- Generate eligibility decisions using an LLM
+- Provide confidence scoring
+- Log decision history for evaluation
 
-This project was developed as part of the **Infosys Internship Program**.
-
----
-
-## 🎯 Problem Statement
-
-Understanding visa eligibility requirements across multiple countries can be complex and time-consuming.
-
-SwiftVisa automates preliminary eligibility screening by:
-
-- Structuring official visa policy data
-- Performing semantic retrieval
-- Generating AI-based eligibility decisions
-
-The system ensures that decisions are grounded in official immigration sources.
+The system works completely locally using LM Studio.
 
 ---
 
-## 🌍 Countries Covered
-
-The system currently supports 12 countries:
-
-- USA  
-- Canada  
-- United Kingdom  
-- Germany  
-- Australia  
-- France  
-- Ireland  
-- Netherlands  
-- Sweden  
-- New Zealand  
-- Singapore  
-- United Arab Emirates  
-
-Each country includes:
-
-- Student Visa  
-- Skilled Worker / Employment Visa  
-
----
-
-## 📚 Data Source & Structure
-
-All visa eligibility criteria were manually collected from official government websites.
-
-The data is consolidated into a single structured JSON file:
-
-Each JSON entry contains the following fields:
-
-- `country`
-- `visa_type`
-- `official_source`
-- `eligibility_text`
-
-### Example JSON Entry
-
-```json
-{
-  "country": "Germany",
-  "visa_type": "EU Blue Card",
-  "official_source": "https://www.make-it-in-germany.com/...",
-  "eligibility_text": "The applicant must hold a recognized university degree..."
-}
-````
 ## 🧠 System Architecture (RAG Pipeline)
 
-SwiftVisa follows a **Retrieval-Augmented Generation (RAG)** workflow:
+SwiftVisa follows a Retrieval-Augmented Generation workflow:
 
 ### 1️⃣ Data Preparation
-- Clean visa policies  
-- Structure data in JSON format  
-- Normalize metadata (lowercase and trimmed values)  
+- Clean official visa policies
+- Structure data in JSON format
+- Normalize metadata (lowercase & trimmed values)
 
 ### 2️⃣ Chunking
-- Split policy text into smaller segments  
-- Preserve context using overlapping chunks  
+- Split policy text into smaller overlapping segments
+- Preserve contextual meaning
 
 ### 3️⃣ Embedding Generation
-- Use Sentence Transformers (`all-MiniLM-L6-v2`)  
-- Convert text into vector embeddings  
+- Model: `sentence-transformers/all-MiniLM-L6-v2`
+- Convert text chunks into vector embeddings
 
 ### 4️⃣ Vector Storage
-- Store embeddings in FAISS vector database  
-- Store metadata (`country`, `visa_type`, `official_source`)  
+- Store embeddings in FAISS
+- Store metadata:
+  - country
+  - visa_type
+  - official_source
 
 ### 5️⃣ Retrieval
-- Filter documents by `country` and `visa_type`  
-- Retrieve relevant policy chunks  
+- Filter documents using:
+  - country
+  - visa_type
+- Retrieve top-K relevant policy chunks
 
-### 6️⃣ AI Decision Generation
-- Inject policy context into LLM prompt  
-- Generate eligibility decision  
+### 6️⃣ LLM Decision Generation
+- Construct prompt using:
+  - User profile
+  - Retrieved policy context
+- Generate structured output:
+Decision: <Eligible / Possibly Eligible / Not Eligible>
+Confidence: <0 to 1 score>
+Reasoning: < Policy-grounded explanation >
 
-**Output Options:**
-- ✔ Eligible  
-- ✔ Possibly Eligible  
-- ✔ Not Eligible  
+### 7️⃣ Logging System
+- Store decision history in `decision_logs.json`
+- Track:
+  - Timestamp
+  - User profile
+  - Decision
+  - Confidence score
+  - Confidence level (High / Medium / Low)
+
+---
+
+## 🌍 Supported Countries (Milestone 1 Expanded)
+
+- USA
+- Canada
+- United Kingdom
+- Germany
+- France
+- Ireland
+- Netherlands
+- Australia
+- New Zealand
+- Sweden
+- Singapore
+- UAE
+
+All policies collected manually from official government sources.
 
 ---
 
 ## 🛠 Tech Stack
 
-- Python  
-- LangChain  
-- FAISS  
-- Sentence-Transformers  
-- HuggingFace Transformers  
-- Local LLM (Flan-T5 Base)  
+- Python
+- LangChain
+- FAISS
+- Sentence Transformers
+- HuggingFace Embeddings
+- LM Studio (Local LLM Server)
+- Phi-3 Mini (4K Instruct)
 
 ---
 
 ## ▶️ How to Run the Project
 
-- Step 1 – Install Dependencies
-
-      pip install -r requirements.txt
-
-- Step 2 – Generate Vector Store
-
-      python build_vector_store.py
-
-This step will:
+### Step 1 – Install Dependencies
+    pip install -r requirements.txt
+### Step 2 – Generate Vector Store
+    Python build_vector_story.py
+This will:
 - Load JSON data
 - Chunk documents
 - Generate embeddings
 - Store vectors in FAISS
 
-- Step 3 – Run Interactive Eligibility System
+### Step 3 – Start LM Studio
 
-      python local_eligibility_agent.py
+1. Load `phi-3-mini-4k-instruct`
+2. Go to Developer → Local Server
+3. Start server
+4. Ensure it runs at:
+http://localhost:1234
 
-The system will prompt for:
+### Step 4 – Run Eligibility System
+    Python local_eligibility_agent.py
+
+You will be prompted to enter:
+
 - Age
 - Nationality
 - Education
@@ -147,48 +135,69 @@ The system will prompt for:
 - Country
 - Visa Type
 
+---
 
 ## 🧪 Sample Test Input
+- Age: 25
+- Nationality: India
+- Education: Bachelor's Degree
+- Employment: Software Engineer
+- Income: 70000 USD
+- Country: Germany
+- Visa Type: EU Blue Card
 
-Age: 25
-Nationality: India
-Education Level: Bachelor's Degree
-Employment Status: Software Engineer
-Annual Income: 70000 USD
-Country: Germany
-Visa Type: EU Blue Card
+---
 
+## 📊 Sample Output
+- Decision: Possibly Eligible
+- Confidence: 0.85
+- Reasoning: ...
+- Confidence Level: High
 
-## ✅ Current Implementation Status
+Based on Official Source(s):
+https://www.make-it-in-germany.com
 
-✔ Official visa corpus structured in JSON  
-✔ Metadata normalization implemented  
-✔ Chunking and embedding generation completed  
-✔ FAISS vector database created  
-✔ Metadata-based retrieval working  
-✔ Interactive CLI workflow implemented  
-✔ End-to-end RAG pipeline functional  
+---
 
+## ✅ Milestone 1 Status – COMPLETED
 
-## ⚠️ Current Limitation
+- Policy corpus structured in JSON
+- 12+ countries added
+- Official government sources included
+- Vector database created
 
-The system uses a lightweight local LLM (Flan-T5 Base) for free deployment.
+## ✅ Milestone 2 Status – COMPLETED
 
-While the architecture is fully functional, reasoning quality may be limited compared to larger hosted models such as GPT-4.
+- Working RAG + LLM pipeline
+- Metadata-based retrieval
+- Policy-grounded eligibility explanation
+- Confidence scoring
+- Decision logging system
+- Local LLM integration via LM Studio
 
-The limitation lies in model capability, not system design.
+---
 
+## ⚠️ Current Limitations
 
-## 🚀 Future Enhancements
+- Uses lightweight local model (Phi-3 Mini)
+- Advanced reasoning may be limited compared to larger hosted models
+
+The architecture is production-ready; model capacity is the only limitation.
+
+---
+
+## 🚀 Future Improvements (Milestone 3)
 
 - Streamlit Web UI
-- Improved reasoning with larger LLM
-- Confidence scoring
-- Input validation and suggestions
-- Logging and evaluation metrics
-- Multi-language support
+- Improved evaluation metrics
+- Enhanced confidence calibration
+- Input validation system
+- Performance benchmarking
 
+---
 
 ## 👩‍💻 Author
 
-Shweta Kharat 
+Shweta Kharat  
+Infosys Internship Program – AI Track
+
