@@ -1,0 +1,992 @@
+[
+  {
+    "id": 0,
+    "country_code": "ARE",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/ARE/Tourist.txt",
+    "text": "Country: United Arab Emirates (ARE) Visa Type: Tourist Visa (Tourist) Official Source: https://u.ae/"
+  },
+  {
+    "id": 1,
+    "country_code": "ARE",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "",
+    "doc_path": "../data/documents/ARE/Tourist.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: United Arab Emirates (ARE) Visa Type: Tourist Visa (Tourist) Official Source: https://u.ae/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport 2. Return Ticket METADATA -------- - Country Code: ARE - Country Name: United Arab Emirates - Visa ID: Tourist - Visa Name: Tourist Visa"
+  },
+  {
+    "id": 2,
+    "country_code": "ARG",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/ARG/Tourist.txt",
+    "text": "Country: Argentina (ARG) Visa Type: Tourist Visa (Tourist) Official Source: https://www.argentina.gob.ar/"
+  },
+  {
+    "id": 3,
+    "country_code": "ARG",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "",
+    "doc_path": "../data/documents/ARG/Tourist.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Argentina (ARG) Visa Type: Tourist Visa (Tourist) Official Source: https://www.argentina.gob.ar/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: ARG - Country Name: Argentina - Visa ID: Tourist - Visa Name: Tourist Visa"
+  },
+  {
+    "id": 4,
+    "country_code": "AUS",
+    "visa_id": "Visitor600",
+    "visa_name": "Visitor Visa (Visitor600)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/AUS/Visitor600.txt",
+    "text": "Country: Australia (AUS) Visa Type: Visitor Visa (Visitor600) Official Source: https://immi.homeaffairs.gov.au/"
+  },
+  {
+    "id": 5,
+    "country_code": "AUS",
+    "visa_id": "Visitor600",
+    "visa_name": "Visitor Visa (Visitor600)",
+    "section": "",
+    "doc_path": "../data/documents/AUS/Visitor600.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Australia (AUS) Visa Type: Visitor Visa (Visitor600) Official Source: https://immi.homeaffairs.gov.au/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport 2. Proof of Funds REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: AUS - Country Name: Australia - Visa ID: Visitor600 - Visa Name: Visitor Visa"
+  },
+  {
+    "id": 6,
+    "country_code": "AUT",
+    "visa_id": "RedWhiteRed",
+    "visa_name": "Red-White-Red Card (RedWhiteRed)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/AUT/RedWhiteRed.txt",
+    "text": "Country: Austria (AUT) Visa Type: Red-White-Red Card (RedWhiteRed) Official Source: https://www.migration.gv.at/"
+  },
+  {
+    "id": 7,
+    "country_code": "AUT",
+    "visa_id": "RedWhiteRed",
+    "visa_name": "Red-White-Red Card (RedWhiteRed)",
+    "section": "",
+    "doc_path": "../data/documents/AUT/RedWhiteRed.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Austria (AUT) Visa Type: Red-White-Red Card (RedWhiteRed) Official Source: https://www.migration.gv.at/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Job Offer 2. Qualification REQUIRED DOCUMENTS ------------------ 1. Passport 2. Employment Contract METADATA -------- - Country Code: AUT - Country Name: Austria - Visa ID: RedWhiteRed - Visa Name: Red-White-Red Card"
+  },
+  {
+    "id": 8,
+    "country_code": "BEL",
+    "visa_id": "LongStay",
+    "visa_name": "Long Stay Visa (LongStay)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/BEL/LongStay.txt",
+    "text": "Country: Belgium (BEL) Visa Type: Long Stay Visa (LongStay) Official Source: https://dofi.ibz.be/"
+  },
+  {
+    "id": 9,
+    "country_code": "BEL",
+    "visa_id": "LongStay",
+    "visa_name": "Long Stay Visa (LongStay)",
+    "section": "",
+    "doc_path": "../data/documents/BEL/LongStay.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Belgium (BEL) Visa Type: Long Stay Visa (LongStay) Official Source: https://dofi.ibz.be/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Stay REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: BEL - Country Name: Belgium - Visa ID: LongStay - Visa Name: Long Stay Visa"
+  },
+  {
+    "id": 10,
+    "country_code": "BRA",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/BRA/Visitor.txt",
+    "text": "Country: Brazil (BRA) Visa Type: Visitor Visa (Visitor) Official Source: https://www.gov.br/mre/"
+  },
+  {
+    "id": 11,
+    "country_code": "BRA",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "section": "",
+    "doc_path": "../data/documents/BRA/Visitor.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Brazil (BRA) Visa Type: Visitor Visa (Visitor) Official Source: https://www.gov.br/mre/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: BRA - Country Name: Brazil - Visa ID: Visitor - Visa Name: Visitor Visa"
+  },
+  {
+    "id": 12,
+    "country_code": "CAN",
+    "visa_id": "StudyPermit",
+    "visa_name": "Study Permit (StudyPermit)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/CAN/StudyPermit.txt",
+    "text": "Country: Canada (CAN) Visa Type: Study Permit (StudyPermit) Official Source: https://www.canada.ca/"
+  },
+  {
+    "id": 13,
+    "country_code": "CAN",
+    "visa_id": "StudyPermit",
+    "visa_name": "Study Permit (StudyPermit)",
+    "section": "",
+    "doc_path": "../data/documents/CAN/StudyPermit.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Canada (CAN) Visa Type: Study Permit (StudyPermit) Official Source: https://www.canada.ca/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Letter of Acceptance 2. Proof of Funds REQUIRED DOCUMENTS ------------------ 1. Passport 2. Acceptance Letter 3. Medical (if required) METADATA -------- - Country Code: CAN - Country Name: Canada - Visa ID: StudyPermit - Visa Name: Study Permit"
+  },
+  {
+    "id": 14,
+    "country_code": "CAN",
+    "visa_id": "Visitor",
+    "visa_name": "Temporary Resident Visa (Visitor)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/CAN/Visitor.txt",
+    "text": "Country: Canada (CAN) Visa Type: Temporary Resident Visa (Visitor) Official Source: https://www.canada.ca/"
+  },
+  {
+    "id": 15,
+    "country_code": "CAN",
+    "visa_id": "Visitor",
+    "visa_name": "Temporary Resident Visa (Visitor)",
+    "section": "",
+    "doc_path": "../data/documents/CAN/Visitor.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Canada (CAN) Visa Type: Temporary Resident Visa (Visitor) Official Source: https://www.canada.ca/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport 2. Proof of Funds 3. No Criminal Record REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form 3. Financial Proof METADATA -------- - Country Code: CAN - Country Name: Canada - Visa ID: Visitor - Visa Name: Temporary Resident Visa"
+  },
+  {
+    "id": 16,
+    "country_code": "CHE",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa (Schengen)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/CHE/Schengen.txt",
+    "text": "Country: Switzerland (CHE) Visa Type: Schengen Visa (Schengen) Official Source: https://www.sem.admin.ch/"
+  },
+  {
+    "id": 17,
+    "country_code": "CHE",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa (Schengen)",
+    "section": "",
+    "doc_path": "../data/documents/CHE/Schengen.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Switzerland (CHE) Visa Type: Schengen Visa (Schengen) Official Source: https://www.sem.admin.ch/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Visit REQUIRED DOCUMENTS ------------------ 1. Passport 2. Insurance Proof METADATA -------- - Country Code: CHE - Country Name: Switzerland - Visa ID: Schengen - Visa Name: Schengen Visa"
+  },
+  {
+    "id": 18,
+    "country_code": "CHL",
+    "visa_id": "Temporary",
+    "visa_name": "Temporary Resident Visa (Temporary)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/CHL/Temporary.txt",
+    "text": "Country: Chile (CHL) Visa Type: Temporary Resident Visa (Temporary) Official Source: https://www.chile.gob.cl/"
+  },
+  {
+    "id": 19,
+    "country_code": "CHL",
+    "visa_id": "Temporary",
+    "visa_name": "Temporary Resident Visa (Temporary)",
+    "section": "",
+    "doc_path": "../data/documents/CHL/Temporary.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Chile (CHL) Visa Type: Temporary Resident Visa (Temporary) Official Source: https://www.chile.gob.cl/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Stay REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: CHL - Country Name: Chile - Visa ID: Temporary - Visa Name: Temporary Resident Visa"
+  },
+  {
+    "id": 20,
+    "country_code": "CHN",
+    "visa_id": "X1",
+    "visa_name": "Student Visa (X1)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/CHN/X1.txt",
+    "text": "Country: China (CHN) Visa Type: Student Visa (X1) Official Source: https://www.visaforchina.cn/"
+  },
+  {
+    "id": 21,
+    "country_code": "CHN",
+    "visa_id": "X1",
+    "visa_name": "Student Visa (X1)",
+    "section": "",
+    "doc_path": "../data/documents/CHN/X1.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: China (CHN) Visa Type: Student Visa (X1) Official Source: https://www.visaforchina.cn/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Admission Notice REQUIRED DOCUMENTS ------------------ 1. Passport 2. Visa Form METADATA -------- - Country Code: CHN - Country Name: China - Visa ID: X1 - Visa Name: Student Visa"
+  },
+  {
+    "id": 22,
+    "country_code": "COL",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/COL/Visitor.txt",
+    "text": "Country: Colombia (COL) Visa Type: Visitor Visa (Visitor) Official Source: https://www.cancilleria.gov.co/"
+  },
+  {
+    "id": 23,
+    "country_code": "COL",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "section": "",
+    "doc_path": "../data/documents/COL/Visitor.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Colombia (COL) Visa Type: Visitor Visa (Visitor) Official Source: https://www.cancilleria.gov.co/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: COL - Country Name: Colombia - Visa ID: Visitor - Visa Name: Visitor Visa"
+  },
+  {
+    "id": 24,
+    "country_code": "CZE",
+    "visa_id": "LongStay",
+    "visa_name": "Long Stay Visa (LongStay)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/CZE/LongStay.txt",
+    "text": "Country: Czech Republic (CZE) Visa Type: Long Stay Visa (LongStay) Official Source: https://www.mvcr.cz/"
+  },
+  {
+    "id": 25,
+    "country_code": "CZE",
+    "visa_id": "LongStay",
+    "visa_name": "Long Stay Visa (LongStay)",
+    "section": "",
+    "doc_path": "../data/documents/CZE/LongStay.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Czech Republic (CZE) Visa Type: Long Stay Visa (LongStay) Official Source: https://www.mvcr.cz/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Stay REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: CZE - Country Name: Czech Republic - Visa ID: LongStay - Visa Name: Long Stay Visa"
+  },
+  {
+    "id": 26,
+    "country_code": "DEU",
+    "visa_id": "EUBlueCard",
+    "visa_name": "EU Blue Card (EUBlueCard)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/DEU/EUBlueCard.txt",
+    "text": "Country: Germany (DEU) Visa Type: EU Blue Card (EUBlueCard) Official Source: https://www.make-it-in-germany.com/"
+  },
+  {
+    "id": 27,
+    "country_code": "DEU",
+    "visa_id": "EUBlueCard",
+    "visa_name": "EU Blue Card (EUBlueCard)",
+    "section": "",
+    "doc_path": "../data/documents/DEU/EUBlueCard.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Germany (DEU) Visa Type: EU Blue Card (EUBlueCard) Official Source: https://www.make-it-in-germany.com/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Job Offer 2. Recognized Degree 3. Salary Threshold REQUIRED DOCUMENTS ------------------ 1. Passport 2. Employment Contract 3. Degree Certificate METADATA -------- - Country Code: DEU - Country Name: Germany - Visa ID: EUBlueCard - Visa Name: EU Blue Card"
+  },
+  {
+    "id": 28,
+    "country_code": "DEU",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Short Stay Visa (Schengen)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/DEU/Schengen.txt",
+    "text": "Country: Germany (DEU) Visa Type: Schengen Short Stay Visa (Schengen) Official Source: https://www.auswaertiges-amt.de/"
+  },
+  {
+    "id": 29,
+    "country_code": "DEU",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Short Stay Visa (Schengen)",
+    "section": "",
+    "doc_path": "../data/documents/DEU/Schengen.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Germany (DEU) Visa Type: Schengen Short Stay Visa (Schengen) Official Source: https://www.auswaertiges-amt.de/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Visit 2. Travel Insurance 3. Proof of Funds REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form 3. Insurance Proof METADATA -------- - Country Code: DEU - Country Name: Germany - Visa ID: Schengen - Visa Name: Schengen Short Stay Visa"
+  },
+  {
+    "id": 30,
+    "country_code": "DNK",
+    "visa_id": "Work",
+    "visa_name": "Work Visa (Work)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/DNK/Work.txt",
+    "text": "Country: Denmark (DNK) Visa Type: Work Visa (Work) Official Source: https://www.nyidanmark.dk/"
+  },
+  {
+    "id": 31,
+    "country_code": "DNK",
+    "visa_id": "Work",
+    "visa_name": "Work Visa (Work)",
+    "section": "",
+    "doc_path": "../data/documents/DNK/Work.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Denmark (DNK) Visa Type: Work Visa (Work) Official Source: https://www.nyidanmark.dk/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Job Offer REQUIRED DOCUMENTS ------------------ 1. Passport 2. Work Contract METADATA -------- - Country Code: DNK - Country Name: Denmark - Visa ID: Work - Visa Name: Work Visa"
+  },
+  {
+    "id": 32,
+    "country_code": "EGY",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/EGY/Tourist.txt",
+    "text": "Country: Egypt (EGY) Visa Type: Tourist Visa (Tourist) Official Source: https://www.visa2egypt.gov.eg/"
+  },
+  {
+    "id": 33,
+    "country_code": "EGY",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "",
+    "doc_path": "../data/documents/EGY/Tourist.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Egypt (EGY) Visa Type: Tourist Visa (Tourist) Official Source: https://www.visa2egypt.gov.eg/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: EGY - Country Name: Egypt - Visa ID: Tourist - Visa Name: Tourist Visa"
+  },
+  {
+    "id": 34,
+    "country_code": "ESP",
+    "visa_id": "Student",
+    "visa_name": "Student Visa (Student)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/ESP/Student.txt",
+    "text": "Country: Spain (ESP) Visa Type: Student Visa (Student) Official Source: https://www.exteriores.gob.es/"
+  },
+  {
+    "id": 35,
+    "country_code": "ESP",
+    "visa_id": "Student",
+    "visa_name": "Student Visa (Student)",
+    "section": "",
+    "doc_path": "../data/documents/ESP/Student.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Spain (ESP) Visa Type: Student Visa (Student) Official Source: https://www.exteriores.gob.es/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Admission Letter REQUIRED DOCUMENTS ------------------ 1. Passport 2. Acceptance Letter METADATA -------- - Country Code: ESP - Country Name: Spain - Visa ID: Student - Visa Name: Student Visa"
+  },
+  {
+    "id": 36,
+    "country_code": "FIN",
+    "visa_id": "Residence",
+    "visa_name": "Residence Permit (Residence)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/FIN/Residence.txt",
+    "text": "Country: Finland (FIN) Visa Type: Residence Permit (Residence) Official Source: https://migri.fi/"
+  },
+  {
+    "id": 37,
+    "country_code": "FIN",
+    "visa_id": "Residence",
+    "visa_name": "Residence Permit (Residence)",
+    "section": "",
+    "doc_path": "../data/documents/FIN/Residence.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Finland (FIN) Visa Type: Residence Permit (Residence) Official Source: https://migri.fi/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Stay REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: FIN - Country Name: Finland - Visa ID: Residence - Visa Name: Residence Permit"
+  },
+  {
+    "id": 38,
+    "country_code": "FRA",
+    "visa_id": "ShortStay",
+    "visa_name": "Schengen Visa (ShortStay)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/FRA/ShortStay.txt",
+    "text": "Country: France (FRA) Visa Type: Schengen Visa (ShortStay) Official Source: https://france-visas.gouv.fr/"
+  },
+  {
+    "id": 39,
+    "country_code": "FRA",
+    "visa_id": "ShortStay",
+    "visa_name": "Schengen Visa (ShortStay)",
+    "section": "",
+    "doc_path": "../data/documents/FRA/ShortStay.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: France (FRA) Visa Type: Schengen Visa (ShortStay) Official Source: https://france-visas.gouv.fr/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Travel Insurance 2. Purpose of Visit REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: FRA - Country Name: France - Visa ID: ShortStay - Visa Name: Schengen Visa"
+  },
+  {
+    "id": 40,
+    "country_code": "GRC",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa (Schengen)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/GRC/Schengen.txt",
+    "text": "Country: Greece (GRC) Visa Type: Schengen Visa (Schengen) Official Source: https://www.mfa.gr/"
+  },
+  {
+    "id": 41,
+    "country_code": "GRC",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa (Schengen)",
+    "section": "",
+    "doc_path": "../data/documents/GRC/Schengen.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Greece (GRC) Visa Type: Schengen Visa (Schengen) Official Source: https://www.mfa.gr/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Visit REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: GRC - Country Name: Greece - Visa ID: Schengen - Visa Name: Schengen Visa"
+  },
+  {
+    "id": 42,
+    "country_code": "HUN",
+    "visa_id": "Residence",
+    "visa_name": "Residence Permit (Residence)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/HUN/Residence.txt",
+    "text": "Country: Hungary (HUN) Visa Type: Residence Permit (Residence) Official Source: https://www.bmbah.hu/"
+  },
+  {
+    "id": 43,
+    "country_code": "HUN",
+    "visa_id": "Residence",
+    "visa_name": "Residence Permit (Residence)",
+    "section": "",
+    "doc_path": "../data/documents/HUN/Residence.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Hungary (HUN) Visa Type: Residence Permit (Residence) Official Source: https://www.bmbah.hu/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Stay REQUIRED DOCUMENTS ------------------ 1. Passport 2. Supporting Documents METADATA -------- - Country Code: HUN - Country Name: Hungary - Visa ID: Residence - Visa Name: Residence Permit"
+  },
+  {
+    "id": 44,
+    "country_code": "IDN",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa (EVisa)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/IDN/EVisa.txt",
+    "text": "Country: Indonesia (IDN) Visa Type: e-Visa (EVisa) Official Source: https://molina.imigrasi.go.id/"
+  },
+  {
+    "id": 45,
+    "country_code": "IDN",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa (EVisa)",
+    "section": "",
+    "doc_path": "../data/documents/IDN/EVisa.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Indonesia (IDN) Visa Type: e-Visa (EVisa) Official Source: https://molina.imigrasi.go.id/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: IDN - Country Name: Indonesia - Visa ID: EVisa - Visa Name: e-Visa"
+  },
+  {
+    "id": 46,
+    "country_code": "IND",
+    "visa_id": "Employment",
+    "visa_name": "Employment Visa (Employment)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/IND/Employment.txt",
+    "text": "Country: India (IND) Visa Type: Employment Visa (Employment) Official Source: https://indianvisaonline.gov.in/"
+  },
+  {
+    "id": 47,
+    "country_code": "IND",
+    "visa_id": "Employment",
+    "visa_name": "Employment Visa (Employment)",
+    "section": "",
+    "doc_path": "../data/documents/IND/Employment.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: India (IND) Visa Type: Employment Visa (Employment) Official Source: https://indianvisaonline.gov.in/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Employment Contract 2. Qualification Proof REQUIRED DOCUMENTS ------------------ 1. Passport 2. Contract Letter METADATA -------- - Country Code: IND - Country Name: India - Visa ID: Employment - Visa Name: Employment Visa"
+  },
+  {
+    "id": 48,
+    "country_code": "IND",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/IND/Tourist.txt",
+    "text": "Country: India (IND) Visa Type: Tourist Visa (Tourist) Official Source: https://indianvisaonline.gov.in/"
+  },
+  {
+    "id": 49,
+    "country_code": "IND",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "",
+    "doc_path": "../data/documents/IND/Tourist.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: India (IND) Visa Type: Tourist Visa (Tourist) Official Source: https://indianvisaonline.gov.in/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport 2. Purpose of Visit REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form 3. Photo METADATA -------- - Country Code: IND - Country Name: India - Visa ID: Tourist - Visa Name: Tourist Visa"
+  },
+  {
+    "id": 50,
+    "country_code": "IRL",
+    "visa_id": "Study",
+    "visa_name": "Student Visa (Study)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/IRL/Study.txt",
+    "text": "Country: Ireland (IRL) Visa Type: Student Visa (Study) Official Source: https://www.irishimmigration.ie/"
+  },
+  {
+    "id": 51,
+    "country_code": "IRL",
+    "visa_id": "Study",
+    "visa_name": "Student Visa (Study)",
+    "section": "",
+    "doc_path": "../data/documents/IRL/Study.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Ireland (IRL) Visa Type: Student Visa (Study) Official Source: https://www.irishimmigration.ie/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Acceptance Letter REQUIRED DOCUMENTS ------------------ 1. Passport 2. Acceptance Letter METADATA -------- - Country Code: IRL - Country Name: Ireland - Visa ID: Study - Visa Name: Student Visa"
+  },
+  {
+    "id": 52,
+    "country_code": "ISR",
+    "visa_id": "B2",
+    "visa_name": "Visitor Visa (B2)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/ISR/B2.txt",
+    "text": "Country: Israel (ISR) Visa Type: Visitor Visa (B2) Official Source: https://www.gov.il/"
+  },
+  {
+    "id": 53,
+    "country_code": "ISR",
+    "visa_id": "B2",
+    "visa_name": "Visitor Visa (B2)",
+    "section": "",
+    "doc_path": "../data/documents/ISR/B2.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Israel (ISR) Visa Type: Visitor Visa (B2) Official Source: https://www.gov.il/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: ISR - Country Name: Israel - Visa ID: B2 - Visa Name: Visitor Visa"
+  },
+  {
+    "id": 54,
+    "country_code": "ITA",
+    "visa_id": "NationalD",
+    "visa_name": "Long Stay Visa (NationalD)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/ITA/NationalD.txt",
+    "text": "Country: Italy (ITA) Visa Type: Long Stay Visa (NationalD) Official Source: https://vistoperitalia.esteri.it/"
+  },
+  {
+    "id": 55,
+    "country_code": "ITA",
+    "visa_id": "NationalD",
+    "visa_name": "Long Stay Visa (NationalD)",
+    "section": "",
+    "doc_path": "../data/documents/ITA/NationalD.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Italy (ITA) Visa Type: Long Stay Visa (NationalD) Official Source: https://vistoperitalia.esteri.it/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Stay REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: ITA - Country Name: Italy - Visa ID: NationalD - Visa Name: Long Stay Visa"
+  },
+  {
+    "id": 56,
+    "country_code": "JPN",
+    "visa_id": "TemporaryVisitor",
+    "visa_name": "Temporary Visitor Visa (TemporaryVisitor)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/JPN/TemporaryVisitor.txt",
+    "text": "Country: Japan (JPN) Visa Type: Temporary Visitor Visa (TemporaryVisitor) Official Source: https://www.mofa.go.jp/"
+  },
+  {
+    "id": 57,
+    "country_code": "JPN",
+    "visa_id": "TemporaryVisitor",
+    "visa_name": "Temporary Visitor Visa (TemporaryVisitor)",
+    "section": "",
+    "doc_path": "../data/documents/JPN/TemporaryVisitor.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Japan (JPN) Visa Type: Temporary Visitor Visa (TemporaryVisitor) Official Source: https://www.mofa.go.jp/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Visit REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: JPN - Country Name: Japan - Visa ID: TemporaryVisitor - Visa Name: Temporary Visitor Visa"
+  },
+  {
+    "id": 58,
+    "country_code": "KEN",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa (EVisa)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/KEN/EVisa.txt",
+    "text": "Country: Kenya (KEN) Visa Type: e-Visa (EVisa) Official Source: https://evisa.go.ke/"
+  },
+  {
+    "id": 59,
+    "country_code": "KEN",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa (EVisa)",
+    "section": "",
+    "doc_path": "../data/documents/KEN/EVisa.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Kenya (KEN) Visa Type: e-Visa (EVisa) Official Source: https://evisa.go.ke/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: KEN - Country Name: Kenya - Visa ID: EVisa - Visa Name: e-Visa"
+  },
+  {
+    "id": 60,
+    "country_code": "KOR",
+    "visa_id": "D2",
+    "visa_name": "Student Visa (D2)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/KOR/D2.txt",
+    "text": "Country: South Korea (KOR) Visa Type: Student Visa (D2) Official Source: https://www.hikorea.go.kr/"
+  },
+  {
+    "id": 61,
+    "country_code": "KOR",
+    "visa_id": "D2",
+    "visa_name": "Student Visa (D2)",
+    "section": "",
+    "doc_path": "../data/documents/KOR/D2.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: South Korea (KOR) Visa Type: Student Visa (D2) Official Source: https://www.hikorea.go.kr/ ELIGIBILITY REQUIREMENTS ------------------------ 1. University Admission REQUIRED DOCUMENTS ------------------ 1. Passport 2. Admission Certificate METADATA -------- - Country Code: KOR - Country Name: South Korea - Visa ID: D2 - Visa Name: Student Visa"
+  },
+  {
+    "id": 62,
+    "country_code": "MAR",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/MAR/Tourist.txt",
+    "text": "Country: Morocco (MAR) Visa Type: Tourist Visa (Tourist) Official Source: https://www.consulat.ma/"
+  },
+  {
+    "id": 63,
+    "country_code": "MAR",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "",
+    "doc_path": "../data/documents/MAR/Tourist.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Morocco (MAR) Visa Type: Tourist Visa (Tourist) Official Source: https://www.consulat.ma/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: MAR - Country Name: Morocco - Visa ID: Tourist - Visa Name: Tourist Visa"
+  },
+  {
+    "id": 64,
+    "country_code": "MEX",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/MEX/Visitor.txt",
+    "text": "Country: Mexico (MEX) Visa Type: Visitor Visa (Visitor) Official Source: https://www.gob.mx/sre"
+  },
+  {
+    "id": 65,
+    "country_code": "MEX",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "section": "",
+    "doc_path": "../data/documents/MEX/Visitor.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Mexico (MEX) Visa Type: Visitor Visa (Visitor) Official Source: https://www.gob.mx/sre ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport 2. Purpose of Visit REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: MEX - Country Name: Mexico - Visa ID: Visitor - Visa Name: Visitor Visa"
+  },
+  {
+    "id": 66,
+    "country_code": "MYS",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/MYS/Tourist.txt",
+    "text": "Country: Malaysia (MYS) Visa Type: Tourist Visa (Tourist) Official Source: https://www.imi.gov.my/"
+  },
+  {
+    "id": 67,
+    "country_code": "MYS",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "",
+    "doc_path": "../data/documents/MYS/Tourist.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Malaysia (MYS) Visa Type: Tourist Visa (Tourist) Official Source: https://www.imi.gov.my/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: MYS - Country Name: Malaysia - Visa ID: Tourist - Visa Name: Tourist Visa"
+  },
+  {
+    "id": 68,
+    "country_code": "NGA",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/NGA/Visitor.txt",
+    "text": "Country: Nigeria (NGA) Visa Type: Visitor Visa (Visitor) Official Source: https://immigration.gov.ng/"
+  },
+  {
+    "id": 69,
+    "country_code": "NGA",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "section": "",
+    "doc_path": "../data/documents/NGA/Visitor.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Nigeria (NGA) Visa Type: Visitor Visa (Visitor) Official Source: https://immigration.gov.ng/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: NGA - Country Name: Nigeria - Visa ID: Visitor - Visa Name: Visitor Visa"
+  },
+  {
+    "id": 70,
+    "country_code": "NLD",
+    "visa_id": "MVV",
+    "visa_name": "Long Stay Visa (MVV)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/NLD/MVV.txt",
+    "text": "Country: Netherlands (NLD) Visa Type: Long Stay Visa (MVV) Official Source: https://ind.nl/"
+  },
+  {
+    "id": 71,
+    "country_code": "NLD",
+    "visa_id": "MVV",
+    "visa_name": "Long Stay Visa (MVV)",
+    "section": "",
+    "doc_path": "../data/documents/NLD/MVV.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Netherlands (NLD) Visa Type: Long Stay Visa (MVV) Official Source: https://ind.nl/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Sponsor Requirement REQUIRED DOCUMENTS ------------------ 1. Passport 2. Sponsor Documents METADATA -------- - Country Code: NLD - Country Name: Netherlands - Visa ID: MVV - Visa Name: Long Stay Visa"
+  },
+  {
+    "id": 72,
+    "country_code": "NOR",
+    "visa_id": "Work",
+    "visa_name": "Work Visa (Work)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/NOR/Work.txt",
+    "text": "Country: Norway (NOR) Visa Type: Work Visa (Work) Official Source: https://www.udi.no/"
+  },
+  {
+    "id": 73,
+    "country_code": "NOR",
+    "visa_id": "Work",
+    "visa_name": "Work Visa (Work)",
+    "section": "",
+    "doc_path": "../data/documents/NOR/Work.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Norway (NOR) Visa Type: Work Visa (Work) Official Source: https://www.udi.no/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Job Offer REQUIRED DOCUMENTS ------------------ 1. Passport 2. Employment Contract METADATA -------- - Country Code: NOR - Country Name: Norway - Visa ID: Work - Visa Name: Work Visa"
+  },
+  {
+    "id": 74,
+    "country_code": "NZL",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/NZL/Visitor.txt",
+    "text": "Country: New Zealand (NZL) Visa Type: Visitor Visa (Visitor) Official Source: https://www.immigration.govt.nz/"
+  },
+  {
+    "id": 75,
+    "country_code": "NZL",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "section": "",
+    "doc_path": "../data/documents/NZL/Visitor.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: New Zealand (NZL) Visa Type: Visitor Visa (Visitor) Official Source: https://www.immigration.govt.nz/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: NZL - Country Name: New Zealand - Visa ID: Visitor - Visa Name: Visitor Visa"
+  },
+  {
+    "id": 76,
+    "country_code": "PER",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/PER/Tourist.txt",
+    "text": "Country: Peru (PER) Visa Type: Tourist Visa (Tourist) Official Source: https://www.gob.pe/"
+  },
+  {
+    "id": 77,
+    "country_code": "PER",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "",
+    "doc_path": "../data/documents/PER/Tourist.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Peru (PER) Visa Type: Tourist Visa (Tourist) Official Source: https://www.gob.pe/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: PER - Country Name: Peru - Visa ID: Tourist - Visa Name: Tourist Visa"
+  },
+  {
+    "id": 78,
+    "country_code": "PHL",
+    "visa_id": "TemporaryVisitor",
+    "visa_name": "Temporary Visitor Visa (TemporaryVisitor)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/PHL/TemporaryVisitor.txt",
+    "text": "Country: Philippines (PHL) Visa Type: Temporary Visitor Visa (TemporaryVisitor) Official Source: https://immigration.gov.ph/"
+  },
+  {
+    "id": 79,
+    "country_code": "PHL",
+    "visa_id": "TemporaryVisitor",
+    "visa_name": "Temporary Visitor Visa (TemporaryVisitor)",
+    "section": "",
+    "doc_path": "../data/documents/PHL/TemporaryVisitor.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Philippines (PHL) Visa Type: Temporary Visitor Visa (TemporaryVisitor) Official Source: https://immigration.gov.ph/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: PHL - Country Name: Philippines - Visa ID: TemporaryVisitor - Visa Name: Temporary Visitor Visa"
+  },
+  {
+    "id": 80,
+    "country_code": "POL",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa (Schengen)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/POL/Schengen.txt",
+    "text": "Country: Poland (POL) Visa Type: Schengen Visa (Schengen) Official Source: https://www.gov.pl/"
+  },
+  {
+    "id": 81,
+    "country_code": "POL",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa (Schengen)",
+    "section": "",
+    "doc_path": "../data/documents/POL/Schengen.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Poland (POL) Visa Type: Schengen Visa (Schengen) Official Source: https://www.gov.pl/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Travel Insurance 2. Purpose of Visit REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: POL - Country Name: Poland - Visa ID: Schengen - Visa Name: Schengen Visa"
+  },
+  {
+    "id": 82,
+    "country_code": "PRT",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa (Schengen)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/PRT/Schengen.txt",
+    "text": "Country: Portugal (PRT) Visa Type: Schengen Visa (Schengen) Official Source: https://vistos.mne.gov.pt/"
+  },
+  {
+    "id": 83,
+    "country_code": "PRT",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa (Schengen)",
+    "section": "",
+    "doc_path": "../data/documents/PRT/Schengen.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Portugal (PRT) Visa Type: Schengen Visa (Schengen) Official Source: https://vistos.mne.gov.pt/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Visit 2. Travel Insurance REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: PRT - Country Name: Portugal - Visa ID: Schengen - Visa Name: Schengen Visa"
+  },
+  {
+    "id": 84,
+    "country_code": "QAT",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/QAT/Tourist.txt",
+    "text": "Country: Qatar (QAT) Visa Type: Tourist Visa (Tourist) Official Source: https://portal.moi.gov.qa/"
+  },
+  {
+    "id": 85,
+    "country_code": "QAT",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "",
+    "doc_path": "../data/documents/QAT/Tourist.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Qatar (QAT) Visa Type: Tourist Visa (Tourist) Official Source: https://portal.moi.gov.qa/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: QAT - Country Name: Qatar - Visa ID: Tourist - Visa Name: Tourist Visa"
+  },
+  {
+    "id": 86,
+    "country_code": "ROU",
+    "visa_id": "ShortStay",
+    "visa_name": "Short Stay Visa (ShortStay)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/ROU/ShortStay.txt",
+    "text": "Country: Romania (ROU) Visa Type: Short Stay Visa (ShortStay) Official Source: https://www.mae.ro/"
+  },
+  {
+    "id": 87,
+    "country_code": "ROU",
+    "visa_id": "ShortStay",
+    "visa_name": "Short Stay Visa (ShortStay)",
+    "section": "",
+    "doc_path": "../data/documents/ROU/ShortStay.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Romania (ROU) Visa Type: Short Stay Visa (ShortStay) Official Source: https://www.mae.ro/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Visit REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: ROU - Country Name: Romania - Visa ID: ShortStay - Visa Name: Short Stay Visa"
+  },
+  {
+    "id": 88,
+    "country_code": "SAU",
+    "visa_id": "Visit",
+    "visa_name": "Visit Visa (Visit)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/SAU/Visit.txt",
+    "text": "Country: Saudi Arabia (SAU) Visa Type: Visit Visa (Visit) Official Source: https://www.mofa.gov.sa/"
+  },
+  {
+    "id": 89,
+    "country_code": "SAU",
+    "visa_id": "Visit",
+    "visa_name": "Visit Visa (Visit)",
+    "section": "",
+    "doc_path": "../data/documents/SAU/Visit.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Saudi Arabia (SAU) Visa Type: Visit Visa (Visit) Official Source: https://www.mofa.gov.sa/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: SAU - Country Name: Saudi Arabia - Visa ID: Visit - Visa Name: Visit Visa"
+  },
+  {
+    "id": 90,
+    "country_code": "SGP",
+    "visa_id": "ShortTerm",
+    "visa_name": "Short-Term Visit Pass (ShortTerm)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/SGP/ShortTerm.txt",
+    "text": "Country: Singapore (SGP) Visa Type: Short-Term Visit Pass (ShortTerm) Official Source: https://www.ica.gov.sg/"
+  },
+  {
+    "id": 91,
+    "country_code": "SGP",
+    "visa_id": "ShortTerm",
+    "visa_name": "Short-Term Visit Pass (ShortTerm)",
+    "section": "",
+    "doc_path": "../data/documents/SGP/ShortTerm.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Singapore (SGP) Visa Type: Short-Term Visit Pass (ShortTerm) Official Source: https://www.ica.gov.sg/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form METADATA -------- - Country Code: SGP - Country Name: Singapore - Visa ID: ShortTerm - Visa Name: Short-Term Visit Pass"
+  },
+  {
+    "id": 92,
+    "country_code": "SWE",
+    "visa_id": "Residence",
+    "visa_name": "Residence Permit (Residence)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/SWE/Residence.txt",
+    "text": "Country: Sweden (SWE) Visa Type: Residence Permit (Residence) Official Source: https://www.migrationsverket.se/"
+  },
+  {
+    "id": 93,
+    "country_code": "SWE",
+    "visa_id": "Residence",
+    "visa_name": "Residence Permit (Residence)",
+    "section": "",
+    "doc_path": "../data/documents/SWE/Residence.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Sweden (SWE) Visa Type: Residence Permit (Residence) Official Source: https://www.migrationsverket.se/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Stay REQUIRED DOCUMENTS ------------------ 1. Passport 2. Supporting Documents METADATA -------- - Country Code: SWE - Country Name: Sweden - Visa ID: Residence - Visa Name: Residence Permit"
+  },
+  {
+    "id": 94,
+    "country_code": "THA",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/THA/Tourist.txt",
+    "text": "Country: Thailand (THA) Visa Type: Tourist Visa (Tourist) Official Source: https://www.thaievisa.go.th/"
+  },
+  {
+    "id": 95,
+    "country_code": "THA",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "section": "",
+    "doc_path": "../data/documents/THA/Tourist.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Thailand (THA) Visa Type: Tourist Visa (Tourist) Official Source: https://www.thaievisa.go.th/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: THA - Country Name: Thailand - Visa ID: Tourist - Visa Name: Tourist Visa"
+  },
+  {
+    "id": 96,
+    "country_code": "TUR",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa (EVisa)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/TUR/EVisa.txt",
+    "text": "Country: Turkey (TUR) Visa Type: e-Visa (EVisa) Official Source: https://www.evisa.gov.tr/"
+  },
+  {
+    "id": 97,
+    "country_code": "TUR",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa (EVisa)",
+    "section": "",
+    "doc_path": "../data/documents/TUR/EVisa.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Turkey (TUR) Visa Type: e-Visa (EVisa) Official Source: https://www.evisa.gov.tr/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: TUR - Country Name: Turkey - Visa ID: EVisa - Visa Name: e-Visa"
+  },
+  {
+    "id": 98,
+    "country_code": "UK",
+    "visa_id": "Standard Visitor",
+    "visa_name": "Visitor Visa (Standard Visitor)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/UK/Standard Visitor.txt",
+    "text": "Country: United Kingdom (UK) Visa Type: Visitor Visa (Standard Visitor) Official Source: https://www.gov.uk/"
+  },
+  {
+    "id": 99,
+    "country_code": "UK",
+    "visa_id": "Standard Visitor",
+    "visa_name": "Visitor Visa (Standard Visitor)",
+    "section": "",
+    "doc_path": "../data/documents/UK/Standard Visitor.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: United Kingdom (UK) Visa Type: Visitor Visa (Standard Visitor) Official Source: https://www.gov.uk/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport 2. Purpose of Visit 3. Proof of Funds REQUIRED DOCUMENTS ------------------ 1. Passport 2. Application Form 3. Financial Proof METADATA -------- - Country Code: UK - Country Name: United Kingdom - Visa ID: Standard Visitor - Visa Name: Visitor Visa"
+  },
+  {
+    "id": 100,
+    "country_code": "UK",
+    "visa_id": "Student",
+    "visa_name": "Student Visa (Student)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/UK/Student.txt",
+    "text": "Country: United Kingdom (UK) Visa Type: Student Visa (Student) Official Source: https://www.gov.uk/"
+  },
+  {
+    "id": 101,
+    "country_code": "UK",
+    "visa_id": "Student",
+    "visa_name": "Student Visa (Student)",
+    "section": "",
+    "doc_path": "../data/documents/UK/Student.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: United Kingdom (UK) Visa Type: Student Visa (Student) Official Source: https://www.gov.uk/ ELIGIBILITY REQUIREMENTS ------------------------ 1. CAS Letter 2. Proof of Funds REQUIRED DOCUMENTS ------------------ 1. Passport 2. CAS 3. English Proof METADATA -------- - Country Code: UK - Country Name: United Kingdom - Visa ID: Student - Visa Name: Student Visa"
+  },
+  {
+    "id": 102,
+    "country_code": "USA",
+    "visa_id": "B1/B2",
+    "visa_name": "Visitor Visa (Business & Tourism) (B1/B2)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/USA/B1_B2.txt",
+    "text": "Country: United States of America (USA) Visa Type: Visitor Visa (Business & Tourism) (B1/B2) Official Source: https://travel.state.gov/"
+  },
+  {
+    "id": 103,
+    "country_code": "USA",
+    "visa_id": "B1/B2",
+    "visa_name": "Visitor Visa (Business & Tourism) (B1/B2)",
+    "section": "",
+    "doc_path": "../data/documents/USA/B1_B2.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: United States of America (USA) Visa Type: Visitor Visa (Business & Tourism) (B1/B2) Official Source: https://travel.state.gov/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport 2. Purpose of Visit 3. Proof of Funds REQUIRED DOCUMENTS ------------------ 1. Passport 2. DS-160 Form 3. Photo 4. Financial Evidence METADATA -------- - Country Code: USA - Country Name: United States of America - Visa ID: B1/B2 - Visa Name: Visitor Visa (Business & Tourism)"
+  },
+  {
+    "id": 104,
+    "country_code": "USA",
+    "visa_id": "F1",
+    "visa_name": "Student Visa (F1)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/USA/F1.txt",
+    "text": "Country: United States of America (USA) Visa Type: Student Visa (F1) Official Source: https://travel.state.gov/"
+  },
+  {
+    "id": 105,
+    "country_code": "USA",
+    "visa_id": "F1",
+    "visa_name": "Student Visa (F1)",
+    "section": "",
+    "doc_path": "../data/documents/USA/F1.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: United States of America (USA) Visa Type: Student Visa (F1) Official Source: https://travel.state.gov/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Form I-20 2. SEVIS Payment 3. Proof of Funds REQUIRED DOCUMENTS ------------------ 1. Passport 2. I-20 3. SEVIS Receipt 4. Academic Records METADATA -------- - Country Code: USA - Country Name: United States of America - Visa ID: F1 - Visa Name: Student Visa"
+  },
+  {
+    "id": 106,
+    "country_code": "VNM",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa (EVisa)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/VNM/EVisa.txt",
+    "text": "Country: Vietnam (VNM) Visa Type: e-Visa (EVisa) Official Source: https://evisa.xuatnhapcanh.gov.vn/"
+  },
+  {
+    "id": 107,
+    "country_code": "VNM",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa (EVisa)",
+    "section": "",
+    "doc_path": "../data/documents/VNM/EVisa.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: Vietnam (VNM) Visa Type: e-Visa (EVisa) Official Source: https://evisa.xuatnhapcanh.gov.vn/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Valid Passport REQUIRED DOCUMENTS ------------------ 1. Passport METADATA -------- - Country Code: VNM - Country Name: Vietnam - Visa ID: EVisa - Visa Name: e-Visa"
+  },
+  {
+    "id": 108,
+    "country_code": "ZAF",
+    "visa_id": "TemporaryResidence",
+    "visa_name": "Temporary Residence Visa (TemporaryResidence)",
+    "section": "OVERVIEW",
+    "doc_path": "../data/documents/ZAF/TemporaryResidence.txt",
+    "text": "Country: South Africa (ZAF) Visa Type: Temporary Residence Visa (TemporaryResidence) Official Source: http://www.dha.gov.za/"
+  },
+  {
+    "id": 109,
+    "country_code": "ZAF",
+    "visa_id": "TemporaryResidence",
+    "visa_name": "Temporary Residence Visa (TemporaryResidence)",
+    "section": "",
+    "doc_path": "../data/documents/ZAF/TemporaryResidence.txt",
+    "text": "VISA POLICY DOCUMENT ==================== Country: South Africa (ZAF) Visa Type: Temporary Residence Visa (TemporaryResidence) Official Source: http://www.dha.gov.za/ ELIGIBILITY REQUIREMENTS ------------------------ 1. Purpose of Stay REQUIRED DOCUMENTS ------------------ 1. Passport 2. Supporting Documents METADATA -------- - Country Code: ZAF - Country Name: South Africa - Visa ID: TemporaryResidence - Visa Name: Temporary Residence Visa"
+  }
+]

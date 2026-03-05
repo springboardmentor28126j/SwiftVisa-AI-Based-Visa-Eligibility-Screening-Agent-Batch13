@@ -1,0 +1,25 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: India (IND)
+Visa Type: Tourist Visa (Tourist)
+Official Source: https://indianvisaonline.gov.in/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+2. Purpose of Visit
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+3. Photo
+
+METADATA
+--------
+- Country Code: IND
+- Country Name: India
+- Visa ID: Tourist
+- Visa Name: Tourist Visa

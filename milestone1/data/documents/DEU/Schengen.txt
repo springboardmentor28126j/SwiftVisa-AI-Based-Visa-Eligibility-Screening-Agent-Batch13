@@ -1,0 +1,26 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Germany (DEU)
+Visa Type: Schengen Short Stay Visa (Schengen)
+Official Source: https://www.auswaertiges-amt.de/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Visit
+2. Travel Insurance
+3. Proof of Funds
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+3. Insurance Proof
+
+METADATA
+--------
+- Country Code: DEU
+- Country Name: Germany
+- Visa ID: Schengen
+- Visa Name: Schengen Short Stay Visa

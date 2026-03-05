@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Malaysia (MYS)
+Visa Type: Tourist Visa (Tourist)
+Official Source: https://www.imi.gov.my/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: MYS
+- Country Name: Malaysia
+- Visa ID: Tourist
+- Visa Name: Tourist Visa

@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Norway (NOR)
+Visa Type: Work Visa (Work)
+Official Source: https://www.udi.no/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Job Offer
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Employment Contract
+
+METADATA
+--------
+- Country Code: NOR
+- Country Name: Norway
+- Visa ID: Work
+- Visa Name: Work Visa

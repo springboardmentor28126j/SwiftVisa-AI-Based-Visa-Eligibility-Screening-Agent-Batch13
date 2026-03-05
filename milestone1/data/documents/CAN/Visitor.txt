@@ -1,0 +1,26 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Canada (CAN)
+Visa Type: Temporary Resident Visa (Visitor)
+Official Source: https://www.canada.ca/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+2. Proof of Funds
+3. No Criminal Record
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+3. Financial Proof
+
+METADATA
+--------
+- Country Code: CAN
+- Country Name: Canada
+- Visa ID: Visitor
+- Visa Name: Temporary Resident Visa

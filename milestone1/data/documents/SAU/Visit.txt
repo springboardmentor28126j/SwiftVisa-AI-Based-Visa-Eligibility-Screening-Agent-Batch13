@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Saudi Arabia (SAU)
+Visa Type: Visit Visa (Visit)
+Official Source: https://www.mofa.gov.sa/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: SAU
+- Country Name: Saudi Arabia
+- Visa ID: Visit
+- Visa Name: Visit Visa

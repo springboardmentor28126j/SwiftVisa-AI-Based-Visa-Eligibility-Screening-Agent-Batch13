@@ -1,0 +1,27 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: United States of America (USA)
+Visa Type: Visitor Visa (Business & Tourism) (B1/B2)
+Official Source: https://travel.state.gov/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+2. Purpose of Visit
+3. Proof of Funds
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. DS-160 Form
+3. Photo
+4. Financial Evidence
+
+METADATA
+--------
+- Country Code: USA
+- Country Name: United States of America
+- Visa ID: B1/B2
+- Visa Name: Visitor Visa (Business & Tourism)

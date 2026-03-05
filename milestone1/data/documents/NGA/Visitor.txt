@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Nigeria (NGA)
+Visa Type: Visitor Visa (Visitor)
+Official Source: https://immigration.gov.ng/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: NGA
+- Country Name: Nigeria
+- Visa ID: Visitor
+- Visa Name: Visitor Visa

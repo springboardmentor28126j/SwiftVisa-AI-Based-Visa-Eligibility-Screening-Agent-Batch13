@@ -1,0 +1,25 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Canada (CAN)
+Visa Type: Study Permit (StudyPermit)
+Official Source: https://www.canada.ca/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Letter of Acceptance
+2. Proof of Funds
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Acceptance Letter
+3. Medical (if required)
+
+METADATA
+--------
+- Country Code: CAN
+- Country Name: Canada
+- Visa ID: StudyPermit
+- Visa Name: Study Permit

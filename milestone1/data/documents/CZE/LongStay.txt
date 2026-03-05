@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Czech Republic (CZE)
+Visa Type: Long Stay Visa (LongStay)
+Official Source: https://www.mvcr.cz/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Stay
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+
+METADATA
+--------
+- Country Code: CZE
+- Country Name: Czech Republic
+- Visa ID: LongStay
+- Visa Name: Long Stay Visa

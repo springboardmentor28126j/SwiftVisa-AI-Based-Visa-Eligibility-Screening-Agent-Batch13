@@ -1,0 +1,24 @@
+# Core ML and Embeddings
+sentence-transformers==2.5.1
+torch>=2.0.0
+transformers>=4.35.0
+
+# Vector Stores
+faiss-cpu==1.7.4
+chromadb==0.4.22
+
+# LangChain for RAG
+langchain==0.1.10
+langchain-community==0.0.25
+
+# Data Processing
+pandas==2.2.0
+numpy==1.26.4
+tqdm==4.66.1
+
+# LLM APIs
+groq>=0.4.0
+
+# Utilities
+python-dotenv==1.0.1
+pydantic==2.6.1

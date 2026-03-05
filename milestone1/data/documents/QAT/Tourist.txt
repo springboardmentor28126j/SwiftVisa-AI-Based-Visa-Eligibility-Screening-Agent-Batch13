@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Qatar (QAT)
+Visa Type: Tourist Visa (Tourist)
+Official Source: https://portal.moi.gov.qa/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: QAT
+- Country Name: Qatar
+- Visa ID: Tourist
+- Visa Name: Tourist Visa

@@ -1,0 +1,8 @@
+{
+  "total_chunks": 110,
+  "embedding_dimension": 384,
+  "model_name": "all-MiniLM-L6-v2",
+  "index_type": "IndexFlatL2",
+  "countries": 50,
+  "unique_visas": 55
+}

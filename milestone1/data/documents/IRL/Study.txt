@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Ireland (IRL)
+Visa Type: Student Visa (Study)
+Official Source: https://www.irishimmigration.ie/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Acceptance Letter
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Acceptance Letter
+
+METADATA
+--------
+- Country Code: IRL
+- Country Name: Ireland
+- Visa ID: Study
+- Visa Name: Student Visa

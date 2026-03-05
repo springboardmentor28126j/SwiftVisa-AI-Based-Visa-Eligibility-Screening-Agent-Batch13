@@ -1,0 +1,24 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: France (FRA)
+Visa Type: Schengen Visa (ShortStay)
+Official Source: https://france-visas.gouv.fr/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Travel Insurance
+2. Purpose of Visit
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+
+METADATA
+--------
+- Country Code: FRA
+- Country Name: France
+- Visa ID: ShortStay
+- Visa Name: Schengen Visa

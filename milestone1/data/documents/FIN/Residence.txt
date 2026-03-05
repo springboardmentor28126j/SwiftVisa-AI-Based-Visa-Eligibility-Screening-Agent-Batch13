@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Finland (FIN)
+Visa Type: Residence Permit (Residence)
+Official Source: https://migri.fi/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Stay
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: FIN
+- Country Name: Finland
+- Visa ID: Residence
+- Visa Name: Residence Permit

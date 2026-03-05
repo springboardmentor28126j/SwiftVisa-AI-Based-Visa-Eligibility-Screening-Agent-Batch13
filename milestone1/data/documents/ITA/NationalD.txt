@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Italy (ITA)
+Visa Type: Long Stay Visa (NationalD)
+Official Source: https://vistoperitalia.esteri.it/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Stay
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+
+METADATA
+--------
+- Country Code: ITA
+- Country Name: Italy
+- Visa ID: NationalD
+- Visa Name: Long Stay Visa

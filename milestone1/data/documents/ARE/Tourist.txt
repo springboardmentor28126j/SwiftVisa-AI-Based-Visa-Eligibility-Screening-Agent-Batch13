@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: United Arab Emirates (ARE)
+Visa Type: Tourist Visa (Tourist)
+Official Source: https://u.ae/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Return Ticket
+
+METADATA
+--------
+- Country Code: ARE
+- Country Name: United Arab Emirates
+- Visa ID: Tourist
+- Visa Name: Tourist Visa

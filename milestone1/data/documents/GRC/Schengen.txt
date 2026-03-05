@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Greece (GRC)
+Visa Type: Schengen Visa (Schengen)
+Official Source: https://www.mfa.gr/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Visit
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: GRC
+- Country Name: Greece
+- Visa ID: Schengen
+- Visa Name: Schengen Visa

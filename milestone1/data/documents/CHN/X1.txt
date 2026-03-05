@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: China (CHN)
+Visa Type: Student Visa (X1)
+Official Source: https://www.visaforchina.cn/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Admission Notice
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Visa Form
+
+METADATA
+--------
+- Country Code: CHN
+- Country Name: China
+- Visa ID: X1
+- Visa Name: Student Visa

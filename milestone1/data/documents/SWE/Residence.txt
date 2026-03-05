@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Sweden (SWE)
+Visa Type: Residence Permit (Residence)
+Official Source: https://www.migrationsverket.se/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Stay
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Supporting Documents
+
+METADATA
+--------
+- Country Code: SWE
+- Country Name: Sweden
+- Visa ID: Residence
+- Visa Name: Residence Permit

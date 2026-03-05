@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Spain (ESP)
+Visa Type: Student Visa (Student)
+Official Source: https://www.exteriores.gob.es/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Admission Letter
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Acceptance Letter
+
+METADATA
+--------
+- Country Code: ESP
+- Country Name: Spain
+- Visa ID: Student
+- Visa Name: Student Visa

@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Israel (ISR)
+Visa Type: Visitor Visa (B2)
+Official Source: https://www.gov.il/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+
+METADATA
+--------
+- Country Code: ISR
+- Country Name: Israel
+- Visa ID: B2
+- Visa Name: Visitor Visa

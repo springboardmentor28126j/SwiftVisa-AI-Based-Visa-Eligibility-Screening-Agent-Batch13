@@ -1,0 +1,789 @@
+{
+  "USA_B1/B2": {
+    "country_code": "USA",
+    "country_name": "United States of America",
+    "visa_id": "B1/B2",
+    "visa_name": "Visitor Visa (Business & Tourism)",
+    "eligibility_fields": [
+      "Valid Passport",
+      "Purpose of Visit",
+      "Proof of Funds"
+    ],
+    "documents_required": [
+      "Passport",
+      "DS-160 Form",
+      "Photo",
+      "Financial Evidence"
+    ],
+    "official_source": "https://travel.state.gov/"
+  },
+  "USA_F1": {
+    "country_code": "USA",
+    "country_name": "United States of America",
+    "visa_id": "F1",
+    "visa_name": "Student Visa",
+    "eligibility_fields": [
+      "Form I-20",
+      "SEVIS Payment",
+      "Proof of Funds"
+    ],
+    "documents_required": [
+      "Passport",
+      "I-20",
+      "SEVIS Receipt",
+      "Academic Records"
+    ],
+    "official_source": "https://travel.state.gov/"
+  },
+  "UK_Standard Visitor": {
+    "country_code": "UK",
+    "country_name": "United Kingdom",
+    "visa_id": "Standard Visitor",
+    "visa_name": "Visitor Visa",
+    "eligibility_fields": [
+      "Valid Passport",
+      "Purpose of Visit",
+      "Proof of Funds"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form",
+      "Financial Proof"
+    ],
+    "official_source": "https://www.gov.uk/"
+  },
+  "UK_Student": {
+    "country_code": "UK",
+    "country_name": "United Kingdom",
+    "visa_id": "Student",
+    "visa_name": "Student Visa",
+    "eligibility_fields": [
+      "CAS Letter",
+      "Proof of Funds"
+    ],
+    "documents_required": [
+      "Passport",
+      "CAS",
+      "English Proof"
+    ],
+    "official_source": "https://www.gov.uk/"
+  },
+  "CAN_Visitor": {
+    "country_code": "CAN",
+    "country_name": "Canada",
+    "visa_id": "Visitor",
+    "visa_name": "Temporary Resident Visa",
+    "eligibility_fields": [
+      "Valid Passport",
+      "Proof of Funds",
+      "No Criminal Record"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form",
+      "Financial Proof"
+    ],
+    "official_source": "https://www.canada.ca/"
+  },
+  "CAN_StudyPermit": {
+    "country_code": "CAN",
+    "country_name": "Canada",
+    "visa_id": "StudyPermit",
+    "visa_name": "Study Permit",
+    "eligibility_fields": [
+      "Letter of Acceptance",
+      "Proof of Funds"
+    ],
+    "documents_required": [
+      "Passport",
+      "Acceptance Letter",
+      "Medical (if required)"
+    ],
+    "official_source": "https://www.canada.ca/"
+  },
+  "IND_Tourist": {
+    "country_code": "IND",
+    "country_name": "India",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa",
+    "eligibility_fields": [
+      "Valid Passport",
+      "Purpose of Visit"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form",
+      "Photo"
+    ],
+    "official_source": "https://indianvisaonline.gov.in/"
+  },
+  "IND_Employment": {
+    "country_code": "IND",
+    "country_name": "India",
+    "visa_id": "Employment",
+    "visa_name": "Employment Visa",
+    "eligibility_fields": [
+      "Employment Contract",
+      "Qualification Proof"
+    ],
+    "documents_required": [
+      "Passport",
+      "Contract Letter"
+    ],
+    "official_source": "https://indianvisaonline.gov.in/"
+  },
+  "DEU_Schengen": {
+    "country_code": "DEU",
+    "country_name": "Germany",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Short Stay Visa",
+    "eligibility_fields": [
+      "Purpose of Visit",
+      "Travel Insurance",
+      "Proof of Funds"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form",
+      "Insurance Proof"
+    ],
+    "official_source": "https://www.auswaertiges-amt.de/"
+  },
+  "DEU_EUBlueCard": {
+    "country_code": "DEU",
+    "country_name": "Germany",
+    "visa_id": "EUBlueCard",
+    "visa_name": "EU Blue Card",
+    "eligibility_fields": [
+      "Job Offer",
+      "Recognized Degree",
+      "Salary Threshold"
+    ],
+    "documents_required": [
+      "Passport",
+      "Employment Contract",
+      "Degree Certificate"
+    ],
+    "official_source": "https://www.make-it-in-germany.com/"
+  },
+  "AUS_Visitor600": {
+    "country_code": "AUS",
+    "country_name": "Australia",
+    "visa_id": "Visitor600",
+    "visa_name": "Visitor Visa",
+    "eligibility_fields": [
+      "Valid Passport",
+      "Proof of Funds"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://immi.homeaffairs.gov.au/"
+  },
+  "FRA_ShortStay": {
+    "country_code": "FRA",
+    "country_name": "France",
+    "visa_id": "ShortStay",
+    "visa_name": "Schengen Visa",
+    "eligibility_fields": [
+      "Travel Insurance",
+      "Purpose of Visit"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://france-visas.gouv.fr/"
+  },
+  "ITA_NationalD": {
+    "country_code": "ITA",
+    "country_name": "Italy",
+    "visa_id": "NationalD",
+    "visa_name": "Long Stay Visa",
+    "eligibility_fields": [
+      "Purpose of Stay"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://vistoperitalia.esteri.it/"
+  },
+  "ESP_Student": {
+    "country_code": "ESP",
+    "country_name": "Spain",
+    "visa_id": "Student",
+    "visa_name": "Student Visa",
+    "eligibility_fields": [
+      "Admission Letter"
+    ],
+    "documents_required": [
+      "Passport",
+      "Acceptance Letter"
+    ],
+    "official_source": "https://www.exteriores.gob.es/"
+  },
+  "NLD_MVV": {
+    "country_code": "NLD",
+    "country_name": "Netherlands",
+    "visa_id": "MVV",
+    "visa_name": "Long Stay Visa",
+    "eligibility_fields": [
+      "Sponsor Requirement"
+    ],
+    "documents_required": [
+      "Passport",
+      "Sponsor Documents"
+    ],
+    "official_source": "https://ind.nl/"
+  },
+  "ARE_Tourist": {
+    "country_code": "ARE",
+    "country_name": "United Arab Emirates",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport",
+      "Return Ticket"
+    ],
+    "official_source": "https://u.ae/"
+  },
+  "SGP_ShortTerm": {
+    "country_code": "SGP",
+    "country_name": "Singapore",
+    "visa_id": "ShortTerm",
+    "visa_name": "Short-Term Visit Pass",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://www.ica.gov.sg/"
+  },
+  "JPN_TemporaryVisitor": {
+    "country_code": "JPN",
+    "country_name": "Japan",
+    "visa_id": "TemporaryVisitor",
+    "visa_name": "Temporary Visitor Visa",
+    "eligibility_fields": [
+      "Purpose of Visit"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://www.mofa.go.jp/"
+  },
+  "KOR_D2": {
+    "country_code": "KOR",
+    "country_name": "South Korea",
+    "visa_id": "D2",
+    "visa_name": "Student Visa",
+    "eligibility_fields": [
+      "University Admission"
+    ],
+    "documents_required": [
+      "Passport",
+      "Admission Certificate"
+    ],
+    "official_source": "https://www.hikorea.go.kr/"
+  },
+  "CHN_X1": {
+    "country_code": "CHN",
+    "country_name": "China",
+    "visa_id": "X1",
+    "visa_name": "Student Visa",
+    "eligibility_fields": [
+      "Admission Notice"
+    ],
+    "documents_required": [
+      "Passport",
+      "Visa Form"
+    ],
+    "official_source": "https://www.visaforchina.cn/"
+  },
+  "NZL_Visitor": {
+    "country_code": "NZL",
+    "country_name": "New Zealand",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://www.immigration.govt.nz/"
+  },
+  "IRL_Study": {
+    "country_code": "IRL",
+    "country_name": "Ireland",
+    "visa_id": "Study",
+    "visa_name": "Student Visa",
+    "eligibility_fields": [
+      "Acceptance Letter"
+    ],
+    "documents_required": [
+      "Passport",
+      "Acceptance Letter"
+    ],
+    "official_source": "https://www.irishimmigration.ie/"
+  },
+  "CHE_Schengen": {
+    "country_code": "CHE",
+    "country_name": "Switzerland",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa",
+    "eligibility_fields": [
+      "Purpose of Visit"
+    ],
+    "documents_required": [
+      "Passport",
+      "Insurance Proof"
+    ],
+    "official_source": "https://www.sem.admin.ch/"
+  },
+  "BRA_Visitor": {
+    "country_code": "BRA",
+    "country_name": "Brazil",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://www.gov.br/mre/"
+  },
+  "ZAF_TemporaryResidence": {
+    "country_code": "ZAF",
+    "country_name": "South Africa",
+    "visa_id": "TemporaryResidence",
+    "visa_name": "Temporary Residence Visa",
+    "eligibility_fields": [
+      "Purpose of Stay"
+    ],
+    "documents_required": [
+      "Passport",
+      "Supporting Documents"
+    ],
+    "official_source": "http://www.dha.gov.za/"
+  },
+  "MEX_Visitor": {
+    "country_code": "MEX",
+    "country_name": "Mexico",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa",
+    "eligibility_fields": [
+      "Valid Passport",
+      "Purpose of Visit"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://www.gob.mx/sre"
+  },
+  "ARG_Tourist": {
+    "country_code": "ARG",
+    "country_name": "Argentina",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://www.argentina.gob.ar/"
+  },
+  "CHL_Temporary": {
+    "country_code": "CHL",
+    "country_name": "Chile",
+    "visa_id": "Temporary",
+    "visa_name": "Temporary Resident Visa",
+    "eligibility_fields": [
+      "Purpose of Stay"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://www.chile.gob.cl/"
+  },
+  "COL_Visitor": {
+    "country_code": "COL",
+    "country_name": "Colombia",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://www.cancilleria.gov.co/"
+  },
+  "PER_Tourist": {
+    "country_code": "PER",
+    "country_name": "Peru",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://www.gob.pe/"
+  },
+  "POL_Schengen": {
+    "country_code": "POL",
+    "country_name": "Poland",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa",
+    "eligibility_fields": [
+      "Travel Insurance",
+      "Purpose of Visit"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://www.gov.pl/"
+  },
+  "SWE_Residence": {
+    "country_code": "SWE",
+    "country_name": "Sweden",
+    "visa_id": "Residence",
+    "visa_name": "Residence Permit",
+    "eligibility_fields": [
+      "Purpose of Stay"
+    ],
+    "documents_required": [
+      "Passport",
+      "Supporting Documents"
+    ],
+    "official_source": "https://www.migrationsverket.se/"
+  },
+  "NOR_Work": {
+    "country_code": "NOR",
+    "country_name": "Norway",
+    "visa_id": "Work",
+    "visa_name": "Work Visa",
+    "eligibility_fields": [
+      "Job Offer"
+    ],
+    "documents_required": [
+      "Passport",
+      "Employment Contract"
+    ],
+    "official_source": "https://www.udi.no/"
+  },
+  "DNK_Work": {
+    "country_code": "DNK",
+    "country_name": "Denmark",
+    "visa_id": "Work",
+    "visa_name": "Work Visa",
+    "eligibility_fields": [
+      "Job Offer"
+    ],
+    "documents_required": [
+      "Passport",
+      "Work Contract"
+    ],
+    "official_source": "https://www.nyidanmark.dk/"
+  },
+  "FIN_Residence": {
+    "country_code": "FIN",
+    "country_name": "Finland",
+    "visa_id": "Residence",
+    "visa_name": "Residence Permit",
+    "eligibility_fields": [
+      "Purpose of Stay"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://migri.fi/"
+  },
+  "AUT_RedWhiteRed": {
+    "country_code": "AUT",
+    "country_name": "Austria",
+    "visa_id": "RedWhiteRed",
+    "visa_name": "Red-White-Red Card",
+    "eligibility_fields": [
+      "Job Offer",
+      "Qualification"
+    ],
+    "documents_required": [
+      "Passport",
+      "Employment Contract"
+    ],
+    "official_source": "https://www.migration.gv.at/"
+  },
+  "BEL_LongStay": {
+    "country_code": "BEL",
+    "country_name": "Belgium",
+    "visa_id": "LongStay",
+    "visa_name": "Long Stay Visa",
+    "eligibility_fields": [
+      "Purpose of Stay"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://dofi.ibz.be/"
+  },
+  "GRC_Schengen": {
+    "country_code": "GRC",
+    "country_name": "Greece",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa",
+    "eligibility_fields": [
+      "Purpose of Visit"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://www.mfa.gr/"
+  },
+  "TUR_EVisa": {
+    "country_code": "TUR",
+    "country_name": "Turkey",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://www.evisa.gov.tr/"
+  },
+  "SAU_Visit": {
+    "country_code": "SAU",
+    "country_name": "Saudi Arabia",
+    "visa_id": "Visit",
+    "visa_name": "Visit Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://www.mofa.gov.sa/"
+  },
+  "QAT_Tourist": {
+    "country_code": "QAT",
+    "country_name": "Qatar",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://portal.moi.gov.qa/"
+  },
+  "EGY_Tourist": {
+    "country_code": "EGY",
+    "country_name": "Egypt",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://www.visa2egypt.gov.eg/"
+  },
+  "KEN_EVisa": {
+    "country_code": "KEN",
+    "country_name": "Kenya",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://evisa.go.ke/"
+  },
+  "THA_Tourist": {
+    "country_code": "THA",
+    "country_name": "Thailand",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://www.thaievisa.go.th/"
+  },
+  "VNM_EVisa": {
+    "country_code": "VNM",
+    "country_name": "Vietnam",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://evisa.xuatnhapcanh.gov.vn/"
+  },
+  "PRT_Schengen": {
+    "country_code": "PRT",
+    "country_name": "Portugal",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa",
+    "eligibility_fields": [
+      "Purpose of Visit",
+      "Travel Insurance"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://vistos.mne.gov.pt/"
+  },
+  "HUN_Residence": {
+    "country_code": "HUN",
+    "country_name": "Hungary",
+    "visa_id": "Residence",
+    "visa_name": "Residence Permit",
+    "eligibility_fields": [
+      "Purpose of Stay"
+    ],
+    "documents_required": [
+      "Passport",
+      "Supporting Documents"
+    ],
+    "official_source": "https://www.bmbah.hu/"
+  },
+  "CZE_LongStay": {
+    "country_code": "CZE",
+    "country_name": "Czech Republic",
+    "visa_id": "LongStay",
+    "visa_name": "Long Stay Visa",
+    "eligibility_fields": [
+      "Purpose of Stay"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://www.mvcr.cz/"
+  },
+  "ROU_ShortStay": {
+    "country_code": "ROU",
+    "country_name": "Romania",
+    "visa_id": "ShortStay",
+    "visa_name": "Short Stay Visa",
+    "eligibility_fields": [
+      "Purpose of Visit"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://www.mae.ro/"
+  },
+  "ISR_B2": {
+    "country_code": "ISR",
+    "country_name": "Israel",
+    "visa_id": "B2",
+    "visa_name": "Visitor Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport",
+      "Application Form"
+    ],
+    "official_source": "https://www.gov.il/"
+  },
+  "MYS_Tourist": {
+    "country_code": "MYS",
+    "country_name": "Malaysia",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://www.imi.gov.my/"
+  },
+  "IDN_EVisa": {
+    "country_code": "IDN",
+    "country_name": "Indonesia",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://molina.imigrasi.go.id/"
+  },
+  "PHL_TemporaryVisitor": {
+    "country_code": "PHL",
+    "country_name": "Philippines",
+    "visa_id": "TemporaryVisitor",
+    "visa_name": "Temporary Visitor Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://immigration.gov.ph/"
+  },
+  "MAR_Tourist": {
+    "country_code": "MAR",
+    "country_name": "Morocco",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://www.consulat.ma/"
+  },
+  "NGA_Visitor": {
+    "country_code": "NGA",
+    "country_name": "Nigeria",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa",
+    "eligibility_fields": [
+      "Valid Passport"
+    ],
+    "documents_required": [
+      "Passport"
+    ],
+    "official_source": "https://immigration.gov.ng/"
+  }
+}

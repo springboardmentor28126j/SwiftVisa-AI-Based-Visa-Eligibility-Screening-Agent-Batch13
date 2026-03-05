@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Brazil (BRA)
+Visa Type: Visitor Visa (Visitor)
+Official Source: https://www.gov.br/mre/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+
+METADATA
+--------
+- Country Code: BRA
+- Country Name: Brazil
+- Visa ID: Visitor
+- Visa Name: Visitor Visa

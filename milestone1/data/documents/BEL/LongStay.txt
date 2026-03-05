@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Belgium (BEL)
+Visa Type: Long Stay Visa (LongStay)
+Official Source: https://dofi.ibz.be/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Stay
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+
+METADATA
+--------
+- Country Code: BEL
+- Country Name: Belgium
+- Visa ID: LongStay
+- Visa Name: Long Stay Visa

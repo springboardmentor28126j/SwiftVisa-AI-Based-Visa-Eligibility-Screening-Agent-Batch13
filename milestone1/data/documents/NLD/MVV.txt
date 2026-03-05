@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Netherlands (NLD)
+Visa Type: Long Stay Visa (MVV)
+Official Source: https://ind.nl/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Sponsor Requirement
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Sponsor Documents
+
+METADATA
+--------
+- Country Code: NLD
+- Country Name: Netherlands
+- Visa ID: MVV
+- Visa Name: Long Stay Visa

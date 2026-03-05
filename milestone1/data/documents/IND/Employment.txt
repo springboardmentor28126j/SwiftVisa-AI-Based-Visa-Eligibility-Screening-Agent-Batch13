@@ -1,0 +1,24 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: India (IND)
+Visa Type: Employment Visa (Employment)
+Official Source: https://indianvisaonline.gov.in/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Employment Contract
+2. Qualification Proof
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Contract Letter
+
+METADATA
+--------
+- Country Code: IND
+- Country Name: India
+- Visa ID: Employment
+- Visa Name: Employment Visa

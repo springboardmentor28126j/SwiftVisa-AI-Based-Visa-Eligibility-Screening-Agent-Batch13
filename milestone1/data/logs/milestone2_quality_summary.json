@@ -1,0 +1,9 @@
+{
+  "total_decisions": 24,
+  "avg_confidence": 0.548,
+  "grounded_rate": 0.458,
+  "status_distribution": {
+    "INSUFFICIENT_INFO": 4,
+    "PARTIAL": 20
+  }
+}
