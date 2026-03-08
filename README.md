@@ -91,3 +91,48 @@ Visa Policy Collection
 
 ## Next Step
 The next step is to integrate the FAISS vector database with a Retrieval-Augmented Generation (RAG) system to build an AI-based Visa Eligibility Screening Agent.
+
+
+## Milestone 2 – Retrieval, Reranking and LLM Integration
+
+In Milestone 2, the visa eligibility system was improved by implementing the full Retrieval-Augmented Generation (RAG) pipeline.
+
+### Work Completed
+
+1. **Query Embedding**
+   - User queries are converted into vector embeddings using the SentenceTransformer model `all-MiniLM-L6-v2`.
+
+2. **Vector Search using FAISS**
+   - The query embedding is compared with stored embeddings in the FAISS index.
+   - The system retrieves the **Top 3 most relevant visa records**.
+
+3. **Reranking**
+   - Cosine similarity is applied to the retrieved results.
+   - The most relevant visa record is selected for better accuracy.
+
+4. **Prompt Template**
+   - A structured prompt template is created.
+   - The selected visa information is passed as context to the language model.
+
+5. **LLM Integration**
+   - Groq API is used with the `llama-3.1-8b-instant` model.
+   - The model generates a structured response including eligibility and required documents.
+
+### RAG Pipeline Flow
+
+User Query  
+→ Convert Query to Embedding  
+→ FAISS Retrieval (Top 3 Results)  
+→ Reranking using Cosine Similarity  
+→ Select Best Context  
+→ Prompt Template  
+→ Groq LLM  
+→ Final Visa Information Response
+
+### Output
+
+The system now returns:
+- Visa type
+- Eligibility criteria
+- Required documents
+- Structured AI-generated response
