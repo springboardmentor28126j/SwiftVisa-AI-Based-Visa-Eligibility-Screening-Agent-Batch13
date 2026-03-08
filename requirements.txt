@@ -1,3 +1,6 @@
 langchain
 sentence-transformers
 faiss-cpu
+streamlit
+requests
+python-dotenv
