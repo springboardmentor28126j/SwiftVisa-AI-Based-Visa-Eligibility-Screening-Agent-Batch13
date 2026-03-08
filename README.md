@@ -1,4 +1,4 @@
-# 🚀 SwiftVisa – AI-Based Visa Eligibility Screening Agent.
+# 🚀 SwiftVisa – AI-Based Visa Eligibility Screening Agent
 
 An AI-powered visa eligibility screening system built using a Retrieval-Augmented Generation (RAG) architecture.
 
@@ -6,7 +6,7 @@ This system analyzes official immigration policies and evaluates applicant eligi
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
 SwiftVisa is designed to:
 
@@ -16,12 +16,13 @@ SwiftVisa is designed to:
 - Generate eligibility decisions using an LLM
 - Provide confidence scoring
 - Log decision history for evaluation
+- Provide an interactive web interface for users
 
-The system works completely locally using LM Studio.
+The system runs completely locally using LM Studio.
 
 ---
 
-## 🧠 System Architecture (RAG Pipeline)
+# 🧠 System Architecture (RAG Pipeline)
 
 SwiftVisa follows a Retrieval-Augmented Generation workflow:
 
@@ -35,43 +36,59 @@ SwiftVisa follows a Retrieval-Augmented Generation workflow:
 - Preserve contextual meaning
 
 ### 3️⃣ Embedding Generation
-- Model: `sentence-transformers/all-MiniLM-L6-v2`
-- Convert text chunks into vector embeddings
+
+Model used:
+
+sentence-transformers/all-MiniLM-L6-v2
+
+Convert text chunks into vector embeddings.
 
 ### 4️⃣ Vector Storage
-- Store embeddings in FAISS
-- Store metadata:
-  - country
-  - visa_type
-  - official_source
+
+Vectors stored using FAISS.
+
+Metadata stored:
+- country
+- visa_type
+- official_source
 
 ### 5️⃣ Retrieval
-- Filter documents using:
-  - country
-  - visa_type
-- Retrieve top-K relevant policy chunks
+
+Relevant policy chunks are retrieved using:
+- country filter
+- visa_type filter
+- semantic similarity search
 
 ### 6️⃣ LLM Decision Generation
-- Construct prompt using:
-  - User profile
-  - Retrieved policy context
-- Generate structured output:
-Decision: <Eligible / Possibly Eligible / Not Eligible>
-Confidence: <0 to 1 score>
-Reasoning: < Policy-grounded explanation >
+
+Prompt constructed using:
+- User profile
+- Retrieved policy context
+
+Model generates structured output:
+
+Decision: <Eligible / Possibly Eligible / Not Eligible>  
+Confidence: <0 to 1 score>  
+Reasoning: <Policy-grounded explanation>
 
 ### 7️⃣ Logging System
-- Store decision history in `decision_logs.json`
-- Track:
-  - Timestamp
-  - User profile
-  - Decision
-  - Confidence score
-  - Confidence level (High / Medium / Low)
+
+All decisions are logged into:
+
+decision_logs.json
+
+Stored information:
+- Timestamp
+- User profile
+- Decision
+- Confidence score
+- Confidence level (High / Medium / Low)
 
 ---
 
-## 🌍 Supported Countries (Milestone 1 Expanded)
+# 🌍 Supported Countries
+
+SwiftVisa currently supports visa policies for:
 
 - USA
 - Canada
@@ -84,120 +101,172 @@ Reasoning: < Policy-grounded explanation >
 - New Zealand
 - Sweden
 - Singapore
-- UAE
+- United Arab Emirates
 
-All policies collected manually from official government sources.
+All policies were collected manually from official government sources.
 
 ---
 
-## 🛠 Tech Stack
+# 🖥 Streamlit Web Interface (Milestone 3)
 
+The system includes a Streamlit-based frontend allowing users to interact with the AI eligibility system through a web interface.
+
+### Features
+
+- Structured visa eligibility form
+- AI eligibility decision display
+- Confidence score visualization
+- Decision color indicators
+- Policy-based reasoning explanation
+- Official policy source references
+- Decision history dashboard
+- Sidebar with project information
+
+---
+
+# 🛠 Tech Stack
+
+Frontend  
+- Streamlit
+
+Backend  
 - Python
-- LangChain
-- FAISS
-- Sentence Transformers
-- HuggingFace Embeddings
-- LM Studio (Local LLM Server)
+
+AI / LLM  
 - Phi-3 Mini (4K Instruct)
+- LM Studio Local Server
+
+Vector Search  
+- FAISS
+
+Embeddings  
+- Sentence Transformers
+
+Framework  
+- LangChain
 
 ---
 
-## ▶️ How to Run the Project
+# ▶️ How to Run the Project
 
 ### Step 1 – Install Dependencies
+
     pip install -r requirements.txt
+
+---
+
 ### Step 2 – Generate Vector Store
-    Python build_vector_story.py
-This will:
-- Load JSON data
-- Chunk documents
+
+    python build_vector_store.py
+
+This step will:
+
+- Load visa policy JSON data
+- Split documents into chunks
 - Generate embeddings
-- Store vectors in FAISS
+- Store vectors in FAISS database
+
+---
 
 ### Step 3 – Start LM Studio
 
-1. Load `phi-3-mini-4k-instruct`
-2. Go to Developer → Local Server
-3. Start server
-4. Ensure it runs at:
-http://localhost:1234
+1. Load model: phi-3-mini-4k-instruct  
+2. Open Developer → Local Server  
+3. Start server  
 
-### Step 4 – Run Eligibility System
-    Python local_eligibility_agent.py
+Ensure server runs at:
 
-You will be prompted to enter:
-
-- Age
-- Nationality
-- Education
-- Employment
-- Income
-- Country
-- Visa Type
+    http://localhost:1234
 
 ---
 
-## 🧪 Sample Test Input
-- Age: 25
-- Nationality: India
-- Education: Bachelor's Degree
-- Employment: Software Engineer
-- Income: 70000 USD
-- Country: Germany
-- Visa Type: EU Blue Card
+### Step 4 – Run the Web Application
+
+    streamlit run streamlit_app.py
+
+Then open your browser at:
+
+    http://localhost:8501
 
 ---
 
-## 📊 Sample Output
-- Decision: Possibly Eligible
-- Confidence: 0.85
-- Reasoning: ...
-- Confidence Level: High
+# 🧪 Sample Test Input
+
+Age: 25  
+Nationality: India  
+Education: Bachelor's Degree  
+Employment: Software Engineer  
+Income: 70000 USD  
+Country: Germany  
+Visa Type: EU Blue Card  
+
+---
+
+# 📊 Sample Output
+
+Decision: Possibly Eligible  
+Confidence: 0.85  
+Confidence Level: High  
+
+Policy-based reasoning explaining eligibility conditions.
 
 Based on Official Source(s):
+
 https://www.make-it-in-germany.com
 
 ---
 
-## ✅ Milestone 1 Status – COMPLETED
+# ✅ Milestone 1 – Completed
 
-- Policy corpus structured in JSON
-- 12+ countries added
-- Official government sources included
-- Vector database created
+- Visa policy corpus created
+- 12+ countries included
+- Official sources collected
+- FAISS vector database created
 
-## ✅ Milestone 2 Status – COMPLETED
+---
 
-- Working RAG + LLM pipeline
+# ✅ Milestone 2 – Completed
+
+- Functional RAG pipeline
 - Metadata-based retrieval
-- Policy-grounded eligibility explanation
+- Policy-grounded reasoning
 - Confidence scoring
-- Decision logging system
+- Decision logging
 - Local LLM integration via LM Studio
 
 ---
 
-## ⚠️ Current Limitations
+# ✅ Milestone 3 – Completed
 
-- Uses lightweight local model (Phi-3 Mini)
-- Advanced reasoning may be limited compared to larger hosted models
-
-The architecture is production-ready; model capacity is the only limitation.
-
----
-
-## 🚀 Future Improvements (Milestone 3)
-
-- Streamlit Web UI
-- Improved evaluation metrics
-- Enhanced confidence calibration
-- Input validation system
-- Performance benchmarking
+- Streamlit web interface
+- Structured user input form
+- AI decision visualization
+- Confidence progress bar
+- Decision badge indicators
+- Decision history dashboard
+- Sidebar information panel
 
 ---
 
-## 👩‍💻 Author
+# ⚠️ Current Limitations
 
-Shweta Kharat  
-Infosys Internship Program – AI Track
+The system uses a lightweight local model:
 
+Phi-3 Mini
+
+While fast and efficient, it may have limited reasoning ability compared to larger hosted models such as GPT-4.
+
+The architecture itself is fully scalable to larger models.
+
+---
+
+## ⚠️ Note on Frontend Interface
+
+The Streamlit frontend interface may be updated or modified during testing and evaluation phases.
+
+Minor UI changes such as layout improvements, additional input validation, or visualization enhancements may be introduced without affecting the core functionality of the system.
+
+---
+
+# 👩‍💻 Contibutor
+Shweta Kharat
