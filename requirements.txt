@@ -1,10 +1,27 @@
-tqdm==4.66.2
+# Google Gemini AI
+google-genai==1.65.0
+
+# LangChain RAG
 langchain==0.2.1
 langchain-community==0.2.1
 langchain-core==0.2.1
 langchain-text-splitters==0.2.1
+
+# Embeddings
 sentence-transformers==2.6.1
-faiss-cpu==1.7.4
+transformers==4.40.2
 torch==2.2.2
+
+# Vector database
+faiss-cpu==1.7.4
+
+# Core dependencies
 numpy==1.25.2
 
+# Text similarity
+rapidfuzz==3.6.1
+
+# UI
+streamlit==1.35.0
+plotly==5.22.0
+streamlit-oauth
