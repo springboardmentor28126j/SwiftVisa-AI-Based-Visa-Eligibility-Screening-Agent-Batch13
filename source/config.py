@@ -24,3 +24,5 @@ TOP_K = 3
 MODEL_NAME = "gemini-1.5-flash"
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 
+
+
