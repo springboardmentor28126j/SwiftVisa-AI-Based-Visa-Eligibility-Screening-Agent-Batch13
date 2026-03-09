@@ -56,7 +56,7 @@ For every country and visa type, the list of required documents is extracted, su
    Country: USA  
    Visa Type: Student  
    Visa Code: F-1
-   
+
    Eligibility Criteria:
    - Acceptance to SEVP-approved school,
    - Valid SEVIS I-20,
