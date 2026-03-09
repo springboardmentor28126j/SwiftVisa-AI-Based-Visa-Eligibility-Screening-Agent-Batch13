@@ -55,13 +55,20 @@ For every country and visa type, the list of required documents is extracted, su
 
    Country: USA  
    Visa Type: Student  
-   Visa Code: F-1  
+   Visa Code: F-1
+   Eligibility Criteria:
+   - Acceptance to SEVP-approved school,
+   - Valid SEVIS I-20,
+   - Sufficient funds for tuition/living,
+   - Intent to return home,
+   - English proficiency
+     
    Required Documents:
    - Passport  
    - I-20  
    - Financial proof  
 
-5. Chunking :   
+6. Chunking :   
 
     Large text is split into smaller pieces called chunks.
     
@@ -76,14 +83,14 @@ For every country and visa type, the list of required documents is extracted, su
 
     Overlap: 50 characters
 
-6. Embedding Generation :
+7. Embedding Generation :
 
     Each chunk is converted into a numerical vector using a sentence transformer model.
 
     These numbers capture the meaning of the text.
     This process is called embedding.
 
-7. Vector Database (FAISS)
+8. Vector Database (FAISS)
 
    All embeddings are stored in a FAISS vector database.
 
