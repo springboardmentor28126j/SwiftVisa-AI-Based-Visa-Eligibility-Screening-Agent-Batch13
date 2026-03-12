@@ -25,7 +25,7 @@ METADATA_PATH = EMBEDDINGS_DIR / "metadata.json"
 EMBEDDINGS_ARRAY_PATH = EMBEDDINGS_DIR / "embeddings.npy"
 
 DEFAULT_EMBED_MODEL = "all-MiniLM-L6-v2"
-DEFAULT_GROQ_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_GROQ_MODEL = "openai/gpt-oss-120b"
 
 DECISION_LOG_PATH = LOG_DIR / "milestone2_decisions.jsonl"
 QUALITY_SUMMARY_PATH = LOG_DIR / "milestone2_quality_summary.json"

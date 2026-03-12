@@ -22,3 +22,6 @@ groq>=0.4.0
 # Utilities
 python-dotenv==1.0.1
 pydantic==2.6.1
+
+# Milestone 3 UI
+streamlit==1.38.0
