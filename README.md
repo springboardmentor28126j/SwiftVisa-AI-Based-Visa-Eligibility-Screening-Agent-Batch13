@@ -1,138 +1,210 @@
 # SwiftVisa-AI-Based-Visa-Eligibility-Screening-Agent-Batch13
-# Milestone 1 – Visa Knowledge Base Preparation
+AI-Based Visa Eligibility Screening Assistant
 
-## Objective
-The objective of this milestone was to collect visa policy information and prepare it for AI-based retrieval using embeddings and a vector database.
+📌 1. Introduction
+SwiftVisa AI is an intelligent web-based application developed to simplify the visa eligibility checking process using Artificial Intelligence.
 
----
+The system helps users:
+Understand whether they are eligible for a visa
+Identify missing requirements
+Get a clear explanation of eligibility and documents
 
-## Work Completed
+This project combines:
+Rule-based logic
+Retrieval-Augmented Generation (RAG)
+Large Language Model (LLM)
 
-### 1. Visa Data Collection
-- Collected visa eligibility information for 10 countries.
-- Included multiple visa types (Tourist, Student, Work, Business, etc.).
-- Extracted eligibility criteria and required documents.
-- Structured the data in a JSON file (`visaRequirements.json`).
+🎯 2. Objective of the Project
 
----
+The main objective of this project is to:
+Automate visa eligibility checking
+Provide accurate and structured information
+Improve user understanding using AI explanations
+Reduce confusion in visa application processes
 
-### 2. Data Cleaning & Structuring
-- Organized the visa data into a structured JSON format.
-- Ensured consistent fields such as:
-  - Country
-  - Visa Name
-  - Eligibility
-  - Required Documents
+📊 3. Overall System Workflow
 
-This structured format allows easy processing using Python.
+The system follows this complete pipeline:
+User Input
+→ Data Processing
+→ Eligibility Checking
+→ Embedding Generation
+→ FAISS Retrieval
+→ Reranking
+→ Prompt Generation
+→ LLM Response
+→ Final Output
 
----
+📁 4. Data Preparation (Milestone 1)
 
-### 3. Chunking
-- Converted each visa entry into a separate text chunk.
-- Each chunk contains:
-  - Country Name
-  - Visa Type
-  - Eligibility Criteria
-  - Required Documents
-- Total chunks created: 10
+4.1 Data Collection
+Visa information was collected for multiple countries
+Included various visa types:
+Tourist
+Student
+Work
+Business
 
-Chunking helps divide large information into smaller meaningful sections.
+4.2 Data Structuring
+Data was stored in a JSON file (visaRequirements.json)
+Each entry contains:
+Country name
+Visa type
+Eligibility criteria
+Required documents
 
----
+4.3 Chunking
+Each visa record was converted into a separate chunk
+This helps in better retrieval
+4.4 Embedding Generation
+Used Sentence Transformer model:
+all-MiniLM-L6-v2
+Converted text into 384-dimensional vectors
 
-### 4. Embedding Generation
-- Used the `sentence-transformers` library.
-- Model used: `all-MiniLM-L6-v2`.
-- Converted each chunk into a 384-dimensional numerical vector.
-- Total embeddings generated: 10
+4.5 FAISS Storage
+Stored embeddings using FAISS
+Created vector database: visa_index.faiss
+👉 This completes the Knowledge Base creation
 
-Embeddings allow semantic similarity search.
+🤖 5. RAG Pipeline Implementation (Milestone 2)
 
----
+5.1 Query Embedding
+User query is converted into vector format
+5.2 FAISS Retrieval
+Top 3 most relevant visa records are retrieved
+5.3 Reranking
+Cosine similarity is applied
+Best matching result is selected
+5.4 Prompt Template
+A structured prompt is created using:
+User data
+Visa information
+5.5 LLM Integration
+Used Groq API with Llama 3.1 model
+Generates human-readable explanation
+👉 This completes the AI intelligence layer
 
-### 5. Vector Database Storage
-- Used FAISS (Facebook AI Similarity Search).
-- Stored all embeddings in a FAISS index.
-- Created a file: `visa_index.faiss`.
-- Total vectors stored: 10.
+🖥️ 6. User Interface & Input Flow (Milestone 3)
 
-This creates a Visa Knowledge Base ready for retrieval.
+6.1 Streamlit Frontend
+Built using Streamlit framework
+Simple and interactive UI
+6.2 User Input Collection
+The system collects:
+Personal details (Name, Age, Gender, Country)
+Employment status
+Financial proof
+Travel history
+English test status
+6.3 Visa Selection
+User selects:
+Destination country
+Visa type
+6.4 Dynamic Eligibility Questions
+Questions are generated dynamically
+Based on selected visa type
 
----
+👉 Example:
+Passport availability
+Funds proof
+Language test
+Other requirements
 
-## Tools & Technologies Used
-- Python 3.10
-- JSON
-- sentence-transformers
-- FAISS
-- NumPy
-- VS Code
+✅ 7. Eligibility Checking Logic
 
----
+The system uses rule-based logic:
+If user answers “No” to any requirement → added to missing list
+Additional checks:
+Passport mandatory
+Financial proof required
+English test (for student visa)
 
-## Complete Workflow
+Final Decision:
+No missing → ✅ Eligible
+Missing items → ❌ Not Eligible
 
-Visa Policy Collection  
-→ JSON Structuring  
-→ Chunk Creation  
-→ Embedding Generation  
-→ FAISS Vector Storage  
-→ Ready for RAG-based Retrieval System
+📄 8. Output Generation
 
----
+After processing, system provides:
+8.1 Eligibility Status
+Clearly shows:
+Eligible
+Not Eligible
+8.2 Missing Requirements
+Displays list of missing criteria
+8.3 Required Documents
+Shows all necessary documents
+8.4 AI Explanation
+LLM explains:
+Why eligible/not eligible
+What user should do next
 
-## Output
-- Structured visa JSON file
-- Generated embeddings (384-dimensional vectors)
-- FAISS vector database (`visa_index.faiss`)
+💾 9. Session State Management
 
----
+User input is stored using Streamlit session state
+Data persists during session
+Hidden from UI by default
+Can be accessed on demand
+👉 Helps in:
+Better user experience
+Data tracking
 
-## Next Step
-The next step is to integrate the FAISS vector database with a Retrieval-Augmented Generation (RAG) system to build an AI-based Visa Eligibility Screening Agent.
+🎨 10. UI/UX Enhancements
 
+Clean layout using columns
+Structured sections:
+Applicant Information
+Visa Details
+Eligibility Questions
+Mandatory fields marked (*)
+Clear buttons and output sections
+👉 Focus:
+User-friendly
+Professional look
+Easy navigation
 
-## Milestone 2 – Retrieval, Reranking and LLM Integration
+🔐 11. Security Implementation
+API key is NOT hardcoded
+Uses environment variables
+Ensures safe deployment
 
-In Milestone 2, the visa eligibility system was improved by implementing the full Retrieval-Augmented Generation (RAG) pipeline.
+🚀 12. Deployment (Milestone 4)
+Application is deployed using Streamlit Cloud
+GitHub repository created
+Public URL generated
+👉 Allows:
+Panel access
+Real-time demonstration
 
-### Work Completed
+⚙️ 13. Technologies Used
+Python
+Streamlit
+FAISS
+Sentence Transformers
+NumPy
+Groq API (Llama 3.1)
+JSON
 
-1. **Query Embedding**
-   - User queries are converted into vector embeddings using the SentenceTransformer model `all-MiniLM-L6-v2`.
+📈 14. Key Achievements
 
-2. **Vector Search using FAISS**
-   - The query embedding is compared with stored embeddings in the FAISS index.
-   - The system retrieves the **Top 3 most relevant visa records**.
+Built end-to-end AI application
+Implemented RAG pipeline
+Integrated LLM for explanation
+Created dynamic UI
+Ensured secure API handling
 
-3. **Reranking**
-   - Cosine similarity is applied to the retrieved results.
-   - The most relevant visa record is selected for better accuracy.
+🔮 15. Future Improvements
 
-4. **Prompt Template**
-   - A structured prompt template is created.
-   - The selected visa information is passed as context to the language model.
+Multi-step form UI
+More countries and visa types
+Document upload feature
+Chatbot-based interaction
+Real-time visa updates
 
-5. **LLM Integration**
-   - Groq API is used with the `llama-3.1-8b-instant` model.
-   - The model generates a structured response including eligibility and required documents.
-
-### RAG Pipeline Flow
-
-User Query  
-→ Convert Query to Embedding  
-→ FAISS Retrieval (Top 3 Results)  
-→ Reranking using Cosine Similarity  
-→ Select Best Context  
-→ Prompt Template  
-→ Groq LLM  
-→ Final Visa Information Response
-
-### Output
-
-The system now returns:
-- Visa type
-- Eligibility criteria
-- Required documents
-- Structured AI-generated response
+✅ 16. Conclusion
+SwiftVisa AI successfully automates the visa eligibility checking process using AI.
+It provides:
+Accurate eligibility results
+Clear document guidance
+Intelligent explanations
+👉 This system improves user experience and reduces confusion in visa applications.
