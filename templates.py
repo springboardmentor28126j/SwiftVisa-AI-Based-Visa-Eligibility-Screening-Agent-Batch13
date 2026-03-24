@@ -1,7 +1,7 @@
 def best_chunk_prompt(query, docs):
 
     formatted = "\n\n".join(
-        [f"{i+1}. {doc}" for i, doc in enumerate(docs)]
+        [f"{i+1}. {doc}" for i, doc in enumerate(docs)] 
     )
 
     return f"""
