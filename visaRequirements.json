@@ -1,0 +1,409 @@
+{
+  "countries": [
+
+    {
+      "country_name": "Australia",
+      "visa_categories": [
+        {
+          "visa_id": "Skilled Independent",
+          "visa_name": "Subclass 189",
+          "official_source": "https://immi.homeaffairs.gov.au/",
+          "eligibility_fields": ["Age under 45", "Minimum 65 points", "Skills assessment required", "Competent English"],
+          "documents_required": ["Passport", "Skills assessment report", "English test result"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Subclass 500",
+          "official_source": "https://immi.homeaffairs.gov.au/",
+          "eligibility_fields": ["Confirmation of Enrolment", "Financial capacity", "English proficiency"],
+          "documents_required": ["Passport", "CoE", "Bank statement"]
+        },
+        {
+          "visa_id": "Visitor",
+          "visa_name": "Subclass 600",
+          "official_source": "https://immi.homeaffairs.gov.au/",
+          "eligibility_fields": ["Genuine temporary entrant", "Financial proof"],
+          "documents_required": ["Passport", "Travel plan"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "Canada",
+      "visa_categories": [
+        {
+          "visa_id": "Express Entry",
+          "visa_name": "Federal Skilled Worker",
+          "official_source": "https://www.canada.ca/",
+          "eligibility_fields": ["Minimum 1 year skilled work experience", "IELTS/CELPIP required", "Educational Credential Assessment"],
+          "documents_required": ["Passport", "IELTS results", "ECA report"]
+        },
+        {
+          "visa_id": "Study Permit",
+          "visa_name": "Student Visa",
+          "official_source": "https://www.canada.ca/",
+          "eligibility_fields": ["Letter of Acceptance", "Proof of funds"],
+          "documents_required": ["Passport", "Acceptance letter", "Bank statement"]
+        },
+        {
+          "visa_id": "Visitor",
+          "visa_name": "Temporary Resident Visa",
+          "official_source": "https://www.canada.ca/",
+          "eligibility_fields": ["Purpose of visit", "Financial support"],
+          "documents_required": ["Passport", "Travel itinerary"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "United Kingdom",
+      "visa_categories": [
+        {
+          "visa_id": "Skilled Worker",
+          "visa_name": "Skilled Worker Visa",
+          "official_source": "https://www.gov.uk/",
+          "eligibility_fields": ["Job offer from licensed sponsor", "Minimum salary threshold", "English proficiency"],
+          "documents_required": ["Passport", "Certificate of Sponsorship"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://www.gov.uk/",
+          "eligibility_fields": ["CAS letter", "Financial proof"],
+          "documents_required": ["Passport", "CAS"]
+        },
+        {
+          "visa_id": "Visitor",
+          "visa_name": "Standard Visitor Visa",
+          "official_source": "https://www.gov.uk/",
+          "eligibility_fields": ["Temporary visit intent", "Return plan"],
+          "documents_required": ["Passport", "Bank statement"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "United States",
+      "visa_categories": [
+        {
+          "visa_id": "H1B",
+          "visa_name": "Specialty Occupation",
+          "official_source": "https://travel.state.gov/",
+          "eligibility_fields": ["Job offer", "Bachelor’s degree or equivalent"],
+          "documents_required": ["Passport", "I-797 Approval"]
+        },
+        {
+          "visa_id": "F1",
+          "visa_name": "Student Visa",
+          "official_source": "https://travel.state.gov/",
+          "eligibility_fields": ["I-20 form", "SEVIS fee payment"],
+          "documents_required": ["Passport", "I-20"]
+        },
+        {
+          "visa_id": "B2",
+          "visa_name": "Tourist Visa",
+          "official_source": "https://travel.state.gov/",
+          "eligibility_fields": ["Temporary visit intent"],
+          "documents_required": ["Passport", "DS-160 confirmation"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "Germany",
+      "visa_categories": [
+        {
+          "visa_id": "EU Blue Card",
+          "visa_name": "Skilled Work Visa",
+          "official_source": "https://www.make-it-in-germany.com/",
+          "eligibility_fields": ["Recognized degree", "Minimum salary threshold"],
+          "documents_required": ["Passport", "Employment contract"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Study Visa",
+          "official_source": "https://www.make-it-in-germany.com/",
+          "eligibility_fields": ["University admission", "Blocked account funds"],
+          "documents_required": ["Passport", "Admission letter"]
+        },
+        {
+          "visa_id": "Schengen",
+          "visa_name": "Visitor Visa",
+          "official_source": "https://www.germany.info/",
+          "eligibility_fields": ["Travel purpose", "Insurance coverage"],
+          "documents_required": ["Passport", "Travel insurance"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "France",
+      "visa_categories": [
+        {
+          "visa_id": "Talent Passport",
+          "visa_name": "Work Visa",
+          "official_source": "https://france-visas.gouv.fr/",
+          "eligibility_fields": ["Job contract", "Qualification requirements"],
+          "documents_required": ["Passport", "Employment contract"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Long Stay Student Visa",
+          "official_source": "https://france-visas.gouv.fr/",
+          "eligibility_fields": ["Admission letter", "Financial proof"],
+          "documents_required": ["Passport", "University admission"]
+        },
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Schengen Visa",
+          "official_source": "https://france-visas.gouv.fr/",
+          "eligibility_fields": ["Short-term stay", "Financial support"],
+          "documents_required": ["Passport", "Travel plan"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "India",
+      "visa_categories": [
+        {
+          "visa_id": "Employment",
+          "visa_name": "Employment Visa",
+          "official_source": "https://indianvisaonline.gov.in/",
+          "eligibility_fields": ["Employment contract", "Relevant qualifications"],
+          "documents_required": ["Passport", "Employment contract"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://indianvisaonline.gov.in/",
+          "eligibility_fields": ["Admission letter", "Financial proof"],
+          "documents_required": ["Passport", "Admission letter"]
+        },
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Tourist Visa",
+          "official_source": "https://indianvisaonline.gov.in/",
+          "eligibility_fields": ["Tourism purpose", "Return ticket"],
+          "documents_required": ["Passport", "Travel itinerary"]
+        }
+      ]
+    },
+{
+  "country_name": "Ireland",
+  "visa_categories": [
+    {
+      "visa_id": "Critical Skills",
+      "visa_name": "Employment Permit",
+      "official_source": "https://enterprise.gov.ie/",
+      "eligibility_fields": ["Job offer in eligible occupation", "Minimum salary requirement"],
+      "documents_required": ["Passport", "Employment contract"]
+    },
+    {
+      "visa_id": "Student",
+      "visa_name": "Study Visa",
+      "official_source": "https://www.irishimmigration.ie/",
+      "eligibility_fields": ["Acceptance letter", "Proof of tuition payment"],
+      "documents_required": ["Passport", "Admission letter"]
+    },
+    {
+      "visa_id": "Visitor",
+      "visa_name": "Short Stay Visa",
+      "official_source": "https://www.irishimmigration.ie/",
+      "eligibility_fields": ["Temporary stay intent", "Financial support"],
+      "documents_required": ["Passport", "Travel itinerary"]
+    }
+  ]
+},
+
+{
+  "country_name": "Netherlands",
+  "visa_categories": [
+    {
+      "visa_id": "Highly Skilled Migrant",
+      "visa_name": "Work Visa",
+      "official_source": "https://ind.nl/",
+      "eligibility_fields": ["Job offer from recognized sponsor", "Minimum salary threshold"],
+      "documents_required": ["Passport", "Employment contract"]
+    },
+    {
+      "visa_id": "Student",
+      "visa_name": "Study Residence Permit",
+      "official_source": "https://ind.nl/",
+      "eligibility_fields": ["University admission", "Proof of funds"],
+      "documents_required": ["Passport", "Admission letter"]
+    },
+    {
+      "visa_id": "Schengen",
+      "visa_name": "Short Stay Visa",
+      "official_source": "https://ind.nl/",
+      "eligibility_fields": ["Travel purpose", "Insurance"],
+      "documents_required": ["Passport", "Travel insurance"]
+    }
+  ]
+},
+
+{
+  "country_name": "Sweden",
+  "visa_categories": [
+    {
+      "visa_id": "Work Permit",
+      "visa_name": "Employment Visa",
+      "official_source": "https://www.migrationsverket.se/",
+      "eligibility_fields": ["Job offer", "Salary meets Swedish standards"],
+      "documents_required": ["Passport", "Employment contract"]
+    },
+    {
+      "visa_id": "Student",
+      "visa_name": "Residence Permit for Studies",
+      "official_source": "https://www.migrationsverket.se/",
+      "eligibility_fields": ["Admission letter", "Financial support"],
+      "documents_required": ["Passport", "University acceptance"]
+    },
+    {
+      "visa_id": "Visitor",
+      "visa_name": "Schengen Visa",
+      "official_source": "https://www.migrationsverket.se/",
+      "eligibility_fields": ["Short-term stay intent"],
+      "documents_required": ["Passport", "Travel plan"]
+    }
+  ]
+},
+
+{
+  "country_name": "Singapore",
+  "visa_categories": [
+    {
+      "visa_id": "Employment Pass",
+      "visa_name": "Work Visa",
+      "official_source": "https://www.mom.gov.sg/",
+      "eligibility_fields": ["Job offer", "Minimum salary criteria"],
+      "documents_required": ["Passport", "Employment letter"]
+    },
+    {
+      "visa_id": "Student Pass",
+      "visa_name": "Study Visa",
+      "official_source": "https://www.ica.gov.sg/",
+      "eligibility_fields": ["Admission to approved institution"],
+      "documents_required": ["Passport", "Admission letter"]
+    },
+    {
+      "visa_id": "Tourist",
+      "visa_name": "Short Term Visit Pass",
+      "official_source": "https://www.ica.gov.sg/",
+      "eligibility_fields": ["Short-term visit intent"],
+      "documents_required": ["Passport", "Return ticket"]
+    }
+  ]
+},
+
+{
+  "country_name": "New Zealand",
+  "visa_categories": [
+    {
+      "visa_id": "Skilled Migrant",
+      "visa_name": "Work Visa",
+      "official_source": "https://www.immigration.govt.nz/",
+      "eligibility_fields": ["Skilled job offer", "Points-based system"],
+      "documents_required": ["Passport", "Employment contract"]
+    },
+    {
+      "visa_id": "Student",
+      "visa_name": "Student Visa",
+      "official_source": "https://www.immigration.govt.nz/",
+      "eligibility_fields": ["Enrollment confirmation", "Financial proof"],
+      "documents_required": ["Passport", "Admission letter"]
+    },
+    {
+      "visa_id": "Visitor",
+      "visa_name": "Visitor Visa",
+      "official_source": "https://www.immigration.govt.nz/",
+      "eligibility_fields": ["Temporary stay intent"],
+      "documents_required": ["Passport", "Travel plan"]
+    }
+  ]
+},
+
+{
+  "country_name": "UAE",
+  "visa_categories": [
+    {
+      "visa_id": "Employment",
+      "visa_name": "Work Visa",
+      "official_source": "https://u.ae/",
+      "eligibility_fields": ["Employer sponsorship", "Medical fitness test"],
+      "documents_required": ["Passport", "Employment contract"]
+    },
+    {
+      "visa_id": "Student",
+      "visa_name": "Student Residence Visa",
+      "official_source": "https://u.ae/",
+      "eligibility_fields": ["Admission to UAE institution"],
+      "documents_required": ["Passport", "Admission letter"]
+    },
+    {
+      "visa_id": "Tourist",
+      "visa_name": "Tourist Visa",
+      "official_source": "https://u.ae/",
+      "eligibility_fields": ["Short stay purpose"],
+      "documents_required": ["Passport", "Travel ticket"]
+    }
+  ]
+},
+
+{
+  "country_name": "Japan",
+  "visa_categories": [
+    {
+      "visa_id": "Engineer",
+      "visa_name": "Work Visa",
+      "official_source": "https://www.mofa.go.jp/",
+      "eligibility_fields": ["Certificate of Eligibility", "Job offer"],
+      "documents_required": ["Passport", "COE"]
+    },
+    {
+      "visa_id": "Student",
+      "visa_name": "Student Visa",
+      "official_source": "https://www.mofa.go.jp/",
+      "eligibility_fields": ["Admission letter", "Financial proof"],
+      "documents_required": ["Passport", "Admission certificate"]
+    },
+    {
+      "visa_id": "Temporary Visitor",
+      "visa_name": "Tourist Visa",
+      "official_source": "https://www.mofa.go.jp/",
+      "eligibility_fields": ["Temporary visit intent"],
+      "documents_required": ["Passport", "Travel itinerary"]
+    }
+  ]
+},
+
+{
+  "country_name": "South Korea",
+  "visa_categories": [
+    {
+      "visa_id": "E7",
+      "visa_name": "Specialty Work Visa",
+      "official_source": "https://www.immigration.go.kr/",
+      "eligibility_fields": ["Employment contract", "Professional qualification"],
+      "documents_required": ["Passport", "Employment contract"]
+    },
+    {
+      "visa_id": "D2",
+      "visa_name": "Student Visa",
+      "official_source": "https://www.immigration.go.kr/",
+      "eligibility_fields": ["University admission"],
+      "documents_required": ["Passport", "Admission letter"]
+    },
+    {
+      "visa_id": "C3",
+      "visa_name": "Short Term Visit Visa",
+      "official_source": "https://www.immigration.go.kr/",
+      "eligibility_fields": ["Temporary visit purpose"],
+      "documents_required": ["Passport", "Travel ticket"]
+    }
+  ]
+}
+
+  ]
+}

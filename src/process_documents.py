@@ -1,35 +1,59 @@
-from langchain_community.document_loaders import TextLoader
-from langchain.text_splitter import CharacterTextSplitter
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain_community.vectorstores import FAISS
 import os
+from langchain_community.vectorstores import FAISS
+from langchain_community.embeddings import HuggingFaceEmbeddings
+from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain.docstore.document import Document
 
-# Load raw documents
+
+DATA_PATH = "../data"
+
+
 documents = []
 
-raw_path = "data/raw"
+# Read all visa text files
+for country in os.listdir(DATA_PATH):
 
-for file in os.listdir(raw_path):
-    loader = TextLoader(os.path.join(raw_path, file))
-    documents.extend(loader.load())
+    country_path = os.path.join(DATA_PATH, country)
 
-# Split documents
-text_splitter = CharacterTextSplitter(
+    if os.path.isdir(country_path):
+
+        for file in os.listdir(country_path):
+
+            file_path = os.path.join(country_path, file)
+
+            with open(file_path, "r", encoding="utf-8") as f:
+
+                text = f.read()
+
+                documents.append(
+                    Document(
+                        page_content=text,
+                        metadata={"country": country, "file": file}
+                    )
+                )
+
+
+# Split documents into smaller chunks
+text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=500,
     chunk_overlap=50
 )
 
 docs = text_splitter.split_documents(documents)
 
-# Load embeddings
+
+# Load embedding model
 embeddings = HuggingFaceEmbeddings(
     model_name="sentence-transformers/all-MiniLM-L6-v2"
 )
 
-# Create FAISS index
+
+# Create FAISS vector store
 vectorstore = FAISS.from_documents(docs, embeddings)
 
-# Save properly
+
+# Save vector database
 vectorstore.save_local("vector_store")
 
-print("✅ Vector store created successfully.")
+
+print("Vector database created successfully!")
