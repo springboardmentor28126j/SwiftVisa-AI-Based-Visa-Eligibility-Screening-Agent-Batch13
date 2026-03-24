@@ -1,143 +1,64 @@
-def role_based(profile, context):
+def best_chunk_prompt(query, docs):
 
-    return f"""
-You are an experienced immigration visa officer.
-
-Applicant Profile:
-{profile}
-
-Visa Policy:
-{context}
-
-Return the result in this format:
-
-Eligibility Status: Eligible / Partially Eligible / Not Eligible
-Confidence Score: <0-100%>
-
-Key Reasons:
-- Reason 1
-- Reason 2
-- Reason 3
-
-Required Documents:
-- Document 1
-- Document 2
-- Document 3
-"""
-
-
-def instruction_based(profile, context):
-
-    return f"""
-Instruction: Determine visa eligibility.
-
-Applicant Details:
-{profile}
-
-Policy Information:
-{context}
-
-Provide:
-Eligibility Status
-Confidence Score
-Key Reasons
-Required Documents
-"""
-
-
-def reasoning_template(profile, context):
-
-    return f"""
-Think step-by-step before deciding.
-
-Applicant Profile:
-{profile}
-
-Policy Context:
-{context}
-
-Explain the reasoning and provide:
-
-Eligibility Status
-Confidence Score
-Key Reasons
-Required Documents
-"""
-
-
-def eligibility_template(profile, context):
-
-    return f"""
-Check whether the applicant qualifies for the visa.
-
-Applicant Information:
-{profile}
-
-Visa Policy:
-{context}
-
-Return:
-Eligibility Status
-Confidence Score
-Required Documents
-"""
-
-
-def custom_template(profile, context):
-
-    return f"""
-SwiftVisa AI Eligibility Assessment
-
-User Profile:
-{profile}
-
-Policy Context:
-{context}
-
-Evaluate eligibility and list the required documents.
-"""
-
-
-def summary_template(profile, context):
-
-    return f"""
-User Information:
-{profile}
-
-Policy Context:
-{context}
-
-Provide a short eligibility summary including:
-Eligibility Status
-Confidence Score
-Required Documents
-"""
-
-
-# MAIN FUNCTION
-def build_prompt(user_profile, chunk_text, template_type="role"):
-
-    profile_text = "\n".join(
-        [f"{k}: {v}" for k, v in user_profile.items()]
+    formatted = "\n\n".join(
+        [f"{i+1}. {doc}" for i, doc in enumerate(docs)]
     )
 
-    if template_type == "role":
-        return role_based(profile_text, chunk_text)
+    return f"""
+You are an immigration expert.
 
-    elif template_type == "instruction":
-        return instruction_based(profile_text, chunk_text)
+User Question:
+{query}
 
-    elif template_type == "reasoning":
-        return reasoning_template(profile_text, chunk_text)
+Policy Chunks:
+{formatted}
 
-    elif template_type == "eligibility":
-        return eligibility_template(profile_text, chunk_text)
+Select the MOST relevant chunk that directly answers the question.
 
-    elif template_type == "custom":
-        return custom_template(profile_text, chunk_text)
+Return ONLY that chunk.
+"""
 
-    elif template_type == "summary":
-        return summary_template(profile_text, chunk_text)
 
-    else:
-        return role_based(profile_text, chunk_text)
+def answer_prompt(profile, context):
+
+    profile_text = "\n".join([f"{k}: {v}" for k, v in profile.items()])
+
+    return f"""
+You are a professional visa officer evaluating a real applicant.
+
+Applicant Profile:
+{profile_text}
+
+Official Visa Policy:
+{context}
+
+Your task:
+Carefully assess this applicant like a real visa officer.
+
+Guidelines:
+- Be realistic and professional
+- Do not assume missing info as rejection
+- Use ONLY given policy context
+- Think step-by-step
+
+OUTPUT FORMAT:
+
+AI Eligibility Decision
+
+1. Decision: <Eligible / Partially Eligible / Ineligible>
+
+2. Reasoning:
+Write a natural explanation in full sentences (like a real officer).
+Include:
+• Financial condition
+• Profile strength (education/job)
+• Travel history / risks
+• Any missing requirements
+
+3. Documents Required:
+List ONLY documents from the policy context.
+
+IMPORTANT:
+- Keep tone natural (not robotic)
+- Do NOT hardcode anything
+"""
