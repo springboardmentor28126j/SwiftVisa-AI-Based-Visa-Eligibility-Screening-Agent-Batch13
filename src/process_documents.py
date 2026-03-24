@@ -1,59 +1,77 @@
 import os
-from langchain_community.vectorstores import FAISS
-from langchain_community.embeddings import HuggingFaceEmbeddings
-from langchain.text_splitter import RecursiveCharacterTextSplitter
-from langchain.docstore.document import Document
+import pickle
+import faiss
+from sentence_transformers import SentenceTransformer
+from langchain_community.document_loaders import TextLoader
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 
+# -----------------------------
+# PATH SETUP
+# -----------------------------
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-DATA_PATH = "../data"
-
+RAW_PATH = os.path.join(BASE_DIR, "data", "raw")
+VECTOR_PATH = os.path.join(BASE_DIR, "data", "vector_store")
 
 documents = []
 
-# Read all visa text files
-for country in os.listdir(DATA_PATH):
+# -----------------------------
+# CHECK RAW FOLDER
+# -----------------------------
+if not os.path.exists(RAW_PATH):
+    print("❌ data/raw folder not found")
+    exit()
 
-    country_path = os.path.join(DATA_PATH, country)
+# -----------------------------
+# LOAD TXT FILES
+# -----------------------------
+for file in os.listdir(RAW_PATH):
+    if file.endswith(".txt"):
+        file_path = os.path.join(RAW_PATH, file)
+        print(f"📄 Loading: {file}")
+        loader = TextLoader(file_path, encoding="utf-8")
+        documents.extend(loader.load())
 
-    if os.path.isdir(country_path):
+if not documents:
+    print("❌ No TXT files found in data/raw")
+    exit()
 
-        for file in os.listdir(country_path):
+print(f"✅ Loaded {len(documents)} documents")
 
-            file_path = os.path.join(country_path, file)
-
-            with open(file_path, "r", encoding="utf-8") as f:
-
-                text = f.read()
-
-                documents.append(
-                    Document(
-                        page_content=text,
-                        metadata={"country": country, "file": file}
-                    )
-                )
-
-
-# Split documents into smaller chunks
+# -----------------------------
+# SPLIT INTO CHUNKS
+# -----------------------------
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=500,
     chunk_overlap=50
 )
 
-docs = text_splitter.split_documents(documents)
+chunks = text_splitter.split_documents(documents)
+texts = [chunk.page_content for chunk in chunks]
 
+print(f"✅ Created {len(texts)} text chunks")
 
-# Load embedding model
-embeddings = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2"
-)
+# -----------------------------
+# CREATE EMBEDDINGS
+# -----------------------------
+print("⚙️ Creating embeddings...")
+model = SentenceTransformer("all-MiniLM-L6-v2")
+embeddings = model.encode(texts)
 
+print("✅ Embeddings created")
 
-# Create FAISS vector store
-vectorstore = FAISS.from_documents(docs, embeddings)
+# -----------------------------
+# CREATE FAISS INDEX
+# -----------------------------
+dimension = embeddings.shape[1]
+index = faiss.IndexFlatL2(dimension)
+index.add(embeddings)
 
+os.makedirs(VECTOR_PATH, exist_ok=True)
 
-# Save vector database
-vectorstore.save_local("vector_store")
+faiss.write_index(index, os.path.join(VECTOR_PATH, "visa_index.index"))
 
+with open(os.path.join(VECTOR_PATH, "texts.pkl"), "wb") as f:
+    pickle.dump(texts, f)
 
-print("Vector database created successfully!")
+print("🎉 FAISS vector store created successfully!")
