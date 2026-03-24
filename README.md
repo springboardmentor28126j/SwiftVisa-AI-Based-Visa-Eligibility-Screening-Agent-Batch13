@@ -66,26 +66,6 @@ python milestone1/scripts/04_create_index.py
 
 ## Deployment
 
-### Option A: Streamlit Community Cloud
-1. Push this repo to GitHub.
-2. Go to Streamlit Community Cloud and create a new app.
-3. Select branch and set app file path to `milestone3/streamlit_app.py`.
-4. Add secret `GROQ_API_KEY` in Streamlit app settings.
-5. Deploy and verify end-to-end form submission.
-
-### Option B: Hugging Face Spaces (Streamlit SDK)
-1. Create a new Space with SDK set to Streamlit.
-2. Upload/push project files.
-3. Set Space entrypoint to `app.py` (provided in root).
-4. Add `GROQ_API_KEY` under Space Variables/Secrets.
-5. Deploy and run smoke tests.
-
-## Deliverables Checklist (Milestone 4)
-- Fully deployed application (Streamlit Cloud or HF Spaces).
-- Public GitHub repository with all source code.
-- Complete README and milestone documentation.
-- Final report and demo recording.
-
 ## Notes
 - AI output is reference-only and not legal advice.
 - Always validate final visa requirements on official embassy/government websites.

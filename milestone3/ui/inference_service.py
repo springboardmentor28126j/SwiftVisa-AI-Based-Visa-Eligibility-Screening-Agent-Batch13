@@ -13,6 +13,21 @@ from typing import Any, Dict, List, Tuple
 from dotenv import load_dotenv
 
 
+def _resolve_groq_api_key() -> str:
+    api_key = os.getenv("GROQ_API_KEY", "").strip()
+    if api_key:
+        return api_key
+
+    # Streamlit Cloud stores secrets in st.secrets.
+    try:
+        import streamlit as st  # type: ignore
+
+        secret_val = st.secrets.get("GROQ_API_KEY", "")
+        return str(secret_val).strip() if secret_val else ""
+    except Exception:
+        return ""
+
+
 def _resolve_eligibility_index_path() -> Path:
     project_root = Path(__file__).resolve().parents[2]
     candidates = [
@@ -77,7 +92,7 @@ def _keyword_based_options(visa_id: str, visa_name: str) -> Tuple[List[str], Lis
 @lru_cache(maxsize=96)
 def _cached_ai_suggestions(nationality: str, destination: str, visa_id: str, visa_name: str) -> Dict[str, Any]:
     load_dotenv(Path(__file__).resolve().parents[2] / ".env")
-    api_key = os.getenv("GROQ_API_KEY", "").strip()
+    api_key = _resolve_groq_api_key()
     if not api_key:
         return {}
 
@@ -239,7 +254,7 @@ def _fallback_ui_report(result: Dict[str, Any], form_payload: Dict[str, Any]) ->
 
 def _generate_ui_report_with_llm(result: Dict[str, Any], form_payload: Dict[str, Any]) -> Dict[str, Any]:
     load_dotenv(Path(__file__).resolve().parents[2] / ".env")
-    api_key = os.getenv("GROQ_API_KEY", "").strip()
+    api_key = _resolve_groq_api_key()
     if not api_key:
         return _fallback_ui_report(result, form_payload)
 

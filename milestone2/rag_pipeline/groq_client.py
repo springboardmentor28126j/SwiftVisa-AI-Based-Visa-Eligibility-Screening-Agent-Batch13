@@ -7,6 +7,21 @@ from typing import Dict
 from dotenv import load_dotenv
 
 
+def _resolve_groq_api_key() -> str:
+    api_key = os.getenv("GROQ_API_KEY", "").strip()
+    if api_key:
+        return api_key
+
+    # Streamlit Cloud stores secrets in st.secrets.
+    try:
+        import streamlit as st  # type: ignore
+
+        secret_val = st.secrets.get("GROQ_API_KEY", "")
+        return str(secret_val).strip() if secret_val else ""
+    except Exception:
+        return ""
+
+
 class GroqEligibilityClient:
     def __init__(self, model: str):
         project_root = Path(__file__).resolve().parents[2]
@@ -14,7 +29,7 @@ class GroqEligibilityClient:
         load_dotenv(project_root / "milestone2" / ".env")
 
         self.model = model
-        api_key = os.getenv("GROQ_API_KEY", "").strip()
+        api_key = _resolve_groq_api_key()
         self.enabled = bool(api_key)
         self._client = None
 
