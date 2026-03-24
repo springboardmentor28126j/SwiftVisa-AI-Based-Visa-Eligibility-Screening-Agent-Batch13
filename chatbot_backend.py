@@ -1,9 +1,20 @@
+import os
+
 import google.generativeai as genai
 from langchain_community.vectorstores import FAISS
 from langchain_community.embeddings import HuggingFaceEmbeddings
+from dotenv import load_dotenv
+
+# Load env variables
+load_dotenv()
+import os
+
+# Get API key securely
+api_key = os.getenv("GOOGLE_API_KEY")
 
 # Configure Gemini
-genai.configure(api_key="AIzaSyAoU29kuswib-ZHjVLiTaEvBXjzgbikG5A")
+genai.configure(api_key=api_key)
+
 
 model = genai.GenerativeModel("gemini-3-flash-preview")
 
