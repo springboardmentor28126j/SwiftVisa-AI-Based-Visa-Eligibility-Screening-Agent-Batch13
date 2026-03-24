@@ -314,4 +314,4 @@ def run_eligibility_inference(form_payload: Dict[str, Any], top_k: int = 5) -> T
         result["ui_report"] = _generate_ui_report_with_llm(result, form_payload)
         return result, ""
     except Exception as exc:
-        return {}, f"Inference failed: {exc}"
+        return {}, f"Inference failed: {exc}"   

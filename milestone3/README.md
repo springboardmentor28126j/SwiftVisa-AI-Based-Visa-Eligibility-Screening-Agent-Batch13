@@ -1,18 +1,27 @@
 # Milestone 3: User Input Flow (Completed)
 
-This module implements a guided Streamlit wizard for user input and integrates with the Milestone 2 RAG+LLM backend.
+This module implements the frontend user journey and integrates with Milestone 2 for inference.
 
 ## Included
-- Multi-step form flow (Next/Back): personal details, travel preferences, documents, review
-- Dynamic country and visa fields from Milestone 1/2 local corpus indexes
-- Per-step validation and edge-case checks
-- Session-state based wizard progress and user profile persistence
-- Backend inference trigger using Milestone 2 pipeline
-- Eligibility decision rendering with confidence score, explanation, retrieval details, and citations
+- Guided 4-step wizard with validation and Next/Back navigation.
+- Dynamic options based on country, visa, and local policy indexes.
+- Draft autosave and restore across browser refresh using draft ID.
+- Backend integration for eligibility inference and structured result rendering.
 
-## Run
+## Run Locally
 From project root:
 
 ```bash
 streamlit run milestone3/streamlit_app.py
 ```
+
+## Deployment App File
+- Streamlit Cloud app file: `milestone3/streamlit_app.py`
+- Hugging Face Space entrypoint (root): `app.py`
+
+## Required Secret
+- `GROQ_API_KEY`
+
+## Caution
+- Output is AI-assisted guidance and should be treated as reference-only.
+- Final decision should always be validated using official government sources.

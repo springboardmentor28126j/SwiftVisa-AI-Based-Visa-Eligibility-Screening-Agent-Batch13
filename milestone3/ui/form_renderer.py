@@ -1,5 +1,8 @@
 """Dynamic Streamlit form renderer for Milestone 3."""
 
+import json
+import uuid
+from pathlib import Path
 from typing import Dict, Any
 
 import streamlit as st
@@ -82,6 +85,91 @@ def _default_form_payload() -> Dict[str, Any]:
     }
 
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DRAFTS_DIR = PROJECT_ROOT / "milestone3" / "data" / "drafts"
+DRAFT_STATE_KEYS = [
+    "current_step",
+    "submitted",
+    "form_payload",
+    "inference_result",
+    "inference_error",
+    "saved_profiles",
+    "dynamic_options",
+    "dynamic_context_key",
+]
+
+
+def _draft_file_path(draft_id: str) -> Path:
+    DRAFTS_DIR.mkdir(parents=True, exist_ok=True)
+    safe_draft_id = "".join(ch for ch in str(draft_id) if ch.isalnum() or ch in ("-", "_"))
+    return DRAFTS_DIR / f"{safe_draft_id or 'default'}.json"
+
+
+def _ensure_draft_id() -> str:
+    query_value = st.query_params.get("draft", "")
+    draft_id = query_value[0] if isinstance(query_value, list) and query_value else str(query_value)
+    draft_id = str(draft_id).strip()
+
+    if not draft_id:
+        draft_id = uuid.uuid4().hex[:12]
+        st.query_params["draft"] = draft_id
+
+    return draft_id
+
+
+def _load_draft(draft_id: str) -> Dict[str, Any]:
+    path = _draft_file_path(draft_id)
+    if not path.exists():
+        return {}
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except Exception:
+        return {}
+
+
+def _save_draft() -> None:
+    draft_id = str(st.session_state.get("draft_id", "")).strip()
+    if not draft_id:
+        return
+
+    snapshot = {key: st.session_state.get(key) for key in DRAFT_STATE_KEYS}
+    try:
+        with open(_draft_file_path(draft_id), "w", encoding="utf-8") as f:
+            json.dump(snapshot, f, indent=2, ensure_ascii=False)
+    except Exception:
+        return
+
+
+def _delete_draft(draft_id: str) -> None:
+    if not draft_id:
+        return
+    try:
+        _draft_file_path(draft_id).unlink(missing_ok=True)
+    except Exception:
+        return
+
+
+def _restore_draft_if_available() -> None:
+    if st.session_state.get("draft_loaded"):
+        return
+
+    draft_id = st.session_state.get("draft_id", "")
+    draft_data = _load_draft(str(draft_id))
+    if draft_data:
+        for key in DRAFT_STATE_KEYS:
+            if key in draft_data:
+                if key == "form_payload" and isinstance(draft_data[key], dict):
+                    merged_payload = _default_form_payload()
+                    merged_payload.update(draft_data[key])
+                    st.session_state[key] = merged_payload
+                else:
+                    st.session_state[key] = draft_data[key]
+
+    st.session_state["draft_loaded"] = True
+
+
 def init_session_state() -> None:
     defaults = {
         "current_step": 1,
@@ -106,6 +194,12 @@ def init_session_state() -> None:
     for key, value in defaults.items():
         if key not in st.session_state:
             st.session_state[key] = value
+
+    if "draft_id" not in st.session_state:
+        st.session_state["draft_id"] = _ensure_draft_id()
+
+    _restore_draft_if_available()
+    _save_draft()
 
 
 def _validate_step(step: int, payload: Dict[str, Any]) -> str:
@@ -169,7 +263,7 @@ def _render_step_personal(payload: Dict[str, Any]) -> None:
     st.subheader("Step 1: Personal Information")
 
 
-    payload["name"] = st.text_input("Full Name", value=payload.get("name", ""), max_chars=80)
+    payload["name"] = st.text_input("Full Name *", value=payload.get("name", ""), max_chars=80)
 
     c1, c2 = st.columns(2)
     with c1:
@@ -220,7 +314,7 @@ def _render_step_travel(payload: Dict[str, Any]) -> None:
             index=visa_options.index(payload["visa_type"]),
         )
 
-    _refresh_dynamic_options(payload)
+    _refresh_dynamic_options(payload) 
     dynamic_options = st.session_state.get("dynamic_options", {})
     purpose_options = dynamic_options.get("purpose_options", PURPOSE_OPTIONS)
     stay_options = dynamic_options.get("stay_duration_options", STAY_DURATION_OPTIONS)
@@ -358,6 +452,7 @@ def _render_step_review(payload: Dict[str, Any]) -> None:
             st.session_state["inference_result"] = result if result else None
             st.session_state["inference_error"] = error
             st.session_state["submitted"] = bool(result)
+            _save_draft()
             st.rerun()
 
 
@@ -417,6 +512,7 @@ def render_user_form() -> Dict[str, Any]:
     with col_back:
         if current_step > 1 and st.button("⬅ Back"):
             st.session_state["current_step"] -= 1
+            _save_draft()
             st.rerun()
 
     with col_next:
@@ -426,8 +522,10 @@ def render_user_form() -> Dict[str, Any]:
                 st.error(error)
             else:
                 st.session_state["current_step"] += 1
+                _save_draft()
                 st.rerun()
 
+    _save_draft()
     return payload
 
 
@@ -526,6 +624,8 @@ def render_submission_preview() -> None:
 
     with action_col1:
         if st.button("🔄 Reset App (Erase all current data)"):
+            _delete_draft(str(st.session_state.get("draft_id", "")))
+            st.query_params.clear()
             st.session_state.clear()
             st.rerun()
 
@@ -548,5 +648,6 @@ def render_submission_preview() -> None:
             st.session_state["inference_result"] = None
             st.session_state["inference_error"] = ""
             st.session_state["form_payload"] = _default_form_payload()
+            _save_draft()
             st.success("Current user saved. You can now enter details for a new user.")
             st.rerun()
