@@ -1,6 +1,6 @@
 # main.py
 
-from retrieval import retrieve_documents
+from retrievalout import retrieve_documents
 from prompt_builder import build_prompt
 from llm import load_llm
 
