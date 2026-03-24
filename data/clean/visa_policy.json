@@ -85,8 +85,7 @@
           "Employment contract/offer",
           "Visa application form",
           "Proof of qualifications",
-          "Photo",
-          "Relevant government clearances if required"
+          "Photo"
         ]
       },
       "Permanent_Residence": {
@@ -138,8 +137,7 @@
           "Sufficient funds for visit",
           "Return/onward travel confirmed",
           "No work/study/business intent",
-          "No prior US immigration violations",
-          "ESTA option for 42 VWP countries (≤90 days)"
+          "No prior US immigration violations"
         ],
         "documents": [
           "Passport",
@@ -207,7 +205,6 @@
           "Approved petition (I-130 etc.)",
           "Affidavit of Support",
           "Medical exam results",
-          "Police certificates",
           "Civil documents"
         ]
       },
