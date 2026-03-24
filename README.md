@@ -1,289 +1,237 @@
-🌍 SwiftVisa AI Screening Agent
-
-An AI-powered visa eligibility screening system that uses Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs) to analyze visa policies and generate structured eligibility responses.
-
-The system retrieves relevant visa policy documents from a FAISS vector database and uses Google Gemini LLM to produce an eligibility decision, reasoning, and confidence score.
-
-🚀 Project Overview
-
-Visa application processes involve reviewing complex policies across multiple countries and visa types.
-This project builds an AI screening agent capable of:
-
-Retrieving relevant visa policy information
-
-Analyzing eligibility conditions
-
-Generating structured explanations
-
-Logging decision history for auditing
-
-The system follows a Retrieval-Augmented Generation (RAG) architecture, ensuring that AI responses are grounded in actual visa policy documents rather than hallucinated information.
-
-🧠 System Architecture
-User Query
-   │
-   ▼
-Streamlit UI
-   │
-   ▼
-Visa Screening Agent
-   │
-   ▼
-FAISS Vector Database
-(Policy Retrieval)
-   │
-   ▼
-Top-K Policy Chunks
-   │
-   ▼
-Prompt Construction
-(Context + User Query)
-   │
-   ▼
-Gemini LLM
-   │
-   ▼
-Eligibility Decision
-Reasoning
-Confidence Score
-   │
-   ▼
-Decision Logging (CSV)
-🧩 Tech Stack
-Component	Technology
-Language	Python
-LLM	Google Gemini
-Framework	LangChain
-Vector Database	FAISS
-Embeddings	Sentence Transformers
-Frontend	Streamlit
-Data Logging	CSV
-Environment Management	python-dotenv
-📁 Project Structure
-swiftvisa-ai-agent/
-│
-├── app.py
-│   Streamlit interface for user interaction
-│
-├── visa_agent.py
-│   Core RAG pipeline logic and LLM interaction
-│
-├── retriever_setup.py
-│   FAISS vector database loading and retriever setup
-│
-├── prompts.py
-│   Prompt template used to guide the LLM responses
-│
-├── decision_history.csv
-│   Logs AI decisions for auditing and analysis
-│
-├── visa_faiss_index/
-│   Stored FAISS vector index for visa policies
-│
-├── requirements.txt
-│   Python dependencies
-│
-└── README.md
-    Project documentation
-🔎 Key Features
-1️⃣ Retrieval-Augmented Generation (RAG)
+# 🚀 AI SwiftVisa: AI-Based Visa Eligibility Screening Agent
 
-The system retrieves relevant visa policy chunks from a FAISS vector database before generating responses.
+---
 
-This ensures:
+## 📌 Project Overview
 
-Policy-grounded responses
+**AI SwiftVisa** is an intelligent visa eligibility screening system powered by **Large Language Models (LLMs)** and **Retrieval-Augmented Generation (RAG)**.
 
-Reduced hallucinations
+The system simulates a visa officer by analyzing user-provided details and comparing them with official immigration policies stored in a vector database. Instead of using hardcoded rules, the application dynamically generates eligibility decisions using AI reasoning.
 
-Explainable decisions
+---
 
-2️⃣ Vector Search with FAISS
+## 🎯 Objective
 
-Visa policy documents are converted into embeddings using:
+The main objective of this project is to:
 
-sentence-transformers/all-MiniLM-L6-v2
+* Build an AI-powered system that evaluates visa eligibility
+* Use **real immigration policies** as the knowledge base
+* Provide **human-like reasoning and explanations**
+* Avoid rule-based filtering and use **LLM-based decision making**
 
-These embeddings are stored in FAISS, allowing fast similarity search.
+---
 
-3️⃣ LLM-Based Eligibility Analysis
+## 🧠 Key Concept: RAG (Retrieval-Augmented Generation)
 
-The system uses:
+This project uses **RAG architecture**, which works as follows:
 
-Gemini 3 Flash Preview
+1. User inputs personal details
+2. Relevant visa policies are retrieved from vector database
+3. LLM analyzes both inputs + policies
+4. Generates:
 
-The LLM receives:
+   * Eligibility decision
+   * Explanation
+   * Confidence score
 
-Retrieved policy context
+---
 
-User query
+## 🏗️ System Architecture
 
-It then generates:
+```
+User Input (Streamlit UI)
+        ↓
+Session State Handling
+        ↓
+Backend (Visa Agent)
+        ↓
+Vector Database (FAISS / Chroma)
+        ↓
+Top-K Policy Retrieval
+        ↓
+LLM (GPT / Mistral / Qwen)
+        ↓
+Eligibility Decision + Explanation
+        ↓
+Display Results (UI)
+```
 
-Eligibility decision
+---
 
-Reasoning
+## ⚙️ Tech Stack
 
-Policy reference
+| Component    | Technology Used                |
+| ------------ | ------------------------------ |
+| Frontend     | Streamlit                      |
+| Backend      | Python                         |
+| LLM          | GPT / Mistral / Qwen           |
+| Framework    | LangChain                      |
+| Vector Store | FAISS / Chroma                 |
+| Embeddings   | Sentence Transformers          |
+| Deployment   | Streamlit Cloud / Hugging Face |
 
-Confidence score
+---
 
-4️⃣ Structured AI Responses
+## ✨ Features
 
-Example output:
+* 🧾 Visa eligibility evaluation using AI
+* 🌍 Supports multiple countries and visa types
+* 📊 Confidence score for each decision
+* 📚 Policy-based reasoning (RAG)
+* 🔄 Session state management for multi-step input
+* 🖥️ Clean and interactive UI
+* 📄 Final review summary in paragraph format
+* ⬅️ Previous button navigation
 
-Decision: Eligible for F-1 Student Visa
+---
 
-Reasoning:
-Based on United States F-1 visa policy, the applicant must
-provide passport, Form I-20, SEVIS fee receipt, DS-160,
-academic transcripts, and proof of financial support.
+## 🧑‍💻 How It Works (End-to-End Flow)
 
-Policy Reference:
-United States – F-1 Academic Student Visa
+1. User fills the form:
 
-Confidence: 90%
-5️⃣ Decision Logging
+   * Age
+   * Nationality
+   * Education
+   * Employment
+   * Income
+   * Visa Type
 
-Every query is logged in:
+2. Data is stored using **Streamlit Session State**
 
-decision_history.csv
+3. Backend processes the input:
 
-Logged information includes:
+   * Converts query into embeddings
+   * Retrieves top-K relevant visa policies
 
-Timestamp
+4. LLM evaluates eligibility:
 
-User query
+   * Combines user profile + policies
+   * Generates decision with reasoning
 
-AI decision
+5. Output displayed:
 
-Confidence score
+   * Eligibility Status
+   * Explanation
+   * Confidence Score
 
-Source documents
+---
 
-This allows auditability and response quality tracking.
+## 🛠️ Installation & Setup
 
-📊 Milestone Progress
-✅ Milestone 1 — Policy Knowledge Base
+### 1. Clone the repository
 
-Completed tasks:
+```
+git clone https://github.com/springboardmentor28126j/SwiftVisa-AI-Based-Visa-Eligibility-Screening-Agent-Batch13/tree/Royyala-Karthik.git
+cd AI-SwiftVisa
+```
 
-Collected visa policy documents
+---
 
-Converted documents into embeddings
+### 2. Create virtual environment
 
-Created FAISS vector database
+```
+python -m venv venv
+venv\Scripts\activate   # Windows
+```
 
-Deliverable:
+---
 
-✔ Visa policy knowledge base stored in FAISS
+### 3. Install dependencies
 
-✅ Milestone 2 — RAG + LLM Pipeline
-
-Implemented:
-
-Retrieval chain using LangChain
-
-Top-K policy chunk retrieval
-
-Prompt construction with policy context
-
-Gemini LLM reasoning
-
-Confidence scoring
-
-Decision logging
-
-Deliverables:
-
-✔ Working RAG pipeline
-✔ Policy-grounded eligibility responses
-✔ Logged decision history
-
-✅ Milestone 3 — Streamlit Interface
-
-Implemented:
-
-Interactive Streamlit UI
-
-User query input
-
-Real-time AI screening
-
-Display of decision + confidence score
-
-Example interface:
-
-SwiftVisa AI Screening Agent
-
-Enter your visa query:
-[ Text Input ]
-
-[Check Eligibility]
-
-Result:
-Decision + Explanation
-
-Confidence Score
-⚙️ Installation
-
-Clone the repository:
-
-git clone https://github.com/yourusername/swiftvisa-ai-agent.git
-cd swiftvisa-ai-agent
-
-Install dependencies:
-
+```
 pip install -r requirements.txt
+```
 
-Create .env file:
+---
 
-GOOGLE_API_KEY=your_gemini_api_key
-▶️ Running the Application
-Run Streamlit Interface
+### 4. Run the application
+
+```
 streamlit run app.py
+```
 
-Then open:
+---
 
-http://localhost:8501
-Run RAG Pipeline (Milestone 2 Test)
-python visa_agent.py
-🧪 Example Queries
-What documents are required for an F-1 student visa in the United States?
+## 🌐 Deployment
 
-Am I eligible for a student visa if I want to study in the USA?
+This application is deployed using:
 
-What are the requirements for a work visa in India?
+* Streamlit Cloud
+* Hugging Face Spaces (optional)
 
-What visa do I need to work in the United States as a software engineer?
-🔐 Limitations
+👉 Live Demo: *(Add your deployed link here)*
 
-Uses simplified visa policy dataset
+---
 
-Confidence score currently heuristic-based
+## 📸 Screenshots
 
-Gemini API rate limits may affect response time
+*(Add screenshots here of your UI)*
 
-📌 Future Improvements
+---
 
-Planned features for future milestones:
+## 📊 Example Output
 
-Multi-country visa policy expansion
+* **Eligibility:** Likely Eligible
+* **Explanation:** Based on your education, income, and employment status, you meet the requirements...
+* **Confidence Score:** 87%
 
-User profile input (age, finances, purpose)
+---
 
-More advanced confidence scoring
+## ⚠️ Challenges Faced
 
-Policy citation highlighting
+* Handling dynamic LLM responses
+* Managing session state across steps
+* Ensuring accurate policy retrieval
+* Deployment issues with dependencies
 
-Database logging (PostgreSQL)
+---
 
-Deployment on cloud infrastructure
+## 🔮 Future Scope
 
-👨‍💻 Author
+* Add more countries and visa categories
+* Improve confidence score calculation
+* Integrate document verification
+* Add chatbot interface
+* Real-time API integration with immigration services
 
-Developed as part of an AI Internship Project focused on building policy-aware AI agents using RAG architectures.
+---
 
-📜 License
+## 📁 Project Structure
 
-This project is for educational and research purposes.
+```
+AI-SwiftVisa/
+│── app.py
+│── visa_agent.py
+│── requirements.txt
+│── README.md
+│── vector_store/
+│── data/
+```
+
+---
+
+## 📌 Conclusion
+
+AI SwiftVisa demonstrates how **LLMs + RAG** can replace traditional rule-based systems by providing intelligent, context-aware decision-making.
+
+This project showcases the practical use of AI in real-world applications like visa screening.
+
+---
+
+## 👨‍💻 Author
+
+**Royyala Karthik**
+
+---
+
+## ⭐ Acknowledgements
+
+* Immigration policy sources (USCIS, IRCC, GOV.UK)
+* OpenAI / Mistral / Qwen models
+* LangChain framework
+
+---
+
+## 📜 License
+
+This project is for academic and educational purposes only.
