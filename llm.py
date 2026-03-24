@@ -1,27 +1,28 @@
-# llm.py
+import requests
 
-import os
-from langchain_google_genai import ChatGoogleGenerativeAI
+API_KEY = "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"
 
+def generate_response(prompt):
 
-def load_llm():
-    """
-    Load and return Gemini 2.5 Flash model.
-    Make sure GOOGLE_API_KEY is set in environment variables.
-    """
+    url = "https://openrouter.ai/api/v1/chat/completions"
 
-    api_key = os.getenv("GOOGLE_API_KEY")
+    headers = {
+        "Authorization": f"Bearer {API_KEY}",
+        "Content-Type": "application/json"
+    }
 
-    if not api_key:
-        raise ValueError(
-            "GOOGLE_API_KEY is not set. Please configure it before running."
-        )
+    data = {
+        "model": "openai/gpt-3.5-turbo",  # ✅ free/cheap & powerful
+        "messages": [
+            {"role": "user", "content": prompt}
+        ]
+    }
 
-    llm = ChatGoogleGenerativeAI(
-        model="gemini-2.5-flash",
-        temperature=0.2,        # Low = less hallucination (good for RAG)
-        max_output_tokens=1024,
-        top_p=0.9
-    )
+    try:
+        response = requests.post(url, headers=headers, json=data)
+        result = response.json()
 
-    return llm
+        return result["choices"][0]["message"]["content"]
+
+    except Exception as e:
+        return f"ERROR: {str(e)}"
