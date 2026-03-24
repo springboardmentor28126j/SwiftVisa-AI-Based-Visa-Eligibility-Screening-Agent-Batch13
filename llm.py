@@ -1,6 +1,7 @@
 import requests
+import streamlit as st
 
-API_KEY = "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"
+API_KEY = st.secrets["OPENROUTER_API_KEY"]
 
 def generate_response(prompt):
 
@@ -12,7 +13,7 @@ def generate_response(prompt):
     }
 
     data = {
-        "model": "openai/gpt-3.5-turbo",  # ✅ free/cheap & powerful
+        "model": "openai/gpt-3.5-turbo",
         "messages": [
             {"role": "user", "content": prompt}
         ]
