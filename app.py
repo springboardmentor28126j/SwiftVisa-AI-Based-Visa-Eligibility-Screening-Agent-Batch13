@@ -2,6 +2,7 @@ import streamlit as st
 import json
 import numpy as np
 import faiss
+import os
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
 from groq import Groq
@@ -68,7 +69,7 @@ for country in country_list:
 # -----------------------------
 index = faiss.read_index("visa_index.faiss")
 model = SentenceTransformer("all-MiniLM-L6-v2")
-client = Groq(api_key="YOUR_GROQ_API_KEY")
+client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
 # -----------------------------
 # Applicant Details Section
