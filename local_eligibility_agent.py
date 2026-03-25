@@ -2,6 +2,7 @@ import json
 import re
 from datetime import datetime
 import requests
+import streamlit as st
 
 from langchain_community.vectorstores import FAISS
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -12,6 +13,7 @@ VECTOR_STORE_PATH = "visa_vector_store"
 # -----------------------------
 # Load Vector Store
 # -----------------------------
+@st.cache_resource(show_spinner=False)
 def load_vector_store():
     embeddings = HuggingFaceEmbeddings(
         model_name="sentence-transformers/all-MiniLM-L6-v2"
@@ -27,6 +29,7 @@ def load_vector_store():
 # -----------------------------
 # Retrieve Policy
 # -----------------------------
+@st.cache_data(show_spinner=False)
 def retrieve_policy(country, visa_type):
     vectorstore = load_vector_store()
 
@@ -151,7 +154,17 @@ Return output strictly in this format:
 
 Decision: <Eligible / Possibly Eligible / Not Eligible>
 Confidence: <0 to 1 score>
-Reasoning: <Clear explanation grounded in policy>
+
+[MET REQUIREMENTS]
+- <Point 1>
+- <Point 2>
+
+[UNMET REQUIREMENTS]
+- <Point 1>
+- <Point 2>
+
+[DETAILS]
+<Additional point 1>
 
 User Profile:
 Age: {age}
