@@ -71,7 +71,7 @@ Provide a clear and structured answer.
 # -----------------------------
 # Groq Client Setup
 # -----------------------------
-client = Groq(api_key="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")  # <-- PUT YOUR REAL API KEY HERE
+client = Groq(api_key="YOUR_GROQ_API_KEY")  # <-- PUT YOUR REAL API KEY HERE
 
 # -----------------------------
 # Retrieval Loop
