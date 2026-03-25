@@ -4,3 +4,5 @@ faiss-cpu
 streamlit
 requests
 python-dotenv
+pandas
+requests
