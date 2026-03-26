@@ -1,7 +1,7 @@
 import json
 import re
 import time
-from rapidfuzz import process, fuzz
+from rapidfuzz import fuzz
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from config import (
@@ -34,10 +34,7 @@ VECTORSTORE = FAISS.load_local(
 # Utils
 # ==========================
 def normalize_text(text: str) -> str:
-    text = text.lower()
-    text = re.sub(r"[^\w\s]", "", text)
-    text = re.sub(r"\s+", " ", text)
-    return text.strip()
+    return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", "", text.lower())).strip()
 
 
 def normalize_key(text: str) -> str:
@@ -55,21 +52,15 @@ def get_visa_types(country: str):
 def extract_country(query: str):
     query_clean = normalize_text(query)
 
-    best_match = None
-    best_score = 0
+    best_match, best_score = None, 0
 
     for country in AVAILABLE_COUNTRIES:
-        country_clean = normalize_key(country)
-        score = fuzz.token_set_ratio(country_clean, query_clean)
-
+        score = fuzz.token_set_ratio(normalize_key(country), query_clean)
         if score > best_score:
             best_score = score
             best_match = country
 
-    if best_score >= 70:
-        return best_match
-
-    return None
+    return best_match if best_score >= 65 else None
 
 
 # ==========================
@@ -78,23 +69,17 @@ def extract_country(query: str):
 def extract_visa_type(query: str, visa_types):
     query_clean = normalize_text(query)
 
-    best_match = None
-    best_score = 0
+    best_match, best_score = None, 0
 
     for visa in visa_types:
-        visa_clean = normalize_key(visa)
-        visa_label = visa_clean + " visa"
-
+        visa_label = normalize_key(visa) + " visa"
         score = fuzz.token_set_ratio(visa_label, query_clean)
 
         if score > best_score:
             best_score = score
             best_match = visa
 
-    if best_score >= 70:
-        return best_match
-
-    return None
+    return best_match if best_score >= 65 else None
 
 
 # ==========================
@@ -123,19 +108,41 @@ def retrieve_policy(query: str):
             "available_visa_types": visa_types
         }
 
-    # 3️⃣ Vector Search with NORMALIZED FILTER
+    # Normalize for filter
+    norm_country = normalize_key(country)
+    norm_visa = normalize_key(visa_type)
+
+    # 3️⃣ Try Filtered Search
     results = VECTORSTORE.similarity_search_with_score(
         query,
         k=TOP_K,
         filter={
-            "country": normalize_key(country),
-            "visa_type": normalize_key(visa_type)
+            "country": norm_country,
+            "visa_type": norm_visa
         }
     )
 
+    # 4️⃣ Fallback Search (IMPORTANT)
     if not results:
-        return {"status": "no_result"}
+        results = VECTORSTORE.similarity_search_with_score(query, k=TOP_K)
 
+        # Filter manually
+        results = [
+            (doc, score)
+            for doc, score in results
+            if normalize_key(doc.metadata.get("country", "")) == norm_country
+            and normalize_key(doc.metadata.get("visa_type", "")) == norm_visa
+        ]
+
+    # 5️⃣ Still no results
+    if not results:
+        return {
+            "status": "no_result",
+            "country": country,
+            "visa_type": visa_type
+        }
+
+    # 6️⃣ Pick best match
     results = sorted(results, key=lambda x: x[1])
     best_doc, best_distance = results[0]
 
