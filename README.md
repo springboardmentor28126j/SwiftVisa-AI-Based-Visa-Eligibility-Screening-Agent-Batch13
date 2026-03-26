@@ -2,277 +2,318 @@
 
 SwiftVisa is an AI-powered visa eligibility screening system built using a Retrieval-Augmented Generation (RAG) architecture.
 
-The system analyzes official immigration policies and evaluates applicant eligibility using a local Large Language Model (LLM) via LM Studio.
+It analyzes official immigration policies and evaluates applicant eligibility using a local Large Language Model (LLM) via LM Studio.
 
----
+--------------------------------------------------
 
-## Project Overview
+PROJECT OVERVIEW
 
 SwiftVisa automates visa eligibility assessment by:
 
-- Extracting official immigration policies  
-- Structuring them into a searchable knowledge base  
-- Retrieving relevant policy sections using semantic search  
-- Generating eligibility decisions using an LLM  
-- Providing confidence scores  
-- Logging decision history for evaluation  
+- Extracting official immigration policies
+- Structuring them into a searchable knowledge base
+- Retrieving relevant policy sections using semantic search
+- Generating eligibility decisions using an LLM
+- Providing confidence scores
+- Logging decision history for evaluation
 
 Unlike rule-based systems, SwiftVisa performs context-aware reasoning grounded in real policy documents.
 
----
+--------------------------------------------------
 
-## Problem Statement
+PROBLEM STATEMENT
 
 Understanding visa eligibility across countries is:
 
-- Complex  
-- Time-consuming  
-- Difficult to compare  
+- Complex
+- Time-consuming
+- Difficult to compare
 
 SwiftVisa solves this by acting as an AI visa officer, providing:
 
-- Policy-grounded decisions  
-- Transparent reasoning  
-- Fast eligibility insights  
+- Policy-grounded decisions
+- Transparent reasoning
+- Fast eligibility insights
 
----
+--------------------------------------------------
 
-## System Architecture (RAG Pipeline)
+ADVANCED AI FEATURES
 
-### 1. Data Preparation
-- Clean official visa policies  
-- Store in structured JSON format  
-- Normalize metadata (lowercase, trimmed values)  
+WHY NOT ELIGIBLE (ADVISOR MODE)
 
----
+Provides actionable suggestions when eligibility is low:
 
-### 2. Chunking
-- Split policy text into smaller chunks  
-- Maintain context using overlap  
+- Increase income threshold
+- Gain required experience
+- Add missing qualifications (e.g., IELTS)
 
----
+--------------------------------------------------
 
-### 3. Embedding Generation
-- Model: sentence-transformers/all-MiniLM-L6-v2  
-- Convert text into vector embeddings  
+AI RECOMMENDATION ENGINE
 
----
+Suggests better options based on user profile:
 
-### 4. Vector Storage
-- Store embeddings in FAISS  
-- Metadata stored:
-  - country  
-  - visa_type  
-  - official_source  
+- Alternative countries
+- Suitable visa types
 
-Vector store is generated using:
-    python build_vector_store.py
+--------------------------------------------------
 
----
+ELIGIBILITY SCORE BREAKDOWN
 
-### 5. Retrieval
+Education: 90%
+Income: 60%
+Experience: 80%
+
+--------------------------------------------------
+
+DOCUMENT CHECKLIST GENERATOR
+
+Auto-generated checklist based on visa type:
+
+- Passport
+- Degree certificate
+- Financial proof
+
+--------------------------------------------------
+
+MULTI-COUNTRY SMART SEARCH
+
+Top Matches:
+1. Germany -> 85% (Eligible)
+2. Canada -> 78% (Possibly Eligible)
+3. UK -> 65% (Low Match)
+
+--------------------------------------------------
+
+AI CHAT ASSISTANT
+
+Users can ask:
+
+- What is minimum salary for Germany?
+- Can I apply with 1 year experience?
+
+--------------------------------------------------
+
+SYSTEM ARCHITECTURE (RAG PIPELINE)
+
+1. DATA PREPARATION
+- Clean official visa policies
+- Store in structured JSON format
+- Normalize metadata
+
+--------------------------------------------------
+
+2. CHUNKING
+- Split policy text into smaller chunks
+- Maintain context using overlap
+
+--------------------------------------------------
+
+3. EMBEDDING GENERATION
+- Model: sentence-transformers/all-MiniLM-L6-v2
+- Convert text into vector embeddings
+
+--------------------------------------------------
+
+4. VECTOR STORAGE
+- Store embeddings in FAISS
+- Metadata:
+  - country
+  - visa_type
+  - official_source
+
+Command:
+python build_vector_store.py
+
+--------------------------------------------------
+
+5. RETRIEVAL
 - Filter by:
-  - Country  
-  - Visa Type  
-- Retrieve top-K relevant policy chunks  
+  - Country
+  - Visa Type
+- Retrieve top-K relevant policy chunks
 
----
+--------------------------------------------------
 
-### 6. LLM Decision Generation
-- Model: Phi-3 Mini (4K Instruct) via LM Studio  
-- Prompt includes:
-  - User profile  
-  - Retrieved policy context  
+6. LLM DECISION GENERATION
+- Model: Phi-3 Mini (4K Instruct) via LM Studio
 
-Output Format:
-    Decision: <Eligible / Possibly Eligible / Not Eligible>
-    Confidence: <0 to 1 score>
-    Reasoning: <Policy-based explanation>
+Output format:
 
----
+Decision: Eligible / Possibly Eligible / Not Eligible
+Confidence: 0 to 1
+Reasoning: Policy-based explanation
 
-### 7. Logging System
-- Stores results in decision_logs.json  
-- Tracks:
-  - Timestamp  
-  - User profile  
-  - Decision  
-  - Confidence score  
-  - Confidence level (High / Medium / Low)  
+--------------------------------------------------
 
----
+7. LOGGING SYSTEM
 
-## Supported Countries
+Stores results in decision_logs.json:
 
-- USA  
-- Canada  
-- United Kingdom  
-- Germany  
-- France  
-- Ireland  
-- Netherlands  
-- Australia  
-- New Zealand  
-- Sweden  
-- Singapore  
-- UAE  
+- Timestamp
+- User profile
+- Decision
+- Confidence score
+- Confidence level (High / Medium / Low)
 
-All policies are collected manually from official government sources.
+--------------------------------------------------
 
----
+SUPPORTED COUNTRIES
 
-## Tech Stack
+- USA
+- Canada
+- United Kingdom
+- Germany
+- France
+- Ireland
+- Netherlands
+- Australia
+- New Zealand
+- Sweden
+- Singapore
+- UAE
 
-### Core Technologies
-- Python  
-- LangChain  
-- FAISS (Vector Database)  
-- Sentence Transformers  
+All policies are collected from official government sources.
 
-### AI and Models
-- HuggingFace Embeddings  
-- Phi-3 Mini (Local LLM via LM Studio)  
+--------------------------------------------------
 
-### Tools and Interface
-- LM Studio (Local LLM Server)  
-- Streamlit (Web UI)  
+TECH STACK
 
----
+CORE TECHNOLOGIES
+- Python
+- LangChain
+- FAISS (Vector Database)
+- Sentence Transformers
 
-## How to Run the Project
+AI MODELS
+- HuggingFace Embeddings
+- Phi-3 Mini (Local LLM via LM Studio)
 
-### Step 1 - Install Dependencies
-    pip install -r requirements.txt
+INTERFACE AND TOOLS
+- Streamlit (Web UI)
+- LM Studio (Local LLM Server)
 
----
+--------------------------------------------------
 
-### Step 2 - Build Vector Store
-    python build_vector_store.py
+HOW TO RUN THE PROJECT
 
-This step:
-- Loads JSON data  
-- Chunks documents  
-- Generates embeddings  
-- Stores vectors in FAISS  
+STEP 1 - INSTALL DEPENDENCIES
+pip install -r requirements.txt
 
----
+--------------------------------------------------
 
-### Step 3 - Start LM Studio
+STEP 2 - BUILD VECTOR STORE
+python build_vector_store.py
 
-1. Load model: phi-3-mini-4k-instruct  
-2. Go to Developer -> Local Server  
-3. Start server  
+--------------------------------------------------
 
-Ensure it runs at:
-    http://localhost:1234
+STEP 3 - START LM STUDIO
 
----
+1. Load model: phi-3-mini-4k-instruct
+2. Go to Developer -> Local Server
+3. Start server
 
-### Step 4 - Run CLI Eligibility System
-    python local_eligibility_agent.py
+Run at:
+http://localhost:1234
 
----
+--------------------------------------------------
 
-### Step 5 - Run Web UI
-    streamlit run streamlit_app.py
+STEP 4 - RUN CLI SYSTEM
+python local_eligibility_agent.py
 
----
+--------------------------------------------------
 
-## Input Fields
+STEP 5 - RUN WEB UI
+streamlit run streamlit_app.py
 
-- Age  
-- Nationality  
-- Education  
-- Employment  
-- Income  
-- Country  
-- Visa Type  
+--------------------------------------------------
 
----
+SAMPLE INPUT
 
-## Sample Input
+Age: 25
+Nationality: India
+Education: Bachelor's Degree
+Employment: Software Engineer
+Income: 70000 USD
+Country: Germany
+Visa Type: EU Blue Card
 
-Age: 25  
-Nationality: India  
-Education: Bachelor's Degree  
-Employment: Software Engineer  
-Income: 70000 USD  
-Country: Germany  
-Visa Type: EU Blue Card  
+--------------------------------------------------
 
----
+SAMPLE OUTPUT
 
-## Sample Output
+Decision: Possibly Eligible
+Confidence: 0.85
+Reasoning: Based on income threshold and qualification criteria
+Confidence Level: High
 
-Decision: Possibly Eligible  
-Confidence: 0.85  
-Reasoning: Based on income threshold and qualification criteria...  
-Confidence Level: High  
+--------------------------------------------------
 
----
+KEY FEATURES
 
-## Key Features
+- AI-powered eligibility decision making
+- Policy-grounded semantic retrieval
+- Confidence scoring system
+- Decision logging system
+- Fully local AI system (no API dependency)
+- Streamlit-based interactive UI
 
-- Policy-grounded decision making  
-- Metadata-based semantic retrieval  
-- Confidence scoring system  
-- Decision logging system  
-- Fully local AI system (no API dependency)  
-- Streamlit-based UI  
-- Scalable RAG architecture  
+--------------------------------------------------
 
----
+CURRENT LIMITATIONS
 
-## Decision Logging System
-
-- Tracks all eligibility evaluations  
-- Enables performance analysis  
-- Stores historical decisions  
-
----
-
-## Current Limitations
-
-- Uses lightweight local model (Phi-3 Mini)  
-- Limited reasoning compared to large cloud models  
+- Uses lightweight local model (Phi-3 Mini)
+- Limited reasoning compared to large cloud LLMs
 
 Note:
-The architecture is production-ready, but model size limits performance.
+Architecture is production-ready, but model capability limits performance.
 
----
+--------------------------------------------------
 
-## Future Improvements
+FUTURE IMPROVEMENTS
 
-- Multi-model comparison  
-- Advanced evaluation metrics  
-- Performance optimization  
+- Multi-model support (GPT, Mistral, etc.)
+- Advanced UI enhancements
+- Performance optimization
+- Mobile-friendly interface
 
----
+--------------------------------------------------
 
-## Project Status
+PROJECT STATUS
 
-### Milestone 1 - COMPLETED
-- Policy corpus creation  
-- JSON structuring  
-- Vector database creation  
+MILESTONE 1 - COMPLETED
+- Policy corpus creation
+- JSON structuring
+- Vector database
 
-### Milestone 2 - COMPLETED
-- RAG + LLM pipeline  
-- Policy-grounded reasoning  
-- Confidence scoring  
-- Decision logging system  
-- Local LLM integration  
+MILESTONE 2 - COMPLETED
+- RAG + LLM pipeline
+- Policy-based reasoning
+- Confidence scoring
+- Decision logging
+- Local LLM integration
 
-### Milestone 3 - COMPLETED
-- Streamlit Web UI developed  
-- Frontend and backend integration  
-- Interactive user input system  
-- Real-time eligibility evaluation  
-- Decision visualization with confidence  
+MILESTONE 3 - COMPLETED
+- Streamlit UI
+- Full integration
+- Real-time evaluation
+- Decision visualization
 
----
+--------------------------------------------------
 
-## Author
+AUTHOR
 
-Shweta Kharat  
-Infosys Internship Program 
+Shweta Kharat
+Infosys Internship Program
+
+--------------------------------------------------
+
+FINAL NOTE
+
+SwiftVisa demonstrates how AI can power:
+
+- Intelligent decision systems
+- Scalable architectures
+- Real-world applications
+
+--------------------------------------------------

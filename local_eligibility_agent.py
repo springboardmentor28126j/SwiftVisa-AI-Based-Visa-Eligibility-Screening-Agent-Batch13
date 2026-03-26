@@ -150,21 +150,14 @@ You are an immigration eligibility assessment system.
 
 Based ONLY on the provided policy context, evaluate the applicant.
 
-Return output strictly in this format:
+Return output strictly as valid JSON matching this schema:
+{{
+  "decision": "Eligible", "Possibly Eligible", or "Not Eligible",
+  "overall_confidence": <0 to 1 float>,
+  "reasoning": "<Write all your explanations and reasoning here as a string>"
+}}
 
-Decision: <Eligible / Possibly Eligible / Not Eligible>
-Confidence: <0 to 1 score>
-
-[MET REQUIREMENTS]
-- <Point 1>
-- <Point 2>
-
-[UNMET REQUIREMENTS]
-- <Point 1>
-- <Point 2>
-
-[DETAILS]
-<Additional point 1>
+CRITICAL: The output MUST be 100% parseable JSON. Do NOT include ANY unquoted text or explanations anywhere except inside the "reasoning" string field.
 
 User Profile:
 Age: {age}
@@ -178,8 +171,7 @@ Visa Type: {visa_type}
 Policy Context:
 {context}
 
-Do not add extra text.
-Only follow the format above.
+Respond ONLY with valid JSON. Do not include markdown formatting like ```json or any other text.
 """
 
         print("Generating eligibility decision...\n")
@@ -192,11 +184,20 @@ Only follow the format above.
         # -----------------------------
         # Extract Decision + Confidence
         # -----------------------------
-        decision_match = re.search(r"Decision:\s*(.*)", result)
-        confidence_match = re.search(r"Confidence:\s*([0-9.]+)", result)
-
-        decision = decision_match.group(1).strip() if decision_match else "Unknown"
-        confidence_value = float(confidence_match.group(1)) if confidence_match else 0.5
+        try:
+            clean_result = result.strip()
+            # Extract only the JSON block if the model added conversational filler
+            json_match = re.search(r'\{.*\}', clean_result, re.DOTALL)
+            if json_match:
+                clean_result = json_match.group(0)
+                
+            parsed_json = json.loads(clean_result)
+            decision = parsed_json.get("decision", "Unknown")
+            confidence_value = float(parsed_json.get("overall_confidence", 0.5))
+        except json.JSONDecodeError:
+            print("Failed to parse JSON response. Using fallback values.")
+            decision = "Unknown"
+            confidence_value = 0.5
 
         # -----------------------------
         # Convert Confidence Level
