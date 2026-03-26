@@ -8,7 +8,7 @@ import os
 from rag_pipeline import evaluate_eligibility
 from retriever import retrieve_policy
 from llm_client import ask_llm
-from config import LOG_PATH, JSON_PATH  # ✅ Line 8: ensure LOG_PATH and JSON_PATH exist in config
+from config import LOG_PATH, JSON_PATH  
 
 # ===================== PAGE CONFIG =====================
 st.set_page_config(
@@ -173,7 +173,7 @@ def extract_user_documents(profile):
             docs.add(k.replace("_", " ").lower())
 
     # ---------------------------
-    # 2️⃣ Strong semantic signals (NO hardcoding)
+    # 2️⃣ Strong semantic signals 
     # ---------------------------
 
     # Passport
@@ -1121,10 +1121,14 @@ elif page == "Admin Dashboard":
         st.subheader("Export Logs")
 
         filtered_csv = filtered_df.to_csv(index=False)
-        st.download_button("📥 Download Filtered CSV", filtered_csv, "visa_logs_filtered.csv")
-
         full_csv = df.to_csv(index=False)
-        st.download_button("📥 Download Full Logs CSV", full_csv, "visa_logs_full.csv")
+
+        # ✅ Check if both datasets are same
+        if filtered_df.shape == df.shape and filtered_df.equals(df):
+            st.download_button("📥 Download Logs CSV", full_csv, "visa_logs.csv")
+        else:
+            st.download_button("📥 Download Filtered CSV", filtered_csv, "visa_logs_filtered.csv")
+            st.download_button("📥 Download Full Logs CSV", full_csv, "visa_logs_full.csv")
 
         # ---------- Danger Zone ----------
         st.subheader("Danger Zone ⚠️")
