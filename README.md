@@ -303,8 +303,8 @@ MILESTONE 3 - COMPLETED
 
 AUTHOR
 
-Shweta Kharat
-Infosys Internship Program
+Shweta Kharat  
+Infosys Internship Program 
 
 --------------------------------------------------
 
