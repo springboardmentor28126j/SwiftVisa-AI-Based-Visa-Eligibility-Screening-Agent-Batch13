@@ -37,8 +37,7 @@
           "No work, study, or residence intent",
           "Sufficient funds for stay",
           "Return/onward ticket",
-          "No prior Indian immigration violations",
-          "e-TV: nationals of 166+ eligible countries"
+          "No prior Indian immigration violations"
         ],
         "documents": [
           "Passport (≥6 months)",
@@ -266,8 +265,7 @@
           "Proof of funds",
           "Study permit application",
           "Photos",
-          "Biometrics (if required)",
-          "ID documents"
+          "Biometrics (if required)"
         ]
       },
       "Work": {
@@ -685,8 +683,7 @@
           "Return/onward ticket",
           "Accommodation proof",
           "Sufficient funds for stay",
-          "No work/residence intent",
-          "No prior Schengen visa refusals without explanation"
+          "No work/residence intent"
         ],
         "documents": [
           "Passport",
