@@ -1,4 +1,5 @@
 import os
+import streamlit as st
 
 # ==============================
 # Base Directory
@@ -21,8 +22,21 @@ EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 TOP_K = 3
 
 # Gemini (google-genai SDK)
-MODEL_NAME = "gemini-1.5-flash"
-GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
+
+def get_google_api_key():
+
+    # 1️⃣ Env variable
+    key = os.getenv("GOOGLE_API_KEY")
+    if key:
+        return key
+
+    # 2️⃣ Streamlit secrets
+    try:
+        return st.secrets["GOOGLE_API_KEY"]
+    except:
+        pass
+
+    return None
 
 
 
