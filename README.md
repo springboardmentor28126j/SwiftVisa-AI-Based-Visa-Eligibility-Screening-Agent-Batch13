@@ -4,41 +4,41 @@
 
 ## 🌐 Live Demo
 
-👉 **Access the Application:** *Add your Streamlit link here*
+👉 **Access the Application:** *Add your Streamlit deployment link here*
 
 ---
 
 ## 📌 Overview
 
-This project is an AI-driven web application designed to evaluate visa eligibility using intelligent reasoning instead of traditional rule-based logic.
+This project presents an AI-driven web application designed to evaluate visa eligibility using intelligent, context-aware reasoning instead of traditional rule-based approaches.
 
-The system analyzes user-provided details, retrieves relevant immigration policies, and generates a decision with a clear explanation using an AI model integrated via **Groq API**.
+The system processes user-provided information, retrieves relevant immigration policies, and generates a structured eligibility decision along with a clear explanation using an AI model integrated via **Groq API**.
 
 ---
 
 ## 🎯 Objective
 
-* Build an intelligent eligibility screening system
-* Use real-world policy data for decision making
-* Replace static conditions with AI reasoning
-* Deliver a complete end-to-end deployed application
+* Develop an intelligent visa eligibility screening system
+* Utilize real-world policy data instead of hardcoded rules
+* Provide clear and explainable AI-driven decisions
+* Deliver a complete end-to-end deployed solution
 
 ---
 
 ## 🧠 Core Concept
 
-The system follows a **Retrieval + AI reasoning pipeline**:
+The system follows a **Retrieval + AI Reasoning pipeline**:
 
 * Collect structured user input
-* Retrieve relevant policy data from vector database
-* Combine both inputs
-* Generate decision using AI model
+* Retrieve relevant policy data from a vector database
+* Combine user data with retrieved context
+* Generate an eligibility decision using an AI model
 
 ---
 
 ## 🔁 System Workflow
 
-The complete workflow of the system is represented below in a clear step-by-step structure:
+The overall workflow of the system is illustrated below in a structured and easy-to-understand format:
 
 ```
 User Input (Streamlit UI)
@@ -60,31 +60,31 @@ Eligibility Decision + Explanation
 Display Results (UI)
 ```
 
-This structured flow clearly explains how data moves through the system from user input to final output in a simple and understandable way.
+This flow clearly demonstrates how user input is transformed into an AI-generated decision through sequential processing stages.
 
 ---
 
 ## 🏗️ System Architecture
 
-The system is organized into distinct layers for better scalability and clarity:
+The system is organized into modular layers to ensure scalability, clarity, and maintainability:
 
 * **Presentation Layer (Streamlit UI)**
-  Handles user interaction and result display
+  Handles user interaction and displays results
 
-* **State Layer**
-  Manages session data across multiple steps
+* **State Management Layer**
+  Maintains user data across multiple steps using session state
 
 * **Processing Layer**
-  Handles input cleaning and preparation
+  Prepares and processes user input for further computation
 
 * **Embedding Layer (`embed.py`)**
-  Converts text into vector representations
+  Converts textual data into vector representations
 
 * **Retrieval Layer (`retriever.py`, `search.py`)**
-  Fetches relevant policy data using FAISS
+  Performs similarity search using FAISS to fetch relevant policies
 
 * **RAG Pipeline (`rag_pipeline.py`)**
-  Integrates retrieval with AI reasoning
+  Integrates retrieval with AI reasoning logic
 
 * **AI Layer (Groq API)**
   Generates eligibility decisions and explanations
@@ -132,25 +132,25 @@ AI SwiftVisa/
 ## ✨ Key Features
 
 * AI-based eligibility prediction
-* Policy-driven reasoning system
+* Policy-driven decision-making
 * Fast similarity search using FAISS
-* Interactive and responsive UI
-* Real-time decision generation
+* Interactive and user-friendly interface
+* Real-time result generation
 
 ---
 
 ## 🧑‍💻 Working Process
 
-1. User enters required details
+1. User enters required details through the UI
 2. Data is stored using session state
 3. Input is converted into embeddings
 4. Relevant policies are retrieved from FAISS
-5. Data is sent to Groq AI model
-6. Model generates:
+5. Data is sent to the AI model via Groq API
+6. The model generates:
 
    * Eligibility decision
    * Explanation
-7. Output is displayed in UI
+7. Results are displayed in the UI
 
 ---
 
@@ -163,26 +163,26 @@ AI SwiftVisa/
 
 ## ⚠️ Challenges
 
-* Handling dynamic AI responses
-* Maintaining accurate retrieval results
-* Designing RAG pipeline manually
-* Managing deployment dependencies
+* Handling dynamic AI-generated responses
+* Ensuring accurate policy retrieval
+* Designing a custom RAG pipeline without external frameworks
+* Managing deployment dependencies and environment setup
 
 ---
 
 ## 🔮 Future Scope
 
-* Add more visa categories
-* Improve retrieval accuracy
-* Implement document verification
-* Add chatbot interface
+* Extend support to more visa categories
+* Improve retrieval accuracy and ranking
+* Integrate document verification features
+* Add chatbot-based interaction
 * Enhance UI/UX design
 
 ---
 
 ## 📌 Conclusion
 
-This project demonstrates the practical implementation of AI in decision-making systems. By combining retrieval mechanisms with AI reasoning, it creates a scalable and intelligent alternative to traditional rule-based systems.
+This project demonstrates the practical application of AI in decision-making systems. By combining retrieval mechanisms with AI reasoning, it provides a scalable and intelligent alternative to traditional rule-based approaches.
 
 ---
 
@@ -191,4 +191,3 @@ This project demonstrates the practical implementation of AI in decision-making 
 **Mitte Nikitha**
 AI Swift Visa Program
 
----
