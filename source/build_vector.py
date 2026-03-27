@@ -1,6 +1,7 @@
 import os
 import json
 from tqdm import tqdm
+
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
 from langchain_text_splitters import RecursiveCharacterTextSplitter
@@ -19,21 +20,20 @@ EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 
 
 # ==========================================
-# Normalization Utility
+# Normalization
 # ==========================================
 def normalize_key(text: str):
     return text.lower().replace("_", " ").strip()
 
 
 # ==========================================
-# Load JSON and Apply Character Chunking
+# Load + Chunk
 # ==========================================
 def load_and_chunk_documents():
-
     documents = []
 
     if not os.path.exists(JSON_PATH):
-        raise FileNotFoundError(f"visa_policy.json not found at: {JSON_PATH}")
+        raise FileNotFoundError(f"❌ JSON not found: {JSON_PATH}")
 
     with open(JSON_PATH, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -52,35 +52,34 @@ def load_and_chunk_documents():
             if visa_type == "official_portal":
                 continue
 
-            eligibility_list = visa_info.get("eligibility_criteria", [])
+            eligibility = visa_info.get("eligibility_criteria", [])
             documents_list = visa_info.get("documents", [])
             max_stay = visa_info.get("max_stay", "Not specified")
 
-            full_text = f"""
+            text = f"""
 Country: {country}
 
 Visa Type: {visa_type}
 Maximum Stay: {max_stay}
 
 Eligibility Criteria:
-{chr(10).join(['- ' + e for e in eligibility_list])}
+{chr(10).join(['- ' + e for e in eligibility])}
 
 Required Documents:
 {chr(10).join(['- ' + d for d in documents_list])}
 """.strip()
 
-            chunks = splitter.split_text(full_text)
+            chunks = splitter.split_text(text)
 
             for chunk in chunks:
                 documents.append(
                     Document(
                         page_content=chunk,
                         metadata={
-                            # 🔥 NORMALIZED METADATA
                             "country": normalize_key(country),
                             "visa_type": normalize_key(visa_type),
                             "max_stay": max_stay,
-                            "eligibility": eligibility_list,
+                            "eligibility": eligibility,
                             "required_documents": documents_list
                         }
                     )
@@ -90,37 +89,26 @@ Required Documents:
 
 
 # ==========================================
-# Build FAISS Vector Store
+# Build FAISS
 # ==========================================
-def build_vector_store(documents):
+def build_vector_store():
+    print("\n⚙️ Building FAISS vector DB...\n")
 
-    print("\nLoading embedding model...")
+    documents = load_and_chunk_documents()
+    print(f"📄 Total chunks: {len(documents)}")
+
     embeddings = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
 
-    print("Building FAISS index...")
     vectorstore = FAISS.from_documents(documents, embeddings)
 
     os.makedirs(VECTOR_DB_PATH, exist_ok=True)
     vectorstore.save_local(VECTOR_DB_PATH)
 
-    print(f"\nVector store saved at:\n{VECTOR_DB_PATH}")
+    print(f"\n✅ Vector DB saved at:\n{VECTOR_DB_PATH}")
 
 
 # ==========================================
-# Main Execution
+# MAIN
 # ==========================================
-def main():
-
-    print("\n🌍 SwiftVisa - Vector Store Builder\n")
-
-    documents = load_and_chunk_documents()
-    print(f"\nTotal chunks created: {len(documents)}")
-
-    build_vector_store(documents)
-
-    print("\n✅ Vector store build completed successfully.")
-
-
 if __name__ == "__main__":
-    main()
-    
+    build_vector_store()
