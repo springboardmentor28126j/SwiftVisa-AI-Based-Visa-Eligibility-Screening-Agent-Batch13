@@ -1,9 +1,12 @@
+import os
 import json
 import re
 import time
 from rapidfuzz import fuzz
+
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
+
 from config import (
     JSON_PATH,
     VECTOR_DB_PATH,
@@ -12,26 +15,16 @@ from config import (
 )
 
 # ==========================
-# Load Policy Data
+# LOAD POLICY DATA
 # ==========================
 with open(JSON_PATH, "r", encoding="utf-8") as f:
     POLICY_DATA = json.load(f)
 
 AVAILABLE_COUNTRIES = list(POLICY_DATA.get("countries", {}).keys())
 
-# ==========================
-# Load Embeddings + Vector DB
-# ==========================
-EMBEDDINGS = HuggingFaceEmbeddings(model_name=EMBEDDING_MODEL)
-
-VECTORSTORE = FAISS.load_local(
-    VECTOR_DB_PATH,
-    EMBEDDINGS,
-    allow_dangerous_deserialization=True
-)
 
 # ==========================
-# Utils
+# NORMALIZATION
 # ==========================
 def normalize_text(text: str) -> str:
     return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", "", text.lower())).strip()
@@ -41,13 +34,61 @@ def normalize_key(text: str) -> str:
     return text.lower().replace("_", " ").strip()
 
 
+# ==========================
+# LOAD VECTOR DB (SMART LOAD)
+# ==========================
+def load_vectorstore():
+
+    embeddings = HuggingFaceEmbeddings(
+        model_name=EMBEDDING_MODEL
+    )
+
+    index_file = os.path.join(VECTOR_DB_PATH, "index.faiss")
+
+    print(f"🔍 Checking FAISS DB at: {index_file}")
+
+    # ✅ If DB missing → build it
+    if not os.path.exists(index_file):
+        print("⚠️ Vector DB not found. Building now...")
+
+        from build_vector import build_vector_store
+        build_vector_store()
+
+    try:
+        print("📦 Loading FAISS DB...")
+        return FAISS.load_local(
+            VECTOR_DB_PATH,
+            embeddings,
+            allow_dangerous_deserialization=True
+        )
+
+    except Exception as e:
+        print("❌ Failed to load DB. Rebuilding...", e)
+
+        from build_vector import build_vector_store
+        build_vector_store()
+
+        return FAISS.load_local(
+            VECTOR_DB_PATH,
+            embeddings,
+            allow_dangerous_deserialization=True
+        )
+
+
+# 🔥 LOAD ON START
+VECTORSTORE = load_vectorstore()
+
+
+# ==========================
+# HELPERS
+# ==========================
 def get_visa_types(country: str):
     visa_types = list(POLICY_DATA["countries"][country].keys())
     return [v for v in visa_types if v != "official_portal"]
 
 
 # ==========================
-# Country Detection
+# COUNTRY DETECTION
 # ==========================
 def extract_country(query: str):
     query_clean = normalize_text(query)
@@ -64,7 +105,7 @@ def extract_country(query: str):
 
 
 # ==========================
-# Visa Type Detection
+# VISA TYPE DETECTION
 # ==========================
 def extract_visa_type(query: str, visa_types):
     query_clean = normalize_text(query)
@@ -108,11 +149,11 @@ def retrieve_policy(query: str):
             "available_visa_types": visa_types
         }
 
-    # Normalize for filter
+    # Normalize
     norm_country = normalize_key(country)
     norm_visa = normalize_key(visa_type)
 
-    # 3️⃣ Try Filtered Search
+    # 3️⃣ Filtered Search
     results = VECTORSTORE.similarity_search_with_score(
         query,
         k=TOP_K,
@@ -122,11 +163,10 @@ def retrieve_policy(query: str):
         }
     )
 
-    # 4️⃣ Fallback Search (IMPORTANT)
+    # 4️⃣ Fallback Search
     if not results:
         results = VECTORSTORE.similarity_search_with_score(query, k=TOP_K)
 
-        # Filter manually
         results = [
             (doc, score)
             for doc, score in results
@@ -134,7 +174,7 @@ def retrieve_policy(query: str):
             and normalize_key(doc.metadata.get("visa_type", "")) == norm_visa
         ]
 
-    # 5️⃣ Still no results
+    # 5️⃣ No results
     if not results:
         return {
             "status": "no_result",
@@ -142,12 +182,13 @@ def retrieve_policy(query: str):
             "visa_type": visa_type
         }
 
-    # 6️⃣ Pick best match
+    # 6️⃣ Best result
     results = sorted(results, key=lambda x: x[1])
     best_doc, best_distance = results[0]
 
     similarity = 1 / (1 + best_distance)
     confidence = round(similarity * 100, 2)
+
     retrieval_time = round((time.time() - start_time) * 1000, 2)
 
     metadata = best_doc.metadata
