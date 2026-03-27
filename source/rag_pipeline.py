@@ -1,5 +1,3 @@
-# rag_pipeline.py (Production-Ready Optimized Version)
-
 import json
 import time
 import re
@@ -19,47 +17,30 @@ PRIMARY_MODEL = "gemini-2.5-flash"
 FALLBACK_MODEL = "gemini-2.0-flash"
 MAX_RETRIES = 3
 
-# ✅ FIX: Load API key properly
-GOOGLE_API_KEY = get_google_api_key()
-
 
 # ==========================
-# CLIENT
+# SAFE CLIENT
 # ==========================
 def get_client():
-    if not GOOGLE_API_KEY:
-        raise ValueError("Missing GOOGLE_API_KEY")
-    return genai.Client(api_key=GOOGLE_API_KEY)
+    api_key = get_google_api_key()
+
+    if not api_key:
+        raise ValueError("❌ GOOGLE_API_KEY not found")
+
+    return genai.Client(api_key=api_key)
 
 
 # ==========================
-# LOGGING (IMPORTANT FIX)
+# LOGGING
 # ==========================
-def log_decision(result: dict):
-    """Append evaluation result safely to log file."""
-
+def log_decision(entry: dict):
     try:
         log_dir = os.path.dirname(LOG_PATH)
         if log_dir:
             os.makedirs(log_dir, exist_ok=True)
 
-        log_entry = {
-            "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
-            "decision": result.get("eligibility_result", {}).get("final_decision", "UNKNOWN"),
-            "profile": result.get("input_profile", {}),
-            "reasoning": {
-                "risk_level": result.get("eligibility_result", {}).get("risk_level", "UNKNOWN"),
-                "confidence_score": result.get("final_confidence", 0)
-            },
-            "meta": {
-                "model": result.get("model_used"),
-                "latency_ms": result.get("latency_ms"),
-                "status": result.get("status")
-            }
-        }
-
         with open(LOG_PATH, "a", encoding="utf-8") as f:
-            f.write(json.dumps(log_entry, ensure_ascii=False) + "\n")
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
     except Exception as e:
         print("Logging Error:", e)
@@ -71,15 +52,16 @@ def log_decision(result: dict):
 def compute_final_confidence(retrieval_conf, llm_conf):
     try:
         retrieval_conf = float(retrieval_conf)
-        llm_conf = float(llm_conf)
+        llm_conf = float(str(llm_conf).replace("%", ""))
     except:
-        return 60.0
+        retrieval_conf = 70
+        llm_conf = 70
 
     return round((0.6 * retrieval_conf) + (0.4 * llm_conf), 2)
 
 
 # ==========================
-# JSON EXTRACTION (STRONG)
+# JSON EXTRACTION
 # ==========================
 def extract_json(text):
     if not text:
@@ -92,7 +74,7 @@ def extract_json(text):
     except:
         pass
 
-    match = re.search(r"\{.*\}", cleaned, re.DOTALL)
+    match = re.search(r"\{[\s\S]*\}", cleaned)
     if match:
         try:
             return json.loads(match.group())
@@ -105,21 +87,15 @@ def extract_json(text):
 # ==========================
 # MOCK FALLBACK
 # ==========================
-def mock_result(user_profile):
+def mock_result():
     return {
-        "status": "fallback",
-        "model_used": "LocalMock",
-        "country": user_profile.get("destination_country"),
-        "visa_type": user_profile.get("visa_type"),
-        "retrieval_confidence": 70,
-        "llm_confidence": 50,
-        "final_confidence": 60,
-        "latency_ms": 0,
-        "eligibility_result": {
-            "final_decision": "PARTIALLY_ELIGIBLE",
-            "normalized_decision": "REVIEW",
-            "risk_level": "MEDIUM",
-            "confidence_score": 50
+        "final_decision": "PARTIALLY_ELIGIBLE",
+        "normalized_decision": "REVIEW",
+        "confidence_score": 50,
+        "risk_level": "MEDIUM",
+        "document_evaluation": {
+            "provided": [],
+            "missing": []
         }
     }
 
@@ -128,13 +104,14 @@ def mock_result(user_profile):
 # LLM CALL
 # ==========================
 def call_llm_with_retry(prompt):
-    client = get_client()
     models = [PRIMARY_MODEL, FALLBACK_MODEL]
     last_error = None
 
     for model in models:
         for attempt in range(MAX_RETRIES):
             try:
+                client = get_client()
+
                 response = client.models.generate_content(
                     model=model,
                     contents=prompt
@@ -143,23 +120,29 @@ def call_llm_with_retry(prompt):
                 text = getattr(response, "text", None)
 
                 if not text:
-                    raise ValueError("Empty response")
+                    raise ValueError("Empty LLM response")
 
-                return text, model
+                return text, model, None
 
             except Exception as e:
                 last_error = str(e)
-                wait = (2 ** attempt) + random.uniform(0, 1)
-                time.sleep(wait)
 
-    return None, last_error
+                print(f"[RAG LLM ERROR] Model={model}, Attempt={attempt}, Error={last_error}")
+
+                # quota / rate limit
+                if "RESOURCE_EXHAUSTED" in last_error or "quota" in last_error.lower():
+                    break
+
+                time.sleep((2 ** attempt) + random.uniform(0, 1))
+
+    return None, None, last_error
 
 
 # ==========================
-# DECISION NORMALIZATION
+# NORMALIZATION
 # ==========================
-def normalize_decision(decision):
-    if not decision:
+def normalize_decision(llm_decision):
+    if not llm_decision:
         return "REVIEW"
 
     mapping = {
@@ -168,7 +151,7 @@ def normalize_decision(decision):
         "NOT_ELIGIBLE": "REJECTED"
     }
 
-    return mapping.get(str(decision).upper(), "REVIEW")
+    return mapping.get(str(llm_decision).upper(), "REVIEW")
 
 
 # ==========================
@@ -177,10 +160,11 @@ def normalize_decision(decision):
 def extract_user_documents(profile):
     docs = []
 
-    visa_q = profile.get("Visa Details", {}).get("Visa Questions", {})
+    visa_details = profile.get("Visa Details", {})
+    visa_q = visa_details.get("Visa Questions", {})
 
     for k, v in visa_q.items():
-        if str(v).lower() in ["yes", "provided", "available"]:
+        if str(v).strip().lower() in ["yes", "provided", "available"]:
             docs.append(k.replace("_", " "))
 
     return docs
@@ -199,8 +183,10 @@ def evaluate_eligibility(user_profile: dict):
     destination = user_profile.get("destination_country", "")
     visa_type = user_profile.get("visa_type", "")
 
+    # ==========================
     # STEP 1: RETRIEVAL
-    query = f"{destination} {visa_type} visa requirements"
+    # ==========================
+    query = f"{destination} {visa_type} visa eligibility criteria documents requirements"
     retrieval = retrieve_policy(query)
 
     if not retrieval or retrieval.get("status") != "success":
@@ -208,48 +194,78 @@ def evaluate_eligibility(user_profile: dict):
 
     retrieval_conf = retrieval.get("confidence", 70)
 
-    # STEP 2: PROFILE
+    # ==========================
+    # STEP 2: PROFILE PREP
+    # ==========================
     full_profile = user_profile.get("profile", user_profile)
-    full_profile["provided_documents"] = extract_user_documents(full_profile)
+    full_profile = dict(full_profile)
 
+    extracted_docs = extract_user_documents(full_profile)
+    full_profile["provided_documents"] = extracted_docs
+
+    # ==========================
     # STEP 3: PROMPT
+    # ==========================
     prompt = build_eligibility_prompt(retrieval, full_profile)
 
-    # STEP 4: LLM
-    llm_text, model_used = call_llm_with_retry(prompt)
+    # ==========================
+    # STEP 4: LLM CALL
+    # ==========================
+    llm_text, model_used, error = call_llm_with_retry(prompt)
 
     if llm_text is None:
-        result = mock_result(user_profile)
-        result["status"] = "llm_failed"
-        result["error"] = model_used
-        log_decision(result)
-        return result
+        llm_output = mock_result()
+        status = "llm_failed"
+    else:
+        llm_output = extract_json(llm_text)
 
-    # STEP 5: PARSE
-    llm_output = extract_json(llm_text)
+        if llm_output is None:
+            llm_output = mock_result()
+            status = "parsing_failed"
+        else:
+            status = "success"
 
-    if llm_output is None:
-        result = mock_result(user_profile)
-        result["status"] = "parsing_failed"
-        result["raw_output"] = llm_text
-        log_decision(result)
-        return result
-
-    # STEP 6: CONFIDENCE
+    # ==========================
+    # STEP 5: CONFIDENCE
+    # ==========================
     llm_conf = llm_output.get("confidence_score", 70)
     final_conf = compute_final_confidence(retrieval_conf, llm_conf)
 
-    # STEP 7: NORMALIZE
-    llm_output["normalized_decision"] = normalize_decision(
-        llm_output.get("final_decision")
-    )
+    # ==========================
+    # STEP 6: NORMALIZE
+    # ==========================
+    normalized = normalize_decision(llm_output.get("final_decision"))
+    llm_output["normalized_decision"] = normalized
 
-    # STEP 8: LATENCY
+    # ==========================
+    # STEP 7: LATENCY
+    # ==========================
     latency = round((time.time() - start_time) * 1000, 2)
 
-    # STEP 9: FINAL RESULT
-    result = {
-        "status": "success",
+    # ==========================
+    # STEP 8: LOG
+    # ==========================
+    log_entry = {
+        "profile": full_profile,
+        "decision": normalized,
+        "reasoning": llm_output,
+        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        "meta": {
+            "model_used": model_used,
+            "latency_ms": latency,
+            "final_confidence": final_conf,
+            "status": status,
+            "error": error
+        }
+    }
+
+    log_decision(log_entry)
+
+    # ==========================
+    # STEP 9: FINAL OUTPUT
+    # ==========================
+    return {
+        "status": status,
         "model_used": model_used,
         "country": retrieval.get("country"),
         "visa_type": retrieval.get("visa_type"),
@@ -257,10 +273,9 @@ def evaluate_eligibility(user_profile: dict):
         "llm_confidence": llm_conf,
         "final_confidence": final_conf,
         "latency_ms": latency,
-        "eligibility_result": llm_output,
-        "input_profile": full_profile  # ✅ important for logs
+        "policy_summary": {
+            "eligibility": retrieval.get("eligibility", []),
+            "required_documents": retrieval.get("required_documents", [])
+        },
+        "eligibility_result": llm_output
     }
-
-    log_decision(result)
-
-    return result
