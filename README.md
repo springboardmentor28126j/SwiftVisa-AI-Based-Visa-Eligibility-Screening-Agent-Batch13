@@ -40,25 +40,9 @@ The system follows a **Retrieval + AI reasoning pipeline**:
 
 The system workflow is presented in a clean and easy-to-follow flow format:
 
-User Input (Streamlit UI)
-       ⬇️
-Session State Handling
-       ⬇️
-Backend Processing
-       ⬇️
-Embedding Generation
-       ⬇️
-Vector Database (FAISS)
-       ⬇️
-Policy Retrieval (Top-K Matches)
-       ⬇️
-Groq AI Model Processing
-       ⬇️
-Eligibility Decision + Explanation
-       ⬇️
-Display Results (UI)
 
 This format clearly shows the step-by-step transformation from user input to final output in a simple and readable way.
+
 User Input (Streamlit UI)
 ↓
 Session State Handling
