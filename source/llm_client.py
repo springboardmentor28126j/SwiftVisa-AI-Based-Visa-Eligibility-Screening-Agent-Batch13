@@ -1,46 +1,51 @@
 import time
 import random
-import os
-import streamlit as st
 from google import genai
 from config import get_google_api_key
 
+# ==============================
+# MODEL CONFIG
+# ==============================
 PRIMARY_MODEL = "gemini-2.5-flash"
 FALLBACK_MODEL = "gemini-2.0-flash"
 MAX_RETRIES = 3
 
+# ==============================
+# GLOBAL CACHE (REPLACES st.session_state)
+# ==============================
+LLM_CACHE = {}
 
-# ==========================
-# Get Gemini Client (SAFE)
-# ==========================
+# ==============================
+# SAFE CLIENT INITIALIZATION
+# ==============================
 def get_client():
     api_key = get_google_api_key()
 
     if not api_key:
-        raise ValueError("❌ GOOGLE_API_KEY not found. Set it in .env or secrets.toml")
+        raise ValueError("❌ GOOGLE_API_KEY not found in .env or Streamlit secrets")
 
     return genai.Client(api_key=api_key)
 
+# ==============================
+# MAIN LLM FUNCTION
+# ==============================
+def ask_llm(prompt: str):
 
-# ==========================
-# Main LLM Function
-# ==========================
-def ask_llm(prompt):
-
-    # ✅ Init cache
-    if 'llm_cache' not in st.session_state:
-        st.session_state['llm_cache'] = {}
-
-    # ✅ Cache hit
-    if prompt in st.session_state['llm_cache']:
-        return st.session_state['llm_cache'][prompt]
+    # ==========================
+    # CACHE CHECK
+    # ==========================
+    if prompt in LLM_CACHE:
+        return LLM_CACHE[prompt]
 
     client = get_client()
     start_time = time.time()
-
-    models = [PRIMARY_MODEL, FALLBACK_MODEL]
     last_error = None
 
+    models = [PRIMARY_MODEL, FALLBACK_MODEL]
+
+    # ==========================
+    # MODEL + RETRY LOOP
+    # ==========================
     for model in models:
         for attempt in range(MAX_RETRIES):
             try:
@@ -49,9 +54,8 @@ def ask_llm(prompt):
                     contents=prompt
                 )
 
-                # ✅ Safe response extraction
+                # ✅ Safe extraction
                 response_text = getattr(response, "text", None)
-
                 if not response_text:
                     response_text = str(response)
 
@@ -62,24 +66,25 @@ def ask_llm(prompt):
                     "latency_ms": round((time.time() - start_time) * 1000, 2)
                 }
 
-                # ✅ Save cache
-                st.session_state['llm_cache'][prompt] = result
+                # Save to cache
+                LLM_CACHE[prompt] = result
                 return result
 
             except Exception as e:
                 last_error = str(e)
 
-                # 🔥 Debug log (optional)
-                print(f"[LLM ERROR] Model: {model}, Attempt: {attempt}, Error: {last_error}")
+                print(f"[LLM ERROR] Model={model}, Attempt={attempt}, Error={last_error}")
 
-                # 🚨 Quota exceeded → try fallback model
+                # 🚨 Quota / rate limit → switch model
                 if "RESOURCE_EXHAUSTED" in last_error or "quota" in last_error.lower():
                     break
 
-                # ⏳ Exponential backoff
+                # ⏳ Retry with exponential backoff
                 time.sleep((2 ** attempt) + random.uniform(0, 1))
 
-    # ❌ Final failure
+    # ==============================
+    # FINAL FAILURE RESPONSE
+    # ==============================
     result = {
         "status": "error",
         "response": "❌ Unable to generate response. Please try again later.",
@@ -87,5 +92,5 @@ def ask_llm(prompt):
         "error_detail": last_error
     }
 
-    st.session_state['llm_cache'][prompt] = result
+    LLM_CACHE[prompt] = result
     return result
