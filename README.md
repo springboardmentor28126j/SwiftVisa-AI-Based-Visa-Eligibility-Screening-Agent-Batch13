@@ -4,8 +4,7 @@
 
 ## 🌐 Live Demo
 
-👉 **Access the Application:**     https://swiftvisa-ai-cfdpunddy6mbgnusbtmgsh.streamlit.app/
-
+👉 **Access the Application:**     https://swiftvisa-ai-pfrr7hcffcue9wuxhu2pqd.streamlit.app/
 ---
 
 ## 📌 Overview
