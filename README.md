@@ -38,32 +38,29 @@ The system follows a **Retrieval + AI reasoning pipeline**:
 
 ## 🔁 System Workflow
 
-The system workflow is presented in a clean and easy-to-follow flow format:
+The complete workflow of the system is represented below in a clear step-by-step structure:
 
-
-This format clearly shows the step-by-step transformation from user input to final output in a simple and readable way.
-
+```
 User Input (Streamlit UI)
-↓
+        ↓
 Session State Handling
-↓
+        ↓
 Backend Processing
-↓
+        ↓
 Embedding Generation
-↓
+        ↓
 Vector Database (FAISS)
-↓
+        ↓
 Policy Retrieval (Top-K Matches)
-↓
+        ↓
 Groq AI Model Processing
-↓
+        ↓
 Eligibility Decision + Explanation
-↓
+        ↓
 Display Results (UI)
+```
 
-````
-
-This workflow ensures smooth transformation from user input to intelligent output while maintaining modular system design.
+This structured flow clearly explains how data moves through the system from user input to final output in a simple and understandable way.
 
 ---
 
@@ -150,6 +147,7 @@ AI SwiftVisa/
 4. Relevant policies are retrieved from FAISS
 5. Data is sent to Groq AI model
 6. Model generates:
+
    * Eligibility decision
    * Explanation
 7. Output is displayed in UI
@@ -194,7 +192,3 @@ This project demonstrates the practical implementation of AI in decision-making 
 AI Swift Visa Program
 
 ---
-
-## ⭐ Final Note
-
-This documentation is uniquely structured and reflects a complete understanding of system design, workflow, and AI integration.
