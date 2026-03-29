@@ -1,4 +1,4 @@
-# app.py
+ # app.py
 import streamlit as st
 import pandas as pd
 import json
@@ -173,7 +173,7 @@ def extract_user_documents(profile):
             docs.add(k.replace("_", " ").lower())
 
     # ---------------------------
-    # 2️⃣ Strong semantic signals 
+    # 2️⃣ Strong semantic signals (NO hardcoding)
     # ---------------------------
 
     # Passport
@@ -397,10 +397,10 @@ if page == "Visa Application":
         st.info("Provide your visa-specific details below.")
 
         destination_country = st.selectbox("Destination Country *", [
-            "USA", "Canada", "UK", "Australia", "Germany", "France", "Japan",
-            "Ireland", "Singapore", "New Zealand", "Sweden", "Netherlands", "Switzerland"
+            "India","USA","Canada","United_Kingdom","Australia","Germany","France",
+            "New_Zealand","Singapore","Japan","UAE","Netherlands","Ireland"
         ])
-        visa_type = st.selectbox("Visa Type *", ["Tourist", "Student", "Work", "Family", "Permanent Residence"])
+        visa_type = st.selectbox("Visa Type *", ["Tourist", "Student", "Work", "Family", "Permanent_Residence"])
         travel_date = st.date_input("Travel Date *")
         duration = st.number_input("Duration (months) *", 1, 120)
         criminal_background = st.selectbox("Do you have any criminal history? *",["No", "Yes"])
@@ -423,6 +423,7 @@ if page == "Visa Application":
             visa_questions["return_intent"] = st.selectbox("Intent to Return After Studies? ", ["Yes","No"])
             if destination_country == "USA":
                 visa_questions["sevis_fee_paid"] = st.selectbox("SEVIS I-901 Fee Paid? ", ["Yes","No"])
+                visa_questions["Valid SEVIS I-20"] = st.selectbox("valid SEVIS I-20 form? ", ["Yes","No"])
                 visa_questions["visa_fee_recipt"] = st.selectbox("visa fee recipt? ", ["Yes","No"])
                 visa_questions["DS-160 confirmation"] = st.selectbox("DS-160 Confirmation? ", ["Yes","No"])
             elif destination_country == "India":
@@ -431,11 +432,13 @@ if page == "Visa Application":
             elif destination_country == "Canada":
                 visa_questions["gic_available"] = st.selectbox("Do you have a Guaranteed Investment Certificate (GIC)? ",["Yes", "No"])
                 visa_questions["biometrics_given"] = st.selectbox("Have you completed biometrics? ",["Yes", "No"])
+                visa_questions[" Study permit application"] = st.selectbox("Do you have a study permit applicaton ? ",["Yes", "No"])
             elif destination_country == "United_Kingdom":
                 visa_questions["licensed_sponsor"] = st.selectbox("Is your university a licensed UK sponsor? ",["Yes", "No"])
                 visa_questions["monthly_funds"] = st.selectbox("Do you have required monthly funds (£1334 London / £1023 outside)? ",["Yes", "No"])
                 visa_questions["tb_test"] = st.selectbox("Do you have a TB test certificate (if required)? ",["Yes", "No", "Not Required"])
             elif destination_country == "Australia":
+                visa_questions["Academic transcripts"] = st.selectbox("Do you provided academic transcripts? ",["Yes", "No"])
                 visa_questions["coe_available"] = st.selectbox("Do you have a Confirmation of Enrolment (CoE)? ",["Yes", "No"])
                 visa_questions["cricos_course"] = st.selectbox("Is your course registered under CRICOS? ",["Yes", "No"])
                 visa_questions["funds_12_months"] = st.selectbox("Do you have funds for 12 months (tuition + living)? ",["Yes", "No"])
@@ -443,6 +446,9 @@ if page == "Visa Application":
             elif destination_country == "France":
                 visa_questions["campus_france"] = st.selectbox("Have you completed Campus France procedure (if required)? ",["Yes", "No", "Not Required"])
                 visa_questions["visa_validation"] = st.selectbox("Will you validate your visa within 3 months after arrival? ",["Yes", "No"])
+                visa_questions["health insurance"] = st.selectbox("Do you have a valid health insurance? ",["Yes", "No"])
+                visa_questions["visa_application"] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
+                visa_questions["Accommodation proof"] = st.selectbox("Did you submitted Accommodation proof ? ",["Yes", "No"])
             elif destination_country == "New_Zealand":
                 visa_questions["character_requirements"] = st.selectbox("Do you meet character requirements (no criminal record)? ",["Yes", "No"])
                 visa_questions["genuine_student"] = st.selectbox("Are you a genuine student intending to study? ",["Yes", "No"])
@@ -477,9 +483,18 @@ if page == "Visa Application":
             elif destination_country == "India":
                 visa_questions["indian_worker_availability"] = st.selectbox("Can this role be filled by an Indian national? ",["Yes", "No"])
                 visa_questions["frro_registration"] = st.selectbox("Will you complete FRRO registration within 14 days? ",["Yes", "No"])
+            elif destination_country == "Canada":
+                visa_questions["lmia_status"] = st.selectbox("LMIA status",["Approved", "Not Required (Exempt)", "Not Approved", "Not Sure"])
+                visa_questions["intra_company_transfer"] = st.selectbox("Applying under Intra-Company Transfer?",["Yes", "No"])
+                visa_questions["cusma_iec_eligible"] = st.selectbox("Eligible under CUSMA / IEC?",["Yes", "No"])
+                visa_questions["spouse_applying"] = st.selectbox("Applying as spouse of worker/student?",["Yes", "No"])
+                visa_questions["LMIA proof"] = st.selectbox("Do you have LMIA/exemption proof?",["Yes", "No"])
+                visa_questions["Work permit application"] = st.selectbox("Work permit application completed?",["Yes", "No"])
+                visa_questions["Biometrics"] = st.selectbox("Biometrics completed?",["Yes", "No"])
             elif destination_country == "United_Kingdom":
                 visa_questions["cos_available"] = st.selectbox("Do you have a Certificate of Sponsorship (CoS)? ",["Yes", "No"])
             elif destination_country == "Australia":
+                visa_questions["Skills assessment"] = st.selectbox("Has your employer submitted a skills assessment? ",["Yes", "No"])
                 visa_questions["job_nomination"] = st.selectbox("Has your employer submitted a nomination? ",["Yes", "No"])
             elif destination_country == "Germany":
                 visa_questions["recognized_degree"] = st.selectbox("Do you have a recognized degree (ISCED Level 6+)? ",["Yes", "No"])
@@ -491,6 +506,9 @@ if page == "Visa Application":
                 visa_questions["labour_market_test"] = st.selectbox("Was a labour market test completed (if required)? ",["Yes", "No", "Not Required"])
                 visa_questions["talent_passport"] = st.selectbox("Are you applying under Talent Passport (highly skilled)? ",["Yes", "No"])
                 visa_questions["cv_prepared"] = st.selectbox("Do you have a professional CV prepared? ",["Yes", "No"])
+                visa_questions["health insurance"] = st.selectbox("Do you have a valid health insurance? ",["Yes", "No"])
+                visa_questions["visa_application"] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
+                visa_questions["Accommodation proof"] = st.selectbox("Did you submitted Accommodation proof ? ",["Yes", "No"])
             elif destination_country == "New_Zealand":
                 visa_questions["skills_match"] = st.selectbox("Do your skills and qualifications match the job? ",["Yes", "No"])
                 visa_questions["job_role_restricted"] = st.selectbox("Is your role restricted under immigration rules? ",["Yes", "No"])
@@ -501,7 +519,6 @@ if page == "Visa Application":
                 visa_questions["hsp_applicable"] = st.selectbox("Are you applying under Highly Skilled Professional category? ",["Yes", "No"])
                 visa_questions["cv_prepared"] = st.selectbox("Do you have a professional CV prepared? ",["Yes", "No"])
                 visa_questions["visa_application "] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
-                
             elif destination_country == "Singapore":
                 visa_questions["employer_application"] = st.selectbox("Has employer applied via EP Online? ",["Yes", "No"])
             elif destination_country == "UAE":
@@ -550,9 +567,17 @@ if page == "Visa Application":
             elif destination_country == "Canada":
                 visa_questions["invitation_letter"] = st.selectbox("Do you have an invitation letter from Canada? ",["Yes", "No"])
                 visa_questions["biometrics_given"] = st.selectbox("Have you completed biometrics? ",["Yes", "No"])
+                visa_questions["visa_application"] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
             elif destination_country == "United_Kingdom":
                 visa_questions["cover_letter"] = st.selectbox("Have you prepared a cover letter explaining your visit? ",["Yes", "No"])
                 visa_questions["uk_visa_refusal"] = st.selectbox("Have you ever been refused a UK visa? ",["Yes", "No"])
+                visa_questions["visa_application "] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
+            elif destination_country == "Australia":
+                visa_questions["cover_letter"] = st.selectbox("Have you prepared a cover letter explaining your visit? ",["Yes", "No"])
+                visa_questions["visa_application "] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
+            elif destination_country == "France":
+                visa_questions["cover_letter"] = st.selectbox("Have you prepared a cover letter explaining your visit? ",["Yes", "No"])
+                visa_questions["visa_application "] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
             elif destination_country == "Germany":
                 visa_questions["overstay_history"] = st.selectbox("Have you ever overstayed a Schengen visa? ",["Yes", "No"])
                 visa_questions["no_work_intent"] = st.selectbox("Do you confirm no intention to work or reside? ",["Yes", "No"])
@@ -582,21 +607,54 @@ if page == "Visa Application":
             if destination_country == "USA":
                 visa_questions["Approved I-130"] = st.selectbox("Approved I-130 petition? ", ["Yes","No"])
                 visa_questions["DS-260 confirmation"] = st.selectbox("DS-260 Confirmation? ", ["Yes","No"])
+                visa_questions["met_in_last_2_years"] = st.selectbox("Have you met the petitioner in person within the last 2 years?",["Yes", "No"])
+                visa_questions["intent_to_marry_90_days"] = st.selectbox("Do you intend to marry within 90 days of entering the US?",["Yes", "No"])
+                visa_questions["petitioner_income_meets_requirement"] = st.selectbox("Does the petitioner meet 125% Federal Poverty Level income requirement?",["Yes", "No", "Not Sure"])
+                visa_questions["Affidavit of Support (I-864)"] = st.selectbox("Do you have Affidavit of Support (I-864)?",["Yes", "No"])
+                visa_questions["Proof of relationship"] = st.selectbox("Do you have proof of relationship (photos, certificates, chats)?",["Yes", "No"])
+                visa_questions["Medical exam results"] = st.selectbox("Have you completed medical exam with authorized physician?",["Yes", "No"])
+                visa_questions["Police certificates"] = st.selectbox("Do you have police clearance certificates?",["Yes", "No"])
             elif destination_country == "India":
                 visa_questions["work_restriction_acknowledged"] = st.selectbox("Do you understand you cannot work on this visa? ",["Yes", "No"])
             elif destination_country == "Canada":
-                visa_questions["financial_support_commitment"] = st.selectbox("Can the sponsor financially support you (3–20 years)? ",["Yes", "No"])
+                visa_questions["relationship_type"] = st.selectbox("What is your relationship to the sponsor?",["Spouse (Legally Married)","Common-law Partner","Parent/Grandparent","Dependent Child","Other"])
+                visa_questions["sponsor_age_18_plus"] = st.selectbox("Is the sponsor 18 years or older?",["Yes", "No"])
+                visa_questions["sponsor_citizenship_proof"] = st.selectbox("Does the sponsor have proof of Canadian citizenship/PR?",["Yes", "No"])
+                visa_questions["sponsor_income_proof"] = st.selectbox("Does the sponsor have proof of income (NOA, employment letter)?",["Yes", "No"])
+                visa_questions["meets_income_requirement"] = st.selectbox("Does the sponsor meet required income level?",["Yes", "No", "Not Sure"])
+                if visa_questions["relationship_type"] == "Common-law Partner":
+                    visa_questions["cohabitation_12_months"] = st.selectbox("Have you lived together for at least 12 months?",["Yes", "No"])
+                if visa_questions["relationship_type"] == "Parent/Grandparent":
+                    visa_questions["pgp_application"] = st.selectbox("Are you applying under Parents & Grandparents Program (PGP)?",["Yes", "No"])
+                    visa_questions["income_3_years"] = st.selectbox("Does sponsor meet income requirement for last 3 years?",["Yes", "No"])
+                if visa_questions["relationship_type"] == "Dependent Child":
+                    visa_questions["dependent_age_under_22"] = st.selectbox("Is the child under 22 years old?",["Yes", "No"])
+                visa_questions["Proof of relationship"] = st.selectbox("Do you have proof of relationship (marriage certificate, birth certificate)?",["Yes", "No"])
+                visa_questions["Sponsorship application"] = st.selectbox("Have you submitted sponsorship + PR application?",["Yes", "No"])
+                visa_questions["Financial support documents"] = st.selectbox("Do you have sponsor's financial documents?",["Yes", "No"])
+                visa_questions["Police certificates"] = st.selectbox("Do you have police clearance certificates?",["Yes", "No"])
+                visa_questions["Accommodation proof"] = st.selectbox("Do you have proof of accommodation in Canada?",["Yes", "No"])
+                
             elif destination_country == "United_Kingdom":
                 visa_questions["income_threshold"] = st.selectbox("Does sponsor meet £29,000 income requirement? ",["Yes", "No"])
             elif destination_country == "Australia":
                 visa_questions["cohabitation_proof"] = st.selectbox("Do you have proof of living together (if applicable)? ",["Yes", "No"])
                 visa_questions["joint_finances"] = st.selectbox("Do you have joint financial/household documents? ",["Yes", "No"])
                 visa_questions["sponsor_restriction"] = st.selectbox("Is the sponsor restricted due to previous sponsorships or legal issues? ",["Yes", "No"])
+                visa_questions["sponsor_age_18_plus"] = st.selectbox("Is the sponsor 18 years or older?",["Yes", "No"])
+                visa_questions["sponsor_citizenship_proof"] = st.selectbox("Does the sponsor have proof of Australian citizenship/PR?",["Yes", "No"])
+                visa_questions["relationship_evidence"] = st.selectbox("Do you have strong relationship evidence (photos, chats, history)?",["Yes", "No"])
+                visa_questions["visa_application"] = st.selectbox("Have you completed the family visa application?",["Yes", "No"])
             elif destination_country == "Germany":
                 visa_questions["marriage_valid"] = st.selectbox("Is your marriage legally recognized in Germany? ",["Yes", "No"])
             elif destination_country == "France":
                 visa_questions["sponsor_income"] = st.selectbox("Does sponsor earn above minimum wage (SMIC)? ",["Yes", "No"])
                 visa_questions["integration_training"] = st.selectbox("Have you completed required civic integration training (if required)? ",["Yes", "No", "Not Required"])
+                visa_questions["health insurance"] = st.selectbox("Do you have a valid health insurance? ",["Yes", "No"])
+                visa_questions["visa_application"] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
+                visa_questions["Accommodation proof"] = st.selectbox("Did you submitted Accommodation proof ? ",["Yes", "No"])
+                visa_questions["relationship_proof"] = st.selectbox("Do you have valid proof of relationship? ",["Yes", "No"])
+                visa_questions["sponsor_citizen_proof"] = st.selectbox("Do you have valid sponsor citizen proof? ",["Yes", "No"])
             elif destination_country == "New_Zealand":
                 visa_questions["cohabitation_proof"] = st.selectbox("Do you have proof of living together? ",["Yes", "No"])
             elif destination_country == "Japan":
@@ -634,6 +692,11 @@ if page == "Visa Application":
                 visa_questions["eca_completed"] = st.selectbox("Have you completed an Educational Credential Assessment (ECA)? ",["Yes", "No"])
                 visa_questions["fsw_points"] = st.number_input("FSW Points Score (out of 100) ",min_value=0,max_value=100)
                 visa_questions["express_entry_profile"] = st.selectbox("Have you created an Express Entry profile? ",["Yes", "No"])
+                visa_questions["pr_application_forms"] = st.selectbox("Have you completed PR application forms?",["Yes", "No"])
+                visa_questions["police_certificates"] = st.selectbox("Do you have police clearance certificates?",["Yes", "No"])
+                visa_questions["medical_exam_results"] = st.selectbox("Have you completed medical exam with approved physician?",["Yes", "No"])
+                visa_questions["biometrics"] = st.selectbox("Have you completed biometrics?",["Yes", "No"])
+                visa_questions["language_clb_7"] = st.selectbox("Do you meet CLB 7 or higher in language test?",["Yes", "No", "Not Sure"])
             elif destination_country == "United_Kingdom":
                 visa_questions["residence_5_years"] = st.selectbox("Have you lived in the UK continuously for 5 years? ",["Yes", "No"])
                 visa_questions["life_in_uk_test"] = st.selectbox("Have you passed the Life in the UK Test? ",["Yes", "No"])
@@ -645,6 +708,7 @@ if page == "Visa Application":
                 visa_questions["occupation_listed"] = st.selectbox("Is your occupation on the skilled occupation list? ",["Yes", "No"])
                 visa_questions["skills_assessment"] = st.selectbox("Do you have a positive skills assessment? ",["Yes", "No"])
                 visa_questions["points_score"] = st.number_input("Points score (SkillSelect) ",min_value=0,max_value=120)
+                visa_questions["Police clearance"] = st.selectbox("Do you have police clearence form? ",["Yes", "No"])
             elif destination_country == "Germany":
                 visa_questions["residence_years"] = st.selectbox("Have you lived in Germany for at least 5 years (or Blue Card fast track)? ",["Yes", "No"])
                 visa_questions["blue_card_holder"] = st.selectbox("Are you an EU Blue Card holder? ",["Yes", "No"])
@@ -653,10 +717,11 @@ if page == "Visa Application":
                 visa_questions["integration_course"] = st.selectbox("Have you completed integration course? ",["Yes", "No"])
             elif destination_country == "France":
                 visa_questions["residence_years"] = st.selectbox("Have you lived in France for at least 5 years? ",["Yes", "No"])
-                visa_questions["stable_income"] = st.selectbox("Do you have stable income (≥ SMIC)? ",["Yes", "No"])
+                visa_questions["stable_income"] = st.selectbox("Do you have stable income (≥ 1 SMIC)? ",["Yes", "No"])
                 visa_questions["tax_compliance"] = st.selectbox("Have you filed taxes regularly in France? ",["Yes", "No"])
                 visa_questions["integration"] = st.selectbox("Are you integrated into French society (work, culture)? ",["Yes", "No"])
                 visa_questions["french_language"] = st.selectbox("Do you meet French A2 language requirement? ",["Yes", "No"])
+                visa_questions["Accommodation proof"] = st.selectbox("Did you submitted Accommodation proof ? ",["Yes", "No"])
             elif destination_country == "New_Zealand":
                 visa_questions["eoi_submitted"] = st.selectbox("Have you submitted an Expression of Interest (EOI)? ",["Yes", "No"])
                 visa_questions["points_score"] = st.number_input("Points score (Skilled Migrant Category) ",min_value=0,max_value=200)
@@ -939,6 +1004,10 @@ elif page == "AI Visa Assistant":
     st.header("🤖 AI Visa Assistant")
     st.info("Ask questions about visa eligibility, required documents, or immigration policy.")
 
+    # ✅ Initialize cache once globally
+    if "llm_cache" not in st.session_state:
+        st.session_state.llm_cache = {}
+
     user_query = st.text_area(
         "Type your question here:",
         placeholder="Example: What documents are required for a USA tourist visa?"
@@ -960,14 +1029,18 @@ elif page == "AI Visa Assistant":
             with st.spinner("AI is analyzing visa policies..."):
 
                 try:
-
-                    # Retrieve relevant visa policy using FAISS
+                    # ==========================
+                    # STEP 1: Retrieve Policy
+                    # ==========================
                     retrieved_policy = retrieve_policy(user_query)
 
                     if not retrieved_policy:
-                        st.error("No visa policy context found.")
+                        st.error("❌ No visa policy context found.")
                         st.stop()
 
+                    # ==========================
+                    # STEP 2: Build Prompt
+                    # ==========================
                     prompt = f"""
 You are an experienced immigration consultant helping visa applicants.
 
@@ -1004,20 +1077,38 @@ Write in a user-friendly tone suitable for visa applicants.
 Avoid technical jargon and keep explanations clear.
 """
 
-                    # Call LLM
-                    response = ask_llm(prompt)
+                    # ==========================
+                    # STEP 3: Caching Logic (IMPROVED)
+                    # ==========================
+                    cache_key = prompt  # ✅ Better than user_query
 
+                    if cache_key in st.session_state.llm_cache:
+                        response = st.session_state.llm_cache[cache_key]
+                        st.success("⚡ Loaded from cache (fast response)")
+                    else:
+                        response = ask_llm(prompt)
+                        st.session_state.llm_cache[cache_key] = response
+
+                    # ==========================
+                    # STEP 4: Display Response
+                    # ==========================
                     st.divider()
                     st.markdown("### 🤖 AI Visa Guidance")
 
                     if isinstance(response, dict):
-                        st.markdown(response.get("response", "No response"))
+                        if response.get("status") == "success":
+                            st.markdown(response.get("response", "No response"))
+                            st.caption(
+                                f"Model: {response.get('model_used')} | "
+                                f"Latency: {response.get('latency_ms')} ms"
+                            )
+                        else:
+                            st.error(response.get("response", "Error occurred"))
                     else:
                         st.markdown(response)
 
                 except Exception as e:
-                    st.error(f"AI Error: {e}")
-                    
+                    st.error(f"❌ AI Error: {e}")
 # ===================== ADMIN DASHBOARD =====================
 elif page == "Admin Dashboard":
     st.header("🛠️ Admin Dashboard — Application Logs")
@@ -1121,14 +1212,10 @@ elif page == "Admin Dashboard":
         st.subheader("Export Logs")
 
         filtered_csv = filtered_df.to_csv(index=False)
-        full_csv = df.to_csv(index=False)
+        st.download_button("📥 Download Filtered CSV", filtered_csv, "visa_logs_filtered.csv")
 
-        # ✅ Check if both datasets are same
-        if filtered_df.shape == df.shape and filtered_df.equals(df):
-            st.download_button("📥 Download Logs CSV", full_csv, "visa_logs.csv")
-        else:
-            st.download_button("📥 Download Filtered CSV", filtered_csv, "visa_logs_filtered.csv")
-            st.download_button("📥 Download Full Logs CSV", full_csv, "visa_logs_full.csv")
+        full_csv = df.to_csv(index=False)
+        st.download_button("📥 Download Full Logs CSV", full_csv, "visa_logs_full.csv")
 
         # ---------- Danger Zone ----------
         st.subheader("Danger Zone ⚠️")
