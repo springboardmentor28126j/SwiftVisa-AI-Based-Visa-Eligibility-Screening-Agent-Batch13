@@ -678,8 +678,8 @@
         "visa_code": "Schengen Short-Stay (Type C)",
         "max_stay": "Up to 90 days in 180-day period",
         "eligibility_criteria": [
-          "Valid passport (issued ≤10 yrs, valid ≥3 months beyond departure)",
-          "Travel medical insurance ≥ EUR 30,000",
+          "Valid passport ",
+          "Travel medical insurance ",
           "Return/onward ticket",
           "Accommodation proof",
           "Sufficient funds for stay",
@@ -687,7 +687,7 @@
         ],
         "documents": [
           "Passport",
-          "Schengen visa application",
+          "visa application",
           "Recent photos",
           "Travel insurance",
           "Return/onward ticket",
@@ -702,7 +702,7 @@
         "eligibility_criteria": [
           "Acceptance from French recognised institution",
           "Campus France approval if applicable",
-          "Sufficient funds (~EUR 615/month)",
+          "Sufficient funds ",
           "Accommodation in France",
           "Valid health insurance",
           "Academic qualifications as required",
@@ -773,7 +773,7 @@
           "Sponsor has stable income above SMIC",
           "Suitable accommodation for family",
           "Health insurance for family",
-          "Family: spouse ≥18 yrs, unmarried children <18",
+
           "Polygamous marriages not recognized",
           "Family may need civic integration training pre-visa"
         ],
@@ -1228,9 +1228,7 @@
           "Return/onward flight ticket",
           "Proof of accommodation",
           "Sufficient financial means",
-          "No work or residence intent",
-          "No prior Schengen refusals",
-          "EU/EEA citizens do not require a visa"
+          "No work or residence intent"
         ],
         "documents": [
           "Passport",
@@ -1251,8 +1249,7 @@
           "Sufficient funds (€869/month guideline)",
           "Valid health insurance",
           "Academic qualifications meet entry requirements",
-          "Dutch or English proficiency as required",
-          "MVV required for most non-EU/EEA nationals"
+          "Dutch or English proficiency as required"
         ],
         "documents": [
           "Passport",
@@ -1293,10 +1290,8 @@
           "No illegal stay or gaps in permits",
           "Stable and sufficient income",
           "Passed civic integration exam or exempt",
-          "Dutch language proficiency",
           "Good conduct (no serious criminal record)",
-          "Valid health insurance",
-          "Registered in BRP continuously"
+          "Valid health insurance"
         ],
         "documents": [
           "Passport",
