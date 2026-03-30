@@ -13,11 +13,11 @@
       "India",
       "USA",
       "Canada",
-      "United_Kingdom",
+      "United Kingdom",
       "Australia",
       "Germany",
       "France",
-      "New_Zealand",
+      "New Zealand",
       "Singapore",
       "Japan",
       "UAE",
@@ -333,7 +333,7 @@
         ]
       }
     },
-    "United_Kingdom": {
+    "United Kingdom": {
       "official_portal": "https://www.gov.uk/browse/visas-immigration",
       "Tourist": {
         "visa_code": "Standard Visitor Visa",
@@ -789,7 +789,7 @@
         ]
       }
     },
-    "New_Zealand": {
+    "New Zealand": {
       "official_portal": "https://www.immigration.govt.nz",
       "Tourist": {
         "visa_code": "Visitor Visa",
