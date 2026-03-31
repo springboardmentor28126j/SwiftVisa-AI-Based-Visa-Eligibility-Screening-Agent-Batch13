@@ -1,0 +1,682 @@
+{
+  "countries": [
+    {
+      "country_name": "Australia",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Visitor Visa",
+          "official_source": "https://immi.homeaffairs.gov.au",
+          "eligibility_fields": ["Full Name","Passport Number","Purpose of Visit"],
+          "documents_required": ["Passport Copy","Financial Proof","Travel Itinerary"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://immi.homeaffairs.gov.au",
+          "eligibility_fields": ["Full Name","Passport Number","Admission Letter"],
+          "documents_required": ["Passport Copy","Admission Letter","Financial Proof"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Work Visa",
+          "official_source": "https://immi.homeaffairs.gov.au",
+          "eligibility_fields": ["Full Name","Passport Number","Job Offer Letter"],
+          "documents_required": ["Passport Copy","Job Offer","Experience Proof"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Partner/Family Visa",
+          "official_source": "https://immi.homeaffairs.gov.au",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Marriage Certificate","Sponsor ID Proof"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "India",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Tourist Visa",
+          "official_source": "https://indianvisaonline.gov.in",
+          "eligibility_fields": ["Full Name","Passport Number","Travel Dates"],
+          "documents_required": ["Passport Copy","Photograph","Travel Itinerary"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://indianvisaonline.gov.in",
+          "eligibility_fields": ["Full Name","Passport Number","Admission Letter"],
+          "documents_required": ["Passport Copy","Admission Letter","Financial Proof"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Employment Visa",
+          "official_source": "https://indianvisaonline.gov.in",
+          "eligibility_fields": ["Full Name","Passport Number","Job Offer"],
+          "documents_required": ["Passport Copy","Employment Contract"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Entry (Family) Visa",
+          "official_source": "https://indianvisaonline.gov.in",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Marriage/Birth Certificate"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "USA",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "B2 Tourist Visa",
+          "official_source": "https://travel.state.gov",
+          "eligibility_fields": ["Full Name","Passport Number","Purpose"],
+          "documents_required": ["Passport Copy","DS-160","Financial Proof"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "F1 Student Visa",
+          "official_source": "https://travel.state.gov",
+          "eligibility_fields": ["Full Name","Passport Number","I-20"],
+          "documents_required": ["Passport Copy","I-20","SEVIS Receipt"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "H1B Work Visa",
+          "official_source": "https://travel.state.gov",
+          "eligibility_fields": ["Full Name","Passport Number","Job Offer"],
+          "documents_required": ["Passport Copy","Job Offer","Degree Certificates"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Dependent Visa",
+          "official_source": "https://travel.state.gov",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Marriage/Birth Certificate","Sponsor Visa Copy"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "United Kingdom",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Visitor Visa",
+          "official_source": "https://gov.uk",
+          "eligibility_fields": ["Full Name","Passport Number"],
+          "documents_required": ["Passport Copy","Travel Itinerary"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://gov.uk",
+          "eligibility_fields": ["Full Name","Passport Number","CAS Letter"],
+          "documents_required": ["Passport Copy","CAS Letter","Financial Proof"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Skilled Worker Visa",
+          "official_source": "https://gov.uk",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsorship"],
+          "documents_required": ["Passport Copy","Sponsorship Certificate"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Family Visa",
+          "official_source": "https://gov.uk",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Relationship Proof"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "Singapore",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Visit Pass",
+          "official_source": "https://ica.gov.sg",
+          "eligibility_fields": ["Full Name","Passport Number"],
+          "documents_required": ["Passport Copy","Return Ticket"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Pass",
+          "official_source": "https://ica.gov.sg",
+          "eligibility_fields": ["Full Name","Passport Number","Offer Letter"],
+          "documents_required": ["Passport Copy","Offer Letter"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Employment Pass",
+          "official_source": "https://mom.gov.sg",
+          "eligibility_fields": ["Full Name","Passport Number","Job Offer"],
+          "documents_required": ["Passport Copy","Job Offer"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Dependant Pass",
+          "official_source": "https://mom.gov.sg",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Marriage/Birth Certificate"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "New Zealand",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Visitor Visa",
+          "official_source": "https://immigration.govt.nz",
+          "eligibility_fields": ["Full Name","Passport Number"],
+          "documents_required": ["Passport Copy","Financial Proof"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://immigration.govt.nz",
+          "eligibility_fields": ["Full Name","Passport Number","Offer Letter"],
+          "documents_required": ["Passport Copy","Offer Letter"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Work Visa",
+          "official_source": "https://immigration.govt.nz",
+          "eligibility_fields": ["Full Name","Passport Number","Job Offer"],
+          "documents_required": ["Passport Copy","Job Offer"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Partner Visa",
+          "official_source": "https://immigration.govt.nz",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Relationship Proof"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "Canada",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Visitor Visa",
+          "official_source": "https://canada.ca",
+          "eligibility_fields": ["Full Name","Passport Number"],
+          "documents_required": ["Passport Copy","Financial Proof"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Study Permit",
+          "official_source": "https://canada.ca",
+          "eligibility_fields": ["Full Name","Passport Number","LOA"],
+          "documents_required": ["Passport Copy","Letter of Acceptance"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Work Permit",
+          "official_source": "https://canada.ca",
+          "eligibility_fields": ["Full Name","Passport Number","Job Offer"],
+          "documents_required": ["Passport Copy","Job Offer"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Spouse/Family Sponsorship",
+          "official_source": "https://canada.ca",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Marriage/Birth Certificate"]
+        }
+      ]
+    }
+    ,
+{
+  "country_name": "Germany",
+  "visa_categories": [
+    {
+      "visa_id": "Tourist",
+      "visa_name": "Schengen Tourist Visa",
+      "official_source": "https://germany.info",
+      "eligibility_fields": ["Full Name","Passport Number","Travel Purpose"],
+      "documents_required": ["Passport Copy","Travel Insurance","Financial Proof"]
+    },
+    {
+      "visa_id": "Student",
+      "visa_name": "German Student Visa",
+      "official_source": "https://germany.info",
+      "eligibility_fields": ["Full Name","Passport Number","University Admission"],
+      "documents_required": ["Passport Copy","Admission Letter","Blocked Account Proof"]
+    },
+    {
+      "visa_id": "Work",
+      "visa_name": "EU Blue Card",
+      "official_source": "https://germany.info",
+      "eligibility_fields": ["Full Name","Passport Number","Job Offer"],
+      "documents_required": ["Passport Copy","Employment Contract","Qualification Proof"]
+    },
+    {
+      "visa_id": "Family",
+      "visa_name": "Family Reunion Visa",
+      "official_source": "https://germany.info",
+      "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+      "documents_required": ["Passport Copy","Marriage Certificate","Residence Proof"]
+    }
+  ]
+},
+
+{
+  "country_name": "France",
+  "visa_categories": [
+    {
+      "visa_id": "Tourist",
+      "visa_name": "Schengen Tourist Visa",
+      "official_source": "https://france-visas.gouv.fr",
+      "eligibility_fields": ["Full Name","Passport Number","Travel Purpose"],
+      "documents_required": ["Passport Copy","Travel Insurance","Financial Proof"]
+    },
+    {
+      "visa_id": "Student",
+      "visa_name": "France Student Visa",
+      "official_source": "https://france-visas.gouv.fr",
+      "eligibility_fields": ["Full Name","Passport Number","Admission Letter"],
+      "documents_required": ["Passport Copy","Campus France Approval","Financial Proof"]
+    },
+    {
+      "visa_id": "Work",
+      "visa_name": "French Work Visa",
+      "official_source": "https://france-visas.gouv.fr",
+      "eligibility_fields": ["Full Name","Passport Number","Job Contract"],
+      "documents_required": ["Passport Copy","Work Contract","Qualification Proof"]
+    },
+    {
+      "visa_id": "Family",
+      "visa_name": "Family Reunification Visa",
+      "official_source": "https://france-visas.gouv.fr",
+      "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+      "documents_required": ["Passport Copy","Relationship Proof","Residence Proof"]
+    }
+  ]
+},
+
+{
+  "country_name": "Japan",
+  "visa_categories": [
+    {
+      "visa_id": "Tourist",
+      "visa_name": "Temporary Visitor Visa",
+      "official_source": "https://mofa.go.jp",
+      "eligibility_fields": ["Full Name","Passport Number","Travel Plan"],
+      "documents_required": ["Passport Copy","Travel Itinerary","Financial Proof"]
+    },
+    {
+      "visa_id": "Student",
+      "visa_name": "Student Visa",
+      "official_source": "https://mofa.go.jp",
+      "eligibility_fields": ["Full Name","Passport Number","COE"],
+      "documents_required": ["Passport Copy","Certificate of Eligibility","Financial Proof"]
+    },
+    {
+      "visa_id": "Work",
+      "visa_name": "Engineer/Specialist Visa",
+      "official_source": "https://mofa.go.jp",
+      "eligibility_fields": ["Full Name","Passport Number","Job Offer"],
+      "documents_required": ["Passport Copy","Work Contract","Qualification Proof"]
+    },
+    {
+      "visa_id": "Family",
+      "visa_name": "Dependent Visa",
+      "official_source": "https://mofa.go.jp",
+      "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+      "documents_required": ["Passport Copy","Marriage/Birth Certificate","Residence Card Copy"]
+    }
+  ]
+},
+
+{
+  "country_name": "United Arab Emirates",
+  "visa_categories": [
+    {
+      "visa_id": "Tourist",
+      "visa_name": "Tourist Visa",
+      "official_source": "https://u.ae",
+      "eligibility_fields": ["Full Name","Passport Number"],
+      "documents_required": ["Passport Copy","Photograph","Return Ticket"]
+    },
+    {
+      "visa_id": "Student",
+      "visa_name": "Student Residence Visa",
+      "official_source": "https://u.ae",
+      "eligibility_fields": ["Full Name","Passport Number","University Admission"],
+      "documents_required": ["Passport Copy","Admission Letter","Sponsor Proof"]
+    },
+    {
+      "visa_id": "Work",
+      "visa_name": "Employment Visa",
+      "official_source": "https://u.ae",
+      "eligibility_fields": ["Full Name","Passport Number","Job Offer"],
+      "documents_required": ["Passport Copy","Work Contract","Medical Test"]
+    },
+    {
+      "visa_id": "Family",
+      "visa_name": "Family Residence Visa",
+      "official_source": "https://u.ae",
+      "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+      "documents_required": ["Passport Copy","Marriage Certificate","Salary Certificate"]
+    }
+  ]
+},
+
+{
+  "country_name": "Malaysia",
+  "visa_categories": [
+    {
+      "visa_id": "Tourist",
+      "visa_name": "Social Visit Pass",
+      "official_source": "https://imi.gov.my",
+      "eligibility_fields": ["Full Name","Passport Number"],
+      "documents_required": ["Passport Copy","Return Ticket","Hotel Booking"]
+    },
+    {
+      "visa_id": "Student",
+      "visa_name": "Student Pass",
+      "official_source": "https://imi.gov.my",
+      "eligibility_fields": ["Full Name","Passport Number","Offer Letter"],
+      "documents_required": ["Passport Copy","University Offer Letter","Financial Proof"]
+    },
+    {
+      "visa_id": "Work",
+      "visa_name": "Employment Pass",
+      "official_source": "https://imi.gov.my",
+      "eligibility_fields": ["Full Name","Passport Number","Job Offer"],
+      "documents_required": ["Passport Copy","Employment Contract","Company Letter"]
+    },
+    {
+      "visa_id": "Family",
+      "visa_name": "Dependent Pass",
+      "official_source": "https://imi.gov.my",
+      "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+      "documents_required": ["Passport Copy","Marriage/Birth Certificate","Sponsor Visa Copy"]
+    }
+  ]
+},
+{
+      "country_name": "France",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Schengen Tourist Visa",
+          "official_source": "https://france-visas.gouv.fr",
+          "eligibility_fields": ["Full Name","Passport Number","Travel Purpose"],
+          "documents_required": ["Passport Copy","Travel Insurance","Financial Proof"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "France Student Visa",
+          "official_source": "https://france-visas.gouv.fr",
+          "eligibility_fields": ["Full Name","Passport Number","Admission Letter"],
+          "documents_required": ["Passport Copy","University Admission","Financial Proof"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Work Visa",
+          "official_source": "https://france-visas.gouv.fr",
+          "eligibility_fields": ["Full Name","Passport Number","Job Contract"],
+          "documents_required": ["Passport Copy","Work Contract","Qualification Proof"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Family Reunification Visa",
+          "official_source": "https://france-visas.gouv.fr",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Relationship Proof"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "Italy",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Schengen Tourist Visa",
+          "official_source": "https://vistoperitalia.esteri.it",
+          "eligibility_fields": ["Full Name","Passport Number","Travel Purpose"],
+          "documents_required": ["Passport Copy","Travel Insurance","Financial Proof"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://vistoperitalia.esteri.it",
+          "eligibility_fields": ["Full Name","Passport Number","University Admission"],
+          "documents_required": ["Passport Copy","Admission Letter","Financial Proof"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Work Visa",
+          "official_source": "https://vistoperitalia.esteri.it",
+          "eligibility_fields": ["Full Name","Passport Number","Job Offer"],
+          "documents_required": ["Passport Copy","Employment Contract"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Family Visa",
+          "official_source": "https://vistoperitalia.esteri.it",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Marriage Certificate"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "Russia",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Tourist Visa",
+          "official_source": "https://visa.kdmid.ru",
+          "eligibility_fields": ["Full Name","Passport Number"],
+          "documents_required": ["Passport Copy","Hotel Booking","Invitation Letter"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://visa.kdmid.ru",
+          "eligibility_fields": ["Full Name","Passport Number","University Invitation"],
+          "documents_required": ["Passport Copy","Admission Letter"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Work Visa",
+          "official_source": "https://visa.kdmid.ru",
+          "eligibility_fields": ["Full Name","Passport Number","Employer Invitation"],
+          "documents_required": ["Passport Copy","Work Contract"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Private Visa",
+          "official_source": "https://visa.kdmid.ru",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Invitation Letter"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "Saudi Arabia",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Tourist eVisa",
+          "official_source": "https://visa.visitsaudi.com",
+          "eligibility_fields": ["Full Name","Passport Number"],
+          "documents_required": ["Passport Copy","Photograph"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://visa.mofa.gov.sa",
+          "eligibility_fields": ["Full Name","Passport Number","University Admission"],
+          "documents_required": ["Passport Copy","Admission Letter"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Work Visa",
+          "official_source": "https://visa.mofa.gov.sa",
+          "eligibility_fields": ["Full Name","Passport Number","Employer Contract"],
+          "documents_required": ["Passport Copy","Work Contract","Medical Test"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Family Visit Visa",
+          "official_source": "https://visa.mofa.gov.sa",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Relationship Proof"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "Kuwait",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Tourist Visa",
+          "official_source": "https://evisa.moi.gov.kw",
+          "eligibility_fields": ["Full Name","Passport Number"],
+          "documents_required": ["Passport Copy","Return Ticket"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://evisa.moi.gov.kw",
+          "eligibility_fields": ["Full Name","Passport Number","Admission Letter"],
+          "documents_required": ["Passport Copy","Admission Letter"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Work Visa",
+          "official_source": "https://evisa.moi.gov.kw",
+          "eligibility_fields": ["Full Name","Passport Number","Employer Contract"],
+          "documents_required": ["Passport Copy","Work Permit"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Dependent Visa",
+          "official_source": "https://evisa.moi.gov.kw",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Relationship Proof"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "Spain",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Schengen Tourist Visa",
+          "official_source": "https://www.exteriores.gob.es",
+          "eligibility_fields": ["Full Name","Passport Number"],
+          "documents_required": ["Passport Copy","Travel Insurance","Financial Proof"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "Student Visa",
+          "official_source": "https://www.exteriores.gob.es",
+          "eligibility_fields": ["Full Name","Passport Number","Admission Letter"],
+          "documents_required": ["Passport Copy","University Admission"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Work Visa",
+          "official_source": "https://www.exteriores.gob.es",
+          "eligibility_fields": ["Full Name","Passport Number","Job Offer"],
+          "documents_required": ["Passport Copy","Work Contract"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Family Reunification Visa",
+          "official_source": "https://www.exteriores.gob.es",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Relationship Proof"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "South Korea",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "Short Term Visit Visa",
+          "official_source": "https://www.visa.go.kr",
+          "eligibility_fields": ["Full Name","Passport Number"],
+          "documents_required": ["Passport Copy","Travel Itinerary"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "D-2 Student Visa",
+          "official_source": "https://www.visa.go.kr",
+          "eligibility_fields": ["Full Name","Passport Number","University Admission"],
+          "documents_required": ["Passport Copy","Admission Letter","Financial Proof"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Employment Visa",
+          "official_source": "https://www.visa.go.kr",
+          "eligibility_fields": ["Full Name","Passport Number","Employer Contract"],
+          "documents_required": ["Passport Copy","Work Contract"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Dependent Visa",
+          "official_source": "https://www.visa.go.kr",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Marriage Certificate"]
+        }
+      ]
+    },
+
+    {
+      "country_name": "China",
+      "visa_categories": [
+        {
+          "visa_id": "Tourist",
+          "visa_name": "L Visa",
+          "official_source": "https://www.visaforchina.cn",
+          "eligibility_fields": ["Full Name","Passport Number"],
+          "documents_required": ["Passport Copy","Travel Booking"]
+        },
+        {
+          "visa_id": "Student",
+          "visa_name": "X1/X2 Student Visa",
+          "official_source": "https://www.visaforchina.cn",
+          "eligibility_fields": ["Full Name","Passport Number","Admission Notice"],
+          "documents_required": ["Passport Copy","JW202 Form"]
+        },
+        {
+          "visa_id": "Work",
+          "visa_name": "Z Work Visa",
+          "official_source": "https://www.visaforchina.cn",
+          "eligibility_fields": ["Full Name","Passport Number","Employer Permit"],
+          "documents_required": ["Passport Copy","Work Permit"]
+        },
+        {
+          "visa_id": "Family",
+          "visa_name": "Q Visa",
+          "official_source": "https://www.visaforchina.cn",
+          "eligibility_fields": ["Full Name","Passport Number","Sponsor Details"],
+          "documents_required": ["Passport Copy","Invitation Letter"]
+        }
+      ]
+    }
+  ]
+}
