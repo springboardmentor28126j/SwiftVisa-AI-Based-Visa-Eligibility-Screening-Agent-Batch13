@@ -8,6 +8,39 @@ from sklearn.metrics.pairwise import cosine_similarity
 from groq import Groq
 
 # -----------------------------
+# PERMANENT STORAGE FUNCTIONS (ADDED)
+# -----------------------------
+def load_user_data():
+    file_path = "user_data.json"
+    if os.path.exists(file_path):
+        try:
+            with open(file_path, "r") as f:
+                data = json.load(f)
+                if len(data) > 0:
+                    return data[-1]
+        except:
+            return {}
+    return {}
+
+def save_user_data(data):
+    file_path = "user_data.json"
+
+    try:
+        if os.path.exists(file_path):
+            with open(file_path, "r") as f:
+                existing_data = json.load(f)
+        else:
+            existing_data = []
+
+        existing_data.append(data)
+
+        with open(file_path, "w") as f:
+            json.dump(existing_data, f, indent=4)
+
+    except:
+        pass
+
+# -----------------------------
 # Page Config
 # -----------------------------
 st.set_page_config(
@@ -17,10 +50,10 @@ st.set_page_config(
 )
 
 # -----------------------------
-# Session State INIT
+# Session State INIT (UPDATED)
 # -----------------------------
 if "user_data" not in st.session_state:
-    st.session_state.user_data = {}
+    st.session_state.user_data = load_user_data()
 
 # -----------------------------
 # Title
@@ -79,27 +112,34 @@ st.header("👤 Applicant Information")
 col1, col2 = st.columns(2)
 
 with col1:
-    name = st.text_input("Full Name *")
-    age = st.number_input("Age *", min_value=18, max_value=80)
-    gender = st.selectbox("Gender *", ["Male", "Female", "Other"])
+    name = st.text_input("Full Name *", value=st.session_state.user_data.get("name", ""))
+    age = st.number_input("Age *", min_value=18, max_value=80, value=st.session_state.user_data.get("age", 18))
+    gender = st.selectbox("Gender *", ["Male", "Female", "Other"],
+                          index=["Male","Female","Other"].index(st.session_state.user_data.get("gender","Male")))
 
 with col2:
-    home_country = st.text_input("Your Current Country *")
+    home_country = st.text_input("Your Current Country *", value=st.session_state.user_data.get("home_country", ""))
     employment = st.selectbox(
         "Employment Status *",
-        ["Student", "Employed", "Self-employed", "Unemployed"]
+        ["Student", "Employed", "Self-employed", "Unemployed"],
+        index=["Student","Employed","Self-employed","Unemployed"].index(st.session_state.user_data.get("employment","Student"))
     )
-    marital_status = st.selectbox("Marital Status *", ["Single", "Married"])
+    marital_status = st.selectbox("Marital Status *", ["Single", "Married"],
+                                 index=["Single","Married"].index(st.session_state.user_data.get("marital_status","Single")))
 
 col3, col4 = st.columns(2)
 
 with col3:
-    passport = st.selectbox("Do you have a valid passport? *", ["Yes", "No"])
-    funds = st.selectbox("Do you have proof of financial funds? *", ["Yes", "No"])
+    passport = st.selectbox("Do you have a valid passport? *", ["Yes", "No"],
+                            index=["Yes","No"].index(st.session_state.user_data.get("passport","Yes")))
+    funds = st.selectbox("Do you have proof of financial funds? *", ["Yes", "No"],
+                         index=["Yes","No"].index(st.session_state.user_data.get("funds","Yes")))
 
 with col4:
-    travel_history = st.selectbox("Do you have previous travel history? *", ["Yes", "No"])
-    english_test = st.selectbox("Do you have IELTS/TOEFL (if required)? *", ["Yes", "No"])
+    travel_history = st.selectbox("Do you have previous travel history? *", ["Yes", "No"],
+                                 index=["Yes","No"].index(st.session_state.user_data.get("travel_history","Yes")))
+    english_test = st.selectbox("Do you have IELTS/TOEFL (if required)? *", ["Yes", "No"],
+                               index=["Yes","No"].index(st.session_state.user_data.get("english_test","Yes")))
 
 st.markdown("---")
 
@@ -171,13 +211,15 @@ st.session_state.user_data = {
 }
 
 # -----------------------------
+# SAVE PERMANENTLY (ADDED)
+# -----------------------------
+save_user_data(st.session_state.user_data)
+
+# -----------------------------
 # Check Eligibility Button
 # -----------------------------
 if st.button("🔍 Check Visa Eligibility"):
 
-    # -----------------------------
-    # VALIDATION (MANDATORY FIELDS)
-    # -----------------------------
     if not name or not home_country:
         st.error("❗ Please fill all mandatory (*) fields before checking eligibility.")
     else:
@@ -197,43 +239,29 @@ if st.button("🔍 Check Visa Eligibility"):
         if english_test == "No" and "Student" in selected_visa:
             missing_requirements.append("English Test (IELTS/TOEFL)")
 
-        # -----------------------------
-        # RESULT CARD (PREMIUM UI)
-        # -----------------------------
         if len(missing_requirements) == 0:
-            status = "Eligible"
-            st.markdown(f"""
+            st.markdown("""
             <div style='padding:20px;border-radius:10px;background-color:#1e7f4f;color:white'>
             <h2>✅ You are Eligible for this Visa</h2>
             </div>
             """, unsafe_allow_html=True)
         else:
-            status = "Not Eligible"
-            st.markdown(f"""
+            st.markdown("""
             <div style='padding:20px;border-radius:10px;background-color:#b30000;color:white'>
             <h2>❌ You are Not Eligible for this Visa</h2>
             </div>
             """, unsafe_allow_html=True)
 
-        # -----------------------------
-        # SUMMARY (IMPORTANT)
-        # -----------------------------
         st.subheader("📊 Application Summary")
         st.write("👤 Name:", name)
         st.write("🌍 Destination:", selected_country)
         st.write("📄 Visa Type:", selected_visa)
 
-        # -----------------------------
-        # Missing
-        # -----------------------------
         if missing_requirements:
             st.subheader("⚠ Missing Requirements")
             for m in missing_requirements:
                 st.write("-", m)
 
-        # -----------------------------
-        # RAG Query + LOADING
-        # -----------------------------
         with st.spinner("🤖 AI is analyzing your eligibility..."):
 
             query = f"{selected_country} {selected_visa} visa eligibility"
@@ -263,9 +291,6 @@ Explain eligibility clearly.
 
             answer = chat_completion.choices[0].message.content
 
-        # -----------------------------
-        # OUTPUT
-        # -----------------------------
         st.header("🤖 AI Explanation")
         st.write(answer)
 
