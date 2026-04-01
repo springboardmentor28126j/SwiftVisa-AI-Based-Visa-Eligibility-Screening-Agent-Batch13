@@ -1,3 +1,5 @@
+torch
+torchvision
 streamlit
 sentence-transformers
 faiss-cpu
