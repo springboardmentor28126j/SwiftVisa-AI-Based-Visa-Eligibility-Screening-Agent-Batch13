@@ -1,112 +1,247 @@
-# SwiftVisa-AI-Based-Visa-Eligibility-Screening-Agent-Batch13
+# SwiftVisa AI – AI-Based Visa Eligibility Screening System
 
-Task 1: Visa Policy Knowledge Base Construction
+## 📌 Project Overview
 
-Description:
-In this task, we build the knowledge base for the SwiftVisa project.
-The knowledge base is the core data layer that stores all visa-related information in a format that can be understood and used by an AI system.
-The main goal of Task 1 is to collect visa rules from official government websites and transform this raw information into a structured and searchable vector database. This allows the AI system to later retrieve accurate visa information and answer user queries.
+SwiftVisa AI is an intelligent visa eligibility screening system that simulates the decision-making process of a visa officer using Artificial Intelligence.
 
-Why This Task Is Important:
-An AI system cannot work with raw website content directly.
-It needs:
-- Clean and structured data
-- Smaller meaningful text pieces
-- Numerical representations (embeddings)
+The system evaluates user profiles against a curated knowledge base of immigration policies collected from official government sources across multiple countries. It supports eligibility assessment for major visa categories, including:
 
-This task prepares all visa data in the correct format so that future AI components (RAG, chatbot, query engine) can work efficiently.
+- 🎓 Student Visa  
+- ✈️ Tourist Visa  
+- 💼 Work Visa  
+- 👨‍👩‍👧 Family/Dependent Visa  
+- 🏡 Permanent Residence (PR)  
 
-Steps Involved
-1. Data Collection:  
-Visa information is manually collected from official government portals of different countries.  
-For each country, the following visa types are considered:
+Using Retrieval-Augmented Generation (RAG) and Large Language Models (LLMs), the system retrieves relevant policy rules and generates eligibility decisions with clear explanations, risk levels, and confidence scores.
 
-   - Student
-   - Tourist
-   - Work
-   - Permanent Residence
-   - Family
+The system follows a hybrid approach by combining AI-based reasoning with rule-based validation to ensure accuracy, consistency, and transparency in decision-making.
 
-2. Identify Required Documents:  
-For every country and visa type, the list of required documents is extracted, such as:
+---
 
-   - Passport
-   - Application forms
-   - Financial proof
-   - Invitation letters
+SwiftVisa AI is an end-to-end intelligent visa screening system that uses:
 
+📚 Retrieval-Augmented Generation (RAG)  
+🧠 Large Language Models (LLM)  
+📊 Rule-based validation  
+🗂 Structured visa policy data  
 
-3. Structured Storage(JSON):   
- All collected information is stored in a structured file: visa_policy.json
+to provide accurate, explainable, and transparent visa eligibility decisions.
 
-    This file contains:
+---
 
-   - Country name (e.g., USA, India, Canada, Australia)
-   - Visa type (Student, Tourist, Work, PR, Family)
-   - Visa code (e.g., F-1, M-1, Employment Visa)
-   - Required documents
+## 🚀 Project Objective
+
+To build an AI system that:
+
+- Automates visa eligibility screening  
+- Reduces manual verification effort  
+- Provides explainable decision-making  
+- Guides users with missing requirements  
 
 
-4. Text Conversion
+## 📂 Project Structure
 
-   The structured JSON data is converted into readable text format so that it can be processed by NLP models.
+```
+swiftvisa-ai/
+│
+├── data/
+│   └── clean/
+│       └── visa_policies.json              # Structured visa policies dataset
+│
+├── logs/
+│   └── decision_logs.jsonl                 # Application & decision logs
+│
+├── Output/
+│   └── Visa_vector_db/                     # ⚠️ Auto-generated FAISS vector database
+│       ├── index.faiss                     # FAISS index file
+│       └── index.pkl                       # Metadata / mapping file
+│
+├── source/
+│   ├── __init__.py
+│   ├── app.py                              # Streamlit UI (deployment layer)
+│   ├── build_vector.py                     # Chunking + embedding + FAISS creation
+│   ├── config.py                           # Configuration (paths, constants)
+│   ├── eligibility_prompt.py               # LLM prompt templates
+│   ├── list_model.py                       # Model listing / selection
+│   ├── llm_client.py                       # LLM integration (Gemini API)
+│   ├── log_viewer.py                       # Admin dashboard (log viewer)
+│   ├── ragpipeline.py                      # Core RAG pipeline logic
+│   ├── retriever.py                        # FAISS retrieval system
+│   ├── test_ragpipeline.py                 # RAG pipeline tests
+│   └── test_retriever.py                   # Retriever tests
+│
+├── requirements.txt                        # Project dependencies
+│
+└── README.md
+```
 
-   Example:
 
-   Country: USA  
-   Visa Type: Student  
-   Visa Code: F-1
+## 🧠 Core Components
 
-   Eligibility Criteria:
-   - Acceptance to SEVP-approved school,
-   - Valid SEVIS I-20,
-   - Sufficient funds for tuition/living,
-   - Intent to return home,
-   - English proficiency
-     
-   Required Documents:
-   - Passport  
-   - I-20  
-   - Financial proof  
+### 🔹 Chunking & Embedding
+Transforms raw visa policy documents into smaller, meaningful text chunks using intelligent splitting strategies (e.g., RecursiveCharacterTextSplitter).  
+Each chunk is then converted into dense vector embeddings using pre-trained transformer models.
 
-6. Chunking :   
+**Why it matters:**
+- Improves retrieval accuracy  
+- Handles large documents efficiently  
+- Enables semantic understanding instead of keyword matching  
 
-    Large text is split into smaller pieces called chunks.
-    
-    This is done because:
-    - AI models have context limits
-    - Smaller chunks improve search accuracy
-    - Retrieval becomes faster and more precise
+---
 
-    Example:
+### 🔹 FAISS Vector DB
+A high-performance vector database that stores embeddings and enables fast similarity search using nearest neighbor algorithms.
 
-    Chunk size: 500 characters
+**Key features:**
+- Optimized for large-scale vector storage  
+- Supports fast Top-K similarity retrieval  
+- Lightweight and efficient for local deployment  
 
-    Overlap: 50 characters
+---
 
-7. Embedding Generation :
+### 🔹 Retriever
+Responsible for fetching the most relevant visa policy chunks based on user input.
 
-    Each chunk is converted into a numerical vector using a sentence transformer model.
+**How it works:**
+- Converts user query into embeddings  
+- Performs similarity search in FAISS  
+- Returns Top-K most relevant policy contexts  
 
-    These numbers capture the meaning of the text.
-    This process is called embedding.
+**Benefits:**
+- Reduces irrelevant data passed to LLM  
+- Improves response precision  
+- Enables context-aware reasoning  
 
-8. Vector Database (FAISS)
+---
 
-   All embeddings are stored in a FAISS vector database.
+### 🔹 RAG Pipeline (Retrieval-Augmented Generation)
+The core intelligence layer that combines retrieved context with LLM reasoning.
 
-   This allows:
+**Pipeline flow:**
+1. User input → query generation  
+2. Retrieve relevant policy chunks  
+3. Inject context into LLM prompt  
+4. Generate structured eligibility response  
 
-   - Fast similarity search
-   - Semantic retrieval
-   - Efficient AI querying
+**Why RAG:**
+- Reduces hallucinations  
+- Grounds responses in real policy data  
+- Improves explainability  
 
-Final Outcome:
-At the end of Task 1, we obtain:
-A clean and structured visa dataset
-A fully built vector knowledge base
-Stored in FAISS for fast retrieval
+---
 
-This knowledge base will be used in Milestone 2 to:
--Search visa rules and Answer user questions using AI (RAG system)
+### 🔹 LLM Engine
+Handles natural language understanding and decision-making using Gemini API.
 
+**Responsibilities:**
+- Interpret user profile  
+- Apply reasoning on retrieved policies  
+- Generate structured outputs  
+
+**Outputs include:**
+- Eligibility decision (ELIGIBLE / REVIEW / NOT_ELIGIBLE)  
+- Risk level (LOW / MEDIUM / HIGH)  
+- Confidence score (%)  
+- Justification for decision  
+
+---
+
+### 🔹 Rule-Based Validation Layer
+A deterministic validation layer that enforces strict visa rules alongside AI reasoning.
+
+**Examples:**
+- Minimum work experience checks  
+- Age or qualification constraints  
+- Mandatory document validation  
+
+**Purpose:**
+- Ensures consistency and reliability  
+- Prevents incorrect AI assumptions  
+- Adds explainable rule enforcement  
+
+---
+
+### 🔹 Logging System
+Captures every user interaction and system decision in structured format (`JSONL`).
+
+**What is logged:**
+- User profile input  
+- Retrieved contexts  
+- LLM responses  
+- Final decision output  
+
+**Benefits:**
+- Debugging & error tracing  
+- Monitoring system performance  
+- Building admin dashboards  
+
+---
+
+### 🔹 Admin Dashboard (Log Viewer)
+A monitoring interface built using Streamlit to analyze application logs.
+
+**Features:**
+- View all past decisions  
+- Filter by eligibility status  
+- Inspect detailed reasoning  
+- Track system behavior over time  
+
+---
+
+### 🔹 Streamlit Application Layer
+Provides an interactive UI for users to input visa details and receive decisions.
+
+**Capabilities:**
+- Multi-step application flow  
+- Real-time AI responses  
+- Integrated chatbot for queries  
+- Clean and user-friendly interface  
+
+---
+## ⚙️ Tech Stack
+
+- Frontend: Streamlit  
+- Backend: Python  
+- Vector DB: FAISS  
+- Embeddings: Sentence Transformers  
+- LLM: Gemini API  
+- Storage: JSON / JSONL  
+
+---
+
+## ▶️ Run the Project
+
+```bash
+pip install -r requirements.txt
+streamlit run source/app.py
+```
+
+## 🔮 Future Enhancements
+
+- 📎 Document upload & verification
+- 🌍 Expand visa coverage
+- 📊 Analytics dashboard
+- 🔐 Authentication system
+- 🧾 PDF report generation
+
+---
+
+## 🔗 Project Link
+
+🌐 Live App: [https://app-link.streamlit.app ](https://swift-ai-visa-ufnw5feswxrggmsvjfnx33.streamlit.app/) 
+
+---
+
+## 👨‍💻 Author
+
+ Revan Kumar Battini
+
+## 💡 Key Highlight
+
+ This project demonstrates a complete AI pipeline:
+
+- Data engineering (JSON → chunks → embeddings)
+- Vector search (FAISS)
+- Retrieval systems (RAG)
+- LLM reasoning
+- Explainable AI outputs
