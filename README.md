@@ -1,166 +1,249 @@
-# SwiftVisa-AI-Based-Visa-Eligibility-Screening-Agent-Batcch-13
+# SwiftVisa-AI-Based-Visa-Eligibility-Screening-Agent-Batch-13
 # ✈️ AI-Based Visa Eligibility Screening Assistant
+
+---
 
 ## 📌 1. Introduction
 
-SwiftVisa AI is an intelligent web-based application developed to simplify the visa eligibility checking process using Artificial Intelligence.
+SwiftVisa AI is a web-based intelligent application developed to simplify and automate the visa eligibility checking process using Artificial Intelligence.
 
-The system helps users:
+The system enables users to:
 
-* Understand whether they are eligible for a visa
+* Check visa eligibility instantly
 * Identify missing requirements
-* Get a clear explanation of eligibility and documents
+* Understand visa criteria through clear AI-generated explanations
 
-This project combines:
+This project integrates:
 
-* Rule-based logic
+* Rule-Based Decision Logic
 * Retrieval-Augmented Generation (RAG)
 * Large Language Model (LLM)
 
 ---
 
-## 🎯 2. Objective of the Project
+## 🎯 2. Objective
 
-The main objective of this project is to:
+The primary objectives of this project are:
 
-* Automate visa eligibility checking
-* Provide accurate and structured information
-* Improve user understanding using AI explanations
-* Reduce confusion in visa application processes
+* To automate the visa eligibility checking process
+* To provide accurate, structured, and real-time results
+* To enhance user understanding using AI explanations
+* To reduce confusion and dependency on manual consultation
 
 ---
 
-## 📊 3. Overall System Workflow
+## 📊 3. End-to-End System Workflow
 
-The system follows this complete pipeline:
+The application follows a complete AI pipeline:
 
 User Input
-→ Data Processing
-→ Eligibility Checking
-→ Embedding Generation
-→ FAISS Retrieval
-→ Reranking
+→ Input Processing
+→ Rule-Based Eligibility Checking
+→ Query Embedding
+→ FAISS Vector Search
+→ Reranking (Similarity Matching)
 → Prompt Generation
-→ LLM Response
-→ Final Output
+→ LLM Processing
+→ Final Output Generation
 
 ---
 
-## 📁 4. Data Preparation (Milestone 1)
+# 🧩 4. Milestone 1 – Knowledge Base Preparation
 
-### 4.1 Data Collection
+## 🔹 Overview
 
-* Visa information was collected for multiple countries
-* Included various visa types:
+This stage focused on building a structured and AI-ready visa knowledge base.
 
-  * Tourist
-  * Student
-  * Work
-  * Business
+---
 
-### 4.2 Data Structuring
+## 🔸 4.1 Data Collection
 
-* Data was stored in a JSON file (`visaRequirements.json`)
-* Each entry contains:
+* Collected visa-related data for multiple countries
 
-  * Country name
-  * Visa type
+* Included different visa types:
+
+  * Tourist Visa
+  * Student Visa
+  * Work Visa
+  * Business Visa
+
+* Extracted:
+
   * Eligibility criteria
   * Required documents
 
-### 4.3 Chunking
+---
 
-* Each visa record was converted into a separate chunk
-* This helps in better retrieval
+## 🔸 4.2 Data Structuring
 
-### 4.4 Embedding Generation
+* Organized all data into a structured JSON file:
+  `visaRequirements.json`
 
-* Used Sentence Transformer model: `all-MiniLM-L6-v2`
-* Converted text into 384-dimensional vectors
+* Each record contains:
 
-### 4.5 FAISS Storage
+  * Country Name
+  * Visa Type
+  * Eligibility Criteria
+  * Required Documents
 
-* Stored embeddings using FAISS
-* Created vector database: `visa_index.faiss`
-
-👉 This completes the Knowledge Base creation
+👉 This ensures consistency and easy processing
 
 ---
 
-## 🤖 5. RAG Pipeline Implementation (Milestone 2)
+## 🔸 4.3 Chunking
 
-### 5.1 Query Embedding
+* Converted each visa record into a separate chunk
+* Each chunk contains complete visa-related information
+
+👉 Purpose:
+
+* Improves retrieval accuracy
+* Enables efficient search in RAG pipeline
+
+---
+
+## 🔸 4.4 Embedding Generation
+
+* Used model: `all-MiniLM-L6-v2` (Sentence Transformers)
+* Converted each chunk into a 384-dimensional vector
+
+👉 Purpose:
+
+* Converts text into numerical format for similarity search
+
+---
+
+## 🔸 4.5 FAISS Vector Database
+
+* Stored all embeddings using FAISS
+* Created index file: `visa_index.faiss`
+
+👉 Outcome:
+
+* Fast and efficient similarity-based retrieval system
+
+---
+
+## ✅ Milestone 1 Outcome
+
+A complete **AI-ready Visa Knowledge Base** was created, enabling semantic search and retrieval.
+
+---
+
+# 🤖 5. Milestone 2 – RAG Pipeline Implementation
+
+## 🔹 Overview
+
+This stage focused on integrating retrieval with AI generation to provide intelligent responses.
+
+---
+
+## 🔸 5.1 Query Embedding
 
 * User query is converted into vector format
-
-### 5.2 FAISS Retrieval
-
-* Top 3 most relevant visa records are retrieved
-
-### 5.3 Reranking
-
-* Cosine similarity is applied
-* Best matching result is selected
-
-### 5.4 Prompt Template
-
-* A structured prompt is created using:
-
-  * User data
-  * Visa information
-
-### 5.5 LLM Integration
-
-* Used Groq API with Llama 3.1 model
-* Generates human-readable explanation
-
-👉 This completes the AI intelligence layer
+* Same embedding model used for consistency
 
 ---
 
-## 🖥️ 6. User Interface & Input Flow (Milestone 3)
+## 🔸 5.2 FAISS Retrieval
 
-### 6.1 Streamlit Frontend
+* Compared query embedding with stored vectors
+* Retrieved **Top 3 most relevant visa records**
 
-* Built using Streamlit framework
-* Simple and interactive UI
+---
 
-### 6.2 User Input Collection
+## 🔸 5.3 Reranking
 
-The system collects:
+* Applied cosine similarity
+* Selected the most relevant result
 
-* Personal details (Name, Age, Gender, Country)
-* Employment status
+👉 Improves accuracy of retrieved data
+
+---
+
+## 🔸 5.4 Prompt Engineering
+
+* Created structured prompt including:
+
+  * User details
+  * Visa information
+  * Missing requirements
+
+👉 Ensures meaningful LLM response
+
+---
+
+## 🔸 5.5 LLM Integration
+
+* Integrated Groq API with **LLaMA 3.1 model**
+* Generated:
+
+  * Clear explanation
+  * Human-readable output
+
+---
+
+## ✅ Milestone 2 Outcome
+
+A complete **RAG-based intelligent system** capable of retrieving and explaining visa eligibility.
+
+---
+
+# 🖥️ 6. Milestone 3 – Application Development (UI + Logic)
+
+## 🔹 Overview
+
+This stage focused on building the user interface and implementing eligibility logic.
+
+---
+
+## 🔸 6.1 Frontend Development
+
+* Built using Streamlit
+* Designed clean and interactive UI
+
+---
+
+## 🔸 6.2 User Input Module
+
+Collected:
+
+* Personal details (Name, Age, Gender)
+* Country & Employment status
 * Financial proof
 * Travel history
 * English test status
 
-### 6.3 Visa Selection
+---
+
+## 🔸 6.3 Visa Selection
 
 * User selects:
 
   * Destination country
   * Visa type
 
-### 6.4 Dynamic Eligibility Questions
-
-* Questions are generated dynamically
-* Based on selected visa type
-
-👉 Example:
-
-* Passport availability
-* Funds proof
-* Language test
-* Other requirements
+👉 System dynamically loads relevant data
 
 ---
 
-## ✅ 7. Eligibility Checking Logic
+## 🔸 6.4 Dynamic Eligibility Questions
 
-The system uses rule-based logic:
+* Questions generated dynamically
+* Based on selected visa type
 
-* If user answers “No” to any requirement → added to missing list
+👉 Examples:
+
+* Passport availability
+* Financial proof
+* Language requirements
+
+---
+
+## 🔸 6.5 Rule-Based Eligibility Logic
+
+* Evaluates user responses
+* If any condition = “No” → added to missing list
 
 Additional checks:
 
@@ -168,133 +251,167 @@ Additional checks:
 * Financial proof required
 * English test (for student visa)
 
-### Final Decision:
+---
 
-* No missing → ✅ Eligible
-* Missing items → ❌ Not Eligible
+## 🔸 6.6 Decision System
+
+* No missing requirements → ✅ Eligible
+* Missing requirements → ❌ Not Eligible
 
 ---
 
-## 📄 8. Output Generation
+## ✅ Milestone 3 Outcome
 
-After processing, system provides:
-
-### 8.1 Eligibility Status
-
-* Eligible
-* Not Eligible
-
-### 8.2 Missing Requirements
-
-* Displays list of missing criteria
-
-### 8.3 Required Documents
-
-* Shows all necessary documents
-
-### 8.4 AI Explanation
-
-* LLM explains:
-
-  * Why eligible/not eligible
-  * What user should do next
+A fully functional **interactive application with dynamic inputs and eligibility checking logic**
 
 ---
 
-## 💾 9. Session State Management
+# 📄 7. Output Generation
 
-* User input is stored using Streamlit session state
-* Data persists during session
-* Hidden from UI by default
-* Can be accessed on demand
+The system provides:
 
-👉 Helps in:
+## 🔸 Eligibility Status
 
-* Better user experience
-* Data tracking
+* Clearly indicates Eligible / Not Eligible
 
----
+## 🔸 Missing Requirements
 
-## 🎨 10. UI/UX Enhancements
+* Displays unmet criteria
 
-* Clean layout using columns
-* Structured sections:
+## 🔸 Required Documents
 
-  * Applicant Information
-  * Visa Details
-  * Eligibility Questions
-* Mandatory fields marked (*)
-* Clear buttons and output sections
+* Lists all necessary documents
 
-👉 Focus:
+## 🔸 AI Explanation
 
-* User-friendly
-* Professional look
-* Easy navigation
+* Explains:
+
+  * Eligibility decision
+  * Next steps for user
 
 ---
 
-## 🔐 11. Security Implementation
+# 💾 8. Session State & Data Persistence
+
+* Implemented using Streamlit session state
+* User inputs stored internally
+* Extended with JSON storage for persistence
+
+👉 Benefits:
+
+* Data retention after refresh
+* Improved user experience
+
+---
+
+# 🔐 9. Security Implementation
 
 * API key is NOT hardcoded
-* Uses environment variables
-* Ensures safe deployment
+* Used environment variables
+* Managed securely via Streamlit Secrets
+
+👉 Ensures safe deployment and data protection
 
 ---
 
-## 🚀 12. Deployment (Milestone 4)
+# 🚀 10. Milestone 4 – Deployment
 
-* Application is deployed using Streamlit Cloud
-* GitHub repository created
-* Public URL generated
+## 🔹 Overview
 
-👉 Allows:
-
-* Panel access
-* Real-time demonstration
+Focused on making the application publicly accessible.
 
 ---
 
-## ⚙️ 13. Technologies Used
+## 🔸 10.1 Repository Setup
+
+* Created GitHub repository
+* Uploaded all project files
+
+---
+
+## 🔸 10.2 Dependency Management
+
+* Created `requirements.txt`
+* Included all required libraries
+
+---
+
+## 🔸 10.3 Streamlit Cloud Deployment
+
+* Connected GitHub repository
+* Selected:
+
+  * Branch: main
+  * File: `app.py`
+
+---
+
+## 🔸 10.4 API Key Configuration
+
+* Added Groq API key in **Streamlit Secrets**
+
+---
+
+## 🔸 10.5 Testing & Debugging
+
+* Fixed:
+
+  * Dependency errors
+  * API authentication issues
+  * Deployment errors
+
+---
+
+## ✅ Milestone 4 Outcome
+
+A fully deployed **live application with public access**
+
+---
+
+# ⚙️ 11. Technologies Used
 
 * Python
 * Streamlit
 * FAISS
 * Sentence Transformers
 * NumPy
-* Groq API (Llama 3.1)
+* Scikit-learn
+* Groq API (LLaMA 3.1)
 * JSON
 
 ---
 
-## 📈 14. Key Achievements
+# 📈 12. Key Achievements
 
-* Built end-to-end AI application
-* Implemented RAG pipeline
-* Integrated LLM for explanation
-* Created dynamic UI
+* Developed complete end-to-end AI system
+* Implemented RAG pipeline successfully
+* Integrated LLM for intelligent explanation
+* Built dynamic and user-friendly UI
 * Ensured secure API handling
+* Successfully deployed application
 
 ---
 
-## 🔮 15. Future Improvements
+# 🔮 13. Future Enhancements
 
-* Multi-step form UI
-* More countries and visa types
-* Document upload feature
-* Chatbot-based interaction
-* Real-time visa updates
+* Add more countries and visa types
+* Integrate chatbot interface
+* Enable document upload
+* Add real-time visa updates
+* Improve model accuracy with larger datasets
 
 ---
 
-## ✅ 16. Conclusion
+# ✅ 14. Conclusion
 
-SwiftVisa AI successfully automates the visa eligibility checking process using AI.
+SwiftVisa AI successfully automates the visa eligibility checking process by combining rule-based logic with AI-powered reasoning.
 
-It provides:
+The system provides:
 
-* Accurate eligibility results
+* Accurate eligibility decisions
 * Clear document guidance
-* Intelligent explanations
+* Intelligent and user-friendly explanations
 
-👉 This system improves user experience and reduces confusion in visa applications.
+👉 This project enhances user experience and simplifies the visa application process effectively.
+
+---
