@@ -456,24 +456,40 @@ if page == "Visa Application":
                 visa_questions["visa_application"] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
                 visa_questions["Accommodation proof"] = st.selectbox("Did you submitted Accommodation proof ? ",["Yes", "No"])
             elif destination_country == "New Zealand":
+                visa_questions["Travel/medical insurance"] = st.selectbox("Do you have Travel/medical insurance? ",["Yes", "No"])
                 visa_questions["character_requirements"] = st.selectbox("Do you meet character requirements (no criminal record)? ",["Yes", "No"])
                 visa_questions["genuine_student"] = st.selectbox("Are you a genuine student intending to study? ",["Yes", "No"])
             elif destination_country == "Japan":
+                visa_questions["Academic transcripts"] = st.selectbox("Do you provided academic transcripts? ",["Yes", "No"])
+                visa_questions["visa_application "] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
                 visa_questions["coe_available"] = st.selectbox("Do you have a Certificate of Eligibility (COE)? ",["Yes", "No"])
                 visa_questions["japanese_language_level"] = st.selectbox("Japanese language level (if applicable) ",["N5", "N4", "N3", "N2", "N1", "Not Applicable"])
             elif destination_country == "Singapore":
+                visa_questions["solar_application"] = st.selectbox("Have you applied through the SOLAR system?",["Yes", "No"])
+                visa_questions["sufficient_funds_sg"] = st.selectbox("Do you have sufficient funds for tuition and living expenses in Singapore?",["Yes", "No"])
+                visa_questions["academic_certificates"] = st.selectbox("Do you have academic certificates/transcripts?",["Yes", "No"])
                 visa_questions["institution_registered"] = st.selectbox("Is your institution registered in Singapore? ",["Yes", "No"])
                 visa_questions["acceptance_letter"] = st.selectbox("Do you have an acceptance letter? ",["Yes", "No"])
             elif destination_country == "UAE":
+                visa_questions["uae_health_insurance"] = st.selectbox("Do you have valid UAE health insurance?",["Yes", "No"])
+                visa_questions["residence_visa_application"] = st.selectbox("Has your residence visa application been submitted by your sponsor/institution?",["Yes", "No"])
                 visa_questions["sponsor_type"] = st.selectbox("Who is sponsoring your visa? ",["University", "Parent", "Other"])
             elif destination_country == "Netherlands":
+                visa_questions["sufficient_funds"] = st.selectbox("Do you have at least €869/month for your entire stay? ",["Yes", "No"])
+                visa_questions["health_insurance"] = st.selectbox("Do you have valid health insurance coverage in the Netherlands? ",["Yes", "No"])
+                visa_questions["academic_transcripts"] = st.selectbox("Do you have your academic transcripts? ",["Yes", "No"])
+                visa_questions["insurance_proof"] = st.selectbox("Do you have proof of health insurance? ",["Yes", "No"])
                 visa_questions["mvv_required"] = st.selectbox("Do you require an MVV (entry visa)? ",["Yes", "No"])
                 visa_questions["mvv_applied"] = st.selectbox("Have you applied for MVV (if required)? ",["Yes", "No", "Not Required"])
             elif destination_country == "Ireland":
+                visa_questions["visa_application_form"] = st.selectbox("Have you completed the visa application form? ",["Yes", "No"])
+                visa_questions["purpose_letter"] = st.selectbox("Do you have a purpose of visit / cover letter? ",["Yes", "No"])
+                visa_questions["visa_fee_receipt"] = st.selectbox("Do you have proof of visa fee payment? ",["Yes", "No"])
+                visa_questions["visa_application_form"] = st.selectbox("Have you completed the visa application form? ",["Yes", "No"])
+                visa_questions["purpose_letter"] = st.selectbox("Do you have a purpose of visit / cover letter? ",["Yes", "No"])
+                visa_questions["visa_fee_receipt"] = st.selectbox("Do you have the visa fee payment receipt? ",["Yes", "No"])
                 visa_questions["statement_of_purpose"] = st.selectbox("Have you prepared a Statement of Purpose? ",["Yes", "No"])
 
-
-    
 
         elif visa_type == "Work":
             visa_questions["job_offer"] = st.selectbox("Job Offer? ", ["Yes","No"])
@@ -520,9 +536,13 @@ if page == "Visa Application":
                 visa_questions["visa_application"] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
                 visa_questions["Accommodation proof"] = st.selectbox("Did you submitted Accommodation proof ? ",["Yes", "No"])
             elif destination_country == "New Zealand":
+                visa_questions["visa_application"] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
                 visa_questions["skills_match"] = st.selectbox("Do your skills and qualifications match the job? ",["Yes", "No"])
                 visa_questions["job_role_restricted"] = st.selectbox("Is your role restricted under immigration rules? ",["Yes", "No"])
+                visa_questions["accredited_employer"] = st.selectbox("Is your employer accredited by Immigration New Zealand? ",["Yes", "No"])
+                visa_questions["median_wage_threshold"] = st.selectbox("Does your salary meet the NZ median wage threshold? ",["Yes", "No", "Not Sure"])
             elif destination_country == "Japan":
+                visa_questions["Academic transcripts"] = st.selectbox("Do you provided academic transcripts? ",["Yes", "No"])
                 visa_questions["coe_available"] = st.selectbox("Has your employer obtained a COE for you? ",["Yes", "No"])
                 visa_questions["job_category_match"] = st.selectbox("Does your job match a valid visa category (Engineer/Specialist etc.)? ",["Yes", "No"])
                 visa_questions["highly_skilled_points"] = st.number_input("Highly Skilled Professional points (if applicable) ",min_value=0,max_value=200)
@@ -530,14 +550,30 @@ if page == "Visa Application":
                 visa_questions["cv_prepared"] = st.selectbox("Do you have a professional CV prepared? ",["Yes", "No"])
                 visa_questions["visa_application "] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
             elif destination_country == "Singapore":
+                visa_questions["academic_certificates"] = st.selectbox("Do you have academic certificates/transcripts?",["Yes", "No"])
                 visa_questions["employer_application"] = st.selectbox("Has employer applied via EP Online? ",["Yes", "No"])
             elif destination_country == "UAE":
+                visa_questions["work_permit_issued"] = st.selectbox("Has your work permit or entry permit been issued by MoHRE or Free Zone Authority?",["Yes", "No"])
+                visa_questions["job_role_match"] = st.selectbox("Does your qualification and experience match the job role?",["Yes", "No"])
+                visa_questions["edu_cert_attested"] = st.selectbox("Are your educational certificates attested (if required)?",["Yes", "No", "Not Required"])
+                visa_questions["work_permit_docs"] = st.selectbox("Do you have work permit and entry permit documents?",["Yes", "No"])
+                visa_questions["medical_certificate"] = st.selectbox("Do you have a valid medical fitness certificate document?",["Yes", "No"])
                 visa_questions["employer_licensed"] = st.selectbox("Is the employer licensed in UAE? ",["Yes", "No"])
                 visa_questions["emirates_id_applied"] = st.selectbox("Have you applied for Emirates ID? ",["Yes", "No"])
             elif destination_country == "Netherlands":
+                visa_questions["ind_recognised_employer"] = st.selectbox("Is your employer recognized by the IND (Immigration and Naturalisation Service)? ",["Yes", "No"])
+                visa_questions["contract_duration"] = st.selectbox("Is your employment contract at least 12 months (1 year)? ",["Yes", "No"])
+                visa_questions["gvva_application"] = st.selectbox("Has your employer applied for a GVVA (single permit)? ",["Yes", "No"])
+                visa_questions["health_insurance"] = st.selectbox("Do you have valid health insurance in the Netherlands? ",["Yes", "No"])
+                visa_questions["police_clearance"] = st.selectbox("Do you have a police clearance certificate? ",["Yes", "No"])
                 visa_questions["salary_threshold"] = st.selectbox("Does your salary meet minimum (€4,357–€5,942/month)? ",["Yes", "No"])
                 visa_questions["contract_duration"] = st.selectbox("Is your employment contract at least 1 year? ",["Yes", "No"])
             elif destination_country == "Ireland":
+                visa_questions["employment_permit"] = st.selectbox("Do you have a valid Irish employment permit? ",["Yes", "No"])
+                visa_questions["qualification_proof"] = st.selectbox("Do you have proof of your qualifications (degree certificates)? ",["Yes", "No"])
+                visa_questions["resume_cv"] = st.selectbox("Do you have an updated resume / CV? ",["Yes", "No"])
+                visa_questions["police_clearance"] = st.selectbox("Do you have a police clearance certificate? ",["Yes", "No"])
+                visa_questions["medical_insurance"] = st.selectbox("Do you have private medical insurance? ",["Yes", "No"])
                 visa_questions["job_advertised"] = st.selectbox("Was the job advertised to EEA nationals for at least 2 weeks? ",["Yes", "No"])
                 
                 
@@ -598,12 +634,19 @@ if page == "Visa Application":
             elif destination_country == "New Zealand":
                 visa_questions["visa_waiver_country"] = st.selectbox("Are you from a visa waiver country? ",["Yes", "No"])
             elif destination_country == "Japan":
+                visa_questions["cover_letter"] = st.selectbox("Have you prepared a cover letter explaining your visit? ",["Yes", "No"])
+                visa_questions["visa_application "] = st.selectbox("Do you have a completed visa application form ? ",["Yes", "No"])
                 visa_questions["visa_free_country"] = st.selectbox("Are you from a visa-free country for Japan? ",["Yes", "No"])
             elif destination_country == "Singapore":
+                visa_questions["visa_fee_recipt"] = st.selectbox("Do you have visa fee recipt? ", ["Yes","No"])
+                visa_questions["cover_letter"] = st.selectbox("Have you prepared a cover letter explaining your visit? ",["Yes", "No"])
                 visa_questions["form_14a"] = st.selectbox("Have you completed Form 14A (if required)? ",["Yes", "No", "Not Required"])
             elif destination_country == "UAE":
+                visa_questions["passport_cover_copy"] = st.selectbox("Do you have a copy of your passport cover page?",["Yes", "No"])
                 visa_questions["visa_free"] = st.selectbox("Are you eligible for visa-free entry? ",["Yes", "No"])
             elif destination_country == "Netherlands":
+                visa_questions["insurance_coverage"] = st.selectbox("Does your travel insurance cover at least €30,000?",["Yes", "No"])
+                visa_questions["application_form"] = st.selectbox("Do you have a completed visa application form?",["Yes", "No"])
                 visa_questions["eu_citizen"] = st.selectbox("Are you an EU/EEA citizen? ",["Yes", "No"])
             elif destination_country == "Ireland":
                 visa_questions["funds_per_day"] = st.selectbox("Do you meet ~€40/day fund requirement? ",["Yes", "No"])
@@ -681,29 +724,64 @@ if page == "Visa Application":
                 visa_questions["relationship_proof"] = st.selectbox("Do you have valid proof of relationship? ",["Yes", "No"])
                 visa_questions["sponsor_citizen_proof"] = st.selectbox("Do you have valid sponsor citizen proof? ",["Yes", "No"])
             elif destination_country == "New Zealand":
+                visa_questions["relationship_status_valid"] = st.selectbox("Are you in a genuine partnership (married, civil union, or de facto)?",["Yes", "No"])
+                visa_questions["exclusive_partnership"] = st.selectbox("Is your relationship exclusive and ongoing (not single)?",["Yes", "No"])
+                visa_questions["sponsor_age_verified"] = st.selectbox("Is your sponsor 18 years or older?",["Yes", "No"])
+                visa_questions["sponsor_financial_support"] = st.selectbox("Can your sponsor financially support you?",["Yes", "No"])
+                visa_questions["relationship_proof"] = st.selectbox("Do you have proof of your relationship (marriage/de facto evidence)?",["Yes", "No"])
+                visa_questions["sponsor_proof"] = st.selectbox("Do you have sponsor citizenship or PR proof?",["Yes", "No"])
+                visa_questions["police_medical"] = st.selectbox("Do you have police and medical certificates (if required)?",["Yes", "No", "Not Required"])
+                visa_questions["family_visa_application"] = st.selectbox("Do you have a completed family visa application?",["Yes", "No"])
                 visa_questions["cohabitation_proof"] = st.selectbox("Do you have proof of living together? ",["Yes", "No"])
             elif destination_country == "Japan":
+                visa_questions["eligible_dependent_jp"] = st.selectbox("Are you a spouse or unmarried child of the sponsor (Japanese national or valid visa holder)?",["Yes", "No"])
+                visa_questions["genuine_relationship_jp"] = st.selectbox("Can you prove genuine marriage or parent-child relationship?",["Yes", "No"])
+                visa_questions["sponsor_financial_capability_jp"] = st.selectbox("Is your sponsor financially capable of supporting you?",["Yes", "No"])
+                visa_questions["sponsor_residence_proof_jp"] = st.selectbox("Do you have sponsor’s residence card or passport?",["Yes", "No"])
+                visa_questions["sponsor_financial_docs_jp"] = st.selectbox("Do you have sponsor's financial proof (income, bank statements)?",["Yes", "No"])
                 visa_questions["coe_available"] = st.selectbox("Do you have a Certificate of Eligibility (COE)? ",["Yes", "No"])
                 visa_questions["relationship_proof"] = st.selectbox("Do you have valid proof of relationship? ",["Yes", "No"])
                 visa_questions["family_register"] = st.selectbox("Do you have family register (if applicable)? ",["Yes", "No", "Not Required"])
                 visa_questions["cohabitation_intent"] = st.selectbox("Do you intend to live together in Japan? ",["Yes", "No"])
             elif destination_country == "Singapore":
+                visa_questions["sponsor_work_pass"] = st.selectbox("Is your sponsor an EP or S Pass holder earning at least SGD 6,000/month?",["Yes", "No"])
+                visa_questions["eligible_dependant"] = st.selectbox("Are you an eligible dependant (spouse or unmarried child under 21)?",["Yes", "No"])
+                visa_questions["sponsor_pass_proof"] = st.selectbox("Do you have sponsor's work pass or PR proof?",["Yes", "No"])
+                visa_questions["relationship_proof_sg"] = st.selectbox("Do you have proof of relationship with the sponsor?",["Yes", "No"])
+                visa_questions["sponsor_income_proof_sg"] = st.selectbox("Do you have sponsor income proof?",["Yes", "No"])
                 visa_questions["principal_pass_holder"] = st.selectbox("Is the sponsor an EP or S Pass holder? ",["Yes", "No"])
                 visa_questions["application_submitted"] = st.selectbox("Has the dependant pass application been submitted? ",["Yes", "No"])
             elif destination_country == "UAE":
+                visa_questions["sponsor_residence_visa"] = st.selectbox("Does your sponsor hold a valid UAE residence visa?",["Yes", "No"])
+                visa_questions["eligible_dependant_uae"] = st.selectbox("Are you an eligible dependant (spouse, child, or parent)?",["Yes", "No"])
+                visa_questions["sponsor_salary_requirement"] = st.selectbox("Does your sponsor meet the minimum salary requirement?",["Yes", "No"])
+                visa_questions["accommodation_proof_uae"] = st.selectbox("Do you have proof of adequate accommodation in UAE?",["Yes", "No"])
+                visa_questions["attested_relationship_docs"] = st.selectbox("Do you have attested marriage or birth certificates?",["Yes", "No"])
+                visa_questions["sponsor_income_proof_uae"] = st.selectbox("Do you have sponsor salary or income proof?",["Yes", "No"])
                 visa_questions["sponsor_resident"] = st.selectbox("Is the sponsor a UAE resident? ",["Yes", "No"])
                 visa_questions["emirates_id"] = st.selectbox("Have dependents applied for Emirates ID? ",["Yes", "No"])
             elif destination_country == "Netherlands":
+                visa_questions["genuine_relationship"] = st.selectbox("Are you in a genuine long-term relationship (married / registered / exclusive partner)? ",["Yes", "No"])
+                visa_questions["relationship_proof"] = st.selectbox("Do you have proof of relationship (marriage / birth / registered partnership)? ",["Yes", "No"])
+                visa_questions["civic_integration"] = st.selectbox("Have you completed the civic integration exam (if required)? ",["Yes", "No", "Not Required"])
+                visa_questions["integration_certificate"] = st.selectbox("Do you have a civic integration certificate? ",["Yes", "No"])
+                visa_questions["health_insurance"] = st.selectbox("Do you have valid health insurance in the Netherlands? ",["Yes", "No"])
                 visa_questions["income_requirement"] = st.selectbox("Does sponsor meet income requirement (~€1,800/month)? ",["Yes", "No"])
                 visa_questions["housing_proof"] = st.selectbox("Does sponsor have adequate housing? ",["Yes", "No"])
                 visa_questions["tb_test"] = st.selectbox("Have you completed TB test (if required)? ",["Yes", "No", "Not Required"])
             elif destination_country == "Ireland":
-                visa_questions["cohabitation"] = st.selectbox("Have you lived together for at least 2 years (if de facto)? ",["Yes", "No", "Not Applicable"])
+                visa_questions["genuine_relationship"] = st.selectbox("Are you in a genuine relationship (married / civil partnership / de facto ≥2 years)? ",["Yes", "No"])
+                visa_questions["relationship_proof"] = st.selectbox("Do you have proof of relationship (marriage certificate / partnership proof / cohabitation evidence)? ",["Yes", "No"])
+                visa_questions["sponsor_income_proof"] = st.selectbox("Does your sponsor have sufficient income proof (bank statements, salary slips)? ",["Yes", "No"])
+                visa_questions["accommodation_proof"] = st.selectbox("Do you have accommodation proof from your sponsor (rent agreement / house proof)? ",["Yes", "No"])
+                visa_questions["police_clearance"] = st.selectbox("Do you have a police clearance certificate? ",["Yes", "No"])
+                visa_questions["private_health_insurance"] = st.selectbox( "Do you have private health insurance? ",["Yes", "No"])
+                
         
         elif visa_type == "Permanent Residence":
             visa_questions["job_offer"] = st.selectbox("Job Offer in Destination Country? ", ["Yes","No"])
             visa_questions["family_in_country"] = st.selectbox("Immediate family in destination country? ", ["Yes","No"])
-            visa_questions["affidavit of support"] = st.selectbox("affidavit of support provided? ", {"Yes","No"})
+            visa_questions["affidavit of support"] = st.selectbox("affidavit of support provided? ", ["Yes","No"])
             if destination_country == "USA":
                 visa_questions["Approved petition"] = st.selectbox("Approved petition? ", ["Yes","No"])
                 visa_questions["DS-260 confirmation"] = st.selectbox("DS-260 Confirmation? ", ["Yes","No"])
@@ -754,6 +832,7 @@ if page == "Visa Application":
                 visa_questions["skilled_employment"] = st.selectbox("Do you have skilled employment in New Zealand? ",["Yes", "No"])
                 visa_questions["character_status"] = st.selectbox("Do you meet character requirements? ",["Yes", "No"])
             elif destination_country == "Japan":
+                visa_questions["pr_reason_statement_jp"] = st.selectbox("Do you have a statement of reasons for Permanent Residence?",["Yes", "No"])
                 visa_questions["residence_years"] = st.selectbox("Have you lived in Japan for required duration (10 yrs or reduced for HSP)? ",["Yes", "No"])
                 visa_questions["hsp_status"] = st.selectbox("Are you a Highly Skilled Professional (HSP)? ",["Yes", "No"])
                 visa_questions["financial_independence"] = st.selectbox("Are you financially independent? ",["Yes", "No"])
@@ -761,20 +840,31 @@ if page == "Visa Application":
                 visa_questions["tax_compliance"] = st.selectbox("Have you paid taxes regularly in Japan? ",["Yes", "No"])
                 visa_questions["residence_certificate"] = st.selectbox("Do you have residence certificate (Juminhyo)? ",["Yes", "No"])
             elif destination_country == "Singapore":
+                visa_questions["pr_application_form"] = st.selectbox("Do you have a completed PR application form?",["Yes", "No"])
+                visa_questions["income_tax_statements"] = st.selectbox("Do you have income tax statements?",["Yes", "No"])
+                visa_questions["birth_certificate"] = st.selectbox("Do you have your birth certificate?",["Yes", "No"])
                 visa_questions["current_pass"] = st.selectbox("Do you currently hold EP/S Pass or eligible LTVP? ",["Yes", "No"])
                 visa_questions["employment_duration"] = st.selectbox("Have you worked in Singapore for at least 6 months? ",["Yes", "No"])
                 visa_questions["stable_income"] = st.selectbox("Do you have stable income and employment? ",["Yes", "No"])
             elif destination_country == "UAE":
+                visa_questions["health_insurance_uae"] = st.selectbox("Do you have valid health insurance coverage in UAE?",["Yes", "No"])
+                visa_questions["emirates_id_details"] = st.selectbox("Do you have Emirates ID application details?",["Yes", "No"])
                 visa_questions["visa_category"] = st.selectbox("Which category are you applying under? ",["Investor", "Employee", "Entrepreneur", "Special Talent"])
                 visa_questions["salary_level"] = st.selectbox("Do you earn at least AED 30,000/month (if employee)? ",["Yes", "No", "Not Applicable"])
                 visa_questions["priority_sector"] = st.selectbox("Are you working in a priority sector (IT, medicine, engineering)? ",["Yes", "No"])
             elif destination_country == "Netherlands":
+                visa_questions["insurance_proof"] = st.selectbox("Do you have proof of health insurance? ",["Yes", "No"])
+                visa_questions["police_clearance"] = st.selectbox("Do you have a police clearance certificate? ",["Yes", "No"])
                 visa_questions["residence_years"] = st.selectbox("Have you lived in Netherlands for at least 5 years continuously? ",["Yes", "No"])
                 visa_questions["legal_stay"] = st.selectbox("Have you maintained continuous legal residence? ",["Yes", "No"])
                 visa_questions["stable_income"] = st.selectbox("Do you have stable and sufficient income? ",["Yes", "No"])
                 visa_questions["integration_exam"] = st.selectbox("Have you passed civic integration exam? ",["Yes", "No"])
                 visa_questions["brp_registration"] = st.selectbox("Are you continuously registered in BRP? ",["Yes", "No"])
             elif destination_country == "Ireland":
+                visa_questions["residence_proof"] = st.selectbox("Do you have proof of 5 years continuous residence in Ireland? ",["Yes", "No"])
+                visa_questions["immigration_compliance"] = st.selectbox("Have you fully complied with Irish immigration laws during your stay? ",["Yes", "No"])
+                visa_questions["medical_insurance"] = st.selectbox("Do you have valid private medical insurance in Ireland? ",["Yes", "No"])
+                visa_questions["insurance_proof"] = st.selectbox("Do you have proof of medical insurance coverage? ",["Yes", "No"])
                 visa_questions["legal_residence"] = st.selectbox("Was your residence lawful throughout? ",["Yes", "No"])
                 visa_questions["tax_compliance"] = st.selectbox("Are you compliant with Irish taxes? ",["Yes", "No"])
 
@@ -790,7 +880,7 @@ if page == "Visa Application":
                 "travel_date": str(travel_date),
                 "duration": duration,
                 "criminal_background": criminal_background,
-                "Criminal Severity" : criminal_severity,
+                "criminal_severity" : criminal_severity,
                 "health_clearance": health_clearance,
                 "photos" : photos,
                 "step": 5,
@@ -1020,8 +1110,7 @@ if page == "Visa Application":
             }])
             csv_data = download_df.to_csv(index=False)
             st.download_button("📥 Download Application as CSV", csv_data, "visa_application.csv")
-        else:
-            st.markdown("AI reasoning is not available or could not be parsed.")
+
 # ===================== AI VISA ASSISTANT =====================
 
 elif page == "AI Visa Assistant":
