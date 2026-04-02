@@ -605,7 +605,7 @@ if page == "Visa Application":
                 ["Yes", "No"]
             )
             if destination_country == "USA":
-                visa_questions["invitation_letter"] = st.selectbox("Do you have an invitation letter from Canada? ",["Yes", "No"])
+                visa_questions["invitation_letter"] = st.selectbox("Do you have an invitation letter from USA? ",["Yes", "No"])
                 visa_questions["visa_fee_recipt"] = st.selectbox("Do you have visa fee recipt? ", ["Yes","No"])
                 visa_questions["DS-160 confirmation"] = st.selectbox("DS-160 Confirmation? ", ["Yes","No"])
             elif destination_country == "India":
