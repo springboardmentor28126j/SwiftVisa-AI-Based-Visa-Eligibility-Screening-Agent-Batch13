@@ -1,0 +1,666 @@
+[
+    {
+        "country": "USA",
+        "visa_types": [
+            {
+                "visa_type": "H1B",
+                "source": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations",
+                "policy_summary": "The H1B visa allows U.S. employers to hire foreign professionals in specialty occupations requiring theoretical or technical expertise.",
+                "eligibilities": [
+                    "Bachelor's degree or equivalent",
+                    "Job offer from US employer",
+                    "Specialty occupation required"
+                ],
+                "required_documents": [
+                    "Valid passport",
+                    "Degree certificates",
+                    "Job offer letter",
+                    "Labor Condition Application (LCA)",
+                    "Resume/CV"
+                ]
+            },
+            {
+                "visa_type": "F1 Student Visa",
+                "source": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employmen",
+                "policy_summary": "The F1 visa allows international students to pursue full-time academic studies in the United States.",
+                "eligibilities": [
+                    "Acceptance from SEVP-approved institution",
+                    "Proof of financial support",
+                    "English proficiency"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Form I-20",
+                    "SEVIS fee receipt",
+                    "Financial statements",
+                    "Academic transcripts"
+                ]
+            },
+            {
+                "visa_type": "B1/B2 Visitor Visa",
+                "source": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit/visitor.html/visa",
+                "policy_summary": "The B1/B2 visa allows temporary entry into the United States for business or tourism purposes.",
+                "eligibilities": [
+                    "Valid passport",
+                    "Intent to return home country",
+                    "Sufficient funds for stay"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "DS-160 confirmation",
+                    "Travel itinerary",
+                    "Proof of funds"
+                ]
+            },
+            {
+                "visa_type": "L1 Work Visa",
+                "source": "https://www.uscis.gov/working-in-the-united-states/temporary-workers/l-1a-intracompany-transferee-executive-or-manager",
+                "policy_summary": "The L1 visa enables multinational companies to transfer executives or managers to U.S. offices.",
+                "eligibilities": [
+                    "Employment with multinational company",
+                    "Managerial or executive position",
+                    "Minimum 1 year employment abroad"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Employment verification letter",
+                    "Company registration documents",
+                    "Resume"
+                ]
+            }
+        ]
+    },
+    {
+        "country": "Canada",
+        "visa_types": [
+            {
+                "visa_type": "Express Entry PR",
+                "source": "IRCC",
+                "policy_summary": "Express Entry is Canada's points-based immigration system for skilled workers seeking permanent residence.",
+                "eligibilities": [
+                    "Minimum CRS score",
+                    "Language test (IELTS/CELPIP)",
+                    "Educational credential assessment"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Language test results",
+                    "Educational certificates",
+                    "Proof of funds",
+                    "Police clearance certificate"
+                ]
+            },
+            {
+                "visa_type": "Study Permit",
+                "source": "IRCC",
+                "policy_summary": "A Study Permit allows international students to study at designated learning institutions in Canada.",
+                "eligibilities": [
+                    "Acceptance letter from DLI",
+                    "Proof of funds",
+                    "No criminal record"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Letter of acceptance",
+                    "Financial proof",
+                    "Medical exam report"
+                ]
+            },
+            {
+                "visa_type": "Work Permit",
+                "source": "IRCC",
+                "policy_summary": "A Work Permit allows foreign nationals to work legally in Canada under employer sponsorship.",
+                "eligibilities": [
+                    "Job offer from Canadian employer",
+                    "LMIA approval (if required)",
+                    "Relevant qualifications"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Job offer letter",
+                    "LMIA approval",
+                    "Educational credentials"
+                ]
+            },
+            {
+                "visa_type": "Visitor Visa",
+                "source": "IRCC",
+                "policy_summary": "A Visitor Visa allows temporary travel to Canada for tourism or family visits.",
+                "eligibilities": [
+                    "Valid passport",
+                    "Financial proof",
+                    "Temporary stay intent"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Travel itinerary",
+                    "Proof of funds",
+                    "Invitation letter (if applicable)"
+                ]
+            }
+        ]
+    },
+    {
+        "country": "United Kingdom",
+        "visa_types": [
+            {
+                "visa_type": "Skilled Worker Visa",
+                "source": "Gov.uk",
+                "policy_summary": "The Skilled Worker visa allows foreign professionals to work in the UK with an approved employer sponsor.",
+                "eligibilities": [
+                    "Job offer from approved sponsor",
+                    "Minimum salary threshold",
+                    "English language requirement"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Certificate of Sponsorship",
+                    "Proof of English",
+                    "Financial evidence"
+                ]
+            },
+            {
+                "visa_type": "Student Visa",
+                "source": "Gov.uk",
+                "policy_summary": "The UK Student visa permits international students to study at approved UK institutions.",
+                "eligibilities": [
+                    "CAS from university",
+                    "Proof of funds",
+                    "English proficiency"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "CAS letter",
+                    "Financial proof",
+                    "Academic transcripts"
+                ]
+            },
+            {
+                "visa_type": "Visitor Visa",
+                "source": "Gov.uk",
+                "policy_summary": "The UK Visitor visa allows temporary travel for tourism, business, or family visits.",
+                "eligibilities": [
+                    "Intent to leave UK",
+                    "Financial support",
+                    "Valid travel document"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Travel itinerary",
+                    "Proof of funds"
+                ]
+            },
+            {
+                "visa_type": "Graduate Visa",
+                "source": "Gov.uk",
+                "policy_summary": "The Graduate visa allows international students to stay and work in the UK after completing a degree.",
+                "eligibilities": [
+                    "Completed UK degree",
+                    "Valid student visa",
+                    "Apply within UK"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Degree certificate",
+                    "BRP card"
+                ]
+            }
+        ]
+    },
+    {
+        "country": "Australia",
+        "visa_types": [
+            {
+                "visa_type": "Skilled Independent Visa (189)",
+                "source": "Australian Government - Home Affairs",
+                "policy_summary": "The Subclass 189 visa allows skilled workers to live and work permanently in Australia without employer sponsorship.",
+                "eligibilities": [
+                    "Occupation listed in skilled occupation list",
+                    "Pass points test",
+                    "English language proficiency"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Skills assessment",
+                    "English test results",
+                    "Educational certificates",
+                    "Employment references"
+                ]
+            },
+            {
+                "visa_type": "Student Visa",
+                "source": "Home Affairs",
+                "policy_summary": "The Australian Student Visa allows international students to study full-time at registered institutions.",
+                "eligibilities": [
+                    "Confirmation of Enrolment (CoE)",
+                    "Financial capacity",
+                    "Health insurance"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "CoE letter",
+                    "Financial proof",
+                    "Overseas Student Health Cover (OSHC)"
+                ]
+            },
+            {
+                "visa_type": "Visitor Visa",
+                "source": "Home Affairs",
+                "policy_summary": "The Visitor Visa allows temporary entry to Australia for tourism or business visitor purposes.",
+                "eligibilities": [
+                    "Genuine visitor requirement",
+                    "Financial proof",
+                    "Health requirement"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Travel itinerary",
+                    "Proof of funds"
+                ]
+            },
+            {
+                "visa_type": "Temporary Skill Shortage Visa",
+                "source": "Home Affairs",
+                "policy_summary": "The TSS visa allows employers to sponsor overseas workers to fill skill shortages.",
+                "eligibilities": [
+                    "Employer sponsorship",
+                    "Relevant skills",
+                    "English proficiency"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Employment contract",
+                    "Skills assessment",
+                    "English test results"
+                ]
+            }
+        ]
+    },
+    {
+        "country": "Germany",
+        "visa_types": [
+            {
+                "visa_type": "EU Blue Card",
+                "source": "Federal Office for Migration",
+                "policy_summary": "The EU Blue Card allows highly qualified professionals to work and reside in Germany.",
+                "eligibilities": [
+                    "Recognized university degree",
+                    "Job offer in Germany",
+                    "Minimum salary threshold"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "University degree",
+                    "Employment contract",
+                    "Health insurance"
+                ]
+            },
+            {
+                "visa_type": "Student Visa",
+                "source": "German Embassy",
+                "policy_summary": "The German Student Visa permits international students to pursue higher education in Germany.",
+                "eligibilities": [
+                    "University admission",
+                    "Blocked account proof",
+                    "Health insurance"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Admission letter",
+                    "Blocked account confirmation",
+                    "Health insurance proof"
+                ]
+            },
+            {
+                "visa_type": "Job Seeker Visa",
+                "source": "German Embassy",
+                "policy_summary": "The Job Seeker Visa allows qualified professionals to enter Germany to search for employment.",
+                "eligibilities": [
+                    "Recognized degree",
+                    "Proof of funds",
+                    "Relevant experience"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Degree certificate",
+                    "Proof of funds",
+                    "Resume"
+                ]
+            },
+            {
+                "visa_type": "Tourist Visa",
+                "source": "Schengen Authority",
+                "policy_summary": "The Tourist Visa allows short-term travel within Germany and Schengen area.",
+                "eligibilities": [
+                    "Travel insurance",
+                    "Financial proof",
+                    "Return ticket"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Travel insurance",
+                    "Flight reservation",
+                    "Proof of funds"
+                ]
+            }
+        ]
+    },
+    {
+        "country": "France",
+        "visa_types": [
+            {
+                "visa_type": "Talent Passport",
+                "source": "France-Visas",
+                "policy_summary": "The Talent Passport allows highly skilled professionals to work in France.",
+                "eligibilities": [
+                    "Highly skilled professional",
+                    "Employment contract",
+                    "Minimum salary"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Employment contract",
+                    "Degree certificate"
+                ]
+            },
+            {
+                "visa_type": "Student Visa",
+                "source": "France-Visas",
+                "policy_summary": "The Student Visa allows international students to pursue academic studies in France.",
+                "eligibilities": [
+                    "University admission",
+                    "Financial support",
+                    "Accommodation proof"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Admission letter",
+                    "Proof of accommodation",
+                    "Financial statements"
+                ]
+            },
+            {
+                "visa_type": "Visitor Visa",
+                "source": "France-Visas",
+                "policy_summary": "The Visitor Visa permits short stays for tourism or personal visits.",
+                "eligibilities": [
+                    "Temporary stay purpose",
+                    "Travel insurance",
+                    "Financial means"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Travel insurance",
+                    "Return ticket"
+                ]
+            },
+            {
+                "visa_type": "Work Visa",
+                "source": "France-Visas",
+                "policy_summary": "The Work Visa allows foreign nationals to work legally in France.",
+                "eligibilities": [
+                    "Job offer",
+                    "Work contract approval",
+                    "Relevant skills"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Employment contract",
+                    "Work authorization"
+                ]
+            }
+        ]
+    },
+    {
+        "country": "New Zealand",
+        "visa_types": [
+            {
+                "visa_type": "Skilled Migrant Visa",
+                "source": "Immigration NZ",
+                "policy_summary": "Allows skilled workers to gain permanent residency in New Zealand.",
+                "eligibilities": [
+                    "Points test",
+                    "Job offer",
+                    "Age below 55"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Skills assessment",
+                    "Employment offer",
+                    "Medical certificate"
+                ]
+            },
+            {
+                "visa_type": "Student Visa",
+                "source": "Immigration NZ",
+                "policy_summary": "Allows international students to study in New Zealand.",
+                "eligibilities": [
+                    "Offer of place",
+                    "Proof of funds",
+                    "Health insurance"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Offer letter",
+                    "Financial proof",
+                    "Medical insurance"
+                ]
+            },
+            {
+                "visa_type": "Work Visa",
+                "source": "Immigration NZ",
+                "policy_summary": "Permits foreign nationals to work temporarily in New Zealand.",
+                "eligibilities": [
+                    "Employer sponsorship",
+                    "Qualification",
+                    "English proficiency"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Job offer",
+                    "Employment contract"
+                ]
+            },
+            {
+                "visa_type": "Visitor Visa",
+                "source": "Immigration NZ",
+                "policy_summary": "Allows temporary visits for tourism or family purposes.",
+                "eligibilities": [
+                    "Financial support",
+                    "Intent to leave"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Travel itinerary",
+                    "Proof of funds"
+                ]
+            }
+        ]
+    },
+    {
+        "country": "Japan",
+        "visa_types": [
+            {
+                "visa_type": "Engineer Visa",
+                "source": "Immigration Services Agency Japan",
+                "policy_summary": "Allows foreign engineers and IT professionals to work in Japan.",
+                "eligibilities": [
+                    "Relevant degree",
+                    "Job offer",
+                    "Specialized skills"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Degree certificate",
+                    "Employment contract"
+                ]
+            },
+            {
+                "visa_type": "Student Visa",
+                "source": "Japanese Embassy",
+                "policy_summary": "Allows foreign nationals to pursue education in Japan.",
+                "eligibilities": [
+                    "University admission",
+                    "Financial proof"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Admission letter",
+                    "Financial statements"
+                ]
+            },
+            {
+                "visa_type": "Business Visa",
+                "source": "Japanese Embassy",
+                "policy_summary": "Allows short-term business visits to Japan.",
+                "eligibilities": [
+                    "Business purpose",
+                    "Financial stability"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Invitation letter",
+                    "Company documents"
+                ]
+            },
+            {
+                "visa_type": "Tourist Visa",
+                "source": "Japanese Embassy",
+                "policy_summary": "Permits tourism travel to Japan.",
+                "eligibilities": [
+                    "Travel itinerary",
+                    "Financial proof"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Flight booking",
+                    "Hotel reservation"
+                ]
+            }
+        ]
+    },
+    {
+        "country": "Singapore",
+        "visa_types": [
+            {
+                "visa_type": "Employment Pass",
+                "source": "Ministry of Manpower",
+                "policy_summary": "Allows foreign professionals to work in Singapore.",
+                "eligibilities": [
+                    "Job offer",
+                    "Minimum salary",
+                    "Relevant degree"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Employment contract",
+                    "Degree certificate"
+                ]
+            },
+            {
+                "visa_type": "Student Pass",
+                "source": "ICA Singapore",
+                "policy_summary": "Allows foreign students to study in Singapore.",
+                "eligibilities": [
+                    "Acceptance letter",
+                    "Financial proof"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Admission letter",
+                    "Financial statements"
+                ]
+            },
+            {
+                "visa_type": "Work Permit",
+                "source": "Ministry of Manpower",
+                "policy_summary": "Allows semi-skilled foreign workers to work in Singapore.",
+                "eligibilities": [
+                    "Employer sponsorship",
+                    "Medical fitness"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Employment offer",
+                    "Medical report"
+                ]
+            },
+            {
+                "visa_type": "Visit Pass",
+                "source": "ICA Singapore",
+                "policy_summary": "Allows short-term travel to Singapore.",
+                "eligibilities": [
+                    "Return ticket",
+                    "Financial proof"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Flight ticket",
+                    "Hotel booking"
+                ]
+            }
+        ]
+    },
+    {
+        "country": "UAE",
+        "visa_types": [
+            {
+                "visa_type": "Employment Visa",
+                "source": "UAE Government Portal",
+                "policy_summary": "Allows foreign nationals to work legally in the UAE under employer sponsorship.",
+                "eligibilities": [
+                    "Job offer",
+                    "Medical test",
+                    "Employer sponsorship"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Employment contract",
+                    "Medical certificate"
+                ]
+            },
+            {
+                "visa_type": "Student Visa",
+                "source": "UAE Government Portal",
+                "policy_summary": "Allows international students to study in UAE institutions.",
+                "eligibilities": [
+                    "University admission",
+                    "Financial proof"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Admission letter",
+                    "Financial proof"
+                ]
+            },
+            {
+                "visa_type": "Tourist Visa",
+                "source": "UAE Government Portal",
+                "policy_summary": "Allows short-term tourism travel to the UAE.",
+                "eligibilities": [
+                    "Valid passport",
+                    "Return ticket"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Flight booking",
+                    "Hotel reservation"
+                ]
+            },
+            {
+                "visa_type": "Golden Visa",
+                "source": "UAE Government Portal",
+                "policy_summary": "Provides long-term residency to investors, entrepreneurs, and exceptional talents.",
+                "eligibilities": [
+                    "High investment",
+                    "Exceptional talent"
+                ],
+                "required_documents": [
+                    "Passport",
+                    "Investment proof",
+                    "Qualification certificates"
+                ]
+            }
+        ]
+    }
+]
