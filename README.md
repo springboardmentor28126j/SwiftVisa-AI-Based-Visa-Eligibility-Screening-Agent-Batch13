@@ -56,6 +56,11 @@ swiftvisa-ai/
 │       ├── index.faiss                     # FAISS index file
 │       └── index.pkl                       # Metadata / mapping file
 │
+├── screenshots/                            # 📸 App UI screenshots (for README/demo)
+│   ├── AI visa Assitant/
+│   ├── Admin Dashboard/
+│   ├── Education and work/...
+│   
 ├── source/
 │   ├── __init__.py
 │   ├── app.py                              # Streamlit UI (deployment layer)
@@ -228,7 +233,7 @@ streamlit run source/app.py
 
 ## 🔗 Project Link
 
-🌐 Live App: [https://app-link.streamlit.app ](https://swift-ai-visa-ufnw5feswxrggmsvjfnx33.streamlit.app/) 
+🌐 Live App: [https://app-link.streamlit.app ](https://swift-ai-visa-bhbdnl7ramgduphbkkfrho.streamlit.app/)
 
 ---
 
