@@ -1,0 +1,12 @@
+{
+  "United States": ["F-1 Student Visa", "M-1 Vocational Visa", "H1B Work Visa", "B2 Tourist Visa"],
+  "India": ["Student Visa", "Employment Visa", "Business Visa", "Tourist Visa"],
+  "Canada": ["Study Permit", "Work Permit", "Visitor Visa"],
+  "United Kingdom": ["Student Visa", "Skilled Worker Visa", "Visitor Visa"],
+  "Australia": ["Student Visa", "Temporary Skill Shortage Visa", "Visitor Visa"],
+  "Germany": ["Student Visa", "Job Seeker Visa", "Work Visa"],
+  "France": ["Student Visa", "Work Visa", "Visitor Visa"],
+  "Italy": ["Student Visa", "Work Visa"],
+  "Netherlands": ["Student Visa", "Highly Skilled Migrant Visa"],
+  "Switzerland": ["Student Visa", "Work Visa"]
+}

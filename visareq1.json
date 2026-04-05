@@ -1,0 +1,2487 @@
+{
+  "visa_data": [
+    {
+      "country_name": "United States",
+      "official_site": "https://travel.state.gov/content/travel/en/us-visas.html",
+      "visa_policies": [
+        {
+          "visa_type": "A-1 / A-2 Diplomatic Visa",
+          "category": "Diplomatic/Government",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not specified",
+            "financial_requirement": "Government funded",
+            "language_requirement": "Not required",
+            "health_requirement": "Standard medical admissibility",
+            "police_clearance": "Background security clearance",
+            "sponsorship_requirement": "Foreign government sponsorship"
+          },
+          "documents_required": [
+            "Diplomatic passport",
+            "Official government letter",
+            "DS-160 form",
+            "Photograph"
+          ],
+          "visa_process": {
+            "interview_required": "Yes (may be waived)",
+            "biometrics_required": "Yes",
+            "processing_time": "2–6 weeks",
+            "visa_fee": "Fee exempt"
+          },
+          "duration": "Duration of diplomatic assignment",
+          "work_rights": "Authorized diplomatic duties only",
+          "pathway_to_pr": "No",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/other-visa-categories/foreign-government-official.html"
+        },
+        {
+          "visa_type": "B-1 Business Visitor Visa",
+          "category": "Business",
+          "eligibility_criteria": {
+            "age_requirement": "No minimum (minors require guardian consent)",
+            "education_requirement": "Not required",
+            "financial_requirement": "Proof of sufficient funds",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical admissibility required",
+            "police_clearance": "Background check",
+            "sponsorship_requirement": "Not required"
+          },
+          "documents_required": [
+            "Valid passport",
+            "DS-160 confirmation",
+            "Appointment confirmation",
+            "Bank statements",
+            "Invitation letter (if applicable)"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "1–4 weeks",
+            "visa_fee": "USD 185"
+          },
+          "duration": "Up to 6 months",
+          "work_rights": "No employment permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/business.html"
+        },
+        {
+          "visa_type": "B-2 Tourist Visa",
+          "category": "Tourism",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "Proof of travel funds",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical admissibility required",
+            "police_clearance": "Background check",
+            "sponsorship_requirement": "Not required"
+          },
+          "documents_required": [
+            "Passport",
+            "DS-160",
+            "Photograph",
+            "Proof of ties to home country",
+            "Bank statements"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "1–6 weeks",
+            "visa_fee": "USD 185"
+          },
+          "duration": "Up to 6 months",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/tourism-visit.html"
+        },
+        {
+          "visa_type": "F-1 Academic Student Visa",
+          "category": "Study",
+          "eligibility_criteria": {
+            "age_requirement": "17+ typically",
+            "education_requirement": "Admission to SEVP-approved school",
+            "financial_requirement": "Full tuition + 1 year living expenses",
+            "language_requirement": "English proficiency (TOEFL/IELTS if required)",
+            "health_requirement": "Medical admissibility",
+            "police_clearance": "Security screening",
+            "sponsorship_requirement": "Form I-20 from institution"
+          },
+          "documents_required": [
+            "Passport",
+            "Form I-20",
+            "SEVIS fee receipt",
+            "DS-160",
+            "Academic transcripts",
+            "Financial proof"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–8 weeks",
+            "visa_fee": "USD 185"
+          },
+          "duration": "Duration of study program",
+          "work_rights": "20 hrs/week on-campus",
+          "pathway_to_pr": "Indirect (OPT → H-1B → Green Card)",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+        },
+        {
+          "visa_type": "F-2 Dependent Visa",
+          "category": "Family",
+          "eligibility_criteria": {
+            "age_requirement": "Spouse or child under 21 of F-1 holder",
+            "education_requirement": "Not required",
+            "financial_requirement": "Covered by F-1 sponsor",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical admissibility",
+            "police_clearance": "Security screening",
+            "sponsorship_requirement": "Primary F-1 holder"
+          },
+          "documents_required": [
+            "Passport",
+            "I-20 (dependent)",
+            "Marriage/birth certificate",
+            "Financial documents"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–8 weeks",
+            "visa_fee": "USD 185"
+          },
+          "duration": "Same as F-1 holder",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No direct pathway",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+        },
+        {
+          "visa_type": "G-1 to G-5 International Organization Visas",
+          "category": "International Organization",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not specified",
+            "financial_requirement": "Sponsored by international organization",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical admissibility",
+            "police_clearance": "Security clearance",
+            "sponsorship_requirement": "Recognized international organization (UN, IMF, World Bank, etc.)"
+          },
+          "documents_required": [
+            "Official letter from organization",
+            "Diplomatic passport (if applicable)",
+            "DS-160",
+            "Photograph"
+          ],
+          "visa_process": {
+            "interview_required": "Yes (may be waived)",
+            "biometrics_required": "Yes",
+            "processing_time": "2–6 weeks",
+            "visa_fee": "Fee exempt"
+          },
+          "duration": "Duration of assignment",
+          "work_rights": "Authorized official duties only",
+          "pathway_to_pr": "No",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/other-visa-categories/foreign-government-official.html"
+        },
+        {
+          "visa_type": "H-1B Specialty Occupation Visa",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Bachelor’s degree or equivalent",
+            "financial_requirement": "Employer must meet prevailing wage",
+            "language_requirement": "Not formally required",
+            "health_requirement": "Medical admissibility",
+            "police_clearance": "Background screening",
+            "sponsorship_requirement": "US employer sponsorship with approved LCA"
+          },
+          "documents_required": [
+            "Approved I-129 petition",
+            "Labor Condition Application",
+            "Degree certificates",
+            "Passport",
+            "DS-160"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "3–6 months",
+            "visa_fee": "USD 205+ (petition fees additional)"
+          },
+          "duration": "3 years (extendable to 6)",
+          "work_rights": "Employer-specific employment only",
+          "pathway_to_pr": "Yes (EB category sponsorship)",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/employment.html"
+        },
+        {
+          "visa_type": "H-2A Agricultural Worker Visa",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18+ typical",
+            "education_requirement": "Not required",
+            "financial_requirement": "Employer covers wages per DOL standards",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical admissibility",
+            "police_clearance": "Background screening",
+            "sponsorship_requirement": "US employer temporary agricultural petition"
+          },
+          "documents_required": [
+            "Approved I-129",
+            "Temporary labor certification",
+            "Passport",
+            "DS-160"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–4 months",
+            "visa_fee": "USD 205"
+          },
+          "duration": "Up to 1 year (renewable)",
+          "work_rights": "Employer-specific agricultural work",
+          "pathway_to_pr": "No direct pathway",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/employment/temporary-worker-visas.html"
+        },
+        {
+          "visa_type": "J-1 Exchange Visitor Visa",
+          "category": "Exchange",
+          "eligibility_criteria": {
+            "age_requirement": "Program dependent",
+            "education_requirement": "Program-specific qualification",
+            "financial_requirement": "Proof of funding for program",
+            "language_requirement": "English proficiency required",
+            "health_requirement": "Medical admissibility + insurance required",
+            "police_clearance": "Security screening",
+            "sponsorship_requirement": "Designated exchange sponsor (DS-2019)"
+          },
+          "documents_required": [
+            "Form DS-2019",
+            "SEVIS fee receipt",
+            "Passport",
+            "DS-160",
+            "Program acceptance letter"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–6 weeks",
+            "visa_fee": "USD 185"
+          },
+          "duration": "Program duration",
+          "work_rights": "Program-authorized work only",
+          "pathway_to_pr": "Generally No (2-year home residency may apply)",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/study/exchange.html"
+        },
+        {
+          "visa_type": "K-1 Fiancé(e) Visa",
+          "category": "Family",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Not required",
+            "financial_requirement": "US sponsor must meet income threshold (I-134)",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "US citizen fiancé petition (I-129F)"
+          },
+          "documents_required": [
+            "Approved I-129F",
+            "Passport",
+            "Police certificates",
+            "Medical exam results",
+            "Proof of relationship"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "6–12 months",
+            "visa_fee": "USD 265"
+          },
+          "duration": "90 days to marry",
+          "work_rights": "After marriage and adjustment",
+          "pathway_to_pr": "Yes (Adjustment of Status after marriage)",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/immigrate/family-immigration.html"
+        },
+        {
+          "visa_type": "L-1 Intra-Company Transfer Visa",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not mandatory but role-based",
+            "financial_requirement": "Employer must meet wage requirements",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical admissibility",
+            "police_clearance": "Security screening",
+            "sponsorship_requirement": "Qualifying multinational employer"
+          },
+          "documents_required": [
+            "Approved I-129",
+            "Proof of employment abroad (1 year)",
+            "Passport",
+            "DS-160"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "1–3 months",
+            "visa_fee": "USD 205"
+          },
+          "duration": "1–7 years depending on classification",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Yes (EB-1C possible)",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/employment.html"
+        },
+        {
+          "visa_type": "M-1 Vocational Student Visa",
+          "category": "Study",
+          "eligibility_criteria": {
+            "age_requirement": "17+",
+            "education_requirement": "Admission to vocational institution",
+            "financial_requirement": "Full tuition + living expenses",
+            "language_requirement": "English proficiency",
+            "health_requirement": "Medical admissibility",
+            "police_clearance": "Security screening",
+            "sponsorship_requirement": "Form I-20 from institution"
+          },
+          "documents_required": [
+            "Passport",
+            "Form I-20",
+            "SEVIS receipt",
+            "Financial proof",
+            "DS-160"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–8 weeks",
+            "visa_fee": "USD 185"
+          },
+          "duration": "Duration of vocational program",
+          "work_rights": "Limited practical training",
+          "pathway_to_pr": "No direct pathway",
+          "official_source": "https://travel.state.gov/content/travel/en/us-visas/study/student-visa.html"
+        }
+      ]
+    },
+    {
+      "country_name": "United Kingdom",
+      "official_site": "https://www.gov.uk/browse/visas-immigration",
+      "visa_policies": [
+        {
+          "visa_type": "Standard Visitor Visa",
+          "category": "Tourism/Business",
+          "eligibility_criteria": {
+            "age_requirement": "18+ (minors allowed with consent)",
+            "education_requirement": "Not required",
+            "financial_requirement": "Proof of funds to cover stay",
+            "language_requirement": "Not required",
+            "health_requirement": "TB test required for some countries",
+            "police_clearance": "Background check if applicable",
+            "sponsorship_requirement": "Not mandatory (invitation letter optional)"
+          },
+          "documents_required": [
+            "Passport",
+            "Bank statements (6 months)",
+            "Travel itinerary",
+            "Proof of accommodation",
+            "Invitation letter (if applicable)"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "3 weeks",
+            "visa_fee": "£115 (6-month visa)"
+          },
+          "duration": "Up to 6 months",
+          "work_rights": "No employment permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://www.gov.uk/standard-visitor"
+        },
+        {
+          "visa_type": "Student Visa",
+          "category": "Study",
+          "eligibility_criteria": {
+            "age_requirement": "16+",
+            "education_requirement": "CAS from licensed sponsor",
+            "financial_requirement": "£1,334/month (London) or £1,023/month (outside London)",
+            "language_requirement": "IELTS UKVI or approved SELT",
+            "health_requirement": "TB test required (if applicable)",
+            "police_clearance": "Required for some nationals",
+            "sponsorship_requirement": "Confirmation of Acceptance for Studies (CAS)"
+          },
+          "documents_required": [
+            "Passport",
+            "CAS letter",
+            "Bank statements",
+            "IELTS certificate",
+            "TB test result",
+            "Academic transcripts"
+          ],
+          "visa_process": {
+            "interview_required": "Yes (credibility interview possible)",
+            "biometrics_required": "Yes",
+            "processing_time": "3 weeks",
+            "visa_fee": "£490"
+          },
+          "duration": "Course duration + 4 months",
+          "work_rights": "20 hours/week during term",
+          "pathway_to_pr": "Graduate Visa → Skilled Worker → ILR",
+          "official_source": "https://www.gov.uk/student-visa"
+        },
+        {
+          "visa_type": "Skilled Worker Visa",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Job must meet skill level RQF 3+",
+            "financial_requirement": "Maintenance funds £1,270 (unless sponsor certified)",
+            "language_requirement": "English B1 level",
+            "health_requirement": "TB test if required",
+            "police_clearance": "Required for certain occupations",
+            "sponsorship_requirement": "Certificate of Sponsorship from licensed employer"
+          },
+          "documents_required": [
+            "Passport",
+            "Certificate of Sponsorship",
+            "Proof of English",
+            "Bank statements",
+            "Job offer letter"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "3–8 weeks",
+            "visa_fee": "£719–£1,500 (depending on duration)"
+          },
+          "duration": "Up to 5 years",
+          "work_rights": "Employer-specific employment",
+          "pathway_to_pr": "Yes (ILR after 5 years)",
+          "official_source": "https://www.gov.uk/skilled-worker-visa"
+        },
+        {
+          "visa_type": "Global Talent Visa",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Endorsement in academia, arts, or digital tech",
+            "financial_requirement": "Maintenance funds £1,270",
+            "language_requirement": "English B1",
+            "health_requirement": "TB test if applicable",
+            "police_clearance": "May be required",
+            "sponsorship_requirement": "Endorsement from approved body"
+          },
+          "documents_required": [
+            "Passport",
+            "Endorsement letter",
+            "Proof of achievements",
+            "Bank statements"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes",
+            "processing_time": "3–8 weeks",
+            "visa_fee": "£716"
+          },
+          "duration": "Up to 5 years",
+          "work_rights": "Flexible employment",
+          "pathway_to_pr": "Yes (3–5 years)",
+          "official_source": "https://www.gov.uk/global-talent"
+        },
+        {
+          "visa_type": "Family Visa (Spouse/Partner)",
+          "category": "Family",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Not required",
+            "financial_requirement": "Minimum income £29,000 (2026 threshold)",
+            "language_requirement": "English A1 initial",
+            "health_requirement": "TB test if required",
+            "police_clearance": "Background check",
+            "sponsorship_requirement": "UK citizen or settled sponsor"
+          },
+          "documents_required": [
+            "Passport",
+            "Marriage certificate",
+            "Financial proof",
+            "English certificate",
+            "Proof of relationship"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "8–12 weeks",
+            "visa_fee": "£1,846"
+          },
+          "duration": "2.5 years (renewable)",
+          "work_rights": "Full work rights",
+          "pathway_to_pr": "Yes (5 years to ILR)",
+          "official_source": "https://www.gov.uk/uk-family-visa"
+        },
+        {
+          "visa_type": "Innovator Founder Visa",
+          "category": "Business/Investment",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Innovative business plan endorsement",
+            "financial_requirement": "Sufficient maintenance funds",
+            "language_requirement": "English B2",
+            "health_requirement": "TB test if required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Endorsement body approval"
+          },
+          "documents_required": [
+            "Passport",
+            "Endorsement letter",
+            "Business plan",
+            "Financial proof"
+          ],
+          "visa_process": {
+            "interview_required": "Possible",
+            "biometrics_required": "Yes",
+            "processing_time": "3–8 weeks",
+            "visa_fee": "£1,191"
+          },
+          "duration": "3 years",
+          "work_rights": "Operate approved business",
+          "pathway_to_pr": "Yes (after 3 years)",
+          "official_source": "https://www.gov.uk/innovator-founder-visa"
+        }
+      ]
+    },
+    {
+      "country_name": "Canada",
+      "official_site": "https://www.canada.ca/en/services/immigration-citizenship.html",
+      "visa_policies": [
+        {
+          "visa_type": "Temporary Resident Visa (Visitor Visa)",
+          "category": "Tourism/Business",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction (minors require guardian)",
+            "education_requirement": "Not required",
+            "financial_requirement": "Proof of sufficient funds for stay",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical exam required for long stays or certain countries",
+            "police_clearance": "May be required",
+            "sponsorship_requirement": "Invitation letter if visiting family/friends"
+          },
+          "documents_required": [
+            "Valid passport",
+            "Application form IMM 5257",
+            "Bank statements",
+            "Travel itinerary",
+            "Proof of ties to home country"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–8 weeks",
+            "visa_fee": "CAD 100"
+          },
+          "duration": "Up to 6 months per visit",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/visit-canada.html"
+        },
+        {
+          "visa_type": "Study Permit",
+          "category": "Study",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Letter of Acceptance from DLI",
+            "financial_requirement": "CAD 20,635 living expenses + tuition (2026 standard)",
+            "language_requirement": "IELTS/TOEFL as per institution",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Not mandatory (self-funded allowed)"
+          },
+          "documents_required": [
+            "Letter of Acceptance",
+            "Passport",
+            "Proof of funds",
+            "IELTS score",
+            "Medical exam report",
+            "Biometrics receipt"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "4–12 weeks",
+            "visa_fee": "CAD 150"
+          },
+          "duration": "Length of program",
+          "work_rights": "24 hours/week during academic session",
+          "pathway_to_pr": "Yes (PGWP → Express Entry)",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada.html"
+        },
+        {
+          "visa_type": "Post-Graduation Work Permit (PGWP)",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Graduation from eligible DLI",
+            "financial_requirement": "Not required",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical admissibility",
+            "police_clearance": "Background check",
+            "sponsorship_requirement": "Not required"
+          },
+          "documents_required": [
+            "Graduation completion letter",
+            "Transcript",
+            "Passport",
+            "Study permit copy"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes",
+            "processing_time": "2–6 months",
+            "visa_fee": "CAD 255"
+          },
+          "duration": "Up to 3 years",
+          "work_rights": "Open work permit",
+          "pathway_to_pr": "Yes (Canadian Experience Class)",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation.html"
+        },
+        {
+          "visa_type": "Temporary Foreign Worker Program (LMIA Work Permit)",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Job-specific",
+            "financial_requirement": "Not required",
+            "language_requirement": "English/French depending on job",
+            "health_requirement": "Medical exam if required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Positive LMIA from employer"
+          },
+          "documents_required": [
+            "Job offer letter",
+            "LMIA approval",
+            "Passport",
+            "Work permit application form"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–6 months",
+            "visa_fee": "CAD 155"
+          },
+          "duration": "Job contract duration",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Yes (Express Entry)",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/work-canada.html"
+        },
+        {
+          "visa_type": "Express Entry – Federal Skilled Worker",
+          "category": "Permanent Residence",
+          "eligibility_criteria": {
+            "age_requirement": "Points-based (18–35 optimal)",
+            "education_requirement": "Minimum secondary education (ECA required)",
+            "financial_requirement": "Settlement funds CAD 14,690+ (single applicant)",
+            "language_requirement": "IELTS General CLB 7+",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Not required"
+          },
+          "documents_required": [
+            "ECA report",
+            "IELTS General score",
+            "Proof of funds",
+            "Work experience letters",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes",
+            "processing_time": "6 months (after ITA)",
+            "visa_fee": "CAD 1,365"
+          },
+          "duration": "Permanent residence",
+          "work_rights": "Full work rights",
+          "pathway_to_pr": "Direct PR",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry.html"
+        },
+        {
+          "visa_type": "Provincial Nominee Program (PNP)",
+          "category": "Permanent Residence",
+          "eligibility_criteria": {
+            "age_requirement": "Province-specific",
+            "education_requirement": "Province-specific",
+            "financial_requirement": "Settlement funds required",
+            "language_requirement": "CLB 4–7 depending on stream",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Provincial nomination"
+          },
+          "documents_required": [
+            "Provincial nomination certificate",
+            "IELTS General",
+            "Work experience letters",
+            "Proof of funds",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "6–12 months",
+            "visa_fee": "CAD 1,365 (federal stage)"
+          },
+          "duration": "Permanent residence",
+          "work_rights": "Full",
+          "pathway_to_pr": "Direct PR",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/provincial-nominees.html"
+        },
+        {
+          "visa_type": "Family Sponsorship (Spouse/Common-law)",
+          "category": "Family",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Not required",
+            "financial_requirement": "Sponsor must meet income requirements",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Canadian citizen or PR sponsor"
+          },
+          "documents_required": [
+            "Marriage certificate",
+            "Sponsor financial documents",
+            "Passport",
+            "Police certificates"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "12 months",
+            "visa_fee": "CAD 1,080"
+          },
+          "duration": "Permanent residence",
+          "work_rights": "Full",
+          "pathway_to_pr": "Direct PR",
+          "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/family-sponsorship.html"
+        }
+      ]
+    },
+    {
+      "country_name": "Australia",
+      "official_site": "https://immi.homeaffairs.gov.au/visas",
+      "visa_policies": [
+        {
+          "visa_type": "Subclass 600 – Visitor Visa",
+          "category": "Tourism/Business",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "Proof of sufficient funds",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical exam if required",
+            "police_clearance": "May be requested",
+            "sponsorship_requirement": "Optional (sponsored stream available)"
+          },
+          "documents_required": [
+            "Passport",
+            "Bank statements",
+            "Travel itinerary",
+            "Invitation letter (if sponsored)"
+          ],
+          "visa_process": {
+            "interview_required": "Rare",
+            "biometrics_required": "Yes",
+            "processing_time": "2–6 weeks",
+            "visa_fee": "AUD 190"
+          },
+          "duration": "Up to 12 months",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/visitor-600"
+        },
+        {
+          "visa_type": "Subclass 500 – Student Visa",
+          "category": "Study",
+          "eligibility_criteria": {
+            "age_requirement": "6+ (school), 18+ typical higher education",
+            "education_requirement": "Confirmation of Enrolment (CoE)",
+            "financial_requirement": "AUD 29,710 per year living cost (2026 standard)",
+            "language_requirement": "IELTS 6.0+ or equivalent",
+            "health_requirement": "OSHC insurance required",
+            "police_clearance": "Yes",
+            "sponsorship_requirement": "Education provider sponsorship"
+          },
+          "documents_required": [
+            "Passport",
+            "CoE",
+            "OSHC insurance proof",
+            "IELTS result",
+            "Financial evidence"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "4–8 weeks",
+            "visa_fee": "AUD 710"
+          },
+          "duration": "Course duration",
+          "work_rights": "48 hours per fortnight",
+          "pathway_to_pr": "Yes (Skilled migration)",
+          "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500"
+        },
+        {
+          "visa_type": "Subclass 485 – Temporary Graduate Visa",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "Under 35 (most streams)",
+            "education_requirement": "Recent Australian qualification",
+            "financial_requirement": "Not required",
+            "language_requirement": "IELTS 6.0 overall",
+            "health_requirement": "Health insurance required",
+            "police_clearance": "Yes",
+            "sponsorship_requirement": "Not required"
+          },
+          "documents_required": [
+            "Completion letter",
+            "Academic transcript",
+            "English test",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes",
+            "processing_time": "4–6 months",
+            "visa_fee": "AUD 1,895"
+          },
+          "duration": "2–3 years",
+          "work_rights": "Full work rights",
+          "pathway_to_pr": "Yes",
+          "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485"
+        },
+        {
+          "visa_type": "Subclass 189 – Skilled Independent Visa",
+          "category": "Permanent Residence",
+          "eligibility_criteria": {
+            "age_requirement": "Under 45",
+            "education_requirement": "Skills assessment required",
+            "financial_requirement": "Settlement funds recommended",
+            "language_requirement": "IELTS 6.0 minimum",
+            "health_requirement": "Medical examination",
+            "police_clearance": "Yes",
+            "sponsorship_requirement": "Not required"
+          },
+          "documents_required": [
+            "Skills assessment",
+            "IELTS result",
+            "EOI invitation",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes",
+            "processing_time": "6–12 months",
+            "visa_fee": "AUD 4,640"
+          },
+          "duration": "Permanent residence",
+          "work_rights": "Full",
+          "pathway_to_pr": "Direct PR",
+          "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189"
+        },
+        {
+          "visa_type": "Subclass 190 – Skilled Nominated Visa",
+          "category": "Permanent Residence",
+          "eligibility_criteria": {
+            "age_requirement": "Under 45",
+            "education_requirement": "Skills assessment",
+            "financial_requirement": "Settlement funds recommended",
+            "language_requirement": "IELTS 6.0",
+            "health_requirement": "Medical examination",
+            "police_clearance": "Yes",
+            "sponsorship_requirement": "State nomination required"
+          },
+          "documents_required": [
+            "State nomination certificate",
+            "Skills assessment",
+            "IELTS",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes",
+            "processing_time": "6–12 months",
+            "visa_fee": "AUD 4,640"
+          },
+          "duration": "Permanent residence",
+          "work_rights": "Full",
+          "pathway_to_pr": "Direct PR",
+          "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-nominated-190"
+        },
+        {
+          "visa_type": "Subclass 491 – Skilled Work Regional Visa",
+          "category": "Work/PR Pathway",
+          "eligibility_criteria": {
+            "age_requirement": "Under 45",
+            "education_requirement": "Skills assessment",
+            "financial_requirement": "Settlement funds recommended",
+            "language_requirement": "IELTS 6.0",
+            "health_requirement": "Medical exam",
+            "police_clearance": "Yes",
+            "sponsorship_requirement": "State or family sponsorship"
+          },
+          "documents_required": [
+            "Nomination approval",
+            "Skills assessment",
+            "IELTS",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes",
+            "processing_time": "6–12 months",
+            "visa_fee": "AUD 4,640"
+          },
+          "duration": "5 years",
+          "work_rights": "Regional employment required",
+          "pathway_to_pr": "Yes (Subclass 191)",
+          "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-work-regional-provisional-491"
+        },
+        {
+          "visa_type": "Subclass 482 – Temporary Skill Shortage Visa",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Relevant qualification",
+            "financial_requirement": "Employer salary threshold applies",
+            "language_requirement": "IELTS 5.0 minimum",
+            "health_requirement": "Medical exam",
+            "police_clearance": "Yes",
+            "sponsorship_requirement": "Employer sponsorship"
+          },
+          "documents_required": [
+            "Job offer",
+            "Skills assessment (if required)",
+            "English test",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Rare",
+            "biometrics_required": "Yes",
+            "processing_time": "1–4 months",
+            "visa_fee": "AUD 1,455+"
+          },
+          "duration": "Up to 4 years",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Yes (Subclass 186)",
+          "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-skill-shortage-482"
+        }
+      ]
+    },
+    {
+      "country_name": "Germany",
+      "official_site": "https://www.auswaertiges-amt.de",
+      "visa_policies": [
+        {
+          "visa_type": "Schengen Visa (Type C)",
+          "category": "Tourism/Business",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "€45–€100 per day (proof of funds)",
+            "language_requirement": "Not required",
+            "health_requirement": "Travel insurance €30,000 coverage required",
+            "police_clearance": "Not usually required",
+            "sponsorship_requirement": "Invitation letter if visiting"
+          },
+          "documents_required": [
+            "Passport",
+            "Travel insurance",
+            "Bank statements",
+            "Accommodation proof",
+            "Return ticket"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "15–30 days",
+            "visa_fee": "€90"
+          },
+          "duration": "Up to 90 days (within 180 days)",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://www.auswaertiges-amt.de/en/visa-service"
+        },
+        {
+          "visa_type": "Student Visa (National Visa D)",
+          "category": "Study",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "University admission letter",
+            "financial_requirement": "Blocked account €11,208 per year (2026)",
+            "language_requirement": "German B1/B2 or IELTS 6.0+",
+            "health_requirement": "German-approved health insurance",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Not required"
+          },
+          "documents_required": [
+            "University admission letter",
+            "Blocked account confirmation",
+            "Passport",
+            "Academic transcripts",
+            "Health insurance proof"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "6–12 weeks",
+            "visa_fee": "€75"
+          },
+          "duration": "Course duration",
+          "work_rights": "120 full days or 240 half days/year",
+          "pathway_to_pr": "Yes (Work → PR)",
+          "official_source": "https://www.bamf.de/EN/Themen/MigrationAufenthalt"
+        },
+        {
+          "visa_type": "Job Seeker Visa",
+          "category": "Work Search",
+          "eligibility_criteria": {
+            "age_requirement": "No fixed limit",
+            "education_requirement": "Recognized degree",
+            "financial_requirement": "Proof of funds (~€947/month)",
+            "language_requirement": "German B1 recommended",
+            "health_requirement": "Health insurance required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Not required"
+          },
+          "documents_required": [
+            "Recognized qualification",
+            "CV",
+            "Proof of funds",
+            "Health insurance",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "6–12 weeks",
+            "visa_fee": "€75"
+          },
+          "duration": "6 months",
+          "work_rights": "Job search only",
+          "pathway_to_pr": "Yes (after employment)",
+          "official_source": "https://www.make-it-in-germany.com"
+        },
+        {
+          "visa_type": "EU Blue Card",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Recognized university degree",
+            "financial_requirement": "Minimum salary €45,300/year (lower for shortage occupations)",
+            "language_requirement": "German A1/B1 depending on PR timeline",
+            "health_requirement": "Health insurance required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Job offer required"
+          },
+          "documents_required": [
+            "Job contract",
+            "Degree recognition",
+            "Salary proof",
+            "Passport",
+            "Health insurance"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "4–12 weeks",
+            "visa_fee": "€100"
+          },
+          "duration": "Up to 4 years",
+          "work_rights": "Employer-specific initially",
+          "pathway_to_pr": "Yes (21–33 months)",
+          "official_source": "https://www.bamf.de/EN/Themen/MigrationAufenthalt"
+        },
+        {
+          "visa_type": "Skilled Worker Residence Permit",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Vocational or academic qualification recognized",
+            "financial_requirement": "Employment contract",
+            "language_requirement": "German B1 usually required",
+            "health_requirement": "Health insurance",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Job offer required"
+          },
+          "documents_required": [
+            "Recognition certificate",
+            "Employment contract",
+            "Passport",
+            "Health insurance"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "6–12 weeks",
+            "visa_fee": "€100"
+          },
+          "duration": "Based on contract",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Yes",
+          "official_source": "https://www.make-it-in-germany.com"
+        },
+        {
+          "visa_type": "Freelance / Self-Employment Visa",
+          "category": "Business",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Relevant qualifications",
+            "financial_requirement": "Business plan + capital proof",
+            "language_requirement": "German beneficial",
+            "health_requirement": "Health insurance",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Not required"
+          },
+          "documents_required": [
+            "Business plan",
+            "Financial proof",
+            "Client contracts",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–4 months",
+            "visa_fee": "€100"
+          },
+          "duration": "Up to 3 years",
+          "work_rights": "Self-employment only",
+          "pathway_to_pr": "Yes",
+          "official_source": "https://www.bamf.de"
+        },
+        {
+          "visa_type": "Family Reunification Visa",
+          "category": "Family",
+          "eligibility_criteria": {
+            "age_requirement": "18+ (spouse)",
+            "education_requirement": "Not required",
+            "financial_requirement": "Sponsor income sufficient",
+            "language_requirement": "German A1 required",
+            "health_requirement": "Health insurance",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "German resident sponsor"
+          },
+          "documents_required": [
+            "Marriage certificate",
+            "Sponsor residence permit",
+            "Income proof",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "3–6 months",
+            "visa_fee": "€75"
+          },
+          "duration": "Linked to sponsor permit",
+          "work_rights": "Yes",
+          "pathway_to_pr": "Yes",
+          "official_source": "https://www.auswaertiges-amt.de"
+        }
+      ]
+    },
+    {
+      "country_name": "France",
+      "official_site": "https://france-visas.gouv.fr",
+      "visa_policies": [
+        {
+          "visa_type": "Schengen Short-Stay Visa (Type C)",
+          "category": "Tourism/Business",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "€65–€120 per day (proof of funds)",
+            "language_requirement": "Not required",
+            "health_requirement": "Travel insurance €30,000 coverage required",
+            "police_clearance": "Not usually required",
+            "sponsorship_requirement": "Invitation letter if visiting family"
+          },
+          "documents_required": [
+            "Passport",
+            "Travel insurance",
+            "Bank statements",
+            "Accommodation proof",
+            "Return ticket"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "15–30 days",
+            "visa_fee": "€90"
+          },
+          "duration": "Up to 90 days (within 180 days)",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://france-visas.gouv.fr"
+        },
+        {
+          "visa_type": "Student Visa (VLS-TS Étudiant)",
+          "category": "Study",
+          "eligibility_criteria": {
+            "age_requirement": "No upper limit",
+            "education_requirement": "Admission from French institution",
+            "financial_requirement": "€615/month minimum",
+            "language_requirement": "French B2 or IELTS 6.0 (English programs)",
+            "health_requirement": "French health insurance registration",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Not required"
+          },
+          "documents_required": [
+            "Admission letter",
+            "Financial proof",
+            "Passport",
+            "Academic transcripts",
+            "Accommodation proof"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–6 weeks",
+            "visa_fee": "€50–€99"
+          },
+          "duration": "Course duration",
+          "work_rights": "964 hours per year (~20 hrs/week)",
+          "pathway_to_pr": "Yes (Work → PR)",
+          "official_source": "https://france-visas.gouv.fr"
+        },
+        {
+          "visa_type": "Talent Passport (Passeport Talent)",
+          "category": "Work/Talent",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Highly skilled degree or expertise",
+            "financial_requirement": "Minimum salary ~€43,000/year (varies by category)",
+            "language_requirement": "French recommended",
+            "health_requirement": "Health insurance required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Employer or business project approval"
+          },
+          "documents_required": [
+            "Employment contract or project proof",
+            "Qualification certificates",
+            "Passport",
+            "Financial proof"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "4–8 weeks",
+            "visa_fee": "€225"
+          },
+          "duration": "Up to 4 years",
+          "work_rights": "Full work rights",
+          "pathway_to_pr": "Yes (after 5 years)",
+          "official_source": "https://www.interieur.gouv.fr"
+        },
+        {
+          "visa_type": "Employee Visa (Salarié)",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Job qualification required",
+            "financial_requirement": "Employment contract with salary compliance",
+            "language_requirement": "French beneficial",
+            "health_requirement": "Health insurance required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Employer authorization required"
+          },
+          "documents_required": [
+            "Work contract",
+            "Employer authorization",
+            "Passport",
+            "Qualification proof"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–4 months",
+            "visa_fee": "€225"
+          },
+          "duration": "1 year renewable",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Yes",
+          "official_source": "https://www.interieur.gouv.fr"
+        },
+        {
+          "visa_type": "Entrepreneur / Self-Employed Visa",
+          "category": "Business",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Relevant qualification or experience",
+            "financial_requirement": "Business capital proof required",
+            "language_requirement": "French beneficial",
+            "health_requirement": "Health insurance",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Business approval"
+          },
+          "documents_required": [
+            "Business plan",
+            "Financial proof",
+            "Professional experience documents",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–4 months",
+            "visa_fee": "€225"
+          },
+          "duration": "1 year renewable",
+          "work_rights": "Self-employment only",
+          "pathway_to_pr": "Yes",
+          "official_source": "https://www.interieur.gouv.fr"
+        },
+        {
+          "visa_type": "Family Reunification Visa",
+          "category": "Family",
+          "eligibility_criteria": {
+            "age_requirement": "18+ (spouse)",
+            "education_requirement": "Not required",
+            "financial_requirement": "Sponsor must meet income requirement",
+            "language_requirement": "French A1 may be required",
+            "health_requirement": "Health insurance required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Legal resident sponsor"
+          },
+          "documents_required": [
+            "Marriage certificate",
+            "Sponsor residence proof",
+            "Income proof",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "3–6 months",
+            "visa_fee": "€99"
+          },
+          "duration": "1 year renewable",
+          "work_rights": "Yes",
+          "pathway_to_pr": "Yes",
+          "official_source": "https://www.interieur.gouv.fr"
+        },
+        {
+          "visa_type": "Long-Term Resident Card (Carte de Résident)",
+          "category": "Permanent Residence",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "Stable income required",
+            "language_requirement": "French A2/B1",
+            "health_requirement": "Health insurance",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Legal residence for 5 years"
+          },
+          "documents_required": [
+            "Proof of 5-year residence",
+            "Tax records",
+            "Language certificate",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–6 months",
+            "visa_fee": "€225"
+          },
+          "duration": "10 years renewable",
+          "work_rights": "Full",
+          "pathway_to_pr": "Permanent status",
+          "official_source": "https://www.service-public.fr"
+        }
+      ]
+    },
+    {
+      "country_name": "United Arab Emirates",
+      "official_site": "https://u.ae",
+      "visa_policies": [
+        {
+          "visa_type": "Tourist / Visit Visa",
+          "category": "Tourism",
+          "eligibility_criteria": {
+            "age_requirement": "18+ (minors with guardian)",
+            "education_requirement": "Not required",
+            "financial_requirement": "Proof of funds may be requested",
+            "language_requirement": "Not required",
+            "health_requirement": "Travel insurance required",
+            "police_clearance": "Not required",
+            "sponsorship_requirement": "Airline, hotel, or UAE resident sponsor"
+          },
+          "documents_required": [
+            "Passport (6 months validity)",
+            "Photograph",
+            "Travel ticket",
+            "Accommodation proof"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "On arrival (if applicable)",
+            "processing_time": "3–7 days",
+            "visa_fee": "AED 350–800"
+          },
+          "duration": "30–60 days",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://u.ae/en/information-and-services/visa-and-emirates-id"
+        },
+        {
+          "visa_type": "Employment Residence Visa",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18–60 (extendable)",
+            "education_requirement": "Relevant qualification",
+            "financial_requirement": "Employer salary compliance",
+            "language_requirement": "Not mandatory",
+            "health_requirement": "Medical fitness test required",
+            "police_clearance": "Background check required",
+            "sponsorship_requirement": "UAE employer sponsor"
+          },
+          "documents_required": [
+            "Employment contract",
+            "Work permit approval",
+            "Passport",
+            "Medical fitness certificate",
+            "Emirates ID registration"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes (Emirates ID)",
+            "processing_time": "2–4 weeks",
+            "visa_fee": "Varies by emirate"
+          },
+          "duration": "2 years (renewable)",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Limited (via Golden Visa)",
+          "official_source": "https://u.ae/en/information-and-services/jobs/employment-visa"
+        },
+        {
+          "visa_type": "Green Visa",
+          "category": "Work / Self-Sponsored",
+          "eligibility_criteria": {
+            "age_requirement": "21+",
+            "education_requirement": "Bachelor’s degree or equivalent",
+            "financial_requirement": "Minimum salary AED 15,000/month",
+            "language_requirement": "Not mandatory",
+            "health_requirement": "Medical fitness test",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Self-sponsored"
+          },
+          "documents_required": [
+            "Degree certificate",
+            "Employment proof or freelance permit",
+            "Salary proof",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes",
+            "processing_time": "2–4 weeks",
+            "visa_fee": "AED 2,000–3,000"
+          },
+          "duration": "5 years",
+          "work_rights": "Self-sponsored work",
+          "pathway_to_pr": "No direct PR",
+          "official_source": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/green-visa"
+        },
+        {
+          "visa_type": "Golden Visa",
+          "category": "Long-Term Residency",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "High qualification or investor status",
+            "financial_requirement": "Investment AED 2 million+ (property/business) or high salary AED 30,000/month",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical fitness required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Self-sponsored"
+          },
+          "documents_required": [
+            "Investment proof or employment contract",
+            "Salary certificate",
+            "Passport",
+            "Medical fitness certificate"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes",
+            "processing_time": "2–4 weeks",
+            "visa_fee": "AED 2,800–4,000"
+          },
+          "duration": "10 years renewable",
+          "work_rights": "Full",
+          "pathway_to_pr": "Long-term residency (no citizenship guarantee)",
+          "official_source": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/golden-visa"
+        },
+        {
+          "visa_type": "Student Residence Visa",
+          "category": "Study",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Admission from UAE university",
+            "financial_requirement": "Sponsor income proof",
+            "language_requirement": "University dependent",
+            "health_requirement": "Medical fitness test",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "University or parent sponsor"
+          },
+          "documents_required": [
+            "Admission letter",
+            "Passport",
+            "Medical certificate",
+            "Emirates ID registration"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes",
+            "processing_time": "2–3 weeks",
+            "visa_fee": "AED 1,500–3,000"
+          },
+          "duration": "1 year renewable",
+          "work_rights": "Part-time with approval",
+          "pathway_to_pr": "Possible via Golden Visa for high achievers",
+          "official_source": "https://u.ae/en/information-and-services/education/higher-education/student-visa"
+        },
+        {
+          "visa_type": "Investor / Partner Visa",
+          "category": "Business",
+          "eligibility_criteria": {
+            "age_requirement": "21+",
+            "education_requirement": "Not required",
+            "financial_requirement": "Business ownership or capital investment",
+            "language_requirement": "Not required",
+            "health_requirement": "Medical fitness required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Company ownership"
+          },
+          "documents_required": [
+            "Trade license",
+            "Shareholder certificate",
+            "Passport",
+            "Medical certificate"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes",
+            "processing_time": "2–4 weeks",
+            "visa_fee": "Varies by emirate"
+          },
+          "duration": "2–3 years renewable",
+          "work_rights": "Business activity",
+          "pathway_to_pr": "Possible via Golden Visa",
+          "official_source": "https://u.ae/en/information-and-services/business"
+        }
+      ]
+    },
+    {
+      "country_name": "Japan",
+      "official_site": "https://www.moj.go.jp/isa",
+      "visa_policies": [
+        {
+          "visa_type": "Temporary Visitor",
+          "category": "Tourism/Business",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "Proof of sufficient stay funds",
+            "language_requirement": "Not required",
+            "health_requirement": "Travel insurance recommended",
+            "police_clearance": "Not usually required",
+            "sponsorship_requirement": "Invitation letter if business visit"
+          },
+          "documents_required": [
+            "Passport",
+            "Application form",
+            "Travel itinerary",
+            "Bank statements"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "5–10 working days",
+            "visa_fee": "Approx. ¥3,000"
+          },
+          "duration": "15, 30, or 90 days",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://www.moj.go.jp/isa/applications/status/temporaryvisitor.html"
+        },
+        {
+          "visa_type": "Student Visa",
+          "category": "Study",
+          "eligibility_criteria": {
+            "age_requirement": "No upper limit",
+            "education_requirement": "Admission to Japanese institution",
+            "financial_requirement": "Proof of ¥2,000,000+ per year",
+            "language_requirement": "Japanese proficiency (N5–N2 depending)",
+            "health_requirement": "Health insurance required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "School sponsor"
+          },
+          "documents_required": [
+            "Certificate of Eligibility (COE)",
+            "Admission letter",
+            "Financial proof",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "1–3 months (COE stage)",
+            "visa_fee": "¥4,000"
+          },
+          "duration": "6 months–4 years",
+          "work_rights": "28 hours/week (with permission)",
+          "pathway_to_pr": "Yes (after employment)",
+          "official_source": "https://www.moj.go.jp/isa/applications/status/student.html"
+        },
+        {
+          "visa_type": "Engineer / Specialist in Humanities / International Services",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Bachelor’s degree or 10 years experience",
+            "financial_requirement": "Employment contract meeting Japanese salary standards",
+            "language_requirement": "Japanese preferred but not mandatory",
+            "health_requirement": "Health insurance enrollment",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Japanese employer sponsor"
+          },
+          "documents_required": [
+            "Certificate of Eligibility",
+            "Employment contract",
+            "Degree certificate",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Rare",
+            "biometrics_required": "Yes",
+            "processing_time": "1–3 months",
+            "visa_fee": "¥4,000"
+          },
+          "duration": "1, 3, or 5 years",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Yes (5–10 years)",
+          "official_source": "https://www.moj.go.jp/isa"
+        },
+        {
+          "visa_type": "Highly Skilled Professional (HSP)",
+          "category": "Work/Talent",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Advanced degree preferred",
+            "financial_requirement": "High salary threshold",
+            "language_requirement": "Not mandatory",
+            "health_requirement": "Health insurance",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Employer sponsor"
+          },
+          "documents_required": [
+            "COE",
+            "Points calculation sheet",
+            "Employment contract",
+            "Academic certificates"
+          ],
+          "visa_process": {
+            "interview_required": "Rare",
+            "biometrics_required": "Yes",
+            "processing_time": "1–2 months",
+            "visa_fee": "¥4,000"
+          },
+          "duration": "5 years",
+          "work_rights": "Flexible",
+          "pathway_to_pr": "Yes (1–3 years fast-track)",
+          "official_source": "https://www.moj.go.jp/isa/publications/materials/newimmiact_3_e.html"
+        },
+        {
+          "visa_type": "Specified Skilled Worker (SSW)",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Skill test pass",
+            "financial_requirement": "Employment contract",
+            "language_requirement": "Japanese N4 level",
+            "health_requirement": "Medical check required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Employer sponsor"
+          },
+          "documents_required": [
+            "Skill test certificate",
+            "Japanese language certificate",
+            "COE",
+            "Employment contract"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "1–3 months",
+            "visa_fee": "¥4,000"
+          },
+          "duration": "1 year renewable (up to 5 years)",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Limited (SSW2 possible PR route)",
+          "official_source": "https://www.moj.go.jp/isa"
+        },
+        {
+          "visa_type": "Business Manager Visa",
+          "category": "Business",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Business management capability",
+            "financial_requirement": "¥5,000,000 capital minimum",
+            "language_requirement": "Not required",
+            "health_requirement": "Health insurance",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Own company"
+          },
+          "documents_required": [
+            "Business registration documents",
+            "Office lease agreement",
+            "Capital deposit proof",
+            "COE"
+          ],
+          "visa_process": {
+            "interview_required": "Yes (may vary)",
+            "biometrics_required": "Yes",
+            "processing_time": "2–4 months",
+            "visa_fee": "¥4,000"
+          },
+          "duration": "1–5 years",
+          "work_rights": "Business management only",
+          "pathway_to_pr": "Yes",
+          "official_source": "https://www.moj.go.jp/isa"
+        },
+        {
+          "visa_type": "Permanent Resident",
+          "category": "Permanent Residence",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "Stable income history",
+            "language_requirement": "Not mandatory",
+            "health_requirement": "Compliance with Japanese law",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Long-term residence (10 years typical)"
+          },
+          "documents_required": [
+            "Residence history",
+            "Tax records",
+            "Income proof",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "4–8 months",
+            "visa_fee": "¥8,000"
+          },
+          "duration": "Permanent",
+          "work_rights": "Full",
+          "pathway_to_pr": "Direct PR status",
+          "official_source": "https://www.moj.go.jp/isa"
+        }
+      ]
+    },
+    {
+      "country_name": "Singapore",
+      "official_site": "https://www.ica.gov.sg",
+      "visa_policies": [
+        {
+          "visa_type": "Short-Term Visit Pass",
+          "category": "Tourism/Business",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "Proof of funds may be requested",
+            "language_requirement": "Not required",
+            "health_requirement": "Travel insurance recommended",
+            "police_clearance": "Not required",
+            "sponsorship_requirement": "Local contact for certain nationals"
+          },
+          "documents_required": [
+            "Passport (6 months validity)",
+            "Return ticket",
+            "Accommodation proof"
+          ],
+          "visa_process": {
+            "interview_required": "Rare",
+            "biometrics_required": "On arrival",
+            "processing_time": "1–3 days (if visa required)",
+            "visa_fee": "SGD 30"
+          },
+          "duration": "Up to 30–90 days",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://www.ica.gov.sg/enter-transit-depart/entering-singapore"
+        },
+        {
+          "visa_type": "Student Pass",
+          "category": "Study",
+          "eligibility_criteria": {
+            "age_requirement": "No upper limit",
+            "education_requirement": "Admission from Singapore institution",
+            "financial_requirement": "Proof of tuition + living expenses",
+            "language_requirement": "Institution requirement",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "May be required",
+            "sponsorship_requirement": "Education institution sponsor"
+          },
+          "documents_required": [
+            "Acceptance letter",
+            "Passport",
+            "Financial proof",
+            "Medical report"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–4 weeks",
+            "visa_fee": "SGD 90 + issuance fee"
+          },
+          "duration": "Course duration",
+          "work_rights": "16 hours/week (approved institutions)",
+          "pathway_to_pr": "Possible after employment",
+          "official_source": "https://www.ica.gov.sg/reside/STP"
+        },
+        {
+          "visa_type": "Employment Pass (EP)",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Recognized degree or expertise",
+            "financial_requirement": "Minimum salary SGD 5,000/month (higher for older applicants)",
+            "language_requirement": "Not mandatory",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Singapore employer sponsor"
+          },
+          "documents_required": [
+            "Job offer",
+            "Educational certificates",
+            "Passport",
+            "Resume"
+          ],
+          "visa_process": {
+            "interview_required": "Rare",
+            "biometrics_required": "Yes",
+            "processing_time": "3 weeks",
+            "visa_fee": "SGD 105 + issuance fee"
+          },
+          "duration": "1–2 years renewable",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Yes (after 6–12 months)",
+          "official_source": "https://www.mom.gov.sg/passes-and-permits/employment-pass"
+        },
+        {
+          "visa_type": "S Pass",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18–60",
+            "education_requirement": "Diploma or technical qualification",
+            "financial_requirement": "Minimum salary SGD 3,150/month",
+            "language_requirement": "Not mandatory",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Employer sponsor"
+          },
+          "documents_required": [
+            "Job offer",
+            "Qualification proof",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Rare",
+            "biometrics_required": "Yes",
+            "processing_time": "3 weeks",
+            "visa_fee": "SGD 105 + issuance fee"
+          },
+          "duration": "Up to 2 years renewable",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Possible",
+          "official_source": "https://www.mom.gov.sg/passes-and-permits/s-pass"
+        },
+        {
+          "visa_type": "Work Permit",
+          "category": "Work (Semi-Skilled)",
+          "eligibility_criteria": {
+            "age_requirement": "18–50 (varies by sector)",
+            "education_requirement": "Sector-dependent",
+            "financial_requirement": "Employer levy applies",
+            "language_requirement": "Basic English required",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Employer sponsor"
+          },
+          "documents_required": [
+            "Employer application",
+            "Passport",
+            "Medical report"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "Yes",
+            "processing_time": "1–3 weeks",
+            "visa_fee": "SGD 35 + issuance fee"
+          },
+          "duration": "2 years renewable",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Limited",
+          "official_source": "https://www.mom.gov.sg/passes-and-permits/work-permit-for-foreign-worker"
+        },
+        {
+          "visa_type": "EntrePass",
+          "category": "Business",
+          "eligibility_criteria": {
+            "age_requirement": "21+",
+            "education_requirement": "Innovative business model",
+            "financial_requirement": "Funding or capital required",
+            "language_requirement": "Not mandatory",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Own registered company"
+          },
+          "documents_required": [
+            "Business plan",
+            "ACRA registration",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Yes (if required)",
+            "biometrics_required": "Yes",
+            "processing_time": "8 weeks",
+            "visa_fee": "SGD 105 + issuance fee"
+          },
+          "duration": "1 year renewable",
+          "work_rights": "Business activity only",
+          "pathway_to_pr": "Yes",
+          "official_source": "https://www.mom.gov.sg/passes-and-permits/entrepass"
+        },
+        {
+          "visa_type": "Permanent Residence (PR)",
+          "category": "Permanent Residence",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not mandatory",
+            "financial_requirement": "Stable employment history",
+            "language_requirement": "English proficiency beneficial",
+            "health_requirement": "Medical check required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Employment or family route"
+          },
+          "documents_required": [
+            "Employment history",
+            "Tax statements",
+            "Passport",
+            "Birth certificate"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "6–12 months",
+            "visa_fee": "SGD 100 application fee"
+          },
+          "duration": "Permanent",
+          "work_rights": "Full",
+          "pathway_to_pr": "Direct PR status",
+          "official_source": "https://www.ica.gov.sg/reside/PR"
+        }
+      ]
+    },
+    {
+      "country_name": "New Zealand",
+      "official_site": "https://www.immigration.govt.nz",
+      "visa_policies": [
+        {
+          "visa_type": "Visitor Visa",
+          "category": "Tourism/Business",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "NZD 1,000 per month (or NZD 400 with accommodation paid)",
+            "language_requirement": "Not required",
+            "health_requirement": "Chest X-ray for long stays",
+            "police_clearance": "Required for stays over 24 months",
+            "sponsorship_requirement": "Optional (NZ sponsor allowed)"
+          },
+          "documents_required": [
+            "Passport",
+            "Bank statements",
+            "Travel itinerary",
+            "Accommodation proof"
+          ],
+          "visa_process": {
+            "interview_required": "Rare",
+            "biometrics_required": "Yes (if required)",
+            "processing_time": "2–6 weeks",
+            "visa_fee": "NZD 211"
+          },
+          "duration": "Up to 9 months",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/visitor-visa"
+        },
+        {
+          "visa_type": "Student Visa",
+          "category": "Study",
+          "eligibility_criteria": {
+            "age_requirement": "No upper limit",
+            "education_requirement": "Offer of place from NZ institution",
+            "financial_requirement": "NZD 20,000 per year living expenses",
+            "language_requirement": "IELTS as per course requirement",
+            "health_requirement": "Medical exam for long-term courses",
+            "police_clearance": "Required for long stays",
+            "sponsorship_requirement": "Education provider"
+          },
+          "documents_required": [
+            "Offer of place",
+            "Financial proof",
+            "Passport",
+            "Medical certificate"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "4–8 weeks",
+            "visa_fee": "NZD 375"
+          },
+          "duration": "Course duration",
+          "work_rights": "20 hours/week (full-time during breaks)",
+          "pathway_to_pr": "Yes (Post-study work → SMC)",
+          "official_source": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/student-visa"
+        },
+        {
+          "visa_type": "Accredited Employer Work Visa (AEWV)",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Qualification relevant to job",
+            "financial_requirement": "Job must meet median wage threshold",
+            "language_requirement": "English proficiency required",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Accredited employer job offer"
+          },
+          "documents_required": [
+            "Job offer",
+            "Qualification certificates",
+            "Passport",
+            "Medical certificate"
+          ],
+          "visa_process": {
+            "interview_required": "Rare",
+            "biometrics_required": "Yes",
+            "processing_time": "4–6 weeks",
+            "visa_fee": "NZD 750"
+          },
+          "duration": "Up to 5 years",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Yes (SMC or Green List)",
+          "official_source": "https://www.immigration.govt.nz/new-zealand-visas/visas/visa/accredited-employer-work-visa"
+        },
+        {
+          "visa_type": "Skilled Migrant Category (SMC) Residence",
+          "category": "Permanent Residence",
+          "eligibility_criteria": {
+            "age_requirement": "55 or under",
+            "education_requirement": "Recognized qualification",
+            "financial_requirement": "Skilled employment in NZ",
+            "language_requirement": "IELTS 6.5 overall",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Not required"
+          },
+          "documents_required": [
+            "Expression of Interest (EOI)",
+            "Qualification assessment",
+            "Job offer",
+            "English test"
+          ],
+          "visa_process": {
+            "interview_required": "Sometimes",
+            "biometrics_required": "Yes",
+            "processing_time": "6–12 months",
+            "visa_fee": "NZD 4,290"
+          },
+          "duration": "Resident Visa",
+          "work_rights": "Full",
+          "pathway_to_pr": "Resident → Permanent Resident after 2 years",
+          "official_source": "https://www.immigration.govt.nz/new-zealand-visas/options/live-permanently"
+        },
+        {
+          "visa_type": "Green List Residence Pathway",
+          "category": "Work/Residence",
+          "eligibility_criteria": {
+            "age_requirement": "55 or under",
+            "education_requirement": "Occupation on Green List",
+            "financial_requirement": "Median wage or above",
+            "language_requirement": "IELTS required",
+            "health_requirement": "Medical exam",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "NZ employer"
+          },
+          "documents_required": [
+            "Job offer",
+            "Qualification documents",
+            "English test",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Rare",
+            "biometrics_required": "Yes",
+            "processing_time": "6–10 months",
+            "visa_fee": "NZD 4,290"
+          },
+          "duration": "Resident Visa",
+          "work_rights": "Full",
+          "pathway_to_pr": "Direct residence pathway",
+          "official_source": "https://www.immigration.govt.nz"
+        },
+        {
+          "visa_type": "Entrepreneur Work Visa",
+          "category": "Business",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Business experience required",
+            "financial_requirement": "NZD 100,000 minimum capital",
+            "language_requirement": "IELTS 4.0+",
+            "health_requirement": "Medical exam required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Own business"
+          },
+          "documents_required": [
+            "Business plan",
+            "Capital proof",
+            "English test",
+            "Passport"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "3–6 months",
+            "visa_fee": "NZD 3,920"
+          },
+          "duration": "3 years",
+          "work_rights": "Business activity",
+          "pathway_to_pr": "Yes (Entrepreneur Residence)",
+          "official_source": "https://www.immigration.govt.nz"
+        },
+        {
+          "visa_type": "Permanent Resident Visa",
+          "category": "Permanent Residence",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "Resident visa held for 2 years",
+            "language_requirement": "Not required",
+            "health_requirement": "Good character required",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Previous resident status"
+          },
+          "documents_required": [
+            "Resident visa proof",
+            "Passport",
+            "Character documents"
+          ],
+          "visa_process": {
+            "interview_required": "Rare",
+            "biometrics_required": "Yes",
+            "processing_time": "2–6 months",
+            "visa_fee": "NZD 240"
+          },
+          "duration": "Permanent",
+          "work_rights": "Full",
+          "pathway_to_pr": "Final PR status",
+          "official_source": "https://www.immigration.govt.nz"
+        }
+      ]
+    },
+    {
+      "country_name": "India",
+      "official_site": "https://boi.gov.in",
+      "visa_policies": [
+        {
+          "visa_type": "e-Tourist Visa",
+          "category": "Tourism",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "Sufficient funds proof",
+            "language_requirement": "Not required",
+            "health_requirement": "Yellow fever certificate (if applicable)",
+            "police_clearance": "Not required",
+            "sponsorship_requirement": "Not required"
+          },
+          "documents_required": [
+            "Passport (6 months validity)",
+            "Photograph",
+            "Return ticket",
+            "Travel details"
+          ],
+          "visa_process": {
+            "interview_required": "No",
+            "biometrics_required": "On arrival",
+            "processing_time": "3–5 days",
+            "visa_fee": "USD 10–80 (seasonal)"
+          },
+          "duration": "30 days / 1 year / 5 years",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://indianvisaonline.gov.in"
+        },
+        {
+          "visa_type": "Employment Visa",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Skilled professional qualification",
+            "financial_requirement": "Minimum salary USD 25,000/year (exceptions apply)",
+            "language_requirement": "Not mandatory",
+            "health_requirement": "Medical clearance",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Indian employer sponsor"
+          },
+          "documents_required": [
+            "Employment contract",
+            "Qualification certificates",
+            "Passport",
+            "Company registration documents"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–8 weeks",
+            "visa_fee": "Varies by duration"
+          },
+          "duration": "1 year renewable",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "OCI possible after eligibility",
+          "official_source": "https://boi.gov.in"
+        },
+        {
+          "visa_type": "Student Visa",
+          "category": "Study",
+          "eligibility_criteria": {
+            "age_requirement": "No upper limit",
+            "education_requirement": "Admission letter required",
+            "financial_requirement": "Proof of tuition + living expenses",
+            "language_requirement": "Institution requirement",
+            "health_requirement": "Medical clearance",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Recognized institution"
+          },
+          "documents_required": [
+            "Admission letter",
+            "Financial proof",
+            "Passport",
+            "Academic transcripts"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–6 weeks",
+            "visa_fee": "Varies"
+          },
+          "duration": "Course duration",
+          "work_rights": "Internship with approval",
+          "pathway_to_pr": "Limited",
+          "official_source": "https://boi.gov.in"
+        }
+      ]
+    },
+    {
+      "country_name": "Italy",
+      "official_site": "https://vistoperitalia.esteri.it",
+      "visa_policies": [
+        {
+          "visa_type": "Schengen Visa (Type C)",
+          "category": "Tourism",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "€50–€100 per day",
+            "language_requirement": "Not required",
+            "health_requirement": "€30,000 travel insurance",
+            "police_clearance": "Not usually required",
+            "sponsorship_requirement": "Invitation if visiting"
+          },
+          "documents_required": [
+            "Passport",
+            "Insurance",
+            "Bank statements",
+            "Accommodation proof"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "15–30 days",
+            "visa_fee": "€90"
+          },
+          "duration": "90 days",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://vistoperitalia.esteri.it"
+        },
+        {
+          "visa_type": "Work Visa (Nulla Osta)",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Job qualification",
+            "financial_requirement": "Employment contract",
+            "language_requirement": "Italian beneficial",
+            "health_requirement": "Health insurance",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Employer work authorization"
+          },
+          "documents_required": [
+            "Nulla Osta approval",
+            "Employment contract",
+            "Passport",
+            "Qualification proof"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "2–4 months",
+            "visa_fee": "€116"
+          },
+          "duration": "1–2 years",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Yes (5 years residence)",
+          "official_source": "https://www.interno.gov.it"
+        }
+      ]
+    },
+    {
+      "country_name": "Switzerland",
+      "official_site": "https://www.sem.admin.ch",
+      "visa_policies": [
+        {
+          "visa_type": "Schengen Visa (Type C)",
+          "category": "Tourism",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "CHF 100 per day",
+            "language_requirement": "Not required",
+            "health_requirement": "CHF 30,000 insurance",
+            "police_clearance": "Not required",
+            "sponsorship_requirement": "Optional"
+          },
+          "documents_required": [
+            "Passport",
+            "Insurance",
+            "Bank statements",
+            "Travel plan"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "15 days",
+            "visa_fee": "CHF 80"
+          },
+          "duration": "90 days",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://www.sem.admin.ch"
+        },
+        {
+          "visa_type": "Work Permit (L / B Permit)",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Highly skilled qualification",
+            "financial_requirement": "Swiss employment contract",
+            "language_requirement": "German/French/Italian depending canton",
+            "health_requirement": "Health insurance mandatory",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "Swiss employer sponsor"
+          },
+          "documents_required": [
+            "Employment contract",
+            "Degree certificates",
+            "Passport",
+            "Cantonal approval"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "4–12 weeks",
+            "visa_fee": "CHF 88"
+          },
+          "duration": "1 year renewable",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Yes (10 years typical)",
+          "official_source": "https://www.sem.admin.ch"
+        }
+      ]
+    },
+    {
+      "country_name": "Netherlands",
+      "official_site": "https://ind.nl",
+      "visa_policies": [
+        {
+          "visa_type": "Schengen Visa (Type C)",
+          "category": "Tourism",
+          "eligibility_criteria": {
+            "age_requirement": "No restriction",
+            "education_requirement": "Not required",
+            "financial_requirement": "€55 per day",
+            "language_requirement": "Not required",
+            "health_requirement": "€30,000 insurance",
+            "police_clearance": "Not usually required",
+            "sponsorship_requirement": "Optional"
+          },
+          "documents_required": [
+            "Passport",
+            "Insurance",
+            "Bank proof",
+            "Accommodation proof"
+          ],
+          "visa_process": {
+            "interview_required": "Yes",
+            "biometrics_required": "Yes",
+            "processing_time": "15–30 days",
+            "visa_fee": "€90"
+          },
+          "duration": "90 days",
+          "work_rights": "Not permitted",
+          "pathway_to_pr": "No",
+          "official_source": "https://ind.nl"
+        },
+        {
+          "visa_type": "Highly Skilled Migrant Visa",
+          "category": "Work",
+          "eligibility_criteria": {
+            "age_requirement": "18+",
+            "education_requirement": "Recognized qualification",
+            "financial_requirement": "Minimum salary €5,331/month (30+ age)",
+            "language_requirement": "English required",
+            "health_requirement": "Health insurance mandatory",
+            "police_clearance": "Required",
+            "sponsorship_requirement": "IND-recognized sponsor employer"
+          },
+          "documents_required": [
+            "Employment contract",
+            "Passport",
+            "Degree certificate",
+            "Sponsor registration proof"
+          ],
+          "visa_process": {
+            "interview_required": "Rare",
+            "biometrics_required": "Yes",
+            "processing_time": "2–4 weeks",
+            "visa_fee": "€350"
+          },
+          "duration": "Up to 5 years",
+          "work_rights": "Employer-specific",
+          "pathway_to_pr": "Yes (5 years)",
+          "official_source": "https://ind.nl"
+        }
+      ]
+    }
+  ]
+}
