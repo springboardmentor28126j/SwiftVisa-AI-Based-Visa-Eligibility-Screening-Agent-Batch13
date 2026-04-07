@@ -14,15 +14,16 @@ st.title("🌍 SwiftVisa - AI Visa Eligibility Checker")
 
 st.write("Fill your details to check visa eligibility.")
 
-# ---------------------------
 # USER INPUT FORM
-# ---------------------------
+
 
 with st.form("visa_form"):
     name = st.text_input("Full Name")
     age = st.number_input("Age", min_value=18, max_value=60)
 
-    country = st.selectbox("Target Country", ["USA", "Canada", "UK"])
+
+
+    country = st.selectbox("Target Country", ["USA", "Canada", "UK", "Australia", "Germany","France","New Zealand","Japan","Singapore","UAE"])
 
     visa_type = st.selectbox(
         "Visa Type",
@@ -43,9 +44,7 @@ with st.form("visa_form"):
 
     submit = st.form_submit_button("Check Eligibility")
 
-# ---------------------------
 # PROCESS INPUT
-# ---------------------------
 
 if submit:
     user_profile = f"""
