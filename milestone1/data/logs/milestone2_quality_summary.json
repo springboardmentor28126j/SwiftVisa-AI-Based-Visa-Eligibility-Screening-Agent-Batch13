@@ -1,0 +1,11 @@
+{
+  "total_decisions": 47,
+  "avg_confidence": 0.628,
+  "grounded_rate": 0.723,
+  "status_distribution": {
+    "INSUFFICIENT_INFO": 4,
+    "PARTIAL": 39,
+    "NOT_ELIGIBLE": 1,
+    "ELIGIBLE": 3
+  }
+}

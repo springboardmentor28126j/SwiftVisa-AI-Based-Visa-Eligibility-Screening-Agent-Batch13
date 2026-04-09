@@ -1,0 +1,26 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Germany (DEU)
+Visa Type: EU Blue Card (EUBlueCard)
+Official Source: https://www.make-it-in-germany.com/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Job Offer
+2. Recognized Degree
+3. Salary Threshold
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Employment Contract
+3. Degree Certificate
+
+METADATA
+--------
+- Country Code: DEU
+- Country Name: Germany
+- Visa ID: EUBlueCard
+- Visa Name: EU Blue Card

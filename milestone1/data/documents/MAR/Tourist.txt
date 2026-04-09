@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Morocco (MAR)
+Visa Type: Tourist Visa (Tourist)
+Official Source: https://www.consulat.ma/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: MAR
+- Country Name: Morocco
+- Visa ID: Tourist
+- Visa Name: Tourist Visa

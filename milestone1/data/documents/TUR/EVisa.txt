@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Turkey (TUR)
+Visa Type: e-Visa (EVisa)
+Official Source: https://www.evisa.gov.tr/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: TUR
+- Country Name: Turkey
+- Visa ID: EVisa
+- Visa Name: e-Visa

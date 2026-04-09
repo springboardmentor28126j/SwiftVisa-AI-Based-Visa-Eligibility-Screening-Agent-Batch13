@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Singapore (SGP)
+Visa Type: Short-Term Visit Pass (ShortTerm)
+Official Source: https://www.ica.gov.sg/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+
+METADATA
+--------
+- Country Code: SGP
+- Country Name: Singapore
+- Visa ID: ShortTerm
+- Visa Name: Short-Term Visit Pass

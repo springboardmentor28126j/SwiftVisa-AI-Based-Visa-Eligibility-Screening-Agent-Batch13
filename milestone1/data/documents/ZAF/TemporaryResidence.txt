@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: South Africa (ZAF)
+Visa Type: Temporary Residence Visa (TemporaryResidence)
+Official Source: http://www.dha.gov.za/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Stay
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Supporting Documents
+
+METADATA
+--------
+- Country Code: ZAF
+- Country Name: South Africa
+- Visa ID: TemporaryResidence
+- Visa Name: Temporary Residence Visa

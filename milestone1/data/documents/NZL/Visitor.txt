@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: New Zealand (NZL)
+Visa Type: Visitor Visa (Visitor)
+Official Source: https://www.immigration.govt.nz/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+
+METADATA
+--------
+- Country Code: NZL
+- Country Name: New Zealand
+- Visa ID: Visitor
+- Visa Name: Visitor Visa

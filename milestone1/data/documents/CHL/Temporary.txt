@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Chile (CHL)
+Visa Type: Temporary Resident Visa (Temporary)
+Official Source: https://www.chile.gob.cl/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Stay
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+
+METADATA
+--------
+- Country Code: CHL
+- Country Name: Chile
+- Visa ID: Temporary
+- Visa Name: Temporary Resident Visa

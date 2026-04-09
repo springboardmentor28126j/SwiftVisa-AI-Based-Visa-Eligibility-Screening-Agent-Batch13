@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Kenya (KEN)
+Visa Type: e-Visa (EVisa)
+Official Source: https://evisa.go.ke/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: KEN
+- Country Name: Kenya
+- Visa ID: EVisa
+- Visa Name: e-Visa

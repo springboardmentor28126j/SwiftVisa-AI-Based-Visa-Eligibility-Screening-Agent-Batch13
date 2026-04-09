@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Hungary (HUN)
+Visa Type: Residence Permit (Residence)
+Official Source: https://www.bmbah.hu/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Stay
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Supporting Documents
+
+METADATA
+--------
+- Country Code: HUN
+- Country Name: Hungary
+- Visa ID: Residence
+- Visa Name: Residence Permit

@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Colombia (COL)
+Visa Type: Visitor Visa (Visitor)
+Official Source: https://www.cancilleria.gov.co/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+
+METADATA
+--------
+- Country Code: COL
+- Country Name: Colombia
+- Visa ID: Visitor
+- Visa Name: Visitor Visa

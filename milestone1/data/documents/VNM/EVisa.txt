@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Vietnam (VNM)
+Visa Type: e-Visa (EVisa)
+Official Source: https://evisa.xuatnhapcanh.gov.vn/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: VNM
+- Country Name: Vietnam
+- Visa ID: EVisa
+- Visa Name: e-Visa

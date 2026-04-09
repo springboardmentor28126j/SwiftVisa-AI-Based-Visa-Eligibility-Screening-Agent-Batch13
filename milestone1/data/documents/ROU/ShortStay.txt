@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Romania (ROU)
+Visa Type: Short Stay Visa (ShortStay)
+Official Source: https://www.mae.ro/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Visit
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: ROU
+- Country Name: Romania
+- Visa ID: ShortStay
+- Visa Name: Short Stay Visa

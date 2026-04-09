@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Indonesia (IDN)
+Visa Type: e-Visa (EVisa)
+Official Source: https://molina.imigrasi.go.id/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: IDN
+- Country Name: Indonesia
+- Visa ID: EVisa
+- Visa Name: e-Visa

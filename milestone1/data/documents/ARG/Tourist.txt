@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Argentina (ARG)
+Visa Type: Tourist Visa (Tourist)
+Official Source: https://www.argentina.gob.ar/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+
+METADATA
+--------
+- Country Code: ARG
+- Country Name: Argentina
+- Visa ID: Tourist
+- Visa Name: Tourist Visa

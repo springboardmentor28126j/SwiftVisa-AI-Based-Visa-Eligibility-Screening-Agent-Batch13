@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Japan (JPN)
+Visa Type: Temporary Visitor Visa (TemporaryVisitor)
+Official Source: https://www.mofa.go.jp/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Visit
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+
+METADATA
+--------
+- Country Code: JPN
+- Country Name: Japan
+- Visa ID: TemporaryVisitor
+- Visa Name: Temporary Visitor Visa

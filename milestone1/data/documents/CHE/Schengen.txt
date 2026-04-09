@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Switzerland (CHE)
+Visa Type: Schengen Visa (Schengen)
+Official Source: https://www.sem.admin.ch/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Purpose of Visit
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Insurance Proof
+
+METADATA
+--------
+- Country Code: CHE
+- Country Name: Switzerland
+- Visa ID: Schengen
+- Visa Name: Schengen Visa

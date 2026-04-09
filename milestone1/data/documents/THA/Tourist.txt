@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Thailand (THA)
+Visa Type: Tourist Visa (Tourist)
+Official Source: https://www.thaievisa.go.th/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: THA
+- Country Name: Thailand
+- Visa ID: Tourist
+- Visa Name: Tourist Visa

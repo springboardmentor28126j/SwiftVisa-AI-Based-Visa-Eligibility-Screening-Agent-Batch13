@@ -1,0 +1,27 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: United States of America (USA)
+Visa Type: Student Visa (F1)
+Official Source: https://travel.state.gov/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Form I-20
+2. SEVIS Payment
+3. Proof of Funds
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. I-20
+3. SEVIS Receipt
+4. Academic Records
+
+METADATA
+--------
+- Country Code: USA
+- Country Name: United States of America
+- Visa ID: F1
+- Visa Name: Student Visa

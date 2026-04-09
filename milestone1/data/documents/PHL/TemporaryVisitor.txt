@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Philippines (PHL)
+Visa Type: Temporary Visitor Visa (TemporaryVisitor)
+Official Source: https://immigration.gov.ph/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: PHL
+- Country Name: Philippines
+- Visa ID: TemporaryVisitor
+- Visa Name: Temporary Visitor Visa

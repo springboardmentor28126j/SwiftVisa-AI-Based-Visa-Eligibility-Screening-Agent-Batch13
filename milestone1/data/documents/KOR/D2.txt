@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: South Korea (KOR)
+Visa Type: Student Visa (D2)
+Official Source: https://www.hikorea.go.kr/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. University Admission
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Admission Certificate
+
+METADATA
+--------
+- Country Code: KOR
+- Country Name: South Korea
+- Visa ID: D2
+- Visa Name: Student Visa

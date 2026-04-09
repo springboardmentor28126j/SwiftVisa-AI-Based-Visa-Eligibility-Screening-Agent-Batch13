@@ -1,0 +1,23 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Denmark (DNK)
+Visa Type: Work Visa (Work)
+Official Source: https://www.nyidanmark.dk/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Job Offer
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Work Contract
+
+METADATA
+--------
+- Country Code: DNK
+- Country Name: Denmark
+- Visa ID: Work
+- Visa Name: Work Visa

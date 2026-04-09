@@ -1,0 +1,497 @@
+{
+  "ARE_Tourist": {
+    "country_code": "ARE",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "chunk_ids": [
+      0,
+      1
+    ]
+  },
+  "ARG_Tourist": {
+    "country_code": "ARG",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "chunk_ids": [
+      2,
+      3
+    ]
+  },
+  "AUS_Visitor600": {
+    "country_code": "AUS",
+    "visa_id": "Visitor600",
+    "visa_name": "Visitor Visa (Visitor600)",
+    "chunk_ids": [
+      4,
+      5
+    ]
+  },
+  "AUT_RedWhiteRed": {
+    "country_code": "AUT",
+    "visa_id": "RedWhiteRed",
+    "visa_name": "Red-White-Red Card (RedWhiteRed)",
+    "chunk_ids": [
+      6,
+      7
+    ]
+  },
+  "BEL_LongStay": {
+    "country_code": "BEL",
+    "visa_id": "LongStay",
+    "visa_name": "Long Stay Visa (LongStay)",
+    "chunk_ids": [
+      8,
+      9
+    ]
+  },
+  "BRA_Visitor": {
+    "country_code": "BRA",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "chunk_ids": [
+      10,
+      11
+    ]
+  },
+  "CAN_StudyPermit": {
+    "country_code": "CAN",
+    "visa_id": "StudyPermit",
+    "visa_name": "Study Permit (StudyPermit)",
+    "chunk_ids": [
+      12,
+      13
+    ]
+  },
+  "CAN_Visitor": {
+    "country_code": "CAN",
+    "visa_id": "Visitor",
+    "visa_name": "Temporary Resident Visa (Visitor)",
+    "chunk_ids": [
+      14,
+      15
+    ]
+  },
+  "CHE_Schengen": {
+    "country_code": "CHE",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa (Schengen)",
+    "chunk_ids": [
+      16,
+      17
+    ]
+  },
+  "CHL_Temporary": {
+    "country_code": "CHL",
+    "visa_id": "Temporary",
+    "visa_name": "Temporary Resident Visa (Temporary)",
+    "chunk_ids": [
+      18,
+      19
+    ]
+  },
+  "CHN_X1": {
+    "country_code": "CHN",
+    "visa_id": "X1",
+    "visa_name": "Student Visa (X1)",
+    "chunk_ids": [
+      20,
+      21
+    ]
+  },
+  "COL_Visitor": {
+    "country_code": "COL",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "chunk_ids": [
+      22,
+      23
+    ]
+  },
+  "CZE_LongStay": {
+    "country_code": "CZE",
+    "visa_id": "LongStay",
+    "visa_name": "Long Stay Visa (LongStay)",
+    "chunk_ids": [
+      24,
+      25
+    ]
+  },
+  "DEU_EUBlueCard": {
+    "country_code": "DEU",
+    "visa_id": "EUBlueCard",
+    "visa_name": "EU Blue Card (EUBlueCard)",
+    "chunk_ids": [
+      26,
+      27
+    ]
+  },
+  "DEU_Schengen": {
+    "country_code": "DEU",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Short Stay Visa (Schengen)",
+    "chunk_ids": [
+      28,
+      29
+    ]
+  },
+  "DNK_Work": {
+    "country_code": "DNK",
+    "visa_id": "Work",
+    "visa_name": "Work Visa (Work)",
+    "chunk_ids": [
+      30,
+      31
+    ]
+  },
+  "EGY_Tourist": {
+    "country_code": "EGY",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "chunk_ids": [
+      32,
+      33
+    ]
+  },
+  "ESP_Student": {
+    "country_code": "ESP",
+    "visa_id": "Student",
+    "visa_name": "Student Visa (Student)",
+    "chunk_ids": [
+      34,
+      35
+    ]
+  },
+  "FIN_Residence": {
+    "country_code": "FIN",
+    "visa_id": "Residence",
+    "visa_name": "Residence Permit (Residence)",
+    "chunk_ids": [
+      36,
+      37
+    ]
+  },
+  "FRA_ShortStay": {
+    "country_code": "FRA",
+    "visa_id": "ShortStay",
+    "visa_name": "Schengen Visa (ShortStay)",
+    "chunk_ids": [
+      38,
+      39
+    ]
+  },
+  "GRC_Schengen": {
+    "country_code": "GRC",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa (Schengen)",
+    "chunk_ids": [
+      40,
+      41
+    ]
+  },
+  "HUN_Residence": {
+    "country_code": "HUN",
+    "visa_id": "Residence",
+    "visa_name": "Residence Permit (Residence)",
+    "chunk_ids": [
+      42,
+      43
+    ]
+  },
+  "IDN_EVisa": {
+    "country_code": "IDN",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa (EVisa)",
+    "chunk_ids": [
+      44,
+      45
+    ]
+  },
+  "IND_Employment": {
+    "country_code": "IND",
+    "visa_id": "Employment",
+    "visa_name": "Employment Visa (Employment)",
+    "chunk_ids": [
+      46,
+      47
+    ]
+  },
+  "IND_Tourist": {
+    "country_code": "IND",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "chunk_ids": [
+      48,
+      49
+    ]
+  },
+  "IRL_Study": {
+    "country_code": "IRL",
+    "visa_id": "Study",
+    "visa_name": "Student Visa (Study)",
+    "chunk_ids": [
+      50,
+      51
+    ]
+  },
+  "ISR_B2": {
+    "country_code": "ISR",
+    "visa_id": "B2",
+    "visa_name": "Visitor Visa (B2)",
+    "chunk_ids": [
+      52,
+      53
+    ]
+  },
+  "ITA_NationalD": {
+    "country_code": "ITA",
+    "visa_id": "NationalD",
+    "visa_name": "Long Stay Visa (NationalD)",
+    "chunk_ids": [
+      54,
+      55
+    ]
+  },
+  "JPN_TemporaryVisitor": {
+    "country_code": "JPN",
+    "visa_id": "TemporaryVisitor",
+    "visa_name": "Temporary Visitor Visa (TemporaryVisitor)",
+    "chunk_ids": [
+      56,
+      57
+    ]
+  },
+  "KEN_EVisa": {
+    "country_code": "KEN",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa (EVisa)",
+    "chunk_ids": [
+      58,
+      59
+    ]
+  },
+  "KOR_D2": {
+    "country_code": "KOR",
+    "visa_id": "D2",
+    "visa_name": "Student Visa (D2)",
+    "chunk_ids": [
+      60,
+      61
+    ]
+  },
+  "MAR_Tourist": {
+    "country_code": "MAR",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "chunk_ids": [
+      62,
+      63
+    ]
+  },
+  "MEX_Visitor": {
+    "country_code": "MEX",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "chunk_ids": [
+      64,
+      65
+    ]
+  },
+  "MYS_Tourist": {
+    "country_code": "MYS",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "chunk_ids": [
+      66,
+      67
+    ]
+  },
+  "NGA_Visitor": {
+    "country_code": "NGA",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "chunk_ids": [
+      68,
+      69
+    ]
+  },
+  "NLD_MVV": {
+    "country_code": "NLD",
+    "visa_id": "MVV",
+    "visa_name": "Long Stay Visa (MVV)",
+    "chunk_ids": [
+      70,
+      71
+    ]
+  },
+  "NOR_Work": {
+    "country_code": "NOR",
+    "visa_id": "Work",
+    "visa_name": "Work Visa (Work)",
+    "chunk_ids": [
+      72,
+      73
+    ]
+  },
+  "NZL_Visitor": {
+    "country_code": "NZL",
+    "visa_id": "Visitor",
+    "visa_name": "Visitor Visa (Visitor)",
+    "chunk_ids": [
+      74,
+      75
+    ]
+  },
+  "PER_Tourist": {
+    "country_code": "PER",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "chunk_ids": [
+      76,
+      77
+    ]
+  },
+  "PHL_TemporaryVisitor": {
+    "country_code": "PHL",
+    "visa_id": "TemporaryVisitor",
+    "visa_name": "Temporary Visitor Visa (TemporaryVisitor)",
+    "chunk_ids": [
+      78,
+      79
+    ]
+  },
+  "POL_Schengen": {
+    "country_code": "POL",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa (Schengen)",
+    "chunk_ids": [
+      80,
+      81
+    ]
+  },
+  "PRT_Schengen": {
+    "country_code": "PRT",
+    "visa_id": "Schengen",
+    "visa_name": "Schengen Visa (Schengen)",
+    "chunk_ids": [
+      82,
+      83
+    ]
+  },
+  "QAT_Tourist": {
+    "country_code": "QAT",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "chunk_ids": [
+      84,
+      85
+    ]
+  },
+  "ROU_ShortStay": {
+    "country_code": "ROU",
+    "visa_id": "ShortStay",
+    "visa_name": "Short Stay Visa (ShortStay)",
+    "chunk_ids": [
+      86,
+      87
+    ]
+  },
+  "SAU_Visit": {
+    "country_code": "SAU",
+    "visa_id": "Visit",
+    "visa_name": "Visit Visa (Visit)",
+    "chunk_ids": [
+      88,
+      89
+    ]
+  },
+  "SGP_ShortTerm": {
+    "country_code": "SGP",
+    "visa_id": "ShortTerm",
+    "visa_name": "Short-Term Visit Pass (ShortTerm)",
+    "chunk_ids": [
+      90,
+      91
+    ]
+  },
+  "SWE_Residence": {
+    "country_code": "SWE",
+    "visa_id": "Residence",
+    "visa_name": "Residence Permit (Residence)",
+    "chunk_ids": [
+      92,
+      93
+    ]
+  },
+  "THA_Tourist": {
+    "country_code": "THA",
+    "visa_id": "Tourist",
+    "visa_name": "Tourist Visa (Tourist)",
+    "chunk_ids": [
+      94,
+      95
+    ]
+  },
+  "TUR_EVisa": {
+    "country_code": "TUR",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa (EVisa)",
+    "chunk_ids": [
+      96,
+      97
+    ]
+  },
+  "UK_Standard Visitor": {
+    "country_code": "UK",
+    "visa_id": "Standard Visitor",
+    "visa_name": "Visitor Visa (Standard Visitor)",
+    "chunk_ids": [
+      98,
+      99
+    ]
+  },
+  "UK_Student": {
+    "country_code": "UK",
+    "visa_id": "Student",
+    "visa_name": "Student Visa (Student)",
+    "chunk_ids": [
+      100,
+      101
+    ]
+  },
+  "USA_B1/B2": {
+    "country_code": "USA",
+    "visa_id": "B1/B2",
+    "visa_name": "Visitor Visa (Business & Tourism) (B1/B2)",
+    "chunk_ids": [
+      102,
+      103
+    ]
+  },
+  "USA_F1": {
+    "country_code": "USA",
+    "visa_id": "F1",
+    "visa_name": "Student Visa (F1)",
+    "chunk_ids": [
+      104,
+      105
+    ]
+  },
+  "VNM_EVisa": {
+    "country_code": "VNM",
+    "visa_id": "EVisa",
+    "visa_name": "e-Visa (EVisa)",
+    "chunk_ids": [
+      106,
+      107
+    ]
+  },
+  "ZAF_TemporaryResidence": {
+    "country_code": "ZAF",
+    "visa_id": "TemporaryResidence",
+    "visa_name": "Temporary Residence Visa (TemporaryResidence)",
+    "chunk_ids": [
+      108,
+      109
+    ]
+  }
+}

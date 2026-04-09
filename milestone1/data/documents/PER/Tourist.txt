@@ -1,0 +1,22 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: Peru (PER)
+Visa Type: Tourist Visa (Tourist)
+Official Source: https://www.gob.pe/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+
+METADATA
+--------
+- Country Code: PER
+- Country Name: Peru
+- Visa ID: Tourist
+- Visa Name: Tourist Visa

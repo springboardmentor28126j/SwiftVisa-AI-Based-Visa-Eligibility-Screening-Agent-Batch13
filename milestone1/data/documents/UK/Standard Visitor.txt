@@ -1,0 +1,26 @@
+
+VISA POLICY DOCUMENT
+====================
+
+Country: United Kingdom (UK)
+Visa Type: Visitor Visa (Standard Visitor)
+Official Source: https://www.gov.uk/
+
+ELIGIBILITY REQUIREMENTS
+------------------------
+1. Valid Passport
+2. Purpose of Visit
+3. Proof of Funds
+
+REQUIRED DOCUMENTS
+------------------
+1. Passport
+2. Application Form
+3. Financial Proof
+
+METADATA
+--------
+- Country Code: UK
+- Country Name: United Kingdom
+- Visa ID: Standard Visitor
+- Visa Name: Visitor Visa
