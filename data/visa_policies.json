@@ -1,0 +1,146 @@
+[
+  {
+    "country": "USA",
+    "visa_type": "F1 Student Visa",
+    "official_source": "https://www.uscis.gov/working-in-the-united-states/students-and-exchange-visitors/students-and-employment",
+    "eligibility_text": "The applicant must be accepted by a SEVP-approved educational institution. The applicant must demonstrate sufficient financial resources to cover tuition and living expenses. The applicant must maintain full-time enrollment status. The applicant must demonstrate non-immigrant intent and valid academic qualifications."
+  },
+  {
+    "country": "USA",
+    "visa_type": "H1B Specialty Occupation Visa",
+    "official_source": "https://www.uscis.gov/working-in-the-united-states/h-1b-specialty-occupations",
+    "eligibility_text": "The applicant must have a job offer in a specialty occupation. The applicant must hold at least a bachelor's degree or equivalent qualification. The employer must file a Labor Condition Application. The salary must meet the prevailing wage requirement. The employer must sponsor the visa petition."
+  },
+  {
+    "country": "Canada",
+    "visa_type": "Study Permit",
+    "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/study-permit.html",
+    "eligibility_text": "The applicant must have a letter of acceptance from a Designated Learning Institution. The applicant must prove sufficient funds for tuition and living expenses. The applicant must have no criminal record. The applicant must be in good health. The applicant must demonstrate intent to leave Canada after studies."
+  },
+  {
+    "country": "Canada",
+    "visa_type": "Federal Skilled Worker Program",
+    "official_source": "https://www.canada.ca/en/immigration-refugees-citizenship/services/immigrate-canada/express-entry/eligibility/federal-skilled-workers.html",
+    "eligibility_text": "The applicant must have at least one year of skilled work experience. The applicant must meet minimum language proficiency requirements. The applicant must have an educational credential assessment if required. The applicant must score sufficient points under the selection criteria. The applicant must demonstrate sufficient settlement funds."
+  },
+  {
+    "country": "United Kingdom",
+    "visa_type": "Student Visa",
+    "official_source": "https://www.gov.uk/student-visa",
+    "eligibility_text": "The applicant must have a Confirmation of Acceptance for Studies from a licensed sponsor. The applicant must demonstrate sufficient financial funds. The applicant must meet English language requirements. The applicant must comply with health surcharge and immigration requirements."
+  },
+  {
+    "country": "United Kingdom",
+    "visa_type": "Skilled Worker Visa",
+    "official_source": "https://www.gov.uk/skilled-worker-visa",
+    "eligibility_text": "The applicant must have a job offer from a licensed UK sponsor. The job must meet the required skill level. The salary must meet the minimum threshold. The applicant must demonstrate English language proficiency. The applicant must receive a valid Certificate of Sponsorship."
+  },
+  {
+    "country": "Australia",
+    "visa_type": "Student Visa (Subclass 500)",
+    "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/student-500",
+    "eligibility_text": "The applicant must be enrolled in a registered full-time course in Australia. The applicant must provide Confirmation of Enrolment. The applicant must demonstrate sufficient financial capacity. The applicant must meet English language requirements. The applicant must satisfy health and character requirements."
+  },
+  {
+    "country": "Australia",
+    "visa_type": "Skilled Independent Visa (Subclass 189)",
+    "official_source": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/skilled-independent-189",
+    "eligibility_text": "The applicant must have an occupation listed on the skilled occupation list. The applicant must obtain a positive skills assessment. The applicant must meet the points test requirement. The applicant must meet English language standards. The applicant must satisfy health and character criteria."
+  },
+  {
+    "country": "Germany",
+    "visa_type": "Student Visa",
+    "official_source": "https://www.auswaertiges-amt.de/en/visa-service/studying-in-germany/207866",
+    "eligibility_text": "The applicant must have admission to a recognized German university. The applicant must demonstrate sufficient financial resources such as a blocked account. The applicant must have valid health insurance. The applicant must meet academic qualification requirements."
+  },
+  {
+    "country": "Germany",
+    "visa_type": "EU Blue Card",
+    "official_source": "https://www.make-it-in-germany.com/en/visa-residence/types/eu-blue-card",
+    "eligibility_text": "The applicant must hold a recognized university degree. The applicant must have a binding job offer in Germany. The salary must meet the minimum threshold. Employment must correspond to professional qualification."
+  },
+  {
+    "country": "France",
+    "visa_type": "Student Visa",
+    "official_source": "https://france-visas.gouv.fr/en/web/france-visas/studies-training",
+    "eligibility_text": "The applicant must have admission from a recognized French institution. The applicant must demonstrate sufficient financial resources. The applicant must provide proof of accommodation. The applicant must have valid health insurance."
+  },
+  {
+    "country": "France",
+    "visa_type": "Talent Passport",
+    "official_source": "https://france-visas.gouv.fr/en/web/france-visas/talent-passport",
+    "eligibility_text": "The applicant must have a valid employment contract. The salary must meet required thresholds. The applicant must possess professional qualifications. Employment must correspond to skill level."
+  },
+  {
+    "country": "New Zealand",
+    "visa_type": "Student Visa",
+    "official_source": "https://www.immigration.govt.nz/new-zealand-visas/options/study",
+    "eligibility_text": "The applicant must have an offer of place from an approved institution. The applicant must demonstrate sufficient funds. The applicant must meet health and character requirements. The applicant must have appropriate medical insurance."
+  },
+  {
+    "country": "New Zealand",
+    "visa_type": "Skilled Migrant Category",
+    "official_source": "https://www.immigration.govt.nz/new-zealand-visas/options/work/skilled-migrant-category",
+    "eligibility_text": "The applicant must meet the points threshold. The applicant must have relevant skilled employment or job offer. The applicant must meet English language requirements. The applicant must satisfy health and character standards."
+  },
+  {
+    "country": "Ireland",
+    "visa_type": "Student Visa (Stamp 2)",
+    "official_source": "https://www.irishimmigration.ie/coming-to-study-in-ireland/",
+    "eligibility_text": "The applicant must have an offer from a recognized Irish institution. The applicant must demonstrate sufficient financial resources. The applicant must have private medical insurance. The applicant must comply with immigration conditions."
+  },
+  {
+    "country": "Ireland",
+    "visa_type": "Critical Skills Employment Permit",
+    "official_source": "https://enterprise.gov.ie/en/what-we-do/workplace-and-skills/employment-permits/permit-types/critical-skills-employment-permit/",
+    "eligibility_text": "The applicant must have a job offer in an eligible occupation. The salary must meet minimum threshold requirements. The applicant must possess required qualifications. The employment contract must meet required duration."
+  },
+  {
+    "country": "Singapore",
+    "visa_type": "Student’s Pass",
+    "official_source": "https://www.ica.gov.sg/reside/STP/apply",
+    "eligibility_text": "The applicant must be accepted by a recognized educational institution in Singapore. The applicant must demonstrate financial capability. The applicant must comply with immigration regulations."
+  },
+  {
+    "country": "Singapore",
+    "visa_type": "Employment Pass",
+    "official_source": "https://www.mom.gov.sg/passes-and-permits/employment-pass",
+    "eligibility_text": "The applicant must have a job offer from a Singapore employer. The salary must meet minimum requirements. The applicant must possess acceptable educational qualifications."
+  },
+  {
+    "country": "United Arab Emirates",
+    "visa_type": "Student Residence Visa",
+    "official_source": "https://u.ae/en/information-and-services/education/student-visa",
+    "eligibility_text": "The applicant must be enrolled in a recognized institution in the UAE. The applicant must provide proof of admission. The applicant must pass required medical tests. The applicant must have sponsorship."
+  },
+  {
+    "country": "United Arab Emirates",
+    "visa_type": "Employment Residence Visa",
+    "official_source": "https://u.ae/en/information-and-services/jobs/employment-visas-and-work-permits",
+    "eligibility_text": "The applicant must have a job offer from a UAE employer. The employer must sponsor the visa. The applicant must pass medical fitness examination. The applicant must comply with employment regulations."
+  },
+  {
+    "country": "Netherlands",
+    "visa_type": "Student Residence Permit",
+    "official_source": "https://ind.nl/en/residence-permits/study",
+    "eligibility_text": "The applicant must be admitted to a recognized Dutch institution. The applicant must demonstrate sufficient financial means. The applicant must have valid health insurance."
+  },
+  {
+    "country": "Netherlands",
+    "visa_type": "Highly Skilled Migrant",
+    "official_source": "https://ind.nl/en/residence-permits/work/highly-skilled-migrant",
+    "eligibility_text": "The applicant must have an employment contract with a recognized sponsor. The salary must meet minimum threshold. Employment must correspond to professional qualification."
+  },
+  {
+    "country": "Sweden",
+    "visa_type": "Residence Permit for Studies",
+    "official_source": "https://www.migrationsverket.se/English/Private-individuals/Studying-in-Sweden.html",
+    "eligibility_text": "The applicant must be admitted to a full-time higher education program. The applicant must demonstrate sufficient financial means. The applicant must have comprehensive health insurance."
+  },
+  {
+    "country": "Sweden",
+    "visa_type": "Work Permit",
+    "official_source": "https://www.migrationsverket.se/English/Private-individuals/Working-in-Sweden.html",
+    "eligibility_text": "The applicant must have a valid job offer from a Swedish employer. The employment must meet salary and employment standards. The applicant must comply with Swedish immigration laws."
+  }
+]
